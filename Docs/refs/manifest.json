@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-24",
+  "purpose": "Reference roles for the clone input pack; not proof of approval or runtime equivalence.",
+  "ownerApproval": "pending",
+  "references": [
+    {
+      "id": "R01",
+      "kind": "source-data-and-assets",
+      "path": "D:/Downloads/PixelFlow_0.36.3_extracted",
+      "packagePath": "D:/Downloads/Pixel+Flow!_0.36.3_APKPure.xapk",
+      "packageSha256": "ad7b8a8f7659ec86a583976e466458b69fd58f08f2667f6f17925fa570e9bad2",
+      "receiptPath": "../Evidence/asset-intake.json",
+      "role": "Level definitions, palette and selected art/audio provenance",
+      "whatToTake": "Pixel coordinates/material IDs, queue ammo/capacity and selected runtime assets; decode is not recovered gameplay logic.",
+      "limits": "Does not establish original timing, targeting, screen layout or distribution rights. No heavy binary read in this documentation audit.",
+      "credit": "Owner-selected Pixel Flow 0.36.3 package; original creator attribution remains with source.",
+      "approval": "source-selected-by-owner; final presentation pending"
+    },
+    {
+      "id": "R02",
+      "kind": "developer-help",
+      "url": "https://loomgames.helpshift.com/hc/en/3-pixel-flow/faq/9-new-to-pixel-flow-learn-how-to-play-in-minutes/",
+      "role": "High-level gameplay description retained from earlier intake",
+      "whatToTake": "Front queue selection, same-color shooting, ammo and return loop as recorded in PROJECT_BRIEF.",
+      "limits": "Not re-fetched in this local audit; no numeric timing or occlusion evidence.",
+      "approval": "reference-only"
+    },
+    {
+      "id": "R03",
+      "kind": "marketing-anchor",
+      "path": "../Evidence/reference-gameplay.png",
+      "url": "https://play.google.com/store/apps/details?id=com.loomgames.pixelflow",
+      "role": "Visual identity and broad board/belt/pig/waiting composition",
+      "whatToTake": "Relative information hierarchy and toy-like presentation; compare only elements visible in the image.",
+      "limits": "Promotional art, not timestamped same-level runtime capture; cannot prove layout of every state or timing.",
+      "approval": "reference-only; not owner-approved target"
+    },
+    {
+      "id": "R04",
+      "kind": "marketing-anchor",
+      "path": "../Evidence/reference-store.png",
+      "role": "Brand, palette and recognizable pixel puzzle imagery",
+      "whatToTake": "Logo/pig/board visual vocabulary, not a ready-made full-screen UI.",
+      "limits": "Not Home-screen evidence or behavior evidence.",
+      "approval": "reference-only; not owner-approved target"
+    },
+    {
+      "id": "R05",
+      "kind": "clone-baseline-capture",
+      "path": "../Evidence/player-final10/home.png",
+      "artifactManifestPath": "../Evidence/player-final10/artifact-files.json",
+      "role": "Existing Windows candidate Home baseline",
+      "whatToTake": "Actual prior layout for before/after review.",
+      "limits": "Not original game, not visual target; older than current presentation source.",
+      "approval": "pending"
+    },
+    {
+      "id": "R06",
+      "kind": "clone-baseline-capture",
+      "path": "../Evidence/player-final10/level-1.png",
+      "artifactManifestPath": "../Evidence/player-final10/artifact-files.json",
+      "role": "Existing Windows candidate level1 baseline",
+      "whatToTake": "Board/queue/belt/ammo composition in the prior artifact.",
+      "limits": "Cannot verify newer source pig-facing correction; no exact original same-state comparator yet.",
+      "approval": "pending"
+    },
+    {
+      "id": "R07",
+      "kind": "clone-baseline-capture",
+      "path": "../Evidence/player-final10/win.png",
+      "artifactManifestPath": "../Evidence/player-final10/artifact-files.json",
+      "role": "Existing candidate result state baseline",
+      "whatToTake": "Actual prior result modal; use separate behavior evidence for persistence.",
+      "limits": "Does not approve result animation/audio or source after latest changes.",
+      "approval": "pending"
+    },
+    {
+      "id": "R08",
+      "kind": "required-runtime-comparator",
+      "status": "missing",
+      "role": "Original same-level, same-state runtime captures and normal-speed clips",
+      "whatToTake": "Home/HUD/pause/win/lose layout; launch order, belt duration, shot cadence, targeting, waiting-full timing and audio.",
+      "limits": "No file path is fabricated. Source version/state/input/timestamps are required before measuring.",
+      "approval": "pending"
+    },
+    {
+      "id": "R09",
+      "kind": "embedded-demo-frames",
+      "path": "../Evidence/source-video-review/manifest.json",
+      "role": "Selected source tutorial/offer frames and provenance",
+      "whatToTake": "Pig face/ammo, waiting-to-belt demo state changes, frozen presentation and unicorn booster imagery.",
+      "limits": "Prerecorded cropped demos, not same-level live runtime captures. No inference of exact targeting, cadence, loss grace or final UI.",
+      "approval": "reference-only; owner acceptance pending"
+    },
+    {
+      "id": "R10",
+      "kind": "current-source-editor-preview",
+      "path": "../Evidence/editor-review/verified-source-review-20261024/level-1-720x1280.png",
+      "additionalPaths": [
+        "../Evidence/editor-review/verified-source-review-20261024/level-1-1080x1920.png",
+        "../Evidence/editor-review/verified-source-review-20261024/level-1-1080x2340.png",
+        "../Evidence/editor-review/verified-source-review-20261024/pause-720x1280.png",
+        "../Evidence/editor-review/verified-source-review-20261024/home-progress-720x1280.png"
+      ],
+      "receiptPath": "../Evidence/editor-review/verified-source-review-20261024/route.json",
+      "reportPath": "../Evidence/editmode-review-20261024-105022.xml",
+      "role": "Current clone presentation and scoped Editor integration baseline",
+      "whatToTake": "Readable face/ammo, progress/modal shapes, queue/waiting spacing and UI state evidence.",
+      "limits": "Offscreen URP preview with temporary camera canvas. Synthetic manually pumped InputSystem/EventSystem events. Not Game View, physical input, device safe area, original-game fidelity or player build.",
+      "approval": "pending"
+    }
+  ]
+}

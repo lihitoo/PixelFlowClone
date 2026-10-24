@@ -1,0 +1,1195 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-24T03:25:44.002862+00:00",
+  "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\Levels",
+  "manifestSha256": "64c60ab295d47ff421ac375bfb487a17829e6afb66a2cb88dbe00735d6c8c62b",
+  "scope": "Observed decoded JSON feature presence only. Counts overlap; empty feature lists do not prove runtime support, solvability, semantics or final clone scope.",
+  "decodedLevels": 3117,
+  "featureCountsAllFunnels": {
+    "SurpriseShooters": 2372,
+    "ConnectedShooters": 2578,
+    "Locks": 200,
+    "ShooterPipes": 119,
+    "Hammers": 147,
+    "ShooterIceBlocks": 114,
+    "ChainedShooters": 280,
+    "BullTotems": 137,
+    "MusicToyMallets": 116,
+    "SlotCages": 207,
+    "AstronautShooters": 100,
+    "ConveyorDoors": 58
+  },
+  "mainCampaign": {
+    "funnel": "3db5681ee587345ad9a3cf8400a692d1",
+    "manifestCount": 2600,
+    "decodedCount": 2600,
+    "featureCounts": {
+      "SurpriseShooters": 2080,
+      "ConnectedShooters": 2258,
+      "Locks": 143,
+      "ShooterPipes": 108,
+      "Hammers": 137,
+      "ShooterIceBlocks": 108,
+      "ChainedShooters": 267,
+      "BullTotems": 130,
+      "MusicToyMallets": 98,
+      "SlotCages": 207,
+      "AstronautShooters": 100,
+      "ConveyorDoors": 58
+    },
+    "firstSamples": {
+      "SurpriseShooters": [
+        8,
+        9,
+        10
+      ],
+      "ConnectedShooters": [
+        14,
+        15,
+        16
+      ],
+      "Locks": [
+        40,
+        41,
+        42
+      ],
+      "ShooterPipes": [
+        171,
+        172,
+        173
+      ],
+      "Hammers": [
+        230,
+        231,
+        232
+      ],
+      "ShooterIceBlocks": [
+        290,
+        291,
+        292
+      ],
+      "ChainedShooters": [
+        801,
+        802,
+        803
+      ],
+      "BullTotems": [
+        1301,
+        1302,
+        1303
+      ],
+      "MusicToyMallets": [
+        1401,
+        1402,
+        1403
+      ],
+      "SlotCages": [
+        1801,
+        1802,
+        1803
+      ],
+      "AstronautShooters": [
+        2001,
+        2002,
+        2003
+      ],
+      "ConveyorDoors": [
+        2201,
+        2202,
+        2203
+      ],
+      "HasTimeLimit": []
+    },
+    "basicSchemaLevels": 107,
+    "slotCounts": {
+      "5": 2599,
+      "6": 1
+    },
+    "conveyorLimits": {
+      "5": 2599,
+      "6": 1
+    },
+    "schemaGaps": [],
+    "firstBasicSchemaLevels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      12,
+      13,
+      17,
+      21,
+      23,
+      24,
+      25,
+      27,
+      30,
+      31,
+      33,
+      34,
+      35,
+      37,
+      38,
+      39,
+      46,
+      48
+    ]
+  },
+  "groups": [
+    {
+      "funnel": "3db5681ee587345ad9a3cf8400a692d1",
+      "manifestCount": 2600,
+      "decodedCount": 2600,
+      "featureCounts": {
+        "SurpriseShooters": 2080,
+        "ConnectedShooters": 2258,
+        "Locks": 143,
+        "ShooterPipes": 108,
+        "Hammers": 137,
+        "ShooterIceBlocks": 108,
+        "ChainedShooters": 267,
+        "BullTotems": 130,
+        "MusicToyMallets": 98,
+        "SlotCages": 207,
+        "AstronautShooters": 100,
+        "ConveyorDoors": 58
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          8,
+          9,
+          10
+        ],
+        "ConnectedShooters": [
+          14,
+          15,
+          16
+        ],
+        "Locks": [
+          40,
+          41,
+          42
+        ],
+        "ShooterPipes": [
+          171,
+          172,
+          173
+        ],
+        "Hammers": [
+          230,
+          231,
+          232
+        ],
+        "ShooterIceBlocks": [
+          290,
+          291,
+          292
+        ],
+        "ChainedShooters": [
+          801,
+          802,
+          803
+        ],
+        "BullTotems": [
+          1301,
+          1302,
+          1303
+        ],
+        "MusicToyMallets": [
+          1401,
+          1402,
+          1403
+        ],
+        "SlotCages": [
+          1801,
+          1802,
+          1803
+        ],
+        "AstronautShooters": [
+          2001,
+          2002,
+          2003
+        ],
+        "ConveyorDoors": [
+          2201,
+          2202,
+          2203
+        ],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 107,
+      "slotCounts": {
+        "5": 2599,
+        "6": 1
+      },
+      "conveyorLimits": {
+        "5": 2599,
+        "6": 1
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "65481f3d2aec1414bab0b5f12cb45881",
+      "manifestCount": 9,
+      "decodedCount": 9,
+      "featureCounts": {
+        "ConnectedShooters": 9,
+        "SurpriseShooters": 5,
+        "ShooterPipes": 1,
+        "Hammers": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          173,
+          509,
+          524
+        ],
+        "ConnectedShooters": [
+          57,
+          167,
+          173
+        ],
+        "Locks": [],
+        "ShooterPipes": [
+          173
+        ],
+        "Hammers": [
+          524
+        ],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 9
+      },
+      "conveyorLimits": {
+        "5": 9
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "c56f7c5f890174060bf24c313b5d4e7f",
+      "manifestCount": 193,
+      "decodedCount": 193,
+      "featureCounts": {
+        "SurpriseShooters": 103,
+        "ConnectedShooters": 114,
+        "Locks": 19,
+        "ShooterPipes": 5,
+        "Hammers": 2,
+        "ChainedShooters": 4,
+        "ShooterIceBlocks": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          9,
+          13,
+          21
+        ],
+        "ConnectedShooters": [
+          15,
+          17,
+          19
+        ],
+        "Locks": [
+          41,
+          42,
+          43
+        ],
+        "ShooterPipes": [
+          174,
+          177,
+          179
+        ],
+        "Hammers": [
+          232,
+          1200
+        ],
+        "ShooterIceBlocks": [
+          1300
+        ],
+        "ChainedShooters": [
+          1100,
+          1250,
+          1300
+        ],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 46,
+      "slotCounts": {
+        "5": 193
+      },
+      "conveyorLimits": {
+        "5": 193
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "dd9f09021153c49e981fc64998b69651",
+      "manifestCount": 27,
+      "decodedCount": 27,
+      "featureCounts": {
+        "SurpriseShooters": 15,
+        "ConnectedShooters": 22,
+        "Locks": 2,
+        "ShooterPipes": 2
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          19,
+          29,
+          36
+        ],
+        "ConnectedShooters": [
+          19,
+          22,
+          29
+        ],
+        "Locks": [
+          44,
+          139
+        ],
+        "ShooterPipes": [
+          178,
+          185
+        ],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 3,
+      "slotCounts": {
+        "5": 27
+      },
+      "conveyorLimits": {
+        "5": 27
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "959360f6ec28f44d29a50a7ca06a406a",
+      "manifestCount": 26,
+      "decodedCount": 26,
+      "featureCounts": {
+        "ConnectedShooters": 21,
+        "SurpriseShooters": 14,
+        "Locks": 2,
+        "ShooterPipes": 2
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          29,
+          36,
+          42
+        ],
+        "ConnectedShooters": [
+          22,
+          29,
+          44
+        ],
+        "Locks": [
+          44,
+          139
+        ],
+        "ShooterPipes": [
+          178,
+          185
+        ],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 3,
+      "slotCounts": {
+        "5": 26
+      },
+      "conveyorLimits": {
+        "5": 26
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "2b9f8b3a170d641beb588c95eec7f92c",
+      "manifestCount": 12,
+      "decodedCount": 12,
+      "featureCounts": {
+        "SurpriseShooters": 11,
+        "Locks": 3,
+        "ConnectedShooters": 8,
+        "ShooterIceBlocks": 2,
+        "Hammers": 4
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          499,
+          504,
+          509
+        ],
+        "ConnectedShooters": [
+          504,
+          512,
+          523
+        ],
+        "Locks": [
+          499,
+          512,
+          523
+        ],
+        "ShooterPipes": [],
+        "Hammers": [
+          524,
+          541,
+          558
+        ],
+        "ShooterIceBlocks": [
+          509,
+          529
+        ],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 12
+      },
+      "conveyorLimits": {
+        "5": 12
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "31aa5bd03c0da46cf896b656e3fe3ad5",
+      "manifestCount": 3,
+      "decodedCount": 3,
+      "featureCounts": {
+        "ConnectedShooters": 3,
+        "SurpriseShooters": 2
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          529,
+          555
+        ],
+        "ConnectedShooters": [
+          499,
+          529,
+          555
+        ],
+        "Locks": [],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 3
+      },
+      "conveyorLimits": {
+        "5": 3
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "3661123b18c1748e296ee62b280fcbfa",
+      "manifestCount": 14,
+      "decodedCount": 14,
+      "featureCounts": {
+        "SurpriseShooters": 12,
+        "ConnectedShooters": 14,
+        "ChainedShooters": 2,
+        "BullTotems": 3,
+        "MusicToyMallets": 3,
+        "Locks": 3,
+        "ShooterIceBlocks": 1,
+        "ShooterPipes": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          1515,
+          1530,
+          1537
+        ],
+        "ConnectedShooters": [
+          1515,
+          1530,
+          1537
+        ],
+        "Locks": [
+          1570,
+          1573,
+          1583
+        ],
+        "ShooterPipes": [
+          1590
+        ],
+        "Hammers": [],
+        "ShooterIceBlocks": [
+          1580
+        ],
+        "ChainedShooters": [
+          1530,
+          1580
+        ],
+        "BullTotems": [
+          1530,
+          1573,
+          1590
+        ],
+        "MusicToyMallets": [
+          1537,
+          1580,
+          1597
+        ],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 14
+      },
+      "conveyorLimits": {
+        "5": 14
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "cb49e38d0962543138429ae2d43e33e3",
+      "manifestCount": 82,
+      "decodedCount": 82,
+      "featureCounts": {
+        "SurpriseShooters": 35,
+        "ConnectedShooters": 31,
+        "Locks": 13
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          8,
+          9,
+          10
+        ],
+        "ConnectedShooters": [
+          15,
+          16,
+          19
+        ],
+        "Locks": [
+          41,
+          42,
+          43
+        ],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 35,
+      "slotCounts": {
+        "5": 82
+      },
+      "conveyorLimits": {
+        "5": 82
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "88773a585becb435c8fde1a7b7119e07",
+      "manifestCount": 13,
+      "decodedCount": 13,
+      "featureCounts": {
+        "SurpriseShooters": 12,
+        "ConnectedShooters": 13,
+        "MusicToyMallets": 7,
+        "ChainedShooters": 2,
+        "BullTotems": 1,
+        "Locks": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          1607,
+          1609,
+          1612
+        ],
+        "ConnectedShooters": [
+          1607,
+          1609,
+          1612
+        ],
+        "Locks": [
+          1625
+        ],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [
+          1612,
+          1619
+        ],
+        "BullTotems": [
+          1620
+        ],
+        "MusicToyMallets": [
+          1607,
+          1609,
+          1617
+        ],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 13
+      },
+      "conveyorLimits": {
+        "5": 13
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "6a7c19cfe9ad342beada13ef95f2ec9e",
+      "manifestCount": 1,
+      "decodedCount": 1,
+      "featureCounts": {
+        "SurpriseShooters": 1,
+        "ConnectedShooters": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          316
+        ],
+        "ConnectedShooters": [
+          316
+        ],
+        "Locks": [],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 1
+      },
+      "conveyorLimits": {
+        "5": 1
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "acd1edd476df7404b836a333b77aec47",
+      "manifestCount": 1,
+      "decodedCount": 1,
+      "featureCounts": {
+        "SurpriseShooters": 1,
+        "ConnectedShooters": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          693
+        ],
+        "ConnectedShooters": [
+          693
+        ],
+        "Locks": [],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 1
+      },
+      "conveyorLimits": {
+        "5": 1
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "51be4bae1ed214e9187f2a96a9f87797",
+      "manifestCount": 1,
+      "decodedCount": 1,
+      "featureCounts": {
+        "SurpriseShooters": 1,
+        "ConnectedShooters": 1,
+        "ChainedShooters": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          875
+        ],
+        "ConnectedShooters": [
+          875
+        ],
+        "Locks": [],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [
+          875
+        ],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 1
+      },
+      "conveyorLimits": {
+        "5": 1
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "7b40b27989a354589b73f9423597ecd1",
+      "manifestCount": 2,
+      "decodedCount": 2,
+      "featureCounts": {
+        "SurpriseShooters": 2,
+        "ConnectedShooters": 2,
+        "ChainedShooters": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          1150,
+          1160
+        ],
+        "ConnectedShooters": [
+          1150,
+          1160
+        ],
+        "Locks": [],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [
+          1150
+        ],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 2
+      },
+      "conveyorLimits": {
+        "5": 2
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "e27fce0eaa0254b0bbec260fd9029d01",
+      "manifestCount": 5,
+      "decodedCount": 5,
+      "featureCounts": {
+        "SurpriseShooters": 5,
+        "ConnectedShooters": 5,
+        "Hammers": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          524,
+          525,
+          549
+        ],
+        "ConnectedShooters": [
+          524,
+          525,
+          549
+        ],
+        "Locks": [],
+        "ShooterPipes": [],
+        "Hammers": [
+          549
+        ],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 5
+      },
+      "conveyorLimits": {
+        "5": 5
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "378b1ff67fdc84cc7b304cc8417b8b5f",
+      "manifestCount": 19,
+      "decodedCount": 19,
+      "featureCounts": {
+        "SurpriseShooters": 17,
+        "ConnectedShooters": 19,
+        "ChainedShooters": 2,
+        "Locks": 1,
+        "MusicToyMallets": 3,
+        "Hammers": 2,
+        "BullTotems": 2,
+        "ShooterIceBlocks": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          1653,
+          1657,
+          1658
+        ],
+        "ConnectedShooters": [
+          1653,
+          1657,
+          1658
+        ],
+        "Locks": [
+          1659
+        ],
+        "ShooterPipes": [],
+        "Hammers": [
+          1685,
+          1698
+        ],
+        "ShooterIceBlocks": [
+          1694
+        ],
+        "ChainedShooters": [
+          1653,
+          1700
+        ],
+        "BullTotems": [
+          1693,
+          1698
+        ],
+        "MusicToyMallets": [
+          1669,
+          1690,
+          1694
+        ],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 19
+      },
+      "conveyorLimits": {
+        "5": 19
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "959213cba04524949976d086c8780024",
+      "manifestCount": 88,
+      "decodedCount": 88,
+      "featureCounts": {
+        "SurpriseShooters": 37,
+        "ConnectedShooters": 35,
+        "Locks": 13
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          8,
+          9,
+          10
+        ],
+        "ConnectedShooters": [
+          15,
+          16,
+          19
+        ],
+        "Locks": [
+          41,
+          42,
+          43
+        ],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 37,
+      "slotCounts": {
+        "5": 88
+      },
+      "conveyorLimits": {
+        "5": 88
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "4993c259c62d74a3ba5d9181a133db87",
+      "manifestCount": 1,
+      "decodedCount": 1,
+      "featureCounts": {
+        "ConnectedShooters": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [],
+        "ConnectedShooters": [
+          121
+        ],
+        "Locks": [],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 1
+      },
+      "conveyorLimits": {
+        "5": 1
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "60435ea4f63ee4f3c9a806f0701ae6ed",
+      "manifestCount": 17,
+      "decodedCount": 17,
+      "featureCounts": {
+        "SurpriseShooters": 16,
+        "ConnectedShooters": 17,
+        "ShooterIceBlocks": 1,
+        "MusicToyMallets": 5,
+        "ChainedShooters": 1,
+        "BullTotems": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          1707,
+          1709,
+          1710
+        ],
+        "ConnectedShooters": [
+          1707,
+          1709,
+          1710
+        ],
+        "Locks": [],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [
+          1709
+        ],
+        "ChainedShooters": [
+          1723
+        ],
+        "BullTotems": [
+          1729
+        ],
+        "MusicToyMallets": [
+          1710,
+          1719,
+          1725
+        ],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 17
+      },
+      "conveyorLimits": {
+        "5": 17
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "f4bdfa99d06e04e01a8e3443b2984f0d",
+      "manifestCount": 1,
+      "decodedCount": 1,
+      "featureCounts": {
+        "SurpriseShooters": 1,
+        "ConnectedShooters": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          305
+        ],
+        "ConnectedShooters": [
+          305
+        ],
+        "Locks": [],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 1
+      },
+      "conveyorLimits": {
+        "5": 1
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "7a0c86a65109447cb914164500052eb4",
+      "manifestCount": 1,
+      "decodedCount": 1,
+      "featureCounts": {
+        "SurpriseShooters": 1,
+        "ConnectedShooters": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          504
+        ],
+        "ConnectedShooters": [
+          504
+        ],
+        "Locks": [],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 1
+      },
+      "conveyorLimits": {
+        "5": 1
+      },
+      "schemaGaps": []
+    },
+    {
+      "funnel": "f514093fd82534cd494efd9fb8fdc9c3",
+      "manifestCount": 1,
+      "decodedCount": 1,
+      "featureCounts": {
+        "SurpriseShooters": 1,
+        "ConnectedShooters": 1
+      },
+      "firstSamples": {
+        "SurpriseShooters": [
+          659
+        ],
+        "ConnectedShooters": [
+          659
+        ],
+        "Locks": [],
+        "ShooterPipes": [],
+        "Hammers": [],
+        "ShooterIceBlocks": [],
+        "ChainedShooters": [],
+        "BullTotems": [],
+        "MusicToyMallets": [],
+        "SlotCages": [],
+        "AstronautShooters": [],
+        "ConveyorDoors": [],
+        "HasTimeLimit": []
+      },
+      "basicSchemaLevels": 0,
+      "slotCounts": {
+        "5": 1
+      },
+      "conveyorLimits": {
+        "5": 1
+      },
+      "schemaGaps": []
+    }
+  ]
+}

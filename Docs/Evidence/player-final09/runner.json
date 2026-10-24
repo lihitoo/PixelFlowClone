@@ -1,0 +1,25 @@
+﻿{
+    "status":  "fail",
+    "exitCode":  -1,
+    "timedOut":  false,
+    "executableSha256":  "a7c539401c1f92b6fb7970ecb6b9c405293775ad12a544736626bd9e52c481d6",
+    "artifactFingerprint":  "d341235b504f9f765928ad6ca57cc82037acb365805676920adc1efb3821bca7",
+    "artifactFiles":  242,
+    "failures":  [
+                     "Process exit code: -1",
+                     "Scenario reported failure.",
+                     "Missing capture: level-1.png",
+                     "Missing capture: win.png",
+                     "Missing capture: home-progress.png"
+                 ],
+    "captures":  [
+                     {
+                         "file":  "home.png",
+                         "width":  540,
+                         "height":  960,
+                         "sampledColors":  18,
+                         "sha256":  "ef6f198c524f4d43f02235bb9647a69f21c5f07e0af304222cad83932836ddb5"
+                     }
+                 ],
+    "scope":  "Scenario checks plus real process exit and nonblank frame identity. Visual fidelity, listening, device performance and human acceptance are separate."
+}

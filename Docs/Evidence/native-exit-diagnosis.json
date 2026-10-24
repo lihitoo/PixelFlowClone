@@ -1,0 +1,53 @@
+{
+  "unity": "6000.4.12f1",
+  "symbology": "Installed UnityPlayer binary and matching local PDB; DLL SHA-256 matches built DLL. NDK llvm-symbolizer used; no native binary modified.",
+  "unityPlayerSha256": "4d693d0453f540155e0498f75c94687b250970568a1c9c1ce96b12067ea7f5f6",
+  "exception": "0xC0000005",
+  "faultRva": "0x1D4A89",
+  "faultSymbol": "PlatformAccessibilityTestUtilities::GetWindow(void)",
+  "faultContext": {
+    "Rax": "0x0",
+    "readAddress": "0x138"
+  },
+  "stackCandidatesNotFullUnwind": [
+    {
+      "rva": "0x1E2E5B",
+      "symbol": "RuntimeStatic<PlatformAccessibilityManager, 0>::StaticDestroy(void*)"
+    },
+    {
+      "rva": "0x267D8FD",
+      "symbol": "RegisterRuntimeInitializeAndCleanup::ExecuteCleanup(void)"
+    },
+    {
+      "rva": "0x1EC0C87",
+      "symbol": "RuntimeCleanup(void)"
+    },
+    {
+      "rva": "0x19E1B42",
+      "symbol": "UnloadMono(void)"
+    },
+    {
+      "rva": "0x194EAA0",
+      "symbol": "UnityMainImpl"
+    }
+  ],
+  "reproduced": [
+    "visible development smoke after complete gameplay",
+    "hidden development smoke",
+    "normal Home-only window close",
+    "explicit public-API render-pipeline disposal before quit"
+  ],
+  "negativeExperiment": "SRP became null before quit; same native Accessibility fault remained. Removed that ineffective workaround.",
+  "nextProbe": "No further player builds at owner request. Existing final10 functional scenario passed 12 checks and exited 0, while its capture runner failed only the missing last image; source correction is pending player retest.",
+  "scope": "Local native fault diagnosis; no upstream issue-ID/fix-version claim.",
+  "moduleExclusionExperiment": "Removing the unused direct Accessibility module declaration did not remove the native failure; normal close exited 0xC0000005 again. Restored the inherited module declaration.",
+  "finalCompatibilityPath": {
+    "scope": "Windows standalone with exact Unity 6000.4.12f1 only",
+    "behavior": "After a successful synchronous game-progress save, terminate only the current player through the Windows API. No native SDK binary or OS setting is patched. Normal Unity component/native teardown is bypassed for this known revision; review before adding shutdown-dependent services or upgrading Editor.",
+    "normalCloseProbe": "player-close-quitprobe10.json",
+    "normalCloseExitCode": 0,
+    "androidAndEditor": "Normal Unity lifecycle; compatibility path is not registered.",
+    "functionalScenario": "player-final10/smoke.json",
+    "functionalExitCode": 0
+  }
+}

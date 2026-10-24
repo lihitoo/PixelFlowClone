@@ -1,0 +1,37 @@
+{
+  "name": "PixelFlow.Tests.Editor",
+  "rootNamespace": "PixelFlow.Tests",
+  "references": [
+    "PixelFlow.Rules",
+    "PixelFlow.Runtime",
+    "Dreamy.Datasave.Runtime",
+    "Dreamy.DataConfig.Runtime",
+    "Dreamy.Shop.Runtime",
+    "Dreamy.Feature.Shop.Integration.Runtime",
+    "Dreamy.UI.Runtime",
+    "UniTask",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "UnityEngine.UI",
+    "Unity.InputSystem",
+    "Unity.TextMeshPro",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Dreamy.Template.Runtime",
+    "Dreamy.Economy.Runtime",
+    "Dreamy.Core.Runtime",
+    "Dreamy.Audio.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

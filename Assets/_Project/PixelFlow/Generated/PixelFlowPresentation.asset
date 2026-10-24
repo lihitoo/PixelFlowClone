@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b45b29765989db4184fdce60369aa51, type: 3}
+  m_Name: PixelFlowPresentation
+  m_EditorClassIdentifier: PixelFlow.Runtime::PixelFlow.PixelFlowPresentation
+  PigMesh: {fileID: 328320423954686833, guid: d7d661f7f1377c44e98b669dee23ba3b, type: 3}
+  LitMaterial: {fileID: 2100000, guid: 5f23da485c85581488275871c49936d4, type: 2}
+  PigTexture: {fileID: 2800000, guid: f31d5dc3fa21b9a4e8c225cba8a61f15, type: 3}
+  Font: {fileID: 11400000, guid: f53a69447ebd5a24b8a8936ca91a057a, type: 2}
+  Logo: {fileID: 21300000, guid: 4a76fc3c84a9887449703d112dea667f, type: 3}
+  HeroPig: {fileID: 21300000, guid: a44e222836ff02a40a9806eaa0d6e34f, type: 3}
+  PlayButton: {fileID: 21300000, guid: df17a1e52b6978e4d810e7cfc4205f8d, type: 3}
+  BlueButton: {fileID: 21300000, guid: febadb2eab090c942b2fd5d979c820de, type: 3}
+  Tap: {fileID: 8300000, guid: 177511c720a65314bb180ae844a87894, type: 3}
+  Pop: {fileID: 8300000, guid: 864be0b1dac54d3449d27af938c678c3, type: 3}
+  Launch: {fileID: 8300000, guid: c287c4770455b884aaf21de5ab9e8d5e, type: 3}
+  Win: {fileID: 8300000, guid: f2a5c94fd4decce4bbb5f3c0d8ed5d51, type: 3}
+  Background: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 1}

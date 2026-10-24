@@ -1,0 +1,1624 @@
+[
+  {
+    "id": "asset-8ab2ceb6aecad9d7b751",
+    "name": "CheckpointStart",
+    "path": "exports/Sprite/resources.assets/CheckpointStart__2219.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/CheckpointStart__2219.png",
+    "bytes": 693027,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-3886327af2dd14f98a20",
+    "sha256": "454d9ec511ebfac8581bdf0e36a97c84b316f7bde9bebe50c33feafae4f7554e",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      1024,
+      944
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-901071d505d0af311909",
+    "name": "CheckpointStart_halloween",
+    "path": "exports/Sprite/resources.assets/CheckpointStart_halloween__1989.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/CheckpointStart_halloween__1989.png",
+    "bytes": 645806,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-47ec283929d457be1294",
+    "sha256": "f6212798f0c999d1d2f9981d96c0c8b76bff958dc57439b62733adbcf8fd190d",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      1024,
+      944
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-489b8a7cdc08beed9611",
+    "name": "Home_Button_Bar",
+    "path": "exports/Sprite/resources.assets/Home_Button_Bar__2198.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Home_Button_Bar__2198.png",
+    "bytes": 469,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "home"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-4823e73d0f404efc9d01",
+    "sha256": "26fd46a662dc0b37f1883905cad4c0d5dd36413eb4d2515212d60af15854f62f",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      140,
+      126
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-2ba7238d9b6ff5718a2d",
+    "name": "Home_Button_Bar_Separator",
+    "path": "exports/Sprite/resources.assets/Home_Button_Bar_Separator__2199.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Home_Button_Bar_Separator__2199.png",
+    "bytes": 312,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "home"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-4432d6cbb1ac41af7111",
+    "sha256": "e3bf31c8496ba519c42735aaa82db7bb64bdbe560bcc5bc07d18ba82ab0eaf0b",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      6,
+      33
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-5ff401af026524751551",
+    "name": "Home_Button_Selected",
+    "path": "exports/Sprite/resources.assets/Home_Button_Selected__2103.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Home_Button_Selected__2103.png",
+    "bytes": 2728,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "home"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-975ecc05100b5ae316ec",
+    "sha256": "5b3f176118ffd1218d59e30d2f444466f6e151f34899463c25a4102d6e1fe450",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      318,
+      246
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-d9c581991a027dd4f7de",
+    "name": "Icon_Gold",
+    "path": "exports/Sprite/resources.assets/Icon_Gold__2222.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Icon_Gold__2222.png",
+    "bytes": 11682,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-7e2d3f794dbf19e5f1c1",
+    "sha256": "166a8f7efcc39210523d4df76a98b830d8c5573cf6a6275642ca3a0bee748954",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      120,
+      136
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-2770c958d4f4f9f4872f",
+    "name": "Icon_Heart",
+    "path": "exports/Sprite/resources.assets/Icon_Heart__2182.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Icon_Heart__2182.png",
+    "bytes": 13012,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "lives"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-0de592c266649f05511d",
+    "sha256": "7da07a86d2a1467fc7605e991b1bb52cb710157c61e7318e1df8558ce0dfa2fc",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      160,
+      132
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-2858d12b701d69ef7c6c",
+    "name": "Icon_HeartInfinity",
+    "path": "exports/Sprite/resources.assets/Icon_HeartInfinity__2270.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Icon_HeartInfinity__2270.png",
+    "bytes": 15814,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "lives"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-4e36e638d29275cb9f1f",
+    "sha256": "193bbb05b6d3193094a25f092d9af9f88115972b474c504d10e741d8636559ee",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      163,
+      135
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-c7355818639a461a2894",
+    "name": "Icon_Lock01_l",
+    "path": "exports/Sprite/resources.assets/Icon_Lock01_l__2214.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Icon_Lock01_l__2214.png",
+    "bytes": 6092,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-a693b8e1b3cf0df1cc35",
+    "sha256": "2ba42e7e3bf6d87d5a1623e740eb48c8fb8763edcaa5737daf8c501424452096",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      96,
+      139
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-bb42c4147412838822d0",
+    "name": "Level_Current_Shiny",
+    "path": "exports/Sprite/resources.assets/Level_Current_Shiny__2110.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Current_Shiny__2110.png",
+    "bytes": 152292,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-197aca47fc19c2a566b6",
+    "sha256": "cec027e9ea954a3402e33ff04f9133cf0ae4c9f6f84dc5ca85803a70b573d989",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      425,
+      437
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-ebfcfdf5111f0d259b0a",
+    "name": "Level_Current_Shiny_Purple",
+    "path": "exports/Sprite/resources.assets/Level_Current_Shiny_Purple__2099.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Current_Shiny_Purple__2099.png",
+    "bytes": 157485,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-f858a8670bd2fd892e1f",
+    "sha256": "ef9efcae9c88543f1f923c367a11a25cb7666ec2eaf158215984fb2b197a4b78",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      425,
+      437
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-03cdad32e3159f07a0cf",
+    "name": "Level_Current_Shiny_Red",
+    "path": "exports/Sprite/resources.assets/Level_Current_Shiny_Red__2126.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Current_Shiny_Red__2126.png",
+    "bytes": 157298,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-35b94bf07be9a3c8a983",
+    "sha256": "62467087f9a17af39c2672d9c9410b75911118ba8ea94b7a95f4802a5f0ed6ab",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      425,
+      437
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-35f5a17b153e8023b4cb",
+    "name": "Level_Current_Shiny_Yellow",
+    "path": "exports/Sprite/resources.assets/Level_Current_Shiny_Yellow__2078.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Current_Shiny_Yellow__2078.png",
+    "bytes": 161157,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-e94d4d1393a337188069",
+    "sha256": "40b71860f05bed65ac6ce2792ceb0af9cc29115e6901cf0f0685798a5715f010",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      422,
+      434
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-d593ccc55b158f567d73",
+    "name": "Level_Label_Purple",
+    "path": "exports/Sprite/resources.assets/Level_Label_Purple__1978.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Label_Purple__1978.png",
+    "bytes": 3716,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-a9c67bb747799a4ab7d4",
+    "sha256": "ee6fde43cf353ad69ff23c9a25275943a66b20c8aa9ae6054a9314f02194b69b",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      144,
+      80
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-9d30f2b065bda2b0df55",
+    "name": "Level_Label_Purple_Glow",
+    "path": "exports/Sprite/resources.assets/Level_Label_Purple_Glow__2129.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Label_Purple_Glow__2129.png",
+    "bytes": 25305,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-98af7a27be65931d6c11",
+    "sha256": "b32ae12956bd7ccaae353bc33cb61eaea4363d6861c2676ca001ebd1784edd80",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      204,
+      140
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-439a850e18af9945af61",
+    "name": "Level_Label_Red",
+    "path": "exports/Sprite/resources.assets/Level_Label_Red__2231.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Label_Red__2231.png",
+    "bytes": 3527,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-e17b791da0e1c1227062",
+    "sha256": "39c29f6a3d58ca3c6620d3b4efe2edee52ffcf8ea4e79fbac1ba0849671f0991",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      144,
+      80
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-a8a5ce58a254cb3c37d5",
+    "name": "Level_Label_Red_Glow",
+    "path": "exports/Sprite/resources.assets/Level_Label_Red_Glow__1985.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Label_Red_Glow__1985.png",
+    "bytes": 24460,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-2681bf0f89efc3de3e81",
+    "sha256": "71d5b4c1e77b5ffae2e2bb1252d2adae04fdfa9f18568e6296cc57f4cdf144e8",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      204,
+      140
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-2ced85047859d296cf59",
+    "name": "Level_Label_Yellow",
+    "path": "exports/Sprite/resources.assets/Level_Label_Yellow__1996.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Label_Yellow__1996.png",
+    "bytes": 3816,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-083fc1012cc6af0c88aa",
+    "sha256": "86bb6ebc38eba3f941c8d17fda14f1d307b2b8252705804d5b9ff098fca6dae4",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      154,
+      80
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-7466fcec8884ea1b3004",
+    "name": "Level_Label_Yellow_Glow",
+    "path": "exports/Sprite/resources.assets/Level_Label_Yellow_Glow__1951.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Label_Yellow_Glow__1951.png",
+    "bytes": 25309,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-1de37983fdd30478018f",
+    "sha256": "6d21a378a60b5b187ba0674fc7611a9de14efc8d58f0fd5e040f7347cb035813",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      204,
+      140
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-9b3b10c491068c9bbfc2",
+    "name": "Level_Normal",
+    "path": "exports/Sprite/resources.assets/Level_Normal__2034.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Normal__2034.png",
+    "bytes": 22914,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-8cd84607f491254c7055",
+    "sha256": "72dcfe7aad314beccf8ba52e08d449ec18d48c4556a008cd1e054224049a7705",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      241,
+      272
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-a47a0c93bc673aea8af3",
+    "name": "Level_Orange",
+    "path": "exports/Sprite/resources.assets/Level_Orange__2230.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Orange__2230.png",
+    "bytes": 23997,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-4c5da737172662d2b1cb",
+    "sha256": "19dee1837abd43a2e756dc63c451f05efce3dacdc4497f3eb7d57539bc658a32",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      245,
+      276
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-d10f649aebb40d5fe596",
+    "name": "Level_Orange_Red",
+    "path": "exports/Sprite/resources.assets/Level_Orange_Red__2205.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Orange_Red__2205.png",
+    "bytes": 22546,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-698678a90dad59735450",
+    "sha256": "c2078fa2c9e2c2c4dd179e85ba3984cef721f23b7d8651c4f52a36ec065836c4",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      241,
+      272
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-9aeac9aa6d5a82503686",
+    "name": "Level_Purple",
+    "path": "exports/Sprite/resources.assets/Level_Purple__2127.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Purple__2127.png",
+    "bytes": 23534,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-8fe51eabb34b22f7850c",
+    "sha256": "2ec48ed7f466ec6d58302979c8567a4983147eef6d30e1fe1a8b92404beb9e5e",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      241,
+      272
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-7750e339a25312f5f8f4",
+    "name": "Level_Tree_Column",
+    "path": "exports/Sprite/resources.assets/Level_Tree_Column__1977.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Tree_Column__1977.png",
+    "bytes": 757,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-29eaacc7a25739eac21d",
+    "sha256": "e82191aeffbe530eb375df1e7a48db80f77990d55c668c47230d2bbeca6611ec",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      41,
+      261
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-bcfec95f05936d453dfe",
+    "name": "Level_Tree_Column_Yellow",
+    "path": "exports/Sprite/resources.assets/Level_Tree_Column_Yellow__2159.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Level_Tree_Column_Yellow__2159.png",
+    "bytes": 2189,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-8a0015cbd7c6a66e38f7",
+    "sha256": "3187759350351a348b9212ae115bbae694eca36c6056cf355d66c9cbececb395",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      79,
+      352
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-3df589316a1b4e33d78e",
+    "name": "Start_Pig_Turquoise",
+    "path": "exports/Sprite/resources.assets/Start_Pig_Turquoise__2196.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Start_Pig_Turquoise__2196.png",
+    "bytes": 29307,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "gameplay"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-04f4887744c736999c9d",
+    "sha256": "9d02e6185755837df153cd82712e13271c94bd5181096af9392d4ea24b630024",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      246,
+      262
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-d5894ba2228f6d9cb1ee",
+    "name": "Button_Event_Circle_Blue",
+    "path": "exports/Sprite/sharedassets1.assets/Button_Event_Circle_Blue__1364.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Event_Circle_Blue__1364.png",
+    "bytes": 65161,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "events"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-289af4cd747eedfe615a",
+    "sha256": "cfe33f38ffed7386ddee5e207bf9f8272aff21a32cdcc99a1a5d4d8957d1cfb8",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      280,
+      287
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-190f248b3017d0cdb9d5",
+    "name": "Button_Event_Circle_Green",
+    "path": "exports/Sprite/sharedassets1.assets/Button_Event_Circle_Green__1174.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Event_Circle_Green__1174.png",
+    "bytes": 66204,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "events"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-635bf1b3cccbe5e0770c",
+    "sha256": "5eaf24f7e90e72902a7b0ed477d3d4c1417895914b01fe471840f9e04a4ca8ad",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      280,
+      287
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-3fba3a4888454cf04fc9",
+    "name": "Button_Event_Circle_Pixel_Arena",
+    "path": "exports/Sprite/sharedassets1.assets/Button_Event_Circle_Pixel_Arena__965.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Event_Circle_Pixel_Arena__965.png",
+    "bytes": 42299,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "rank",
+      "events",
+      "gameplay"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-d2738f80a135801d4b25",
+    "sha256": "ee4e4b82d9303e95f01652b15e605924e7ae21931e7eb9ad96330658fc0524ec",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      225,
+      231
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-6a7d95da0688ededb4b7",
+    "name": "Button_Event_Circle_Red",
+    "path": "exports/Sprite/sharedassets1.assets/Button_Event_Circle_Red__783.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Event_Circle_Red__783.png",
+    "bytes": 41440,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "events"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-87fb984d61c0e22c40c5",
+    "sha256": "1db09cccbcf996dde796f209be7c40b2cb4d51101ef3d4aaabaeb739eff9acdf",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      225,
+      231
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-3fa2a09e338133302837",
+    "name": "Button_Event_Circle_WithFill",
+    "path": "exports/Sprite/sharedassets1.assets/Button_Event_Circle_WithFill__1431.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Event_Circle_WithFill__1431.png",
+    "bytes": 74044,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "events"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-b3877d4b7a82015c30d9",
+    "sha256": "b428ff9dbe429fd84865852431063d223194a61055b1fcea824871a7d279c2a0",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      300,
+      309
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-5191562e8ad2a19c97ef",
+    "name": "Button_Event_Circle_WithFill_Center",
+    "path": "exports/Sprite/sharedassets1.assets/Button_Event_Circle_WithFill_Center__1285.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Event_Circle_WithFill_Center__1285.png",
+    "bytes": 32363,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "events"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-4a457983e9f253003e72",
+    "sha256": "86db596e2e957f8b18ae06f3d844918b57a3dea7894bff6860b4ce69a46f9854",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      202,
+      198
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-068b4d1971421ef1a10d",
+    "name": "Button_Event_Circle_WithFill_Mask",
+    "path": "exports/Sprite/sharedassets1.assets/Button_Event_Circle_WithFill_Mask__858.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Event_Circle_WithFill_Mask__858.png",
+    "bytes": 6444,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "events"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-4201095a835407efed0d",
+    "sha256": "6825b529ca2f8d19e42443ebe593607fd04cc2b4951d51e97961878b18602fe2",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      344,
+      438
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-7c7fd7cf043f513654a0",
+    "name": "Button_Play",
+    "path": "exports/Sprite/sharedassets1.assets/Button_Play__743.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Play__743.png",
+    "bytes": 22963,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-dbbce80fe788409047fa",
+    "sha256": "6ebc86202c00a6bc4679bd4f05384ce0e3061be600274ad6a0c976485d2d4eda",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      539,
+      240
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-d6cd329c7482101a4f81",
+    "name": "Endgame League Win Streak Step Start Active",
+    "path": "exports/Sprite/sharedassets1.assets/Endgame League Win Streak Step Start Active__1084.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Endgame%20League%20Win%20Streak%20Step%20Start%20Active__1084.png",
+    "bytes": 29998,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "rank"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-4c4c31aa79e23407c771",
+    "sha256": "cdb246250132a755de08411564398bb3eb5283843d08db6c2ae4a945d5336aed",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      280,
+      192
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-66398b2595e74ce280d0",
+    "name": "Endgame League Win Streak Step Start Passive Variant",
+    "path": "exports/Sprite/sharedassets1.assets/Endgame League Win Streak Step Start Passive Variant__899.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Endgame%20League%20Win%20Streak%20Step%20Start%20Passive%20Variant__899.png",
+    "bytes": 22594,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "rank"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-42aac5ba1120c0d7426f",
+    "sha256": "84673d881babede6aa7862df11391f90b48bccf11cb8f22e1f96d9358f1326df",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      254,
+      150
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-d7e657eeade89cb89879",
+    "name": "Endgame League Win Streak Step Start Passive",
+    "path": "exports/Sprite/sharedassets1.assets/Endgame League Win Streak Step Start Passive__755.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Endgame%20League%20Win%20Streak%20Step%20Start%20Passive__755.png",
+    "bytes": 22664,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "rank"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-99113ab99efe4d5cca6b",
+    "sha256": "d325b2c833afc652c59d251d84657dad5f955fd0768cf5cb7ba1320b8e266e6c",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      254,
+      150
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-0473297e6bff7b392851",
+    "name": "Home_Button_Bar_Endgame",
+    "path": "exports/Sprite/sharedassets1.assets/Home_Button_Bar_Endgame__1418.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Home_Button_Bar_Endgame__1418.png",
+    "bytes": 419,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "home"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-b0758f48e100163fba78",
+    "sha256": "54c7183d4de46a5a40b46efb65b5d0024a48cf8a64e89adae003459743eee847",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      140,
+      126
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-be0f0d6867dbeb614e54",
+    "name": "Home_Button_Selected_Endgame",
+    "path": "exports/Sprite/sharedassets1.assets/Home_Button_Selected_Endgame__868.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Home_Button_Selected_Endgame__868.png",
+    "bytes": 3144,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "home"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-22e475ad811e6576bf50",
+    "sha256": "f20a6a0c22b1ee2a97eaa6e10c98b3fd2d607427434f31549d403532192e0c94",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      318,
+      246
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-3d4ff03e8a36581a6d51",
+    "name": "HomeMenu_Bg",
+    "path": "exports/Sprite/sharedassets1.assets/HomeMenu_Bg__996.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/HomeMenu_Bg__996.png",
+    "bytes": 927317,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "home"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-691559002b19e2293422",
+    "sha256": "7be5002ec9f7aae6f6cf24086fedea44dbf0ffc7a522cdebfc5107e8445dd345",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      946,
+      2048
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-3b4319d028656af231d0",
+    "name": "Icon_Gold_2x",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Gold_2x__1217.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Gold_2x__1217.png",
+    "bytes": 29339,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-b743269bc25badbe180b",
+    "sha256": "d2f824d2f06039360948167e99e9267510b5314454d06b4e76d099bdc6850ea4",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      239,
+      270
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-4e30073a0eec8062c64b",
+    "name": "Icon_Gold_Gift",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Gold_Gift__1030.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Gold_Gift__1030.png",
+    "bytes": 86438,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-760272fcdf77f4111ec9",
+    "sha256": "9c89b7b45c5952ace75e6f6ada3792f49ba0e53e7a4da2b9a12a3ca3da9054bc",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      378,
+      320
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-1bb339c71e525afad052",
+    "name": "Icon_Gold_Gift_XL",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Gold_Gift_XL__1427.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Gold_Gift_XL__1427.png",
+    "bytes": 394163,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-3cbea603024cf592bacd",
+    "sha256": "63830c1775284137f9e567323937685f929318b0d6ca1138cf289f1edff433f2",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      828,
+      794
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-2b2f106a1fd704d9d72d",
+    "name": "Icon_Heart_2x",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Heart_2x__1231.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Heart_2x__1231.png",
+    "bytes": 31908,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "lives"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-f9c91a284a74284bdb7e",
+    "sha256": "3c0e436dd1564766ce129dd9b5b8f5aa609bda485700dff4c9aaaeab9c917e92",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      319,
+      262
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-384f515a5687829430e4",
+    "name": "Icon_Heart_3x",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Heart_3x__867.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Heart_3x__867.png",
+    "bytes": 60550,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "lives"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-d1051be3e359326b4078",
+    "sha256": "21af0aca88e97c3b9dddb091d73daf80c41c710c59f6e7c02a790fdc252584be",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      478,
+      393
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-0bea9f867518394ef151",
+    "name": "Icon_HeartInfinity_2x",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_HeartInfinity_2x__1410.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_HeartInfinity_2x__1410.png",
+    "bytes": 37583,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "lives"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-98b2589ad5b61e737793",
+    "sha256": "e37a3bda1f36c5cdf890fd5475a4868b1ad7e6eab7cca735c5bbf8c424bdc50d",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      326,
+      269
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-dd85715bc225b82032d5",
+    "name": "Icon_HeartInfinity_3x",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_HeartInfinity_3x__1400.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_HeartInfinity_3x__1400.png",
+    "bytes": 65548,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "lives"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-b9bc9224213b4c52ab6e",
+    "sha256": "3dd8c0cf2a62d6735eceeaed384382807daa039fc7e975412ac246b72707b927",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      489,
+      403
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-4f70232c30d9aeb01f62",
+    "name": "Icon_Leaderboard",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Leaderboard__888.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Leaderboard__888.png",
+    "bytes": 20474,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "rank"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-9fb2144e1e6290a82245",
+    "sha256": "152d1e6f4b387a2119a2370cd8e847b9b14ef9edc63d5943b4261d87a3d7d4c2",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      252,
+      236
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-d62b0f4dc93e7961f9ea",
+    "name": "Icon_Lock_Open_Small",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Lock_Open_Small__1054.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Lock_Open_Small__1054.png",
+    "bytes": 9251,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-4d66b9780ef9f21b98ff",
+    "sha256": "c8b930d3e47045216e16e4fae3d45a7f5c215aee15aa8898215a86ee97999fc8",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      136,
+      146
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-f13c23a812e979eb3def",
+    "name": "Icon_Lock_White",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Lock_White__1294.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Lock_White__1294.png",
+    "bytes": 12600,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-f43b715e4bfa139701ea",
+    "sha256": "373bd4811abc3031bcfe7041c0385f32d89e1c853cb8d3bb3b60801301964038",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      148,
+      211
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-a4e27c8312168604d491",
+    "name": "Icon_Lock_Yellow",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Lock_Yellow__1405.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Lock_Yellow__1405.png",
+    "bytes": 12449,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-e9f5abfae744adbf29bd",
+    "sha256": "de0413a35833285409531ec95c6ca649da42aae7dfe1a0e66b928ecafc1844b4",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      148,
+      211
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-fd5a011c1bc4a9c743be",
+    "name": "Icon_Locked_Out_Offer",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Locked_Out_Offer__1052.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Locked_Out_Offer__1052.png",
+    "bytes": 20381,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "shop"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-182d0a6e21cb42933588",
+    "sha256": "bfcbc7b65da76d235166130494144367699d0ad38f04a7ebbd379b4111f032d7",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      189,
+      247
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-056da62752b6e187a9e4",
+    "name": "Icon_NoAds_2x",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_NoAds_2x__1120.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_NoAds_2x__1120.png",
+    "bytes": 98586,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "shop"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-bb0611631b7c17369836",
+    "sha256": "fc54102c734ca2e5b0b9b0ac09f0604a8aef218d76cf4f5844176606525c53ab",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      418,
+      438
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-65f76180f380650c4d69",
+    "name": "Icon_NoAds_3x",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_NoAds_3x__1312.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_NoAds_3x__1312.png",
+    "bytes": 209149,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "shop"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-161169b754d5a8048c90",
+    "sha256": "558a06e8c69e84f68f4912dc0798a0ab456ca6330a2afe57158c0342c3b17bab",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      694,
+      728
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-303c8c24ebd28f1f238a",
+    "name": "Icon_NoAds",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_NoAds__1409.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_NoAds__1409.png",
+    "bytes": 36004,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "shop"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-971b4711dd474306db93",
+    "sha256": "86f5eb73121b35f07a10e43a470184e6805fbf416f08508717d5c5c2c18b2313",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      212,
+      222
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-261f65d2b8b82a1b425c",
+    "name": "Icon_NoAdsTV",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_NoAdsTV__854.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_NoAdsTV__854.png",
+    "bytes": 12045,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "shop"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-1bf286b9e9c6234fca0c",
+    "sha256": "ec4fd737065b67e70a207d06790c21ea194070cf52164fb35e526e383bad092b",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      128,
+      138
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-de1300a437111bd54445",
+    "name": "Icon_Restart_3x",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Restart_3x__1301.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Restart_3x__1301.png",
+    "bytes": 10177,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-2682323d1692f8fcea44",
+    "sha256": "ffcf324b78044e9ad98b36717822a2e0d517583c775808d25f96f93d8c4736d5",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      198,
+      248
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-0c6f2576802c52b36bbd",
+    "name": "Icon_Settings",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Settings__695.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Settings__695.png",
+    "bytes": 10228,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "settings"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-210610045ade6f975a95",
+    "sha256": "4482ae732abacf4d07844d50df45e7591f5e556cb0a6cfd9922a324f3730894c",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      126,
+      141
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-aab700683712b3c6ee4f",
+    "name": "Icon_Shop",
+    "path": "exports/Sprite/sharedassets1.assets/Icon_Shop__929.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Shop__929.png",
+    "bytes": 8590,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "shop"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-143db8d4d26ed5fdc156",
+    "sha256": "2be2a1f913b90ca83e386d613784452e50e910f9d917d9b48411c22a81b38eba",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      129,
+      134
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-f710280f3b50c8d9eef7",
+    "name": "Level_Current_Shiny_Black",
+    "path": "exports/Sprite/sharedassets1.assets/Level_Current_Shiny_Black__905.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Level_Current_Shiny_Black__905.png",
+    "bytes": 257052,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-7b2773d03ebb812fe368",
+    "sha256": "0ef112ef0f4ca4da961a020fd87f8acbbac11b2f6e727a0caa84f292716c540d",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      506,
+      545
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-a12716c3717c9cc2a642",
+    "name": "Level_Hard",
+    "path": "exports/Sprite/sharedassets1.assets/Level_Hard__1335.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Level_Hard__1335.png",
+    "bytes": 45191,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-5027f1ff699647fdd543",
+    "sha256": "9d96da7725054a5f63eaa5810549d485990ce989447b12fea2dd81cd93f2cdba",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      263,
+      331
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-54e57c9dafdedc34bc69",
+    "name": "Level_Label_Hard",
+    "path": "exports/Sprite/sharedassets1.assets/Level_Label_Hard__1241.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Level_Label_Hard__1241.png",
+    "bytes": 2681,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-8026eab5758df603f61b",
+    "sha256": "815359b5b1620bc8d1bb02d4c81533da3edd1d1a07e8b2c931d262ccb0ea8730",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      282,
+      83
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-e0b456d184f478ea2e9f",
+    "name": "Level_Label_Hard_Glow",
+    "path": "exports/Sprite/sharedassets1.assets/Level_Label_Hard_Glow__1002.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Level_Label_Hard_Glow__1002.png",
+    "bytes": 52383,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-2c3046d8ebb3f5c9233f",
+    "sha256": "b77597ab101c9f4d2bbd2e1490ef1b8eb47f7b1acddcc91391a40d992f03cd7d",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      374,
+      178
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-a014b197f36b27c87749",
+    "name": "PictoIcon_Home_1",
+    "path": "exports/Sprite/sharedassets1.assets/PictoIcon_Home_1__1277.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/PictoIcon_Home_1__1277.png",
+    "bytes": 706,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "home"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-ab73ee60277500467b39",
+    "sha256": "97ec1c62569ed0c211c7cbb856800dcb404bded5db0a7c2599d9219a99bde4b1",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      56,
+      50
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-05aef5636b53de24e9ee",
+    "name": "RushIcon_Gold_1",
+    "path": "exports/Sprite/sharedassets1.assets/RushIcon_Gold_1__1015.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/RushIcon_Gold_1__1015.png",
+    "bytes": 41424,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-36d570f68d7228ae45b8",
+    "sha256": "179e68e8fda9738d3f0cd18123c560346e3b9efde013b10231b2bbdade7e14d3",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      175,
+      234
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-0c00f49abc2faab4567e",
+    "name": "RushPosterStart1",
+    "path": "exports/Sprite/sharedassets1.assets/RushPosterStart1__1114.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/RushPosterStart1__1114.png",
+    "bytes": 1177821,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-0a8688ff3661fa7f5cb6",
+    "sha256": "73e5fcf3e72fe14cd45c0c58185487cc96023d64d06ba068ec85557b3bf90215",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      1024,
+      1024
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-246d9a6d9ad641052fc4",
+    "name": "RushPosterStart2",
+    "path": "exports/Sprite/sharedassets1.assets/RushPosterStart2__1234.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/RushPosterStart2__1234.png",
+    "bytes": 1049399,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-7e2a0b009ae3bdd19b3c",
+    "sha256": "26d1fbde42cff5574c4139280fbc5d6dd2258d3b1638506d0548755d96a1d47b",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      1024,
+      1024
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-d820f0dd734861d7c752",
+    "name": "RushStartLabelSm",
+    "path": "exports/Sprite/sharedassets1.assets/RushStartLabelSm__1180.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/RushStartLabelSm__1180.png",
+    "bytes": 9232,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-1a54ac5574ee1c66e41f",
+    "sha256": "017fcbaeb73483a8f2f027fd410d8e99211a709a72691f8f6a56672ef76e24f2",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      247,
+      94
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-4cd7302d937da3174315",
+    "name": "RushStartPrizesBg1",
+    "path": "exports/Sprite/sharedassets1.assets/RushStartPrizesBg1__944.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/RushStartPrizesBg1__944.png",
+    "bytes": 53264,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-b5be35a7837c99c6ae2e",
+    "sha256": "145a7b4b5eb68a124dbde96dbf8a8afa1faf8fc29a1b52e5672d1d0d5851f99e",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      503,
+      226
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-5220fed719e877c4fd4b",
+    "name": "RushStartPrizesBg2",
+    "path": "exports/Sprite/sharedassets1.assets/RushStartPrizesBg2__1373.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/RushStartPrizesBg2__1373.png",
+    "bytes": 54162,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-0ca32f1fa8cbf59cce76",
+    "sha256": "244d823659cfdaad92fdc76af920721c12a6424c523db8f569824a061dc00ddd",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      503,
+      226
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-79395e99d59af825bfd6",
+    "name": "Start_Pig_Endgame",
+    "path": "exports/Sprite/sharedassets1.assets/Start_Pig_Endgame__1008.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Start_Pig_Endgame__1008.png",
+    "bytes": 26860,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [
+      "gameplay"
+    ],
+    "roleConfidence": "filename-only",
+    "sourceObjectId": "obj-d73ce4c791fdd7037496",
+    "sha256": "2bf0518201df7d2f79cd0c16252616ab5b220d8fb8436cbbe9d9321ffce00469",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      246,
+      262
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-903792aa5457ea0ab207",
+    "name": "StartPopup_Illustration_Stage1",
+    "path": "exports/Sprite/sharedassets1.assets/StartPopup_Illustration_Stage1__1082.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/StartPopup_Illustration_Stage1__1082.png",
+    "bytes": 963228,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-aec484951e48c3aac862",
+    "sha256": "5525a4074e6d3e5e8a15cc9754733563c4d690483b88ffbcd85b00aaa8a03d2f",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      1024,
+      1024
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-9a226b3deb8a62e60ec5",
+    "name": "StartPopup_Illustration_Stage2",
+    "path": "exports/Sprite/sharedassets1.assets/StartPopup_Illustration_Stage2__986.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/StartPopup_Illustration_Stage2__986.png",
+    "bytes": 974120,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-5c65e94f062441a88647",
+    "sha256": "c2fe51a52ab19c97a81e135cb12254dcb685ae204e0c17fd5d00b9a7d9630047",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      1024,
+      1024
+    ],
+    "recoveredGameplayLogic": false
+  },
+  {
+    "id": "asset-0d2d575229f48744addc",
+    "name": "StartPopup_Illustration_Stage3",
+    "path": "exports/Sprite/sharedassets1.assets/StartPopup_Illustration_Stage3__787.png",
+    "uri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/StartPopup_Illustration_Stage3__787.png",
+    "bytes": 966783,
+    "kind": "Sprite",
+    "guid": null,
+    "roleCandidates": [],
+    "roleConfidence": "unclassified",
+    "sourceObjectId": "obj-d1f86b153b8b1fb88fc1",
+    "sha256": "9d70d6183b24db9d1a824f6fe0c6a576a36f1ccdc7b8f497eec1f87128b127a9",
+    "hashStatus": "existing-extraction-receipt",
+    "imported": null,
+    "selectedForRuntime": false,
+    "imageSize": [
+      1024,
+      1024
+    ],
+    "recoveredGameplayLogic": false
+  }
+]

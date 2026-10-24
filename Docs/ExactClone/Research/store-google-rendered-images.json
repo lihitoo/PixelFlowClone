@@ -1,0 +1,233 @@
+{
+  "sourceId": "store-google",
+  "images": [
+    {
+      "alt": "",
+      "url": "https://fonts.gstatic.com/s/i/productlogos/avatar_anonymous/v4/web-32dp/logo_avatar_anonymous_color_1x_web_32dp.png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "Icon image",
+      "url": "https://play-lh.googleusercontent.com/FvAiHRhj8Wo1vO_4ez1V8ChSJKAw46dos-FEIkbmNs_wtbDKg0Y9eyVJe1hJn2R-mwyr4_LmWkIGJCHHY74K=w240-h480-rw",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "alt": "Icon image",
+      "url": "https://play-lh.googleusercontent.com/FvAiHRhj8Wo1vO_4ez1V8ChSJKAw46dos-FEIkbmNs_wtbDKg0Y9eyVJe1hJn2R-mwyr4_LmWkIGJCHHY74K=s48-rw",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "alt": "Content rating",
+      "url": "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw=w48-h16-rw",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "Content rating",
+      "url": "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw=s38-rw",
+      "width": 38,
+      "height": 38
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/yquH-qGBRZ_qk0y87LLaJ6qwbTSe34J8xJIcAsJWFWTyvMw4QeYiyznMPYoaZ1S7Kgw7rGIUI0aeXNTqAk2sTw=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/fGpOze7HiiddfLeJkZ9flrWYXrbGAqPgFyfmNgWrUNNpoguliFuzeh_-oqL87P4r2YVCAe2gf8KcJgiNsICCEQ=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/0L1foGIXQvjrzRvwZAM-34LG12pgCbILkEzCB-u2V32WyjthazHJDEI29D_2YkVT5QYGIPs0kKQoN1Zhn8ivIw=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/LI69sHvGk5ZZIkm0bwNgMsk3lLR2b3aF1QM6PDSRlK6BfMsU0JI7R5rM9cueYhETgyur6QzCeXW1pWQlBPsBGg=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/Zp5PZ4mRP5Ih79Y9N0uI14SKjZSURJbGxApM19b8a7VktDZaBp34o4VKSn_zUpJbrUn49KMgETN2tejQiqXIXA=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/NLrqRBxFdm2OCl6tAnghnjFi0_KzTiVsZAz2MAJTCKB4zyaAZGF3hrna_HN7NC4v512DEAYSHlRIpk3ou696wqQ=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/yquH-qGBRZ_qk0y87LLaJ6qwbTSe34J8xJIcAsJWFWTyvMw4QeYiyznMPYoaZ1S7Kgw7rGIUI0aeXNTqAk2sTw=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/fGpOze7HiiddfLeJkZ9flrWYXrbGAqPgFyfmNgWrUNNpoguliFuzeh_-oqL87P4r2YVCAe2gf8KcJgiNsICCEQ=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/0L1foGIXQvjrzRvwZAM-34LG12pgCbILkEzCB-u2V32WyjthazHJDEI29D_2YkVT5QYGIPs0kKQoN1Zhn8ivIw=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/LI69sHvGk5ZZIkm0bwNgMsk3lLR2b3aF1QM6PDSRlK6BfMsU0JI7R5rM9cueYhETgyur6QzCeXW1pWQlBPsBGg=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/Zp5PZ4mRP5Ih79Y9N0uI14SKjZSURJbGxApM19b8a7VktDZaBp34o4VKSn_zUpJbrUn49KMgETN2tejQiqXIXA=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/NLrqRBxFdm2OCl6tAnghnjFi0_KzTiVsZAz2MAJTCKB4zyaAZGF3hrna_HN7NC4v512DEAYSHlRIpk3ou696wqQ=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/yquH-qGBRZ_qk0y87LLaJ6qwbTSe34J8xJIcAsJWFWTyvMw4QeYiyznMPYoaZ1S7Kgw7rGIUI0aeXNTqAk2sTw=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/fGpOze7HiiddfLeJkZ9flrWYXrbGAqPgFyfmNgWrUNNpoguliFuzeh_-oqL87P4r2YVCAe2gf8KcJgiNsICCEQ=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/0L1foGIXQvjrzRvwZAM-34LG12pgCbILkEzCB-u2V32WyjthazHJDEI29D_2YkVT5QYGIPs0kKQoN1Zhn8ivIw=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/LI69sHvGk5ZZIkm0bwNgMsk3lLR2b3aF1QM6PDSRlK6BfMsU0JI7R5rM9cueYhETgyur6QzCeXW1pWQlBPsBGg=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/Zp5PZ4mRP5Ih79Y9N0uI14SKjZSURJbGxApM19b8a7VktDZaBp34o4VKSn_zUpJbrUn49KMgETN2tejQiqXIXA=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Screenshot image",
+      "url": "https://play-lh.googleusercontent.com/NLrqRBxFdm2OCl6tAnghnjFi0_KzTiVsZAz2MAJTCKB4zyaAZGF3hrna_HN7NC4v512DEAYSHlRIpk3ou696wqQ=w526-h296-rw",
+      "width": 166,
+      "height": 296
+    },
+    {
+      "alt": "Icon image",
+      "url": "https://play-lh.googleusercontent.com/iFstqoxDElUVv4T3KxkxP3OTcuFvWF5ZQQjT7aIxy4n2uaVigCCykxeG6EZV9FQ10X1itPj1oORm=s20-rw",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "alt": "Icon image",
+      "url": "https://play-lh.googleusercontent.com/12USW7aflgz466ifDehKTnMoAep_VHxDmKJ6jEBoDZWCSefOC-ThRX14Mqe0r8KF9XCzrpMqJts=s20-rw",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "alt": "Icon image",
+      "url": "https://play-lh.googleusercontent.com/W5DPtvB8Fhmkn5LbFZki_OHL3ZI1Rdc-AFul19UK4f7np2NMjLE5QquD6H0HAeEJ977u3WH4yaQ=s20-rw",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "alt": "Icon image",
+      "url": "https://play-lh.googleusercontent.com/ohRyQRA9rNfhp7xLW0MtW1soD8SEX45Oec7MyH3FaxtukWUG_6GKVpvh3JiugzryLi7Bia02HPw=s20-rw",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "alt": "",
+      "url": "https://play-lh.googleusercontent.com/a-/ALV-UjXbk7L6D6QkMuPbukYD8DzBD88eMv-saJbxjPKNIFgVUW1RUUMKLQ=s32-rw",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "alt": "",
+      "url": "https://play-lh.googleusercontent.com/a-/ALV-UjWPqAZq2eTfLB2FhAkc_IWHZWjmGzglGBASqz29EzeEVizc49-7=s32-rw",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "alt": "",
+      "url": "https://play-lh.googleusercontent.com/a-/ALV-UjX4Z0ijI1chNvadsrmCbFBTACnM0MS4D6BUYVx6GcrK57nDmp-Z=s32-rw",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "alt": "Content rating",
+      "url": "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw=s38-rw",
+      "width": 38,
+      "height": 38
+    },
+    {
+      "alt": "Thumbnail image",
+      "url": "https://play-lh.googleusercontent.com/vr5f0reWho2D1jrPkI0UsW2M06vtaM-CxPqOzlVV7bzZwkUVi2Kce1KJ5H6ZVJtWjRQaMXisZCFkfvsu4IhWpA=s64-rw",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "Thumbnail image",
+      "url": "https://play-lh.googleusercontent.com/Rs8ybWwiVVp461c-vaTrIYSQ6DiqjVPvwWWbWDAybh6nRXD-qjSuYxj1Y3MRSp-BVPRKSDwTpGNVgK5NA0MBMQ=s64-rw",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "Thumbnail image",
+      "url": "https://play-lh.googleusercontent.com/5wPzX6vBVV-kr4jknuW4ACmYrRgD5m2UwjXw9VFlWAhIsJ5k_8BND8m8NGUv6hOgPuXQzOmvNBQYKY-GWNfDxg=s64-rw",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "Thumbnail image",
+      "url": "https://play-lh.googleusercontent.com/_YoJBEqLA6qZ0xiulFJWKfubaZmxzyphcW4BwMIXFapkO3ifyuVsnMaLkWQClMPuUnahVtIAtyU_baUHLOdP2A=s64-rw",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "Thumbnail image",
+      "url": "https://play-lh.googleusercontent.com/8q0f295fP6br4TeJQpZ1r5ovgTLfue6D9L4tcUX9pwtoKxBJ8weHCwd6i5sV3A4yEfhsqrs7pyFZyE7JxdjAAEU=s64-rw",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "Thumbnail image",
+      "url": "https://play-lh.googleusercontent.com/KRCbQ5yrOu9EmjoQtW_DX-bMPT5HyZk7Mat67gxzPMRKB6W4yZrOdvNmR-nibNWfe-_BmPX-6e9X90wNz2SE_A=s64-rw",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "Thumbnail image",
+      "url": "https://play-lh.googleusercontent.com/US_jq-BmQNf_nczhUWp6spiHyOXUge5wOr1fcZzBFVbHaaD2ex43Um1GH5ekUSXo_CyLGnPpNfk1ruGL2nAfQBw=s64-rw",
+      "width": 64,
+      "height": 64
+    }
+  ]
+}

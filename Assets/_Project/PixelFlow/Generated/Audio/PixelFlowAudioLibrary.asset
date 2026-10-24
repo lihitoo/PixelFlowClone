@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bad4a6d0edda28429bf23fd8b0e80c9, type: 3}
+  m_Name: PixelFlowAudioLibrary
+  m_EditorClassIdentifier: Dreamy.Audio.Runtime::Dreamy.Audio.AudioLibrary
+  libraryId: pixel-flow
+  generatedNamespace: Dreamy.Audio.Generated
+  soundEnumName: SoundKeys
+  musicEnumName: MusicKeys
+  soundCategories: []
+  musicCategories: []
+  sounds:
+  - {fileID: 11400000, guid: 9b07cc4d91d96104d8c5ea2af5c2d1f4, type: 2}
+  - {fileID: 11400000, guid: c3fbeedd191a1334f97c7f6540053240, type: 2}
+  - {fileID: 11400000, guid: 80887e59659c2ff4c9aef009c93f3c0e, type: 2}
+  - {fileID: 11400000, guid: 732761c3adc9d2f4284779e3b492b069, type: 2}
+  - {fileID: 11400000, guid: 9da46c53be59e65478cea8acfd826e1b, type: 2}
+  - {fileID: 11400000, guid: d9c81adba17bbef44af41682c9425a18, type: 2}
+  music:
+  - {fileID: 11400000, guid: 67b79a12c7642bc45a9bc2c7a44f5343, type: 2}
+  - {fileID: 11400000, guid: 8257d05df14cd8849be719e954b2d64e, type: 2}

@@ -1,0 +1,35 @@
+{
+  "scope": "Selected embedded tutorial/offer assets only; not same-level runtime evidence or proof of full original UI/timing.",
+  "clips": [
+    {
+      "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\VideoClip\\sharedassets3.assets\\merged_shooter_tutorial_new_click__90.m4v",
+      "sha256": "a380e9a1c5c8e15f4e2cb336ec87e072c0365c4d79565e87aa8ffca790be517f",
+      "metadata": [
+        "Duration: 00:00:04.52, start: 0.000000, bitrate: 3371 kb/s",
+        "Stream #0:0[0x1](und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1080, 3367 kb/s, SAR 1:1 DAR 1:1, 60 fps, 60 tbr, 600 tbn (default)"
+      ],
+      "contactSheet": "Docs\\Evidence\\source-video-review\\merged_shooter_tutorial_new_click-frames.png",
+      "method": "ffmpeg fps=1, scaled width240, tile3x2; not a timestamped live runtime capture."
+    },
+    {
+      "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\VideoClip\\sharedassets1.assets\\out_of_space_offer__1440.mp4",
+      "sha256": "50b6ac442d32bcd1d3f5dea093683cd71af7e9e12fa42ac005910c28300188c1",
+      "metadata": [
+        "Duration: 00:00:03.43, start: 0.000000, bitrate: 1045 kb/s",
+        "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1284x898 [SAR 1:1 DAR 642:449], 1037 kb/s, 60 fps, 60 tbr, 90k tbn (default)"
+      ],
+      "contactSheet": "Docs\\Evidence\\source-video-review\\out_of_space_offer-frames.png",
+      "method": "ffmpeg fps=1, scaled width240, tile3x2; not a timestamped live runtime capture."
+    },
+    {
+      "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\VideoClip\\sharedassets1.assets\\frozen_offer__1438.mp4",
+      "sha256": "5c28f764604973c743e6322d04e65fc511541fde52a8406adddb69f7a6a3b171",
+      "metadata": [
+        "Duration: 00:00:04.37, start: 0.000000, bitrate: 1062 kb/s",
+        "Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1284x898 [SAR 1:1 DAR 642:449], 1054 kb/s, 60 fps, 60 tbr, 90k tbn (default)"
+      ],
+      "contactSheet": "Docs\\Evidence\\source-video-review\\frozen_offer-frames.png",
+      "method": "ffmpeg fps=1, scaled width240, tile3x2; not a timestamped live runtime capture."
+    }
+  ]
+}

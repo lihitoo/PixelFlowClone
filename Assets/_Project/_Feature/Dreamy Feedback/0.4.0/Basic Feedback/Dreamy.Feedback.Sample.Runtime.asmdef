@@ -1,0 +1,10 @@
+{
+  "name": "Dreamy.Feedback.Sample.Runtime",
+  "rootNamespace": "Dreamy.Feedback.Samples",
+  "references": [
+    "Dreamy.Feedback.Runtime",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "Dreamy.Feedback.Contracts"
+  ]
+}

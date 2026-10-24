@@ -1,0 +1,11 @@
+{
+    "status": "fail",
+    "unity": "6000.4.12f1",
+    "scope": "Automated player scenario with queued Input System mouse events and isolated save scope; not human/device/fidelity acceptance.",
+    "checks": [
+        "Normal scene launch reaches Home"
+    ],
+    "errors": [
+        "FAILED: Play pointer click starts source level 1"
+    ]
+}

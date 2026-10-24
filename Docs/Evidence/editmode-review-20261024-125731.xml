@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-24 05:58:42Z" end-time="2026-10-24 05:58:48Z" duration="6.6777297">
+  <test-suite type="TestSuite" id="1000" name="Pixel Flow Clone" fullname="Pixel Flow Clone" runstate="Runnable" testcasecount="126" result="Passed" start-time="2026-10-24 05:58:42Z" end-time="2026-10-24 05:58:48Z" duration="6.677730" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1153" name="PixelFlow.Tests.Editor.dll" fullname="D:/Game/PixelFlowClone/Library/ScriptAssemblies/PixelFlow.Tests.Editor.dll" runstate="Runnable" testcasecount="92" result="Passed" start-time="2026-10-24 05:58:42Z" end-time="2026-10-24 05:58:48Z" duration="6.427707" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="21436" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1154" name="PixelFlow" fullname="PixelFlow" runstate="Runnable" testcasecount="92" result="Passed" start-time="2026-10-24 05:58:42Z" end-time="2026-10-24 05:58:48Z" duration="6.427156" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1155" name="EditorReview" fullname="PixelFlow.EditorReview" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-24 05:58:42Z" end-time="2026-10-24 05:58:48Z" duration="6.425250" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1052" name="PresentationReviewTests" fullname="PixelFlow.EditorReview.PresentationReviewTests" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-24 05:58:42Z" end-time="2026-10-24 05:58:48Z" duration="6.423681" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1053" name="CaptureRepresentativeStates" fullname="PixelFlow.EditorReview.PresentationReviewTests.CaptureRepresentativeStates" methodname="CaptureRepresentativeStates" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="688280132" result="Passed" start-time="2026-10-24 05:57:51Z" end-time="2026-10-24 05:58:01Z" duration="10.323240" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="180000" />
+              </properties>
+            </test-case>
+            <test-case id="1055" name="FullOfflineMenusBoostersResumeAndContinueRoute" fullname="PixelFlow.EditorReview.PresentationReviewTests.FullOfflineMenusBoostersResumeAndContinueRoute" methodname="FullOfflineMenusBoostersResumeAndContinueRoute" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1950272426" result="Passed" start-time="2026-10-24 05:58:01Z" end-time="2026-10-24 05:58:12Z" duration="10.499652" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+            </test-case>
+            <test-case id="1054" name="PointerInputResetAndProgressionRoute" fullname="PixelFlow.EditorReview.PresentationReviewTests.PointerInputResetAndProgressionRoute" methodname="PointerInputResetAndProgressionRoute" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="295340632" result="Passed" start-time="2026-10-24 05:58:12Z" end-time="2026-10-24 05:58:34Z" duration="22.451314" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+            </test-case>
+            <test-case id="1056" name="RepresentativeAdvancedLevelPresentationRoute" fullname="PixelFlow.EditorReview.PresentationReviewTests.RepresentativeAdvancedLevelPresentationRoute" methodname="RepresentativeAdvancedLevelPresentationRoute" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="685051394" result="Passed" start-time="2026-10-24 05:58:34Z" end-time="2026-10-24 05:58:48Z" duration="14.251110" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/trinh/AppData/LocalLow/Dreamy/Pixel Flow Clone\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

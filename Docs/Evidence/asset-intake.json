@@ -1,0 +1,286 @@
+{
+  "sourcePackageSha256": "ad7b8a8f7659ec86a583976e466458b69fd58f08f2667f6f17925fa570e9bad2",
+  "sourcePreserved": true,
+  "selectedLevels": 7,
+  "palette": "34 original color IDs/names; _BaseColor values from exported materials",
+  "estimated": [
+    "belt duration",
+    "shot interval",
+    "targeting tie breaks",
+    "camera and animation timing"
+  ],
+  "receipts": [
+    {
+      "source": "exports/Mesh/resources.assets/Cube.011__1296.obj",
+      "output": "Assets/_Project/PixelFlow/Art/Pig.obj",
+      "bytes": 208981,
+      "sha256": "36eadb2346c929f14228f23d8478b4841c986b23266184065809191d680110f7"
+    },
+    {
+      "source": "exports/Texture2D/resources.assets/Texture_Shooter__1049.png",
+      "output": "Assets/_Project/PixelFlow/Art/Pig.png",
+      "bytes": 6531,
+      "sha256": "1d5f88a7c9bac05341aa4040805463d9e3049650c6f93a9e30b298525a403ee8"
+    },
+    {
+      "source": "exports/Sprite/sharedassets1.assets/PixelFlow Logo__1377.png",
+      "output": "Assets/_Project/PixelFlow/Art/Logo.png",
+      "bytes": 767760,
+      "sha256": "ffb90164f7737fc1515302ac80ca4f7b80112193f199045293beca08cfb0d1f7"
+    },
+    {
+      "source": "exports/Sprite/sharedassets1.assets/Button_Green__1205.png",
+      "output": "Assets/_Project/PixelFlow/Art/PlayButton.png",
+      "bytes": 8909,
+      "sha256": "ef490afa45ee79bba74601431d3f04a10438cd94454e50666ab592b36aa294a9"
+    },
+    {
+      "source": "exports/Sprite/sharedassets1.assets/Button_Blue__843.png",
+      "output": "Assets/_Project/PixelFlow/Art/BlueButton.png",
+      "bytes": 8434,
+      "sha256": "9cc02f2cbd998f5d1032513ab1a870fd155bede6f0c8c540d7c6bc90eecf25f8"
+    },
+    {
+      "source": "exports/Sprite/resources.assets/PiggyNoOutline__2245.png",
+      "output": "Assets/_Project/PixelFlow/Art/HeroPig.png",
+      "bytes": 126108,
+      "sha256": "5a31b0946237d038bae2a4872c807a946d72e3810e250a2ed93b00fe1da86efb"
+    },
+    {
+      "source": "exports/Font/sharedassets1.assets/Roboto-Bold__659.ttf",
+      "output": "Assets/_Project/PixelFlow/Art/RobotoBold.ttf",
+      "bytes": 170760,
+      "sha256": "7d0b991ee3e0be7af01ad7ea8cd2beea6c00a25e679a0226b6737f079aafff86"
+    },
+    {
+      "source": "exports/AudioClip/resources.assets/Button_Tap_Pop__1787__0.wav",
+      "output": "Assets/_Project/PixelFlow/Audio/Tap.wav",
+      "bytes": 36908,
+      "sha256": "12ef09cf4dd96d33ca409a9565b5c675439e8bec9416ccd271c5f56dbb4facec"
+    },
+    {
+      "source": "exports/AudioClip/resources.assets/bean_hit_thock__1761__0.wav",
+      "output": "Assets/_Project/PixelFlow/Audio/Pop.wav",
+      "bytes": 30756,
+      "sha256": "9844cd965e1b0ce23c0afba37315d79ecce1698b029ac5aa73a775f7746c2f2f"
+    },
+    {
+      "source": "exports/AudioClip/resources.assets/pig2_trimmed__1806__0.wav",
+      "output": "Assets/_Project/PixelFlow/Audio/Launch.wav",
+      "bytes": 71292,
+      "sha256": "e4e6618d72d6f109c56588be75a3040311f0e51e838218be4314f26fee5922ac"
+    },
+    {
+      "source": "exports/AudioClip/sharedassets1.assets/endgame_win__619__0.wav",
+      "output": "Assets/_Project/PixelFlow/Audio/Win.wav",
+      "bytes": 700460,
+      "sha256": "96839c56007e5c0ddc5e35072b7d53855a686417cb414d9f0c6dd2acd4fd1a83"
+    },
+    {
+      "source": "exports/Material/resources.assets/Blue__15.json",
+      "sha256": "f091e30cb4cc2ce54f430ea21dcdffb0c41762ec6163aad1d78087b6550bbe48",
+      "purpose": "palette 0: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/DarkBlue__33.json",
+      "sha256": "53d8289f85375aed272c3a4732fdeccb6f2ec0934bf65e4d3255c91f3bee6cc1",
+      "purpose": "palette 1: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Black__231.json",
+      "sha256": "35a695ee066c9c9c2161b99e6cb3a9b7b85c24fffbfef5340c8ce3a457832b13",
+      "purpose": "palette 2: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Green__429.json",
+      "sha256": "2a9ddcba5c11ac68653b2676915bb0b9bdb0462a9b505e621861de6a22b6257f",
+      "purpose": "palette 3: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Orange__519.json",
+      "sha256": "3d96f3e379ae36f6565fa6bc58d183046358ddabdec56f1d77129ae5fcb14ef0",
+      "purpose": "palette 4: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Pink__537.json",
+      "sha256": "e02847e5b7b00d96f19436b09548f4030ae95e5c9e1e6f428d5c210a478ca311",
+      "purpose": "palette 5: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Purple__555.json",
+      "sha256": "6c4b79f013cddad6b1a4013cb964c9544684e41ba0deea35935ed905da0d6aa5",
+      "purpose": "palette 6: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Red__573.json",
+      "sha256": "1fa5bc725c124eb258f872f3e22fe709e12a8f14784e84da4f9c9f0dec85dfdf",
+      "purpose": "palette 7: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Turquoise__591.json",
+      "sha256": "683daa6b196b19edd097f8e3ebd53b93bb00f08b1d7bacf45acdda2af00cf9ee",
+      "purpose": "palette 8: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Yellow__609.json",
+      "sha256": "11aabf9e340756b96c1128863f328ddd3d02d9a7846e9fd13f9203e13d771105",
+      "purpose": "palette 9: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/White__51.json",
+      "sha256": "246f7eeccc39bf05c99fc986ce1be35af5c6a66bc76f3b0b2851c12a7d1adbf1",
+      "purpose": "palette 10: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Brown__69.json",
+      "sha256": "76585706dd06cdbe4ebb5a54cfabb3519fb68b72b6d963184f297780fad64daf",
+      "purpose": "palette 11: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/DarkGreen__87.json",
+      "sha256": "3bf1efeae5e0bb8ab95a9ef204f6df1964280631f1eddea2091c82d68212ba84",
+      "purpose": "palette 12: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Emerald__105.json",
+      "sha256": "34c8dc9b604fb3c56e6e84a82d8293cdbb2c95804d52f4032e872cb96b6d7545",
+      "purpose": "palette 13: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Lilac__123.json",
+      "sha256": "0a340b103827b18438fbc8afb48d231ed12eab649e914721cc45361203b9e1ad",
+      "purpose": "palette 14: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Sage__141.json",
+      "sha256": "b49bdfb5152d151f14798d76e3771b46de9f40a82e285340a52359189802c398",
+      "purpose": "palette 15: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Salmon__159.json",
+      "sha256": "80c8a9b3f03a8a9f14866b8e7f22893c4d0d4900bdde86fd929724d0b4e61bf2",
+      "purpose": "palette 16: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Lavender__177.json",
+      "sha256": "074d2cd6d8a822c8713f2572cc0425fd3a7756b0d6f1b50f2baa38dc63ea2a14",
+      "purpose": "palette 17: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Terracotta__195.json",
+      "sha256": "b0960a2c8511372fd88c3fa16252e2fe2a9007262199249848448c6d0b2597ce",
+      "purpose": "palette 18: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Parmesan__213.json",
+      "sha256": "5e6528cc30bc1e1cff5bb2cbb12509aec3dbbe182f764cb6a3f6ea2da2c26ba5",
+      "purpose": "palette 19: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Brick__249.json",
+      "sha256": "8a2d8d97b1cb2de94cfa969f70bb8bbdeee76e9ebeaf39b18d10fab4a8a22a68",
+      "purpose": "palette 20: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Gray__267.json",
+      "sha256": "cbc1dde882ccc5b6cdc8b5adb36dfb66c5da178790eb90d5a3eaec7eac4c74f8",
+      "purpose": "palette 21: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/DarkGray__285.json",
+      "sha256": "9a08679dbe3810db29c75f01042c28ecb2c2b23953fe4b5f96fd7b06f6e916dd",
+      "purpose": "palette 22: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/DarkPurple__303.json",
+      "sha256": "363a73854d37bf7742b6dceba9315d2c62120e7f3ac7697b9a5e016d72bb7618",
+      "purpose": "palette 23: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/GypsyPink__321.json",
+      "sha256": "72c9657817ee34bd7a9ac11ee8495907f4f1b0a430728e7b5eaa5f87aa572eba",
+      "purpose": "palette 24: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/PowderPink__339.json",
+      "sha256": "a50bbe8d7f175c99edde72ceb27e4b750d4c7c50279d7e804d61ec505113b682",
+      "purpose": "palette 25: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/PastelOrange__357.json",
+      "sha256": "8be08ada72829a23edf581fe44d58fdd8a3b28bb21b39917acee6e3a87611e6c",
+      "purpose": "palette 26: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Burgundy__375.json",
+      "sha256": "a4e45b793d56c77146a2742ece0deb5681a18833943f01aa6f5db7205ef01b7f",
+      "purpose": "palette 27: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Olive__393.json",
+      "sha256": "d39776c1fce2e01cbce7bf623dc527fd4efaff710a736a4daf81fcfe921443af",
+      "purpose": "palette 28: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/DustyTeal__411.json",
+      "sha256": "f472215ee93210485cea9eec560cc8ca2055278ad55bb6b78c6db55d6350b9b7",
+      "purpose": "palette 29: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/MilkyBrown__447.json",
+      "sha256": "15b20a458c1bf9d924114472add7bc7af5714e4a22cc6347ee8e3d1a4a67c353",
+      "purpose": "palette 30: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/Toffee__465.json",
+      "sha256": "9e35b18a83a22c98a4c27445adf189cef7f9015bee87859710b82906a4d62a54",
+      "purpose": "palette 31: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/NeonPurple__483.json",
+      "sha256": "970df2ba6430b7aea1394fd2442facdb1215a21488a0d99bfcd350e40b91d89e",
+      "purpose": "palette 32: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Material/resources.assets/SharkGray__501.json",
+      "sha256": "7764522a5c7a68bc78570dd7d654dcb0315c50178488b4c7b39cfe02d9eead2d",
+      "purpose": "palette 33: observed Main Pixel Materials pointer order and PixelMaterial index/name"
+    },
+    {
+      "source": "exports/Levels/3db5681ee587345ad9a3cf8400a692d1/1.json",
+      "sha256": "7ae9d24eddfcdf3b1a989a92a01eb17bb7a45db1db8d3866b465d6e75aa76814",
+      "purpose": "normalized level 1; pixels, material IDs, shooter IDs/ammo/order and capacities preserved"
+    },
+    {
+      "source": "exports/Levels/3db5681ee587345ad9a3cf8400a692d1/2.json",
+      "sha256": "62126320a211f534bc3cd7a5d2a79db4ef5eb9a7e35fd848fc035e8d6f41a5ce",
+      "purpose": "normalized level 2; pixels, material IDs, shooter IDs/ammo/order and capacities preserved"
+    },
+    {
+      "source": "exports/Levels/3db5681ee587345ad9a3cf8400a692d1/3.json",
+      "sha256": "1ef64bf0bf6422cc594f4f51d076db3e2ccb0ccada4e0549ab329397bcc55474",
+      "purpose": "normalized level 3; pixels, material IDs, shooter IDs/ammo/order and capacities preserved"
+    },
+    {
+      "source": "exports/Levels/3db5681ee587345ad9a3cf8400a692d1/4.json",
+      "sha256": "633fa0acc3f3bc8b279415a42eaef8c6ae14c9ba2ad16c496580e6081a47176c",
+      "purpose": "normalized level 4; pixels, material IDs, shooter IDs/ammo/order and capacities preserved"
+    },
+    {
+      "source": "exports/Levels/3db5681ee587345ad9a3cf8400a692d1/5.json",
+      "sha256": "74b56f9a61f6680d785f4b2d47240725021ebbc2f22a3efa765fd2e13fe55164",
+      "purpose": "normalized level 5; pixels, material IDs, shooter IDs/ammo/order and capacities preserved"
+    },
+    {
+      "source": "exports/Levels/3db5681ee587345ad9a3cf8400a692d1/6.json",
+      "sha256": "8e8a50b580d54c43c627c379e9b5e6c7b34cad7ac4e12cfb634d549259dd5b69",
+      "purpose": "normalized level 6; pixels, material IDs, shooter IDs/ammo/order and capacities preserved"
+    },
+    {
+      "source": "exports/Levels/3db5681ee587345ad9a3cf8400a692d1/7.json",
+      "sha256": "38189e782f914381de8f26e53183878e79ba1ccc47cd24712f38ca8d0ceae65b",
+      "purpose": "normalized level 7; pixels, material IDs, shooter IDs/ammo/order and capacities preserved"
+    }
+  ],
+  "campaignSha256": "4ccc8769420ced0cd3200287213f526f002759675deeee49147905d658a0481d"
+}

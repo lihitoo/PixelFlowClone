@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "targetVersion": "0.36.3",
+  "receipts": [
+    {
+      "role": "Roof",
+      "assetId": "asset-8f84d4ce4129827acbe0",
+      "source": "exports/Sprite/sharedassets1.assets/Shop_Roof__865.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Shop_Roof__865.png",
+      "sourceSha256": "6bea13f74ff9f50689ea606aca401f5df2687d7ad760268f78069bc2ecddd6dd",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Roof.png",
+      "sha256": "6bea13f74ff9f50689ea606aca401f5df2687d7ad760268f78069bc2ecddd6dd",
+      "bytes": 90708,
+      "sourceBorder": [
+        0.0,
+        125.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "ad1e744a6ad6ec240ba43a6ee840d0a0"
+    },
+    {
+      "role": "Section",
+      "assetId": "asset-026052de0f65400175b8",
+      "source": "exports/Sprite/sharedassets1.assets/Shop_Section_Title__1055.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Shop_Section_Title__1055.png",
+      "sourceSha256": "c482b1ce894b98e1bf4b33d97257ef4268ab57016083ec2fdd4c2f3a0080f02b",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Section.png",
+      "sha256": "c482b1ce894b98e1bf4b33d97257ef4268ab57016083ec2fdd4c2f3a0080f02b",
+      "bytes": 17316,
+      "sourceBorder": [
+        38.987087,
+        0.0,
+        26.963718,
+        0.0
+      ],
+      "importedGuid": "34d12981f30ac1e47939f092f265fea3"
+    },
+    {
+      "role": "GoldCard",
+      "assetId": "asset-0cf2464a91c30fbd5e2b",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Item_Card_Yellow__1426.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Item_Card_Yellow__1426.png",
+      "sourceSha256": "5d3634e7a06db48b870c6540cecd103e0e118e343b5eee08f404a6e6aea2e5a0",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/GoldCard.png",
+      "sha256": "5d3634e7a06db48b870c6540cecd103e0e118e343b5eee08f404a6e6aea2e5a0",
+      "bytes": 33007,
+      "sourceBorder": [
+        95.0,
+        188.98709,
+        95.0,
+        95.0
+      ],
+      "importedGuid": "91c06486b7abbc74088c236d3871fffc"
+    },
+    {
+      "role": "Price",
+      "assetId": "asset-86b33d3af05b3de9f04c",
+      "source": "exports/Sprite/sharedassets1.assets/Button_Green_Rounder_XS__896.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Green_Rounder_XS__896.png",
+      "sourceSha256": "300651834292acf73dd606247f16e72d0227748730ef53ecf913d45c456033a8",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Price.png",
+      "sha256": "300651834292acf73dd606247f16e72d0227748730ef53ecf913d45c456033a8",
+      "bytes": 6110,
+      "sourceBorder": [
+        44.0,
+        43.923878,
+        44.0,
+        44.000004
+      ],
+      "importedGuid": "8c7492aca32c3624ba1fde6f920d2fc9"
+    },
+    {
+      "role": "BundleBlue",
+      "assetId": "asset-fb89eb97e0cca4389bde",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Bundle_Blue__1381.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Bundle_Blue__1381.png",
+      "sourceSha256": "11b78e454f8a37573ed4ab42694d8bd161bd8d53156fafa547b393669c2530a9",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/BundleBlue.png",
+      "sha256": "11b78e454f8a37573ed4ab42694d8bd161bd8d53156fafa547b393669c2530a9",
+      "bytes": 47827,
+      "sourceBorder": [
+        80.0,
+        90.0,
+        80.0,
+        80.0
+      ],
+      "importedGuid": "3bd1e3df23fda464d90b3714923ccacb"
+    },
+    {
+      "role": "ContentBlue",
+      "assetId": "asset-163b3c3632f9a2161c7c",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Blue__836.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Blue__836.png",
+      "sourceSha256": "32728c73c31fc6569be3d04a55e7c632a4ef030eeae13ed5f4408de5a1ac85ed",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/ContentBlue.png",
+      "sha256": "32728c73c31fc6569be3d04a55e7c632a4ef030eeae13ed5f4408de5a1ac85ed",
+      "bytes": 5261,
+      "sourceBorder": [
+        55.0,
+        55.0,
+        55.0,
+        55.0
+      ],
+      "importedGuid": "26e8996777357524a8cd913a7d97de6b"
+    },
+    {
+      "role": "BundlePurple",
+      "assetId": "asset-1340be9c6b042dbec8eb",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Bundle_Purple__1088.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Bundle_Purple__1088.png",
+      "sourceSha256": "5fb8f85728e60cb42de3c4d5de7d67668f532836772bad117803793212f65760",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/BundlePurple.png",
+      "sha256": "5fb8f85728e60cb42de3c4d5de7d67668f532836772bad117803793212f65760",
+      "bytes": 51600,
+      "sourceBorder": [
+        80.0,
+        90.0,
+        80.0,
+        80.0
+      ],
+      "importedGuid": "87e59c647919b23478386fe136bea685"
+    },
+    {
+      "role": "ContentPurple",
+      "assetId": "asset-945d0e6a7da6224aca8e",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Purple__1407.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Purple__1407.png",
+      "sourceSha256": "8debeb605aa455539df0beaec90f9be4dae471e3851aeb79cd59010d8b0d6648",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/ContentPurple.png",
+      "sha256": "8debeb605aa455539df0beaec90f9be4dae471e3851aeb79cd59010d8b0d6648",
+      "bytes": 5871,
+      "sourceBorder": [
+        55.0,
+        55.0,
+        55.0,
+        55.0
+      ],
+      "importedGuid": "b6205892f32a81c41ad6edd93a7ce34e"
+    },
+    {
+      "role": "BundleYellow",
+      "assetId": "asset-705afadcb069e5c1a9fe",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Bundle_Yellow__1385.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Bundle_Yellow__1385.png",
+      "sourceSha256": "b6a7293d4d08ed67f9be2b39be4c745b11f404210ff28e833ec3d0efec54b486",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/BundleYellow.png",
+      "sha256": "b6a7293d4d08ed67f9be2b39be4c745b11f404210ff28e833ec3d0efec54b486",
+      "bytes": 52370,
+      "sourceBorder": [
+        80.0,
+        90.0,
+        80.0,
+        80.0
+      ],
+      "importedGuid": "a8edaaa45cb604444888e60b17a1f61b"
+    },
+    {
+      "role": "ContentYellow",
+      "assetId": "asset-6b841e1452781578b0db",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Yellow__1325.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Yellow__1325.png",
+      "sourceSha256": "461e6fc515c33115a6c9d454160ee5c8cc73ad9317086748482e419b81a26b19",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/ContentYellow.png",
+      "sha256": "461e6fc515c33115a6c9d454160ee5c8cc73ad9317086748482e419b81a26b19",
+      "bytes": 5265,
+      "sourceBorder": [
+        55.0,
+        55.0,
+        55.0,
+        55.0
+      ],
+      "importedGuid": "b13c08cded0846c45921ca98fd9af4b8"
+    },
+    {
+      "role": "SectionBlue",
+      "assetId": "asset-fb019be79549c37d62b4",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Section_Blue__698.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Section_Blue__698.png",
+      "sourceSha256": "7cda4960e0bc67f532ccc70a3ae668bd3ee350f546428b975f1fe667771fdfac",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/SectionBlue.png",
+      "sha256": "7cda4960e0bc67f532ccc70a3ae668bd3ee350f546428b975f1fe667771fdfac",
+      "bytes": 3666,
+      "sourceBorder": [
+        55.0,
+        55.0,
+        55.0,
+        55.0
+      ],
+      "importedGuid": "d5ecc54bb2adeca47bfaa885af8bbf27"
+    },
+    {
+      "role": "SectionPurple",
+      "assetId": "asset-0a53fe9a4171b00edecd",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Section_Purple__1332.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Section_Purple__1332.png",
+      "sourceSha256": "b0adc46fd148dd174818ec663378f9229dafb2fbb0987d58c46895a3b9eee46f",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/SectionPurple.png",
+      "sha256": "b0adc46fd148dd174818ec663378f9229dafb2fbb0987d58c46895a3b9eee46f",
+      "bytes": 3480,
+      "sourceBorder": [
+        55.0,
+        55.0,
+        55.0,
+        55.0
+      ],
+      "importedGuid": "94ec2784b88cb1344958f445a55e4651"
+    },
+    {
+      "role": "SectionYellow",
+      "assetId": "asset-d8c0021fb5a323ce1acb",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Section_Yellow__712.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Bundle_Content_Section_Yellow__712.png",
+      "sourceSha256": "e9d63f5abbd385478944e8583ea3bbbf7996bda5d55bd0edd62ea855d7d7777d",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/SectionYellow.png",
+      "sha256": "e9d63f5abbd385478944e8583ea3bbbf7996bda5d55bd0edd62ea855d7d7777d",
+      "bytes": 3693,
+      "sourceBorder": [
+        55.0,
+        55.0,
+        55.0,
+        55.0
+      ],
+      "importedGuid": "40199e3a066f4164989e9e10630204ec"
+    },
+    {
+      "role": "Popular",
+      "assetId": "asset-53372dd6790768304a50",
+      "source": "exports/Sprite/sharedassets1.assets/Label_Badge01_Green__1411.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Label_Badge01_Green__1411.png",
+      "sourceSha256": "27875cd15b1dc949dea4769ec0f6a66422cb41187a8a5f75c01f58655bdd0c9f",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Popular.png",
+      "sha256": "27875cd15b1dc949dea4769ec0f6a66422cb41187a8a5f75c01f58655bdd0c9f",
+      "bytes": 6751,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "9518b0e634d7f30409fa3309b872bb9e"
+    },
+    {
+      "role": "NoAds",
+      "assetId": "asset-303c8c24ebd28f1f238a",
+      "source": "exports/Sprite/sharedassets1.assets/Icon_NoAds__1409.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_NoAds__1409.png",
+      "sourceSha256": "86f5eb73121b35f07a10e43a470184e6805fbf416f08508717d5c5c2c18b2313",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/NoAds.png",
+      "sha256": "86f5eb73121b35f07a10e43a470184e6805fbf416f08508717d5c5c2c18b2313",
+      "bytes": 36004,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "b44dac32ec76bba458cb0ef44a2b323a"
+    },
+    {
+      "role": "Tray",
+      "assetId": "asset-c4e5dc757c0b3f6c63a6",
+      "source": "exports/Sprite/resources.assets/IconPowerup_ExtraSlot_Colored__1967.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/IconPowerup_ExtraSlot_Colored__1967.png",
+      "sourceSha256": "3a9787fd3df65462cea8fa2d7ffbbbcf595649cc4f884d5ed4bf436e78b49baf",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Tray.png",
+      "sha256": "3a9787fd3df65462cea8fa2d7ffbbbcf595649cc4f884d5ed4bf436e78b49baf",
+      "bytes": 26927,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "aa53bc77460a3544abe31bd2899e7a14"
+    },
+    {
+      "role": "Hand",
+      "assetId": "asset-33c30d488ac83236f5c8",
+      "source": "exports/Sprite/resources.assets/IconPowerup_Hand_Colored__1954.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/IconPowerup_Hand_Colored__1954.png",
+      "sourceSha256": "6991ed0f7fb88b270012092fcfb39775f2b01e0d428e8b4eadb4c76426c29a67",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Hand.png",
+      "sha256": "6991ed0f7fb88b270012092fcfb39775f2b01e0d428e8b4eadb4c76426c29a67",
+      "bytes": 21349,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "306b8c38a774634428d16aec4b80f85b"
+    },
+    {
+      "role": "Shuffle",
+      "assetId": "asset-0ac224c43e3efeefa577",
+      "source": "exports/Sprite/resources.assets/IconPowerup_Shuffle_Colored__2234.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/IconPowerup_Shuffle_Colored__2234.png",
+      "sourceSha256": "86f895eedaf694c22aa2d4e82156c0f3f916898558dca8b536d78ed5518bf55e",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Shuffle.png",
+      "sha256": "86f895eedaf694c22aa2d4e82156c0f3f916898558dca8b536d78ed5518bf55e",
+      "bytes": 16406,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "7f53bc82a0843064fac5773f06bed878"
+    },
+    {
+      "role": "Super",
+      "assetId": "asset-99d68f8bf18222e50294",
+      "source": "exports/Sprite/resources.assets/IconPowerup_SuperShooter_Colored__2024.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/IconPowerup_SuperShooter_Colored__2024.png",
+      "sourceSha256": "e0f2efec67b191e82a3d63d36eb0c3deed5650982a2d74c9a264753e82518d94",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Super.png",
+      "sha256": "e0f2efec67b191e82a3d63d36eb0c3deed5650982a2d74c9a264753e82518d94",
+      "bytes": 39676,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "344252ed6842c02499e92c72501cf541"
+    },
+    {
+      "role": "Gold0",
+      "assetId": "asset-116b9dacfe50259a8fc5",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_0_1x__1236.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_0_1x__1236.png",
+      "sourceSha256": "a9031d81d8f5ed093e0ffb994a12fc830ba683a7ff38638c864884adbaab43d4",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold0.png",
+      "sha256": "a9031d81d8f5ed093e0ffb994a12fc830ba683a7ff38638c864884adbaab43d4",
+      "bytes": 9617,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "3b4eb0fc0f6f94a428c0103024a4e577"
+    },
+    {
+      "role": "Gold1",
+      "assetId": "asset-71b484e2b9b2d689df46",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_1_1x__1330.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_1_1x__1330.png",
+      "sourceSha256": "24f986560aac1a0899cd8fef9efd01d6f1eb0f92b8016e99a475886f9ae63cbb",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold1.png",
+      "sha256": "24f986560aac1a0899cd8fef9efd01d6f1eb0f92b8016e99a475886f9ae63cbb",
+      "bytes": 15651,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "7649051c151354640a482167f7d29595"
+    },
+    {
+      "role": "Gold2",
+      "assetId": "asset-52560ae6f8258643a64a",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_2_1x__1000.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_2_1x__1000.png",
+      "sourceSha256": "c190f777d3c34264e0673a3aede7a53206c34149af58198f8f3c56470791d9f6",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold2.png",
+      "sha256": "c190f777d3c34264e0673a3aede7a53206c34149af58198f8f3c56470791d9f6",
+      "bytes": 20928,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "67eb71e833793234996d2490d38801f3"
+    },
+    {
+      "role": "Gold3",
+      "assetId": "asset-5b39198da6ce71cce7a4",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_3_1x__1413.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_3_1x__1413.png",
+      "sourceSha256": "26572280f0aa82e4b492cb5a3bf5e32029171fd2d358fc476f2058a73b2bfdad",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold3.png",
+      "sha256": "26572280f0aa82e4b492cb5a3bf5e32029171fd2d358fc476f2058a73b2bfdad",
+      "bytes": 27629,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "fcf30577e309b8047a474ac87d06b180"
+    },
+    {
+      "role": "Gold4",
+      "assetId": "asset-bf1b34c03b2a3e4adfd3",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_4_1x__1202.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_4_1x__1202.png",
+      "sourceSha256": "367d015d3986b68103c5ee6761c02fb0e874d018940408ce66fbb09446cc5a84",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold4.png",
+      "sha256": "367d015d3986b68103c5ee6761c02fb0e874d018940408ce66fbb09446cc5a84",
+      "bytes": 29374,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "704bfac6692d0974eb5c159cf44eaa59"
+    },
+    {
+      "role": "Gold5",
+      "assetId": "asset-895af2b9273be452bfda",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_5_1x__708.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_5_1x__708.png",
+      "sourceSha256": "0ae1b7c6c97d2b13a5fd27b0c2faa9428ae34b37bc9a990020d89c28f9be0d57",
+      "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold5.png",
+      "sha256": "0ae1b7c6c97d2b13a5fd27b0c2faa9428ae34b37bc9a990020d89c28f9be0d57",
+      "bytes": 29987,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "6f7114cad3a85f24c87cce68162e14bc"
+    }
+  ]
+}

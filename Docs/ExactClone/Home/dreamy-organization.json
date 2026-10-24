@@ -1,0 +1,112 @@
+[
+  {
+    "name": "com.dreamy.core",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.core",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.datasave",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.datasave",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.assets",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.assets",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.ui",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.ui",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "dreamy-template-project",
+    "url": "https://github.com/Dreamy-Game-Foundation/dreamy-template-project",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.dataconfig",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.dataconfig",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.editor-tools",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.editor-tools",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.localization",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.localization",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.audio",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.audio",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.feedback",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feedback",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "dreamy-codex-toolkit",
+    "url": "https://github.com/Dreamy-Game-Foundation/dreamy-codex-toolkit",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "dreamy-package-sandbox",
+    "url": "https://github.com/Dreamy-Game-Foundation/dreamy-package-sandbox",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.feature",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.feature.economy",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.economy",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.feature.daily-reward",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.daily-reward",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.feature.shop",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.shop",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.feature.settings",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.settings",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.feature.progression",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.progression",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.feature.missions",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.missions",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.feature.tutorial",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.tutorial",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.feature.lucky-wheel",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.feature.lucky-wheel",
+    "defaultBranch": "main"
+  },
+  {
+    "name": "com.dreamy.connectivity",
+    "url": "https://github.com/Dreamy-Game-Foundation/com.dreamy.connectivity",
+    "defaultBranch": "main"
+  }
+]

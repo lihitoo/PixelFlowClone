@@ -1,0 +1,25 @@
+# Đối chiếu hành vi Pixel Flow
+
+Source IDs nằm trong [refs/manifest.json](refs/manifest.json). `observed-data` xác nhận dữ liệu, `observed-description` xác nhận mô tả; cả hai không thay cho video chạy game gốc. Thông số implementation là baseline của clone, không phải số đo original. Ma trận này được bổ sung sau triển khai, chưa có owner acceptance.
+
+Implementation đã mở rộng theo yêu cầu full gameplay/UI: catalog2.600 màn,12 nhóm shooter,24 board kinds và toàn bộ luồng offline trong [FULL_FLOW_MATRIX.md](FULL_FLOW_MATRIX.md). Bảng B01–B13 dưới đây giữ các unknown/measurement của checkpoint cũ; các câu “chỉ1–7/chưa triển khai” không còn là trạng thái code hiện tại. CURRENT_STATE và FULL_FLOW_MATRIX giữ bằng chứng mới. Chưa có bằng chứng native mới để tự nâng estimated thành measured.
+
+| ID / liên quan | Nguồn và điều biết được | Giữ lại / implementation hiện tại | Unknown hoặc quyết định agent | Kiểm tra tiếp theo |
+|---|---|---|---|---|
+| B01 / C01,C14 | R02 mô tả tap-play; R04 chỉ là art marketing | Home/Play, 7 level chips, board view | Home/level chips agent-designed; luồng frontend gốc unknown | Capture Home gốc và Home clone với save mới/cũ; map button→state |
+| B02 / C02 | R01 queue có shooter/ammo/color; R02 nói chọn đầu hàng | Queue-front hoặc waiting được launch; giữ capacity, không tiêu đạn khi từ chối | Click cooldown, hitbox, animation vào belt gốc unknown | Hai click cùng heo, click heo sau, belt-full, modal-open qua input thật |
+| B03 / C03 | R01 bảng pixel/material; R02 mô tả bắn cùng màu | Cardinal ray lấy pixel biên đầu tiên; chỉ match mới trừ 1 đạn/ô | Occlusion ray, khoảng bắn và tie-break là giả thuyết implementation, chưa chứng minh từ original | Cùng board/cùng launch order, clip frame-indexed của gốc; so thứ tự hit |
+| B04 / C11 | R03,R04 thấy belt quanh bảng | Belt rectangle, di chuyển tự động; LoopSeconds=8.8 | 8.8 giây là estimated; turn easing/entrance spacing/direction gốc chưa đo | Đo ≥3 vòng của cùng heo bằng timestamps, nêu speed-up/state nếu có |
+| B05 / C03,C11 | R02 mô tả ammo/hits, R01 số đạn | ShotInterval hiện 0.045s; projectile và pixel-shrink là presentation | Cadence, miss behavior, flight delay và đồng bộ âm gốc unknown | Capture 10 hit liên tiếp, tính interval và thời điểm ammo/pixel/SFX thay đổi |
+| B06 / C04 | R01 SlotCount=5 ở tập1–7; R02/R03 mô tả quay về/khu chờ | Hết vòng còn đạn về slot trống; tap waiting để tái phóng | Thứ tự slot, chờ ở entrance, ưu tiên return/launch và grace period gốc unknown | Cố ý giữ nhiều heo còn đạn, theo dõi fifth-slot và next-return |
+| B07 / C04 | Chưa có clip thua gốc trong bộ evidence | Thua khi return không còn slot, hoặc hết đạn còn pixel | Đây là luật hiện tại, không được suy ra 'đầy slot là thua ngay'; timing gốc unknown | Ghi clip lose, thao tác gây lose, countdown nếu có và retry state |
+| B08 / C03,C05 | R01 7 level normalized từ nguồn, 2.560 pixel; palette34 ID | Xóa pixel cuối → Won; queue/ammo giữ source data | Trigger result, celebration duration/reward gốc unknown | So cùng level cuối, kiểm tra đúng 1 completion và không bắn sau Won |
+| B09 / C06 | Pause có ở clone; chưa có anchor source runtime trong bộ này | Pause chặn update; Resume/Restart/Home; sound toggle | Cấu trúc modal và pause semantics gốc chưa biết | Test paused pointer event xuyên UI; so clip gốc nếu cần exact match |
+| B10 / C07 | Mô tả game có progression; chi tiết save gốc không được trích thành spec | Save completed/unlock/sound; test scope tách save người dùng | Schema của clone là quyết định riêng; không cần tương thích save gốc | Fresh/old save round-trip, repeated win, retry không mất progress |
+| B11 / C08,C09 | R03,R04 anchor hình ảnh; R01 pig/texture/palette assets | Mesh heo gốc, board bevel/belt procedural, camera clone | Camera/layout/scale/lighting chưa đo; source pig-facing mới sửa chưa review | Capture current Editor; tách layout from marketing art; so crop có cùng state |
+| B12 / C10,C11 | R01 có SFX; không chứng minh chúng trigger cùng cách trong original | Tap, Launch, Pop, Win; pool âm; sound preference | Audio mix/pitch/polyphony/haptics gốc unknown; chưa nghe runtime | Nghe tap/10 hits/win và mute/unmute; xác nhận không burst clipping |
+| B13 / C13 | Đã kiểm kê 3.117 definition, 2.600 thuộc campaign chính; 12 nhóm feature có list khác rỗng, xem FEATURE_MAP | Chỉ 1–7 đang được hỗ trợ; Surprise từ8 và Connected từ14 chưa triển khai | Inventory xác nhận field, chưa xác nhận semantics hay scope được duyệt | Pilot Surprise level 8 rồi Connected level 14 sau khi có contract; không bỏ field để nhập hàng loạt |
+
+## Cách cập nhật
+
+Mỗi phép đo mới ghi target version/hash, level, save/state, input order, resolution, clip/capture path, timestamps, kết quả và độ tin cậy. Chỉ đổi estimated → measured khi có bằng chứng tái kiểm tra được. Clip/marketing khác level không dùng để kết luận targeting sai hoặc timing đúng. Nếu không có môi trường chạy original, giữ unknown và tiếp tục sửa các lỗi clone có thể kiểm chứng độc lập; không tự cài emulator/REA hoặc tải game khác.

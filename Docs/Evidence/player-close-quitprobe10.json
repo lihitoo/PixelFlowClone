@@ -1,0 +1,6 @@
+﻿{
+    "status":  "pass",
+    "exitCode":  0,
+    "timedOut":  false,
+    "scope":  "Visible normal Home launch, then WM_CLOSE; no development smoke, injected pointer or gameplay shortcut."
+}

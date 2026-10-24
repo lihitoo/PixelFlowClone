@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c1619d9133d274e96bce131578e8cb, type: 3}
+  m_Name: PixelFlowAudioCues
+  m_EditorClassIdentifier: PixelFlow.Runtime::PixelFlow.PixelFlowAudioCues
+  Profile: {fileID: 11400000, guid: 413a877e934f3d7418996cf30615b4c8, type: 2}
+  MenuMusic: {fileID: 11400000, guid: 67b79a12c7642bc45a9bc2c7a44f5343, type: 2}
+  GameMusic: {fileID: 11400000, guid: 8257d05df14cd8849be719e954b2d64e, type: 2}
+  Sounds:
+  - Source: {fileID: 8300000, guid: 177511c720a65314bb180ae844a87894, type: 3}
+    GainHint: 0.55
+    File: {fileID: 11400000, guid: 9b07cc4d91d96104d8c5ea2af5c2d1f4, type: 2}
+  - Source: {fileID: 8300000, guid: c287c4770455b884aaf21de5ab9e8d5e, type: 3}
+    GainHint: 0.5
+    File: {fileID: 11400000, guid: c3fbeedd191a1334f97c7f6540053240, type: 2}
+  - Source: {fileID: 8300000, guid: c287c4770455b884aaf21de5ab9e8d5e, type: 3}
+    GainHint: 0.55
+    File: {fileID: 11400000, guid: 80887e59659c2ff4c9aef009c93f3c0e, type: 2}
+  - Source: {fileID: 8300000, guid: 864be0b1dac54d3449d27af938c678c3, type: 3}
+    GainHint: 0.35
+    File: {fileID: 11400000, guid: 732761c3adc9d2f4284779e3b492b069, type: 2}
+  - Source: {fileID: 8300000, guid: f2a5c94fd4decce4bbb5f3c0d8ed5d51, type: 3}
+    GainHint: 0.65
+    File: {fileID: 11400000, guid: 9da46c53be59e65478cea8acfd826e1b, type: 2}
+  - Source: {fileID: 8300000, guid: d4dd35f5331105643aa45424e8ca3ece, type: 3}
+    GainHint: 0.35
+    File: {fileID: 11400000, guid: d9c81adba17bbef44af41682c9425a18, type: 2}

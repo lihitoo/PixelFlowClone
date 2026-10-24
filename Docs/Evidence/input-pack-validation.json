@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-24T04:02:25.330773+00:00",
+  "scope": "Current input/spec and review documentation structure, JSON and local links only. No new Unity execution, media fidelity or owner-acceptance claim.",
+  "status": "pass",
+  "documents": 12,
+  "localLinksChecked": 40,
+  "referenceRoles": 10,
+  "assetRoles": 14,
+  "acceptanceCriteria": 16,
+  "behaviorRows": 13,
+  "playerBuildsRun": 0,
+  "errors": [],
+  "documentHashes": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "230799bf161dbb4605e7a59321339b85dc8a6ae2314f481be04d7d96acf7435a"
+    },
+    {
+      "path": "Docs/PROJECT_BRIEF.md",
+      "sha256": "b96e5fe2d367764378adebfcbd8b9210431c4fbff598fda274cfa589a8a903bc"
+    },
+    {
+      "path": "Docs/CURRENT_STATE.md",
+      "sha256": "9c85dbb90929eb10350941b4126e7653c515690f2860e6c75b78f0ffc0b80616"
+    },
+    {
+      "path": "Docs/TASK.md",
+      "sha256": "d9007131c9211b0d972200614b3ec346bc221ce7ccbfe35505294bb84d199020"
+    },
+    {
+      "path": "Docs/BEHAVIOR_MATRIX.md",
+      "sha256": "5b4279f3785fd01b4181d9f186e601075489106f4ca4e0935f2bd8cb15d6edda"
+    },
+    {
+      "path": "Docs/STYLE_BIBLE.md",
+      "sha256": "ef655f8edb93ea638fdfda5afeae48e6e596aee569e162aa59ece6520d0a1412"
+    },
+    {
+      "path": "Docs/TODO.md",
+      "sha256": "34fe7b59ce1343b5b17bc0683bde5862ac1a23290d173a35184548051f5a8631"
+    },
+    {
+      "path": "Docs/KICKOFF.md",
+      "sha256": "b2a751e23ad390e6a7be831c6aafaec7305e0d4fcaf104739b8632ede6c3a678"
+    },
+    {
+      "path": "Docs/WORKFLOW_AUDIT.vi.md",
+      "sha256": "325f66538987ed1c74022cfdab82c44a4e06fe90019fbca63b202ac3dbe060e1"
+    },
+    {
+      "path": "Docs/FEATURE_MAP.vi.md",
+      "sha256": "e1b5fb4f5cda71b099408b460bdbe04f29c38636030f0fe3896096c7fba09b33"
+    },
+    {
+      "path": "Docs/RUN_CLONE.vi.md",
+      "sha256": "ae25072ef785fdf8ef97e20c82cc40600a2c286c45684b56e452b54435778d6f"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/REVIEW.vi.md",
+      "sha256": "7359b554673ef05cf31743d3880503b1dd2a7614ec3ef94e8778ced45bcdddd0"
+    },
+    {
+      "path": "Docs/refs/manifest.json",
+      "sha256": "24851480023ba48fc15c693156a181ad605ed0dbafd64933d17da47760f86f9d"
+    },
+    {
+      "path": "Docs/refs/asset-roles.json",
+      "sha256": "6335c2445a0d64a892568bd60d22e048255c03ecc1f0d1dcb6fb706f4f8721b5"
+    }
+  ]
+}

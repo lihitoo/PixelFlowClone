@@ -1,0 +1,21 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Retrieved active scene information.\",\"data\":{\"name\":\"PixelFlow\",\"path\":\"Assets/_Project/PixelFlow/Scenes/PixelFlow.unity\",\"buildIndex\":0,\"isDirty\":false,\"isLoaded\":true,\"rootCount\":3}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Retrieved active scene information.",
+    "data": {
+      "name": "PixelFlow",
+      "path": "Assets/_Project/PixelFlow/Scenes/PixelFlow.unity",
+      "buildIndex": 0,
+      "isDirty": false,
+      "isLoaded": true,
+      "rootCount": 3
+    }
+  },
+  "isError": false
+}

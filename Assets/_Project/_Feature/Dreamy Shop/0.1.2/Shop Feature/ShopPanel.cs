@@ -1,0 +1,165 @@
+using System;
+using Cysharp.Threading.Tasks;
+using System.Collections.Generic;
+using Dreamy.Shop;
+using Dreamy.Economy.UI;
+using Dreamy.Feedback;
+using Dreamy.UI;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.U2D;
+
+namespace Dreamy.Feature.Shop.Integration
+{
+    public sealed partial class ShopPanel : UIPanel, IShopView
+    {
+        [SerializeField] private Button closeButton;
+        [SerializeField] private TMP_Text statusText;
+        [SerializeField] private Transform offerContainer;
+        [SerializeField] private ShopOfferItem offerItemPrefab;
+        [SerializeField] private SpriteAtlas iconAtlas;
+        [SerializeField] private Sprite fallbackIcon;
+        [Header("Confirmed purchase feedback")]
+        [SerializeField] private ResourceUIHolder[] rewardHolders = Array.Empty<ResourceUIHolder>();
+        [SerializeField] private FeedbackPlayer rewardFeedback;
+        private Transform rewardSource;
+        private int presentationVersion;
+        private readonly List<ShopOfferItem> items = new();
+        // GetSprite creates clones. This panel owns and destroys them.
+        private readonly Dictionary<string, Sprite> icons = new(StringComparer.Ordinal);
+
+        public override bool CanBack => true;
+        public event Action<string> PurchaseRequested;
+        public event Action CloseRequested;
+        public event Action Destroyed;
+
+        public void BindFeedbackHost(FeedbackHost host)
+        {
+            if (rewardFeedback != null && host != null) rewardFeedback.BindHost(host);
+        }
+
+        public async UniTask PresentPurchaseAsync(ShopPurchaseResult result)
+        {
+            if (!result.IsSuccess || result.Offer == null) return;
+            if (result.Offer.PurchaseKind == ShopPurchaseKind.VirtualCurrency)
+                foreach (var holder in rewardHolders)
+                    if (holder != null && holder.ResourceId == result.Offer.Cost.ResourceId)
+                        holder.RefreshBalance();
+            if (rewardFeedback == null) return;
+            int version = presentationVersion;
+            statusText?.SetText("Collecting reward...");
+            foreach (var reward in result.Offer.Rewards)
+            {
+                foreach (var holder in rewardHolders)
+                {
+                    if (holder == null || holder.ResourceId != reward.Resource.ResourceId) continue;
+                    var handle = rewardFeedback.PlayBetween(rewardSource, holder.IconTarget, reward.Resource.Amount, holder.Icon);
+                    await handle.WaitAsync();
+                    if (version != presentationVersion || !isActiveAndEnabled || handle.Status == FeedbackStatus.Stopped) return;
+                    holder.RefreshBalance();
+                }
+            }
+        }
+
+        private void OnEnable()
+        {
+            closeButton.onClick.AddListener(RequestClose);
+            if (offers.Length > 0) BindFeedEvents();
+        }
+        protected override void OnDisable()
+        {
+            closeButton.onClick.RemoveListener(RequestClose);
+            UnbindFeedEvents();
+            presentationVersion++;
+            base.OnDisable();
+            rewardFeedback?.StopLast();
+        }
+
+        public void Render(ShopViewState state)
+        {
+            if (offers.Length > 0) { RenderFeed(state); return; }
+            EnsureItems(state.Offers.Count);
+            for (int index = 0; index < items.Count; index++)
+            {
+                items[index].gameObject.SetActive(index < state.Offers.Count);
+                if (index >= state.Offers.Count) continue;
+                items[index].Render(state.Offers[index]);
+                items[index].SetIcon(ResolveIcon(state.Offers[index].Offer.IconKey));
+            }
+        }
+
+        public void ShowPurchaseResult(ShopPurchaseResult result)
+        {
+            if (offers.Length > 0) ShowFeedResult(result);
+            else statusText.text = result.IsSuccess ? "Purchase complete" : result.Status.ToString();
+        }
+
+        public void SetPurchaseInteractable(bool interactable)
+        {
+            if (offers.Length > 0) { SetFeedInteractable(interactable); return; }
+            if (interactable)
+                foreach (var holder in rewardHolders)
+                    if (holder != null) holder.RefreshBalance();
+            foreach (ShopOfferItem item in items)
+            {
+                item.SetPurchaseInteractable(interactable);
+            }
+        }
+
+        public void Close() => Hide().Forget();
+
+        protected override void OnDestroy()
+        {
+            foreach (ShopOfferItem item in items)
+            {
+                if (item == null) continue;
+                item.SetIcon(null);
+                Destroy(item.gameObject);
+            }
+            foreach (Sprite sprite in icons.Values) if (sprite != null) Destroy(sprite);
+            icons.Clear();
+            Destroyed?.Invoke();
+            base.OnDestroy();
+        }
+
+        private void EnsureItems(int count)
+        {
+            if (offerItemPrefab == null || offerContainer == null) throw new InvalidOperationException("Assign an offer item prefab and container.");
+            bool addedItems = false;
+            while (items.Count < count)
+            {
+                ShopOfferItem item = Instantiate(offerItemPrefab, offerContainer);
+                item.EnsureTweenDelaySlot();
+                item.PurchaseRequested += RequestPurchase;
+                items.Add(item);
+                addedItems = true;
+            }
+
+            if (addedItems)
+            {
+                GetComponentInChildren<TweenDelayControl>(true)?.ApplyStaggerDelays();
+            }
+        }
+
+        private void RequestPurchase(string offerId)
+        {
+            rewardSource = feedRewardSource ?? items.Find(item => item.OfferId == offerId)?.RewardSource;
+            PurchaseRequested?.Invoke(offerId);
+        }
+        private void RequestClose() => CloseRequested?.Invoke();
+
+        private Sprite ResolveIcon(string key)
+        {
+            if (iconAtlas == null || string.IsNullOrWhiteSpace(key)) return fallbackIcon;
+            if (!icons.TryGetValue(key, out Sprite sprite))
+            {
+                sprite = iconAtlas.GetSprite(key);
+                icons.Add(key, sprite);
+                if (sprite == null)
+                    Debug.LogWarning($"Shop icon '{key}' was not found in atlas '{iconAtlas.name}'.", this);
+            }
+            return sprite != null ? sprite : fallbackIcon;
+        }
+    }
+}

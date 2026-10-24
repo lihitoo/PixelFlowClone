@@ -1,0 +1,6 @@
+{
+  "name": "PixelFlow.Editor",
+  "rootNamespace": "PixelFlow.Editor",
+  "references": ["PixelFlow.Runtime", "PixelFlow.Rules", "Dreamy.Template.Runtime", "Dreamy.Core.Runtime", "Dreamy.DataConfig.Runtime", "Dreamy.Datasave.Runtime", "Dreamy.Shop.Runtime", "Dreamy.Feature.Shop.Integration.Runtime", "Dreamy.Economy.Runtime", "Dreamy.Economy.UI.Runtime", "Dreamy.Audio.Runtime", "Dreamy.Feedback.Runtime", "Dreamy.Feedback.Contracts", "Dreamy.UI.Runtime", "Unity.Newtonsoft.Json", "UnityEngine.UI", "Unity.InputSystem", "Unity.TextMeshPro", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Runtime", "Unity.Addressables.Editor", "Unity.Addressables", "Unity.ResourceManager"],
+  "includePlatforms": ["Editor"]
+}

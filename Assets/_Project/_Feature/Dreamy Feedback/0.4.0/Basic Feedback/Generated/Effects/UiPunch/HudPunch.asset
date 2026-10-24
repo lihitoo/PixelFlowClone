@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65a2f9bd0417ddb4b9141508313d41fa, type: 3}
+  m_Name: HudPunch
+  m_EditorClassIdentifier: Dreamy.Feedback.Contracts::Dreamy.Feedback.UiPunchFeedbackAsset
+  id: effect.hud-punch
+  settings:
+    Duration: 0.35
+    Strength: 0.2
+    Vibrato: 3
+    UnscaledTime: 1

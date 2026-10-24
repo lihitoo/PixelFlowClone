@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "role": "Prepared visual gap comparison; not visual pass.",
+  "pairs": [
+    {
+      "id": "compare-home",
+      "screen": "HOME01",
+      "original": "Docs/ExactClone/Research/images/ui-triptych.jpg",
+      "clone": "Docs/Evidence/editor-review/review-20261024-131418/home-720x1280.png",
+      "finding": "Source: vertical level path, lives/coin header and bottom tabs. Clone: logo/Hero and menu grid. Large composition/flow mismatch; replace shell with source assets.",
+      "limit": "Original is a montage with different progression and unspecified version; composition-only comparison.",
+      "originalSha256": "7eebdeb5a9cd0cc31e2282e864fed2cc869449c62022aa1e6fbd30374d58be49",
+      "cloneSha256": "8aeb3fd389a1154247ea2c4fea6224f532e11192cfc7db685df41dbaa068892e"
+    },
+    {
+      "id": "compare-shop",
+      "screen": "SHOP01",
+      "original": "Docs/ExactClone/Research/images/shop-analysis-01.png",
+      "clone": "Docs/Evidence/editor-review/review-20261024-131418/shop-720x1280.png",
+      "finding": "Source: scrollable priced coin packs/No Ads/bundles. Clone: four coin-for-booster rows. Different products, navigation, layout and purchase flow.",
+      "limit": "Source prices are screenshot locale/time examples, not configured production catalog.",
+      "originalSha256": "2b43ef5432458f4c9a27310e4fde0da68025c0de4f07efca7e8f52f72089bb23",
+      "cloneSha256": "2826b86a99987422e85b07504814859221765651cc30a17f504777cb9e288cc2"
+    },
+    {
+      "id": "compare-game",
+      "screen": "PLAY01",
+      "original": "Docs/ExactClone/Research/images/event-backend-02.jpg",
+      "clone": "Docs/Evidence/editor-review/review-20261024-131418/level-1-720x1280.png",
+      "finding": "Source rounded narrow conveyor, compact gear/level/coins, waiting and booster composition. Clone has square treads, added counters/progress and different scaling.",
+      "limit": "Different puzzle and progression. Inspect layout/art roles; no target/hit-order or raw pixel comparison.",
+      "originalSha256": "d2f2798b77e37efd6123b21584ce88342bdf18c2deaa9748048bee6e4339ad9f",
+      "cloneSha256": "b790851bc26c0b0291c3bc3a2546c458000edba7b8f0763bc9e14e5fd19580a2"
+    },
+    {
+      "id": "compare-load",
+      "screen": "SYS02",
+      "original": "Docs/ExactClone/Research/video-frames-480/survey-030.png",
+      "clone": null,
+      "finding": "Source loading splash is visible in public video; current clone has no corresponding loading screen capture or implementation.",
+      "limit": "Landscape video, source version unspecified; target0.36.3 Boot YAML corroborates loading/splash structure.",
+      "originalSha256": "48adc7d270733c15244535a4ccf633d9cc5d5454128652b90c491d1752380459"
+    },
+    {
+      "id": "compare-fail",
+      "screen": "LOSE01",
+      "original": "Docs/ExactClone/Research/images/ui-triptych.jpg",
+      "clone": "Docs/Evidence/editor-review/review-20261024-131418/loss-720x1280.png",
+      "finding": "Source Out of Space has board preview, coin action and fail offer. Clone generic retry/100-coin revive differs in presentation and rule.",
+      "limit": "Failure triggers/progression differ; source900 price is state-specific.",
+      "originalSha256": "7eebdeb5a9cd0cc31e2282e864fed2cc869449c62022aa1e6fbd30374d58be49",
+      "cloneSha256": "5b20e0ffde4518371547c969232a085eedb3e50b61c3e58a276504e941ebfcb6"
+    },
+    {
+      "id": "compare-settings",
+      "screen": "SET01",
+      "original": null,
+      "clone": "Docs/Evidence/editor-review/review-20261024-131418/settings-720x1280.png",
+      "finding": "Original prefab explicitly has separate Sound/Music sliders and many ancillary controls. Clone switches/master volume do not match. Native screenshot remains missing.",
+      "limit": "Serialized controls establish structure; not a rendered source screenshot.",
+      "cloneSha256": "6356fa13c8b68ad8c63ba16cbeb0bcfd79efb9e52b89d87656622bf5fc6c60d5"
+    },
+    {
+      "id": "compare-events",
+      "screen": "EVT02",
+      "original": "Docs/ExactClone/Research/images/event-backend-03.webp",
+      "clone": null,
+      "finding": "Published Fire Quest/Arena UI exists. Clone has neither event screen; requires complete event/claim/service flows.",
+      "limit": "Vendor image has two event panels, not monthly leaderboard proof.",
+      "originalSha256": "c671b78ba5350f3983cf692d8082087de79f54f6d354d7316e1e59e6f54b5128"
+    },
+    {
+      "id": "compare-rank",
+      "screen": "RANK01",
+      "original": null,
+      "clone": null,
+      "finding": "Source leaderboard prefab has podium, entries, loading/error/retry. Clone lacks rank; exact rendered monthly-state screenshots still needed.",
+      "limit": "Do not relabel Arena image as monthly ranking."
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "catalogId": "main-shop",
+  "offers": [
+    {
+      "id": "gem-to-coin-exchange",
+      "titleKey": "shop.gem-to-coin-exchange",
+      "iconKey": "Gold_0",
+      "purchaseKind": "VirtualCurrency",
+      "costResourceId": "currency.gem",
+      "costAmount": 15,
+      "rewards": [
+        {
+          "resourceId": "currency.coin",
+          "amount": 1000
+        }
+      ],
+      "rewardText": "1,000 Gold"
+    },
+    {
+      "id": "gold-pouch",
+      "titleKey": "shop.gold-pouch",
+      "iconKey": "Gold_1",
+      "purchaseKind": "VirtualCurrency",
+      "costResourceId": "currency.gem",
+      "costAmount": 40,
+      "rewards": [
+        {
+          "resourceId": "currency.coin",
+          "amount": 2500
+        }
+      ],
+      "rewardText": "2,500 Gold"
+    },
+    {
+      "id": "gold-sack",
+      "titleKey": "shop.gold-sack",
+      "iconKey": "Gold_2",
+      "purchaseKind": "VirtualCurrency",
+      "costResourceId": "currency.gem",
+      "costAmount": 100,
+      "rewards": [
+        {
+          "resourceId": "currency.coin",
+          "amount": 6000
+        }
+      ],
+      "rewardText": "6,000 Gold"
+    },
+    {
+      "id": "gold-chest",
+      "titleKey": "shop.gold-chest",
+      "iconKey": "Gold_3",
+      "purchaseKind": "VirtualCurrency",
+      "costResourceId": "currency.gem",
+      "costAmount": 300,
+      "rewards": [
+        {
+          "resourceId": "currency.coin",
+          "amount": 18000
+        }
+      ],
+      "rewardText": "18,000 Gold"
+    },
+    {
+      "id": "gold-vault",
+      "titleKey": "shop.gold-vault",
+      "iconKey": "Gold_4",
+      "purchaseKind": "VirtualCurrency",
+      "costResourceId": "currency.gem",
+      "costAmount": 750,
+      "rewards": [
+        {
+          "resourceId": "currency.coin",
+          "amount": 45000
+        }
+      ],
+      "rewardText": "45,000 Gold"
+    },
+    {
+      "id": "gold-box",
+      "titleKey": "shop.gold-box",
+      "iconKey": "Gold_5",
+      "purchaseKind": "VirtualCurrency",
+      "costResourceId": "currency.gem",
+      "costAmount": 1350,
+      "rewards": [
+        {
+          "resourceId": "currency.coin",
+          "amount": 80000
+        }
+      ],
+      "rewardText": "80,000 Gold"
+    },
+    {
+      "id": "coin-to-gem-exchange",
+      "titleKey": "shop.coin-to-gem-exchange",
+      "iconKey": "Gem_0",
+      "purchaseKind": "VirtualCurrency",
+      "costResourceId": "currency.coin",
+      "costAmount": 1000,
+      "rewards": [
+        {
+          "resourceId": "currency.gem",
+          "amount": 10
+        }
+      ],
+      "rewardText": "10 Gems"
+    },
+    {
+      "id": "iap-gem-pack-small",
+      "titleKey": "shop.iap-gem-pack-small",
+      "iconKey": "Gem_0",
+      "purchaseKind": "Iap",
+      "storeProductId": "com.dreamy.sample.gem_pack_small",
+      "displayPrice": "$0.99",
+      "rewards": [
+        {
+          "resourceId": "currency.gem",
+          "amount": 20
+        }
+      ],
+      "rewardText": "20 Gems"
+    },
+    {
+      "id": "iap-gem-pack-pouch",
+      "titleKey": "shop.iap-gem-pack-pouch",
+      "purchaseKind": "Iap",
+      "storeProductId": "com.dreamy.sample.gem_pack_pouch",
+      "iconKey": "Gem_1",
+      "displayPrice": "$1.99",
+      "rewards": [
+        {
+          "resourceId": "currency.gem",
+          "amount": 40
+        }
+      ],
+      "rewardText": "40 Gems"
+    },
+    {
+      "id": "iap-gem-pack-medium",
+      "titleKey": "shop.iap-gem-pack-medium",
+      "iconKey": "Gem_2",
+      "purchaseKind": "Iap",
+      "storeProductId": "com.dreamy.sample.gem_pack_medium",
+      "displayPrice": "$2.99",
+      "rewards": [
+        {
+          "resourceId": "currency.gem",
+          "amount": 55
+        }
+      ],
+      "rewardText": "55 Gems"
+    },
+    {
+      "id": "iap-gem-pack-chest",
+      "titleKey": "shop.iap-gem-pack-chest",
+      "purchaseKind": "Iap",
+      "storeProductId": "com.dreamy.sample.gem_pack_chest",
+      "iconKey": "Gem_3",
+      "displayPrice": "$4.99",
+      "rewards": [
+        {
+          "resourceId": "currency.gem",
+          "amount": 80
+        }
+      ],
+      "rewardText": "80 Gems"
+    },
+    {
+      "id": "iap-gem-pack-large",
+      "titleKey": "shop.iap-gem-pack-large",
+      "iconKey": "Gem_4",
+      "purchaseKind": "Iap",
+      "storeProductId": "com.dreamy.sample.gem_pack_large",
+      "displayPrice": "$6.99",
+      "rewards": [
+        {
+          "resourceId": "currency.gem",
+          "amount": 120
+        }
+      ],
+      "rewardText": "120 Gems"
+    },
+    {
+      "id": "iap-gem-pack-box",
+      "titleKey": "shop.iap-gem-pack-box",
+      "purchaseKind": "Iap",
+      "storeProductId": "com.dreamy.sample.gem_pack_box",
+      "iconKey": "Gem_5",
+      "displayPrice": "$12.99",
+      "rewards": [
+        {
+          "resourceId": "currency.gem",
+          "amount": 240
+        }
+      ],
+      "rewardText": "240 Gems"
+    },
+    {
+      "id": "iap-remove-ads",
+      "titleKey": "shop.iap-remove-ads",
+      "purchaseKind": "Iap",
+      "storeProductId": "com.dreamy.sample.remove_ads",
+      "displayPrice": "$1.99",
+      "rewards": [
+        {
+          "resourceId": "entitlement.remove-ads",
+          "amount": 1
+        }
+      ],
+      "purchaseOnce": true,
+      "ownershipResourceId": "entitlement.remove-ads",
+      "rewardText": "No Ads"
+    },
+    {
+      "id": "iap-vip-lifetime",
+      "titleKey": "shop.iap-vip-lifetime",
+      "purchaseKind": "Iap",
+      "storeProductId": "com.dreamy.sample.vip_lifetime",
+      "displayPrice": "$9.99",
+      "rewards": [
+        {
+          "resourceId": "entitlement.vip.lifetime",
+          "amount": 1
+        }
+      ],
+      "purchaseOnce": true,
+      "ownershipResourceId": "entitlement.vip.lifetime",
+      "rewardText": "VIP"
+    },
+    {
+      "id": "iap-starter-fund",
+      "titleKey": "shop.iap-starter-fund",
+      "purchaseKind": "Iap",
+      "storeProductId": "com.dreamy.sample.starter_fund",
+      "displayPrice": "$4.99",
+      "rewards": [
+        {
+          "resourceId": "entitlement.fund.starter",
+          "amount": 1
+        }
+      ],
+      "purchaseOnce": true,
+      "ownershipResourceId": "entitlement.fund.starter",
+      "rewardText": "Fund"
+    },
+    {
+      "id": "iap-season-1-premium-pass",
+      "titleKey": "shop.iap-season-1-premium-pass",
+      "purchaseKind": "Iap",
+      "storeProductId": "com.dreamy.sample.season_1_premium_pass",
+      "displayPrice": "$6.99",
+      "rewards": [
+        {
+          "resourceId": "entitlement.battle-pass.season-1.premium",
+          "amount": 1
+        }
+      ],
+      "purchaseOnce": true,
+      "ownershipResourceId": "entitlement.battle-pass.season-1.premium",
+      "rewardText": "Premium Pass"
+    }
+  ]
+}

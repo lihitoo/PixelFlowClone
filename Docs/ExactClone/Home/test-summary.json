@@ -1,0 +1,27 @@
+{
+  "result": {
+    "id": "2",
+    "testcasecount": "137",
+    "result": "Passed",
+    "total": "137",
+    "passed": "137",
+    "failed": "0",
+    "inconclusive": "0",
+    "skipped": "0",
+    "asserts": "0",
+    "engine-version": "3.5.0.0",
+    "clr-version": "4.0.30319.42000",
+    "start-time": "2026-10-24 09:07:37Z",
+    "end-time": "2026-10-24 09:08:01Z",
+    "duration": "24.5410206"
+  },
+  "groups": {
+    "Template/other": 34,
+    "PixelFlow.EditorReview": 7,
+    "PixelFlow.Tests": 96
+  },
+  "xml": "editor-tests-final.xml",
+  "playerBuildRun": false,
+  "mcpWrapperStatus": "Job orphaned after domain reload; completed Unity XML is authoritative",
+  "postTestChange": "Removed unused failed Editor-only screenshot helper/menu; gameplay code unchanged; compilation and Console checked afterwards"
+}

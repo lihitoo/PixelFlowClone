@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Batch execution completed.\",\"data\":{\"results\":[{\"tool\":\"run_tests\",\"callSucceeded\":true,\"result\":{\"success\":true,\"message\":\"Test job started.\",\"data\":{\"job_id\":\"f7fc005e784d4b92a17a63d4bbd15ed0\",\"status\":\"running\",\"mode\":\"EditMode\",\"include_details\":false,\"include_failed_tests\":true}}}],\"callSuccessCount\":1,\"callFailureCount\":0,\"parallelRequested\":false,\"parallelApplied\":false,\"maxParallelism\":null}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Batch execution completed.",
+    "data": {
+      "results": [
+        {
+          "tool": "run_tests",
+          "callSucceeded": true,
+          "result": {
+            "success": true,
+            "message": "Test job started.",
+            "data": {
+              "job_id": "f7fc005e784d4b92a17a63d4bbd15ed0",
+              "status": "running",
+              "mode": "EditMode",
+              "include_details": false,
+              "include_failed_tests": true
+            }
+          }
+        }
+      ],
+      "callSuccessCount": 1,
+      "callFailureCount": 0,
+      "parallelRequested": false,
+      "parallelApplied": false,
+      "maxParallelism": null
+    }
+  },
+  "isError": false
+}

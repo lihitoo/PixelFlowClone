@@ -1,0 +1,6 @@
+{
+  "name": "PixelFlow.Rules",
+  "rootNamespace": "PixelFlow.Rules",
+  "references": [],
+  "noEngineReferences": true
+}

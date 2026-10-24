@@ -1,0 +1,81 @@
+{
+  "url": "https://www.youtube.com/watch?v=ukM7_qSP1Fo",
+  "metadata": "video-early-metadata.json",
+  "path": "Docs/ExactClone/Research/early-review-480.mp4",
+  "sha256": "87914c4765fbf226e8f023c3c4080600930655de0a42ef0068820c1355d67371",
+  "bytes": 28943352,
+  "role": "Third-party public gameplay video, not known0.36.3",
+  "selectedFrames": [
+    {
+      "id": "video-frame-2",
+      "path": "Docs/ExactClone/Research/video-frames-480/survey-002.png",
+      "sourceId": "video-early",
+      "url": "https://www.youtube.com/watch?v=ukM7_qSP1Fo",
+      "sha256": "f65bb471a10198914b03082d3c3f68b5463dd2319f78d90ee1598a915f8c59ca",
+      "review": "usable-reference",
+      "observation": "source gameplay level1 already in progress",
+      "targetVersionVerified": false,
+      "sample": {
+        "method": "Sequential decode with ffmpeg fps=1/5; no input fast-seek on MPEG-TS timestamps.",
+        "index": 2,
+        "nominalBinSeconds": [
+          5,
+          10
+        ],
+        "timingMeasurement": false
+      },
+      "screens": [
+        "PLAY01",
+        "PLAY02",
+        "PLAY03",
+        "PLAY04"
+      ]
+    },
+    {
+      "id": "video-frame-12",
+      "path": "Docs/ExactClone/Research/video-frames-480/survey-012.png",
+      "sourceId": "video-early",
+      "url": "https://www.youtube.com/watch?v=ukM7_qSP1Fo",
+      "sha256": "73a6dcd40df7a1b7d71a3041d8086665745f7cb57a6691bb16c759c845083663",
+      "review": "survey-only",
+      "observation": "source reward/transition survey; state must be visually checked",
+      "targetVersionVerified": false,
+      "sample": {
+        "method": "Sequential decode with ffmpeg fps=1/5; no input fast-seek on MPEG-TS timestamps.",
+        "index": 12,
+        "nominalBinSeconds": [
+          55,
+          60
+        ],
+        "timingMeasurement": false
+      },
+      "screens": [
+        "WIN01"
+      ]
+    },
+    {
+      "id": "video-frame-30",
+      "path": "Docs/ExactClone/Research/video-frames-480/survey-030.png",
+      "sourceId": "video-early",
+      "url": "https://www.youtube.com/watch?v=ukM7_qSP1Fo",
+      "sha256": "48adc7d270733c15244535a4ccf633d9cc5d5454128652b90c491d1752380459",
+      "review": "usable-reference",
+      "observation": "source loading splash",
+      "targetVersionVerified": false,
+      "sample": {
+        "method": "Sequential decode with ffmpeg fps=1/5; no input fast-seek on MPEG-TS timestamps.",
+        "index": 30,
+        "nominalBinSeconds": [
+          145,
+          150
+        ],
+        "timingMeasurement": false
+      },
+      "screens": [
+        "SYS01",
+        "SYS02"
+      ]
+    }
+  ],
+  "limits": "Landscape capture and active board state differ from portrait clone previews. Do not compare raw pixel error or infer native timing from5-second survey. Survey frames were inspected, not all671 seconds at normal speed."
+}

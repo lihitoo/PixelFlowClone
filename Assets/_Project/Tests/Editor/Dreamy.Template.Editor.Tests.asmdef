@@ -1,0 +1,32 @@
+{
+    "name": "Dreamy.Template.Editor.Tests",
+    "rootNamespace": "Dreamy.Template.Tests",
+    "references": [
+        "Dreamy.Template.Runtime",
+        "Dreamy.Core.Runtime",
+        "Dreamy.Datasave.Runtime",
+        "Dreamy.DataConfig.Runtime",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Dreamy.UI.Runtime",
+        "Dreamy.UI.Presentation",
+        "Dreamy.Shop.Runtime",
+        "UniTask"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

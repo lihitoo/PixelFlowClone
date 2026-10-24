@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d160af2082d4ebdad895a84b06ee6d3, type: 3}
+  m_Name: VfxDatabase
+  m_EditorClassIdentifier: Dreamy.Feedback.Runtime::Dreamy.Feedback.VfxDatabase
+  assets:
+  - {fileID: 11400000, guid: 73b7db7cfa8de244d9b2d9a2537664b0, type: 2}
+  entries:
+  - id: reward
+    prefab: {fileID: 8555849183882478860, guid: 369be32b747911d4ba099eb5b5301220, type: 3}
+    prewarmCount: 2
+    despawnMode: 1
+    fixedLifetime: 1

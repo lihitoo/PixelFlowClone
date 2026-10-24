@@ -1,0 +1,17 @@
+{
+  "name": "Dreamy.Feedback.Sample.Tests",
+  "references": [
+    "Dreamy.Feedback.Runtime",
+    "Dreamy.Feedback.Sample.Runtime",
+    "UnityEngine.UI",
+    "Unity.TextMeshPro",
+    "Dreamy.Feedback.Contracts"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

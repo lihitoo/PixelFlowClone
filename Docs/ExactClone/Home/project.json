@@ -1,0 +1,9 @@
+{
+  "contents": [
+    {
+      "uri": "mcpforunity://project/info",
+      "mimeType": "text/plain",
+      "text": "{\"success\":true,\"message\":\"Retrieved project info.\",\"error\":null,\"data\":{\"projectRoot\":\"D:/Game/PixelFlowClone\",\"projectName\":\"PixelFlowClone\",\"unityVersion\":\"6000.4.12f1\",\"platform\":\"Android\",\"assetsPath\":\"D:/Game/PixelFlowClone/Assets\"},\"hint\":null}"
+    }
+  ]
+}

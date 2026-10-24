@@ -1,0 +1,11 @@
+{
+    "status": "pass",
+    "unity": "6000.4.12f1",
+    "scope": "Scene Home/Play/Pause reached through queued pointer input; offscreen layout previews at three portrait aspects.",
+    "saveDirectory": "PixelFlowCloneSmoke_Review_e5854767313d47e3a1c61781648aff90",
+    "captureMethod": "Offscreen URP camera request, temporarily converting the owned overlay canvas to ScreenSpaceCamera; full-rect preview, not simulated device safe area or Game View capture.",
+    "inputMethod": "Queued synthetic MouseState events with explicit InputSystem.Update and active EventSystem module Process, on an owned manual-update settings clone; UI/Physics raycast processing, not physical-device input or proof of normal frame scheduling.",
+    "checks": [
+        "Actual scene bootstrap reaches Home using an isolated fresh save"
+    ]
+}

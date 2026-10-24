@@ -1,0 +1,9 @@
+{
+  "contents": [
+    {
+      "uri": "mcpforunity://editor/prefab-stage",
+      "mimeType": "text/plain",
+      "text": "{\"success\":true,\"message\":\"No prefab stage open.\",\"error\":null,\"data\":{\"isOpen\":false,\"assetPath\":null,\"prefabRootName\":null,\"mode\":null,\"isDirty\":false},\"hint\":null}"
+    }
+  ]
+}

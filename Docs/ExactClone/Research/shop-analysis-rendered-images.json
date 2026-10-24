@@ -1,0 +1,413 @@
+{
+  "sourceId": "shop-analysis",
+  "images": [
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "alt": "What's Wrong with Pixel Flow's Game Shop?",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQHWugWZUlt5Xg/article-cover_image-shrink_720_1280/B4DZyY0FY6JIAI-/0/1772090318850?e=2147483647&v=beta&t=0cCOG7Iq6NnxLulRzKkgxndPOj5gzDu5v6HLpl0zpwk",
+      "width": 1217,
+      "height": 685
+    },
+    {
+      "alt": "Michael Khripin",
+      "url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "alt": "Article content",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQERsN_LkxIqnw/article-inline_image-shrink_400_744/B4DZyY3M7NJwAc-/0/1772091137774?e=2147483647&v=beta&t=YB3gPpbjehQ2pz5gQ3HX6RsTr7dECkG1RcxxgvCGsmo",
+      "width": 738,
+      "height": 400
+    },
+    {
+      "alt": "Article content",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQE_U_CUlLsTtg/article-inline_image-shrink_1000_1488/B4DZyY0f7ZGQAQ-/0/1772090426032?e=2147483647&v=beta&t=8y7g0SvgTs-h6FETCH9hjavHfRz7XaowSDFyaokIiUM",
+      "width": 1038,
+      "height": 566
+    },
+    {
+      "alt": "Article content",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQFJoxXfS2R50g/article-inline_image-shrink_1500_2232/B4DZyY0pTDJIAU-/0/1772090464261?e=2147483647&v=beta&t=RfKWooqdojeu6X1ebLaDjTblxPWtCefLSx5dzFBS9WM",
+      "width": 1204,
+      "height": 568
+    },
+    {
+      "alt": "Article content",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQFL8c66qD6gyQ/article-inline_image-shrink_400_744/B4DZyY0zLbJIAY-/0/1772090504718?e=2147483647&v=beta&t=zlkOkc6PhnSh0__MzFWn_8sq8tv8OW4v7tA9371d6XI",
+      "width": 744,
+      "height": 177
+    },
+    {
+      "alt": "Article content",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQH6UUPhAE0WIw/article-inline_image-shrink_1000_1488/B4DZyY09YuJAAQ-/0/1772090546491?e=2147483647&v=beta&t=SLTd_Qc3GXkeihN_9EIET1gPH3QC6Kki_ly6usL08mU",
+      "width": 1218,
+      "height": 328
+    },
+    {
+      "alt": "Article content",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQHEiturBAEu6g/article-inline_image-shrink_400_744/B4DZyY1QshJ4AY-/0/1772090625555?e=2147483647&v=beta&t=kI5dsXCI6vLVH05FhlMs9VcUBhlUOR6zqYOp777rpqM",
+      "width": 744,
+      "height": 177
+    },
+    {
+      "alt": "Article content",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQEsL0mRHk0w7g/article-inline_image-shrink_400_744/B4DZyY1Y6MJ4AY-/0/1772090659142?e=2147483647&v=beta&t=jpt17r2BWhqR2z7nxQT2w4o7r-mO7k9jDhnMBvXW6Sk",
+      "width": 744,
+      "height": 118
+    },
+    {
+      "alt": "Article content",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQH_7A717HAlig/article-inline_image-shrink_400_744/B4DZyY1p5LH4Ac-/0/1772090729148?e=2147483647&v=beta&t=OybJsQYbYKoFhQ3cTWaYgsNLqkgb83zAcV6nQnP5qsA",
+      "width": 744,
+      "height": 107
+    },
+    {
+      "alt": "Designing Daily Rewards That Don't Punish Your Players",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQHb_y3qE1IPUw/article-cover_image-shrink_720_1280/B4DZ75sPVmIYAQ-/0/1782305587316?e=2147483647&v=beta&t=cbSVChlvYXxkDnRZhN2C_tQFxxNpdYKtiMiuPLkFGj0",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "alt": "Battle Pass Economics: What 5 Top-Grossing Games Teach Us About Tier Monetization\n",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQG5hxI6Us220A/article-cover_image-shrink_720_1280/B4DZ8kqTgDJ8AQ-/0/1783026498972?e=2147483647&v=beta&t=PL9XIBlQAQXbxqzrZic2RLJHZrol6xkmh-IhogpkvlY",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "alt": "Returning to Hearthstone After 3 Years: What Surprised Game Designer the Most",
+      "url": "https://media.licdn.com/dms/image/v2/D4E12AQGr26ao68M6vQ/article-cover_image-shrink_720_1280/B4EZWXLVABGYAI-/0/1741998085259?e=2147483647&v=beta&t=9O1ImkEPI5ah9ZfizVhbjjoagxBWDorHmQnuwdyr52I",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "alt": "Article content",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQE96DPdsIE5Uw/article-inline_image-shrink_400_744/B4DZyY1znfJkAc-/0/1772090768473?e=2147483647&v=beta&t=BP4QBXfhU5Y6qH9IMIezOTlRcuO-Uu3KWRHlzpD68g8",
+      "width": 744,
+      "height": 185
+    },
+    {
+      "alt": "Article content",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQExjZhL_jejRw/article-inline_image-shrink_400_744/B4DZyY2JIWGUAY-/0/1772090857200?e=2147483647&v=beta&t=t2yxGxuqRdDIZJvZY1b8gFv0Xvc59iZPq-GZewSQbv4",
+      "width": 744,
+      "height": 196
+    },
+    {
+      "alt": "Article content",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQEYqhHk1hRKPg/article-inline_image-shrink_400_744/B4DZyY2RD0GQAY-/0/1772090889693?e=2147483647&v=beta&t=37EGqSk55OZC2i9E9JfCLdpkrAqNhsKnwxrbupO5Ooc",
+      "width": 744,
+      "height": 279
+    },
+    {
+      "alt": "Article content",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "Article content",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "Game Dev Uncovered",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/bn39hirwzjqj18ej1fkz55671",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/a0e8rff6djeoq8iympcysuqfu",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "Oleg L Poretsky, graphic",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "Ozan Parmakdil, graphic",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "Andrii Nechaiev, graphic",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "Burak Ökten, graphic",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "Michael Khripin, graphic",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQGi7xX7YUMs-g/article-cover_image-shrink_720_1280/B56Z0fdrxeH8AI-/0/1774349374110?e=2147483647&v=beta&t=cGb3jddmud2Oi4r-Gv7MxNRwNI1n22hfq2dSYhePm-Y",
+      "width": 1280,
+      "height": 719
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/bn39hirwzjqj18ej1fkz55671",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/2tzoeodxy0zug4455msr0oq0v",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/asiqslyf4ooq7ggllg4fyo4o2",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQFXswRV_KNQrw/article-cover_image-shrink_720_1280/B4DZzZFEtXGwAM-/0/1773168517790?e=2147483647&v=beta&t=eZsfrBI_g-av1YqeTJN5qcUCPA9eNmkRdomDvXyZN64",
+      "width": 1280,
+      "height": 719
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/bn39hirwzjqj18ej1fkz55671",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/asiqslyf4ooq7ggllg4fyo4o2",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/2tzoeodxy0zug4455msr0oq0v",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQGqccalDuO29A/article-cover_image-shrink_720_1280/B4DZytnN5tIgAI-/0/1772439266249?e=2147483647&v=beta&t=dBTiAB9dhAIAHhBnnwbIpP5UbGfKQaWOrq9DYXkV_4c",
+      "width": 1118,
+      "height": 629
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/bn39hirwzjqj18ej1fkz55671",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/a0e8rff6djeoq8iympcysuqfu",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQFBRghgC1YzvQ/article-cover_image-shrink_720_1280/B4DZx9MTmyIUAI-/0/1771626905414?e=2147483647&v=beta&t=U4iiqHbGlS3LitX96_z4mcnXzE3dYiw6adeliLBA_MA",
+      "width": 1280,
+      "height": 719
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/bn39hirwzjqj18ej1fkz55671",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQGuIH48LjxCww/article-cover_image-shrink_720_1280/B4DZxDNlncI4AI-/0/1770654163182?e=2147483647&v=beta&t=IJbns2MuSRY_NHnnrcUp0vIr98RVAWdxdpczp-ZvI9s",
+      "width": 1280,
+      "height": 719
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/bn39hirwzjqj18ej1fkz55671",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/a0e8rff6djeoq8iympcysuqfu",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQEsVedKFhGepA/article-cover_image-shrink_720_1280/B4DZg1_pDUHsAI-/0/1753252541781?e=2147483647&v=beta&t=RIfuR5PO1FkHVAECvAiAdUH4rvpp748YAtNrS1tC7ew",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/bn39hirwzjqj18ej1fkz55671",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/cyfai5zw4nrqhyyhl0p7so58v",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D4E12AQGHqN3sQ31vhw/article-cover_image-shrink_720_1280/B4EZWe55IfHMAI-/0/1742127732456?e=2147483647&v=beta&t=zPxHZxmgGm5iyG1ni9PP7jVtDiVS3KEIguOQ-0WBxsI",
+      "width": 1247,
+      "height": 701
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D4E12AQEUjctDqQaXDw/article-cover_image-shrink_720_1280/B4EZiVSvMUGcAI-/0/1754851374765?e=2147483647&v=beta&t=hP_dfN5ZisVJOEKhsXN5U3kue2yJW7WOHpKZyuBo3r4",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D4E12AQGll5oWVhYDJg/article-cover_image-shrink_720_1280/B4EZgnOYM1GoAM-/0/1753004740198?e=2147483647&v=beta&t=yO3JftLZ_FIFg2NG09VR-_GO7uOndmRIdScxWsdle2w",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/C4D12AQEq3JjQIw_IoQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1576249343141?e=2147483647&v=beta&t=edF_zFbG7aRDr2akgBLnmOxlqRGXLssW6yIvAmHAZEU",
+      "width": 1280,
+      "height": 455
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQFZUua4summLw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1729843690645?e=2147483647&v=beta&t=7mZDomPE3nOqJYHlrjaTI5LFQHtuD8ZIyMUarNYbaJE",
+      "width": 1279,
+      "height": 720
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D4E12AQH80DU1H9OFWg/article-cover_image-shrink_720_1280/B4EZV8X1n5HUAI-/0/1741548381960?e=2147483647&v=beta&t=KXDQVe8MHF-XPs54SviTGHq8pnkqPKtYBY40nW7ES0g",
+      "width": 1240,
+      "height": 697
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/C4D12AQGGlM6iz4t1iw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1574157911677?e=2147483647&v=beta&t=pk3bEToP4aLeneJD0_GNPw9zy4Dmm9tUPQsbLaEd6Io",
+      "width": 1280,
+      "height": 591
+    },
+    {
+      "alt": "",
+      "url": "https://media-exp1.licdn.com/media/AAYQAgQLAAkAAQAAAAAAAA196XghfnplQFCx7y__C0e55w.png",
+      "width": 1400,
+      "height": 800
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/C4D12AQFBQq9lx3iZxA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1560977627287?e=2147483647&v=beta&t=YEoP2T8z-hiXhmlFrTlzpUKDHpVmpZYTeZlFhWKxsT8",
+      "width": 799,
+      "height": 449
+    },
+    {
+      "alt": "",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQGDaq43Jco2_Q/article-cover_image-shrink_720_1280/B4DZvD1EXtKQAI-/0/1768517036007?e=2147483647&v=beta&t=fNKT6dc7h77XCQkN5h0wFSmXvEJJft1cdtG_iLFxo48",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "alt": "",
+      "url": "https://static.licdn.com/aero-v1/sc/h/5k9cgtx8rhoyqkcxfoncu1svl",
+      "width": 64,
+      "height": 64
+    }
+  ]
+}

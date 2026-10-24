@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-24T03:59:21.176421+00:00",
+  "scope": "Source/Editor checkpoint only. No player build, physical-device input, normal player scheduling, listening, performance, exact original-game fidelity or owner-acceptance claim.",
+  "sourceFingerprint": "9da92b5ccf2f9668b07c38031ec050da35c76434b6cd935ee058301888ca10ee",
+  "sourceReceipt": "Docs/Evidence/source-verification-editor-review.json",
+  "unityChecks": [
+    {
+      "path": "Docs/Evidence/editmode-tests-20261024-105312.xml",
+      "status": "pass",
+      "cases": 20,
+      "sha256": "0f6dc0469652d0eb6e76f9d65ea381c7840b3d76f889c47ea6abd330bbc173a9"
+    },
+    {
+      "path": "Docs/Evidence/editmode-review-20261024-105022.xml",
+      "status": "pass",
+      "cases": 2,
+      "sha256": "263d457912ed097ddd4ac7be7f91ff6b250c49bf81464cabfbd59a900d9145c0"
+    }
+  ],
+  "editorRouteReceipt": "Docs/Evidence/editor-review/verified-source-review-20261024/route.json",
+  "scenarioChecks": 9,
+  "previewImages": [
+    {
+      "path": "Docs/Evidence/editor-review/verified-source-review-20261024/full-belt-paused-720x1280.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "5c784b0a2d60bd050bed8b1063248ed195afdf068011a1b91f48635f3fc577d1"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/verified-source-review-20261024/home-1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "9663cf0b1358da9a605c93776a2bf23c6535b67c78240114c398497ef976612d"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/verified-source-review-20261024/home-1080x2340.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "de0d0bcb068141c3e0a0541003de8a390c3e0cfbf26bd6095c48ba8e7f72345a"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/verified-source-review-20261024/home-720x1280.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "6f2012b7fb1caf50bb8cc19239648bc2532b041aa1373e487708414ae3cb89b6"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/verified-source-review-20261024/home-progress-720x1280.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "3661d43486a45a66d6749a1e4101ffaecba7ccc62842a226be042a7509f88429"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/verified-source-review-20261024/level-1-1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "bff8c8ad6e28a82fb8aba97933d0a40e11559e5bed2e1dd135145aa15393b71b"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/verified-source-review-20261024/level-1-1080x2340.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "5ef615fa27ffadf84d69a5b679460d909bd2ff97e959aa2d16c85abb37bade01"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/verified-source-review-20261024/level-1-720x1280.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "8567610a8c3f537200fbffae8332992ad43ba0380910960be433b737ff94d48e"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/verified-source-review-20261024/pause-720x1280.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "96c51c4f2043bb513dea044963a813aa25ffe4135fe5ac98fedcdfe3e9ac2f06"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/verified-source-review-20261024/win-720x1280.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "bd7f771dfa9f05a5e65feeb182285806293a44bd4fa91098868d9d424d6a1ad8"
+    }
+  ],
+  "openedLatestImages": [
+    "Docs/Evidence/editor-review/verified-source-review-20261024/level-1-720x1280.png",
+    "Docs/Evidence/editor-review/verified-source-review-20261024/level-1-1080x1920.png",
+    "Docs/Evidence/editor-review/verified-source-review-20261024/level-1-1080x2340.png",
+    "Docs/Evidence/editor-review/verified-source-review-20261024/pause-720x1280.png",
+    "Docs/Evidence/editor-review/verified-source-review-20261024/home-progress-720x1280.png"
+  ],
+  "referenceRoles": 10,
+  "decodedSourceDefinitions": 3117,
+  "sourceFunnels": 22,
+  "playerBuildsRun": 0,
+  "interactiveEditor": "closed",
+  "unknowns": [
+    "exact original runtime targeting/timing/UI",
+    "loss-retry UI route",
+    "runtime listening and normal-speed feel",
+    "device safe area/touch/performance",
+    "advanced feature implementation",
+    "owner acceptance"
+  ]
+}

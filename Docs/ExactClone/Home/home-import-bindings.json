@@ -1,0 +1,521 @@
+{
+    "assets": [
+        {
+            "role": "BottomBar",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/BottomBar.png",
+            "guid": "d7a5a673223b77d44893f3bc864d86a1",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 22.0
+            }
+        },
+        {
+            "role": "TabSelected",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/TabSelected.png",
+            "guid": "a4a4fe7c539e8b34ea4592ec6f8708eb",
+            "border": {
+                "x": 50.0,
+                "y": 10.0,
+                "z": 50.0,
+                "w": 50.0
+            }
+        },
+        {
+            "role": "Coin",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Coin.png",
+            "guid": "1c9e9f9a61932ad44933d85377630977",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Heart",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Heart.png",
+            "guid": "eab203f572e7ec74cbff63a3413b62de",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "HeartInfinite",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/HeartInfinite.png",
+            "guid": "b7e9fed5233005443949bd9635f76292",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Lock",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Lock.png",
+            "guid": "af052b95343b5d04d97efc36354a6d59",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "CurrentBlue",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/CurrentBlue.png",
+            "guid": "bb3b803dfa52f79489b36fbe4488d93d",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "CurrentPurple",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/CurrentPurple.png",
+            "guid": "16dd6ae3809a00843ad3a536fa457946",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "CurrentRed",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/CurrentRed.png",
+            "guid": "7a292713bd5030444aae1476a28956e4",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "LabelPurple",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/LabelPurple.png",
+            "guid": "183703768b2a0534fab3d9d5822c97c7",
+            "border": {
+                "x": 40.0,
+                "y": 0.0,
+                "z": 40.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "LabelRed",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/LabelRed.png",
+            "guid": "81cb06a6cefd7ea46ad79072b18938c1",
+            "border": {
+                "x": 40.0,
+                "y": 0.0,
+                "z": 40.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "NodeBlue",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/NodeBlue.png",
+            "guid": "a066a59cfe2bac44ba4f0eb7d85a2ad1",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "NodeOrange",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/NodeOrange.png",
+            "guid": "0b74bc8bdcedd6249b14e1615f1dfc68",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "NodeRed",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/NodeRed.png",
+            "guid": "ae3ecbac6959da64bae68ea8e61ae02f",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "NodePurple",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/NodePurple.png",
+            "guid": "b1e04bc8d8b72f14da50c6e4e1f922f6",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Column",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Column.png",
+            "guid": "60e5e771de0cae3408fb12f65902bee0",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "StartPig",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/StartPig.png",
+            "guid": "3bd80270bb063994d952b30eedd8a9d0",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "EventBlue",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/EventBlue.png",
+            "guid": "2b294f2ad3b374e4aa1b50d28421e776",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "EventGreen",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/EventGreen.png",
+            "guid": "96d4a5c4cb27dfd4d9d134124903d3c8",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "EventArena",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/EventArena.png",
+            "guid": "c977b91da4835a045973f56eeb3eef53",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "EventRed",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/EventRed.png",
+            "guid": "2e50491c774305b42b58e9355dd1a7e7",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Play",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Play.png",
+            "guid": "21f81533e5a01a54e8a7bb8e02ecf02b",
+            "border": {
+                "x": 50.0,
+                "y": 60.0,
+                "z": 50.0,
+                "w": 50.0
+            }
+        },
+        {
+            "role": "Background",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Background.png",
+            "guid": "457f200dad3fc9749bef718a95851f23",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Gift",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Gift.png",
+            "guid": "754b1db34d4a03a46970632b47cf3a77",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Leaderboard",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Leaderboard.png",
+            "guid": "b720bc06631db4142917f131524d8183",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "NoAds",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/NoAds.png",
+            "guid": "93ac1a4add8636743a71c55bb2a5e542",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Settings",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Settings.png",
+            "guid": "d96fdda2d3da74745b360f6b10a69991",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Shop",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Shop.png",
+            "guid": "c0952e6bb52ba0a47ae072f0da5bbe5e",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "CurrentBlack",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/CurrentBlack.png",
+            "guid": "f7196f00d99fdc34ea86a91dfed1b3cd",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "NodeHard",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/NodeHard.png",
+            "guid": "a7558895c1e615b4481720aedba07856",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "LabelHard",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/LabelHard.png",
+            "guid": "dcd6c8d462dde8d478fc0e5e3f84fee2",
+            "border": {
+                "x": 45.92388153076172,
+                "y": 0.0,
+                "z": 45.92389678955078,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Pattern",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Pattern.png",
+            "guid": "6397fc7fb6eca094c8c22f20708e9e73",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Plus",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Plus.png",
+            "guid": "6f760d51ea775a54db584189a0c50e6c",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "SmallPlus",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/SmallPlus.png",
+            "guid": "ead4a187d2082c342b0c4bac0022f502",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "LabelDark",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/LabelDark.png",
+            "guid": "6a3b2d27db420c54db92a7d48e481701",
+            "border": {
+                "x": 14.0,
+                "y": 0.0,
+                "z": 30.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "BattlePass",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/BattlePass.png",
+            "guid": "df7b6dcb4f3304b409343b28bec7b1f2",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Arena",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Arena.png",
+            "guid": "2747d73c15759e74381c445daa720a04",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "FireQuest",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/FireQuest.png",
+            "guid": "b42290c0985a0d448a1abf0ebfe7ae39",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "Popup",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Popup.png",
+            "guid": "793023d0e375ca94c9a6ed2c7dfdb15a",
+            "border": {
+                "x": 91.0,
+                "y": 103.0,
+                "z": 91.0,
+                "w": 91.0
+            }
+        },
+        {
+            "role": "PopupHeader",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/PopupHeader.png",
+            "guid": "642cbb8bc44d39b4fb36820d4edbc9e4",
+            "border": {
+                "x": 100.0,
+                "y": 112.0,
+                "z": 100.0,
+                "w": 225.0
+            }
+        },
+        {
+            "role": "Close",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/Close.png",
+            "guid": "a27c413ed6f4a2649bd9c8a5e68a1b2b",
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "role": "SliderBackground",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/SliderBackground.png",
+            "guid": "035d4af4ef8f07e44a8c61f778d60a08",
+            "border": {
+                "x": 16.0,
+                "y": 16.0,
+                "z": 16.0,
+                "w": 16.0
+            }
+        },
+        {
+            "role": "SliderFill",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/SliderFill.png",
+            "guid": "fb442ab74f03c144e8e36aafc19c07a1",
+            "border": {
+                "x": 14.0,
+                "y": 14.0,
+                "z": 14.0,
+                "w": 14.0
+            }
+        },
+        {
+            "role": "SliderHandle",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/SliderHandle.png",
+            "guid": "9da6212d7d041e947b1d83bca9d4e816",
+            "border": {
+                "x": 25.0,
+                "y": 25.0,
+                "z": 25.0,
+                "w": 25.0
+            }
+        },
+        {
+            "role": "ToggleBackground",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/ToggleBackground.png",
+            "guid": "2c8a8fcfd004ea940b3928538d1c53b2",
+            "border": {
+                "x": 28.0,
+                "y": 28.0,
+                "z": 28.0,
+                "w": 28.0
+            }
+        },
+        {
+            "role": "ToggleHandle",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/ToggleHandle.png",
+            "guid": "09d7fee9fa0af3b4999bc95a30337a73",
+            "border": {
+                "x": 28.0,
+                "y": 28.0,
+                "z": 28.0,
+                "w": 28.0
+            }
+        },
+        {
+            "role": "ToggleOn",
+            "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Home/ToggleOn.png",
+            "guid": "93f0f6d0daa95af4da0df9a454bd12c7",
+            "border": {
+                "x": 20.0,
+                "y": 20.0,
+                "z": 20.0,
+                "w": 20.0
+            }
+        }
+    ]
+}

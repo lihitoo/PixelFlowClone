@@ -1,0 +1,68 @@
+{
+  "assets": [
+    {
+      "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\AudioClip\\sharedassets1.assets\\Main Menu Music (Cover) 2__617__0.wav",
+      "sourceSha256": "a099f8edcff336ac595dc32bc5fd5d8349d6862786fb5ff03f393c3defd92a44",
+      "destination": "Assets\\_Project\\PixelFlow\\Resources\\PixelFlow\\Audio\\MenuMusic.ogg",
+      "sha256": "718a6fdc81030c7dffae5173e2eff48abcd4037d6ee140c88c30d8ab12f4b31c",
+      "bytes": 894820,
+      "conversion": "vorbis q4"
+    },
+    {
+      "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\AudioClip\\sharedassets1.assets\\Normal Level Music (Cover) 1__637__0.wav",
+      "sourceSha256": "ac7aa05935493b15a76cb47f3b4d4e9eb8fbae424c8e041b27135d07c00aa7c0",
+      "destination": "Assets\\_Project\\PixelFlow\\Resources\\PixelFlow\\Audio\\LevelMusic.ogg",
+      "sha256": "33fa8e967695020a32a268ac3c82d79505086620a1eddce55ec6997300f43811",
+      "bytes": 956577,
+      "conversion": "vorbis q4"
+    },
+    {
+      "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\AudioClip\\resources.assets\\Unlock__1759__0.wav",
+      "sourceSha256": "336232504dd0a7bfd70faa395e9a48aa8e20a3eee0999cd15df3ac4046ced2f4",
+      "destination": "Assets\\_Project\\PixelFlow\\Resources\\PixelFlow\\Audio\\Feature.wav",
+      "sha256": "336232504dd0a7bfd70faa395e9a48aa8e20a3eee0999cd15df3ac4046ced2f4",
+      "bytes": 101648,
+      "conversion": "copy"
+    },
+    {
+      "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\Sprite\\sharedassets1.assets\\TrayIcon__680.png",
+      "sourceSha256": "c94d73a2624bf8b4f5ed06e0af8fb8ad4b2dadba26a5e9e718e25654198bc2b5",
+      "destination": "Assets\\_Project\\PixelFlow\\Resources\\PixelFlow\\UI\\Tray.png",
+      "sha256": "c94d73a2624bf8b4f5ed06e0af8fb8ad4b2dadba26a5e9e718e25654198bc2b5",
+      "bytes": 188534,
+      "conversion": "copy"
+    },
+    {
+      "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\Sprite\\resources.assets\\IconPowerup_Hand_Colored__1954.png",
+      "sourceSha256": "6991ed0f7fb88b270012092fcfb39775f2b01e0d428e8b4eadb4c76426c29a67",
+      "destination": "Assets\\_Project\\PixelFlow\\Resources\\PixelFlow\\UI\\Hand.png",
+      "sha256": "6991ed0f7fb88b270012092fcfb39775f2b01e0d428e8b4eadb4c76426c29a67",
+      "bytes": 21349,
+      "conversion": "copy"
+    },
+    {
+      "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\Sprite\\resources.assets\\IconPowerup_Shuffle_Colored__2234.png",
+      "sourceSha256": "86f895eedaf694c22aa2d4e82156c0f3f916898558dca8b536d78ed5518bf55e",
+      "destination": "Assets\\_Project\\PixelFlow\\Resources\\PixelFlow\\UI\\Shuffle.png",
+      "sha256": "86f895eedaf694c22aa2d4e82156c0f3f916898558dca8b536d78ed5518bf55e",
+      "bytes": 16406,
+      "conversion": "copy"
+    },
+    {
+      "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\Sprite\\resources.assets\\IconPowerup_SuperShooter_Colored__2024.png",
+      "sourceSha256": "e0f2efec67b191e82a3d63d36eb0c3deed5650982a2d74c9a264753e82518d94",
+      "destination": "Assets\\_Project\\PixelFlow\\Resources\\PixelFlow\\UI\\Super.png",
+      "sha256": "e0f2efec67b191e82a3d63d36eb0c3deed5650982a2d74c9a264753e82518d94",
+      "bytes": 39676,
+      "conversion": "copy"
+    },
+    {
+      "source": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\exports\\Sprite\\sharedassets1.assets\\Icon_SuperUnicorn_Active__860.png",
+      "sourceSha256": "a7372cf8d6efae7695205065a869aebb4a9872e233f8494db21baf430e5c3a74",
+      "destination": "Assets\\_Project\\PixelFlow\\Resources\\PixelFlow\\UI\\Unicorn.png",
+      "sha256": "a7372cf8d6efae7695205065a869aebb4a9872e233f8494db21baf430e5c3a74",
+      "bytes": 121468,
+      "conversion": "copy"
+    }
+  ]
+}

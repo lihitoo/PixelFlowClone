@@ -1,0 +1,125 @@
+{
+  "scope": "Authored prefab identity and lineage; not runtime acceptance",
+  "assets": [
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/gold-1000.prefab",
+      "guid": "c3cd6a9ebf9680943b0e1feb3f96efe7",
+      "sha256": "b61feb91aba3c591d2bfcc894499850a2555d902436f6831d0690f7d56e5aa69",
+      "sourcePrefabGuids": [
+        "b18a699ac0ef35d43a639269ca3e6245"
+      ],
+      "address": null
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/gold-10000.prefab",
+      "guid": "02d6dae83b93197449266bbdd21c3ca8",
+      "sha256": "229e5b41dc65cea28a9b94db73d2ccfb074498c0e9ea4585a201ff6d9d5882d6",
+      "sourcePrefabGuids": [
+        "b18a699ac0ef35d43a639269ca3e6245"
+      ],
+      "address": null
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/gold-100000.prefab",
+      "guid": "cc968b15ad0d5ed40acb393927d49f15",
+      "sha256": "c532e6472b1a1d5418534358d3db57592289ce3a49d25371ed05854c7a56341c",
+      "sourcePrefabGuids": [
+        "b18a699ac0ef35d43a639269ca3e6245"
+      ],
+      "address": null
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/gold-25000.prefab",
+      "guid": "4d333fc3c9d6d9e41881093fa29f3035",
+      "sha256": "a17f628542d155473afac704938590f3be3c506db634d0bfaf733359acb59882",
+      "sourcePrefabGuids": [
+        "b18a699ac0ef35d43a639269ca3e6245"
+      ],
+      "address": null
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/gold-5000.prefab",
+      "guid": "ecaf1b8068b4c7b4984dd66858c8388d",
+      "sha256": "299c095ab4fded01924744edf4d0635fcc9618299487533387d66a9a8d9a670c",
+      "sourcePrefabGuids": [
+        "b18a699ac0ef35d43a639269ca3e6245"
+      ],
+      "address": null
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/gold-50000.prefab",
+      "guid": "d459838b1c3f2a249b0efec2bf7b5985",
+      "sha256": "a03601d1d208d6042af17818c5fb3883904ccfe231946eff1efde4e4bf03de25",
+      "sourcePrefabGuids": [
+        "b18a699ac0ef35d43a639269ca3e6245"
+      ],
+      "address": null
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/medium-bundle.prefab",
+      "guid": "1a901874078326247b043ac5a7a7932c",
+      "sha256": "2ac7abce157ca8f298e3175f2720d12f6707e279e2211b2f37997aac0a6ce33b",
+      "sourcePrefabGuids": [
+        "b18a699ac0ef35d43a639269ca3e6245"
+      ],
+      "address": null
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/no-ads-bundle.prefab",
+      "guid": "d4eba36078234e24f976eb1223b8d6ea",
+      "sha256": "c4bd8ba966adddaa244aa887404ce31aa43d7e9f62d1a4dbe9fb8f850be9a143",
+      "sourcePrefabGuids": [
+        "b18a699ac0ef35d43a639269ca3e6245"
+      ],
+      "address": null
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/no-ads.prefab",
+      "guid": "112dfda7d092b74489d16a3b0b8a36da",
+      "sha256": "033ac61fe0c0f452ea4c709b86bfbd74f91fa745039ce336349b8e70b8ab16f9",
+      "sourcePrefabGuids": [
+        "b18a699ac0ef35d43a639269ca3e6245"
+      ],
+      "address": null
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/PixelFlowShopPanel.prefab",
+      "guid": "d5faca8fdba86c14dacaedb252415855",
+      "sha256": "d0b828203531e2e2f6c9d4f505a2fce1bbea04aa8e7b4055683dbf91fc1077a0",
+      "sourcePrefabGuids": [
+        "02d6dae83b93197449266bbdd21c3ca8",
+        "112dfda7d092b74489d16a3b0b8a36da",
+        "1a901874078326247b043ac5a7a7932c",
+        "4d333fc3c9d6d9e41881093fa29f3035",
+        "ad4e17b021ab4254aa4957c4f2b34fc7",
+        "bc81c05101a2e5448a22aceadda49fd7",
+        "c3cd6a9ebf9680943b0e1feb3f96efe7",
+        "cc968b15ad0d5ed40acb393927d49f15",
+        "d459838b1c3f2a249b0efec2bf7b5985",
+        "d4eba36078234e24f976eb1223b8d6ea",
+        "d6e00e3d3e7b2714581cc90c53ce61c2",
+        "e72603487e1846788e844014acddf579",
+        "ecaf1b8068b4c7b4984dd66858c8388d"
+      ],
+      "address": "PixelFlow/Panel/Shop.prefab"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/small-bundle.prefab",
+      "guid": "ad4e17b021ab4254aa4957c4f2b34fc7",
+      "sha256": "ff163f7f4c2b0e62fc4b975a1f26a4a099c89b3f1911ddb72718a76213e5e662",
+      "sourcePrefabGuids": [
+        "b18a699ac0ef35d43a639269ca3e6245"
+      ],
+      "address": null
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/ultra-bundle.prefab",
+      "guid": "bc81c05101a2e5448a22aceadda49fd7",
+      "sha256": "1688db1f345042ca089c97295e82681b4e2182d1105052e1229e58835b6c7c31",
+      "sourcePrefabGuids": [
+        "b18a699ac0ef35d43a639269ca3e6245"
+      ],
+      "address": null
+    }
+  ]
+}

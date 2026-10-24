@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "comparisons": 8,
+  "surfaces": 65,
+  "missing": 44,
+  "pageErrors": [],
+  "brokenImages": [],
+  "capture": "Docs/ExactClone/Research/review-browser.png",
+  "scope": "Local review document behavior; not the Unity game or native-game screenshots."
+}

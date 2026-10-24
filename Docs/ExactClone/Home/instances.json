@@ -1,0 +1,9 @@
+{
+  "contents": [
+    {
+      "uri": "mcpforunity://instances",
+      "mimeType": "text/plain",
+      "text": "{\"success\": true, \"transport\": \"http\", \"instance_count\": 1, \"instances\": [{\"id\": \"PixelFlowClone@fdf023ebb2b9f1bc\", \"name\": \"PixelFlowClone\", \"hash\": \"fdf023ebb2b9f1bc\", \"unity_version\": \"6000.4.12f1\", \"connected_at\": \"2026-10-24T08:25:10.360002+00:00\", \"session_id\": \"1e4dd342-55af-46df-ba79-35132e12a64a\"}]}"
+    }
+  ]
+}

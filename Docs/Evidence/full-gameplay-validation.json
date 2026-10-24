@@ -1,0 +1,143 @@
+{
+  "status": "pass",
+  "sourceFingerprint": "e14a30446f6780e0f3b6df94fbe47b94586cd847f73c52591bca729770557646",
+  "reports": [
+    {
+      "path": "Docs/Evidence/editmode-tests-20261024-130727.xml",
+      "sha256": "74b108ba976bab41860c030d1cca74a4c7587d4012a826f7dc6e8089aa3b0404",
+      "passed": 91,
+      "total": 91
+    },
+    {
+      "path": "Docs/Evidence/editmode-review-20261024-131418.xml",
+      "sha256": "e7ed2635a77e5b56b10d34e2ce1f2dedb7600995c7b01c9a08aab07b0190e150",
+      "passed": 6,
+      "total": 6
+    }
+  ],
+  "editorReceipts": [
+    "Docs/Evidence/editor-review/review-20261024-131418/advanced-presentation.json",
+    "Docs/Evidence/editor-review/review-20261024-131418/campaign-end.json",
+    "Docs/Evidence/editor-review/review-20261024-131418/captures.json",
+    "Docs/Evidence/editor-review/review-20261024-131418/full-flow.json",
+    "Docs/Evidence/editor-review/review-20261024-131418/route.json",
+    "Docs/Evidence/editor-review/review-20261024-131418/save-recovery.json"
+  ],
+  "pngs": [
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/campaign-end-720x1280.png",
+      "sha256": "db8f253672bbf8d544c79c3f56ea26197369ed33d8153680f82742711ae91f73"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/daily-claimed-720x1280.png",
+      "sha256": "fac426fd7bb1e64f219a62c2049d07ed45e634ad772d4d7eb3c213b1999a6aee"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/full-belt-paused-720x1280.png",
+      "sha256": "1ce516a517a4596d75900d50dfe0d78646b0c991074eea1bf5eebdbd86a26a96"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/hand-targets-720x1280.png",
+      "sha256": "b681fa7bd8bc3d521dbb822ecaff9cd723bf38e1de831f7b5233035f8c2f30b0"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/home-1080x1920.png",
+      "sha256": "07536dbc5c89ab2a472ed4b67ef2878662e9c6f89a62c6e62069f8dac9834426"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/home-1080x2340.png",
+      "sha256": "97a2d39f509c214b777990076d02ff6fc4c4ccc753b0a98111d6503d805c11fc"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/home-720x1280.png",
+      "sha256": "8aeb3fd389a1154247ea2c4fea6224f532e11192cfc7db685df41dbaa068892e"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/home-progress-720x1280.png",
+      "sha256": "1665f987709a44fad357b7b61e9d7dc30e6d83876beb3254826740975b42b024"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/level-1-1080x1920.png",
+      "sha256": "5a5c06b3739cfac469dbff6f2a0e69608aa7249565fbefa4943fba73aab1e911"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/level-1-1080x2340.png",
+      "sha256": "7c8fb6fcaae63f95c2fdb9dae1f794ed1249095b6b26ca5b4f7e9d571d02a504"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/level-1-720x1280.png",
+      "sha256": "b790851bc26c0b0291c3bc3a2546c458000edba7b8f0763bc9e14e5fd19580a2"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/locked-levels-720x1280.png",
+      "sha256": "5344551eb386056e8018fe80de91ccdb54e1e54d5221c11ab03c5c237d582e49"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/loss-720x1280.png",
+      "sha256": "5b20e0ffde4518371547c969232a085eedb3e50b61c3e58a276504e941ebfcb6"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/pause-720x1280.png",
+      "sha256": "529aea3a1f5c08c4b971ab80c33e754378809333340bd99eaa38577cf3f24084"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/save-error-720x1280.png",
+      "sha256": "de193f2558887c7b666c47ec038c496861c77999a5ea879adfb4bfe74a31e2e0"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/settings-720x1280.png",
+      "sha256": "6356fa13c8b68ad8c63ba16cbeb0bcfd79efb9e52b89d87656622bf5fc6c60d5"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/shop-720x1280.png",
+      "sha256": "2826b86a99987422e85b07504814859221765651cc30a17f504777cb9e288cc2"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/source-1001-720x1280.png",
+      "sha256": "9b8cbdeed43c649c57c0db4af83d8f4e3afee962230c3c4af6ee0fa297b76dac"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/source-14-720x1280.png",
+      "sha256": "ead53844fd00193c9ff27481d5cabff87e41eed6b76da7fb91bbf2c364916bde"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/source-1401-720x1280.png",
+      "sha256": "6bf5ec72416370fc3a1c702ed34daba68420126b57f42fd722d06359de9db65a"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/source-1701-720x1280.png",
+      "sha256": "bc608d82806e0b929c267f43a94d87f11f967f2273b5ea557b7d5155647d1caf"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/source-2001-720x1280.png",
+      "sha256": "1be186eec5c27faf4b689051345c9f23e331128d23c2a436cf50a16d3973f3f2"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/source-230-720x1280.png",
+      "sha256": "19c80b1dd9ae267eebe6faacaa7ab0e870a669ea4976b0605e045a294444d490"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/source-2401-720x1280.png",
+      "sha256": "7c5acac49ce7930197c3b8777bca01d3b9a1c3763a95d98f970faa63aeb28d0b"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/source-600-720x1280.png",
+      "sha256": "dd893b459b3822f22fdc81f0e6b72298a1e26631fb9d85dca963aed61051a01b"
+    },
+    {
+      "path": "Docs/Evidence/editor-review/review-20261024-131418/win-720x1280.png",
+      "sha256": "5ed98d9ab8faf046932565a575811329913a232f1b57fa32203769c1b7d4188e"
+    }
+  ],
+  "packageManifestSha256": "d4d66e0a3aef72cb6c355f504b82cfc221ebb89f6fdc2af8a0618fce59e8d44e",
+  "packageLockSha256": "831c7a3a68c6e43102c29a048d0afabc29fac820a70fc8d68c8d5cf0f2aa4ec2",
+  "scope": "Expanded offline gameplay/UI; pure rules/data/save plus synthetic-pointer, offscreen GPU Editor fixtures. No player build.",
+  "notVerified": [
+    "All2600 solved",
+    "Native behavior equivalence",
+    "Physical device input/safe area/lifecycle/performance",
+    "Listening/vibration",
+    "Store/backend integrations",
+    "Owner acceptance"
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "integrity": "pass",
+  "errors": [],
+  "surfaces": 65,
+  "sources": 53,
+  "assets": 24588,
+  "assetCatalogValidation": {
+    "status": "pass",
+    "files": 24588,
+    "objects": 77970,
+    "errors": []
+  },
+  "sourceUiFiles": 23,
+  "unresolvedSourceGuids": [],
+  "builtinSourceGuids": [
+    "0000000000000000e000000000000000",
+    "0000000000000000f000000000000000"
+  ],
+  "comparisonPairs": 8,
+  "sourceScreenshotsMissing": 44,
+  "gates": {
+    "researchIntegrity": true,
+    "briefPrepared": true,
+    "exactParityReady": false,
+    "fullGameImplemented": false,
+    "fullCloneComplete": false
+  },
+  "gateMeaning": "Integrity is independent of completeness. Preparation ran on the real Pixel Flow case and found concrete gaps. Missing target-version screenshots/behavior/service evidence cannot be converted into a faithful/full clone claim.",
+  "neededEditorMode": {
+    "openedUnity": false,
+    "usedUnityMcp": false,
+    "reason": "Metadata/web/previous clone capture audit only. Notify owner before switching to interactive Unity/MCP for binding and actual Game View comparison.",
+    "availableMcp": "No Unity MCP tool exposed in this session."
+  },
+  "buildPolicy": "No new player builds.",
+  "gaps": [
+    {
+      "id": "SYS01",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "No faithful splash yet; startup creates Home UI before config completes"
+    },
+    {
+      "id": "SYS02",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "No loading screen presentation in current app"
+    },
+    {
+      "id": "SYS03",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Generic local save error exists; no remote service state"
+    },
+    {
+      "id": "SYS04",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "No source privacy/notification UI integration"
+    },
+    {
+      "id": "SYS05",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Current error popup omits source diagnostic surfaces"
+    },
+    {
+      "id": "FTUE01",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone always begins at designed logo/Hero Home"
+    },
+    {
+      "id": "FTUE02",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Current four-page text tutorial differs from source guided overlay"
+    },
+    {
+      "id": "FTUE03",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone grants and exposes all four immediately; thresholds need source config confirmation"
+    },
+    {
+      "id": "FTUE04",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Current procedural text cards and inferred rules need matching original cards"
+    },
+    {
+      "id": "HOME01",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Original-asset level path/Play/difficulty shell implemented. Exact0.36.3 runtime screenshot, scroll policy, full campaign-end native layout and font/spacing parity still require verification."
+    },
+    {
+      "id": "HOME02",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Original coin/lives header and local persisted lives/refill implemented. Native regeneration interval/refill price/unlimited acquisition and server reconciliation unresolved."
+    },
+    {
+      "id": "HOME03",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Original Start/Shop/locked-or-rank tabs implemented; target-version dimensions and complete native Shop/Rank contents remain pending."
+    },
+    {
+      "id": "HOME04",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Original NoAds/Pass/FireQuest/Arena/Daily dock assets and client entry/error/Retry/close implemented. Native unlock thresholds and complete provider/event functionality unresolved."
+    },
+    {
+      "id": "HOME05",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone final Next returns Home; no endgame league"
+    },
+    {
+      "id": "PLAY01",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone HUD composition/large belt differs; top progress/counts are agent additions"
+    },
+    {
+      "id": "PLAY02",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Public model and pointer paths covered, exact timing/geometry not measured"
+    },
+    {
+      "id": "PLAY03",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Rectangular track and procedural rails differ; native target cadence/direction needs measurement"
+    },
+    {
+      "id": "PLAY04",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone behavior tested but native grace/return timing unmeasured"
+    },
+    {
+      "id": "PLAY05",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Typed24 kinds implemented with inferred semantics; no blanket native-equivalence claim"
+    },
+    {
+      "id": "PLAY06",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Text captions/procedural substitutes remain despite source asset availability"
+    },
+    {
+      "id": "PLAY07",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Implemented; capacity/cost/unlock tuning not verified native"
+    },
+    {
+      "id": "PLAY08",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Full-screen list differs from original direct board selection"
+    },
+    {
+      "id": "PLAY09",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone eligible-set permutation is inferred; no original animation"
+    },
+    {
+      "id": "PLAY10",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone clears exposed layer, but native object exclusions/cadence unverified"
+    },
+    {
+      "id": "PLAY11",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Current ten-wins/hit100 and merge behavior are clone tuning; web may be newer than0.36.3"
+    },
+    {
+      "id": "PAUSE01",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone has an additional Pause screen plus a separate settings page"
+    },
+    {
+      "id": "PAUSE02",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone free retry/Home snapshot are different policies"
+    },
+    {
+      "id": "WIN01",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Current large LEVEL CLEAR modal and reward tuning differ"
+    },
+    {
+      "id": "WIN02",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "No ad adapter or source multiplier UI; cannot silently grant"
+    },
+    {
+      "id": "LOSE01",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone generic TRY AGAIN with different continue mechanism/cost"
+    },
+    {
+      "id": "LOSE02",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone adds waiting slot/clears blockers; this is not established native behavior"
+    },
+    {
+      "id": "LOSE03",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent in current clone"
+    },
+    {
+      "id": "SHOP01",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Current four local coin-for-booster rows are a replacement design"
+    },
+    {
+      "id": "SHOP02",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; source images and prefabs available"
+    },
+    {
+      "id": "SHOP03",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; no fake payment success is acceptable"
+    },
+    {
+      "id": "SHOP04",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent despite exported bundle prefab/art"
+    },
+    {
+      "id": "SHOP05",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "No billing provider configured; implementable UI/adapters and real external service readiness must be separate"
+    },
+    {
+      "id": "SHOP06",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent"
+    },
+    {
+      "id": "SHOP07",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; service credentials/availability not supplied"
+    },
+    {
+      "id": "LIFE01",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Local clock-based regeneration implemented with deterministic rules/save checks; actual native tuning, clock authority and depletion policy remain estimates."
+    },
+    {
+      "id": "LIFE02",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Atomic coin refill and unlimited-lives representation implemented; actual unlimited purchase/reward provider, source price and native popup parity remain pending."
+    },
+    {
+      "id": "SET01",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Separate Home music/sound sliders and persisted audio gains implemented. Gameplay pause still has legacy settings; source-native full settings visual comparison remains pending."
+    },
+    {
+      "id": "SET02",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Home haptic/notification preference/smooth-motion toggles persisted. Notification delivery and source-native timing/visual equivalence are unverified."
+    },
+    {
+      "id": "SET03",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "No account/profile/sync backend; no name editor"
+    },
+    {
+      "id": "SET04",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; do not reset saves merely to imitate deletion"
+    },
+    {
+      "id": "RANK01",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Home locked/unavailable/Retry/close client routes exist. No live leaderboard provider, rankings, original loading timing or native visual equivalence yet."
+    },
+    {
+      "id": "RANK02",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; no invented player scores permitted"
+    },
+    {
+      "id": "RANK03",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent"
+    },
+    {
+      "id": "TEAM01",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Current docs mention teams, package evidence weak; target-version presence unresolved, not auto-excluded"
+    },
+    {
+      "id": "PASS01",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent despite many exported pass prefabs"
+    },
+    {
+      "id": "PASS02",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; premium cannot be silently granted"
+    },
+    {
+      "id": "PASS03",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent"
+    },
+    {
+      "id": "EVT01",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; schedules from current web are not automatically0.36.3 facts"
+    },
+    {
+      "id": "EVT02",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent"
+    },
+    {
+      "id": "EVT03",
+      "missingScreenshot": false,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent"
+    },
+    {
+      "id": "EVT04",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; version-specific source matching required"
+    },
+    {
+      "id": "EVT05",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent"
+    },
+    {
+      "id": "EVT06",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; may describe newer product version"
+    },
+    {
+      "id": "EVT07",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; may describe newer product version"
+    },
+    {
+      "id": "EVT08",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; version presence not established by current docs alone"
+    },
+    {
+      "id": "DAILY01",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone standalone daily button/reward table is an invented layout; shop-analysis reports no in-shop daily gift in its version"
+    },
+    {
+      "id": "SAVE01",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Clone transaction/snapshot tests cover local contract only; original resume/give-up semantics unconfirmed"
+    },
+    {
+      "id": "SAVE02",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Absent; cannot substitute local JSON and call cross-device parity"
+    },
+    {
+      "id": "SYS06",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "English-only clone, procedural font atlas and offscreen previews do not cover native localization/safe area"
+    },
+    {
+      "id": "SYS07",
+      "missingScreenshot": true,
+      "targetVersionVerification": "pending",
+      "implementation": "Only selected sounds/music wired; full source animation/feedback matching pending"
+    }
+  ]
+}

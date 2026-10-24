@@ -1,0 +1,24 @@
+{
+  "name": "Dreamy.Feature.Settings.Integration.Runtime",
+  "rootNamespace": "Dreamy.Feature.Settings.Integration",
+  "references": [
+    "Dreamy.Settings.Runtime",
+    "Dreamy.Core.Runtime",
+    "Dreamy.Audio.Runtime",
+    "Dreamy.Economy.Runtime",
+    "Dreamy.UI.Runtime",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "UniTask",
+    "Dreamy.UI.Presentation"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

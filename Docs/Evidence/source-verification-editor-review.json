@@ -1,0 +1,117 @@
+{
+  "status": "pass",
+  "importedFilesVerified": 11,
+  "failures": [],
+  "sourceFingerprint": "9da92b5ccf2f9668b07c38031ec050da35c76434b6cd935ee058301888ca10ee",
+  "sources": [
+    {
+      "path": "Assets/_Project/PixelFlow/Editor/PixelFlow.Editor.asmdef",
+      "sha256": "246ded7aa66ac33273d6c23a5adadd905171e46b7439f48821b71f122ed16c73"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Editor/PixelFlowBuild.cs",
+      "sha256": "d965822ff0b5c919ec9d0494c42cc98ee86daa3d4c458cfedbea57fc58938aaa"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Editor/PixelFlowEditorStartup.cs",
+      "sha256": "7595cc57d2b4234b0044e12bae1d5b4f9f800c1b3ed60ab5707b376e0c3b93a6"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Generated/PixelFlowFont.asset",
+      "sha256": "2798c4a4a385fea0ca00105bae01b5eba09317521640d587dca006c58b2a8a80"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Generated/PixelFlowLit.mat",
+      "sha256": "baa69f2e8070d43baeaedc5ecd367db45191db31218549b42a6a35bf43d8ba41"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Generated/PixelFlowPipeline.asset",
+      "sha256": "daa6c89d39d9d3030e2a223f47380342ce8614e94c63eda77ac75bf54e49dd70"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Generated/PixelFlowPresentation.asset",
+      "sha256": "e726dd1b769b764d62e6be820fea9a59aeae6ab0affcba5e56b905b3d5c4e482"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Resources/PixelFlow/pixelFlowCampaign.json",
+      "sha256": "4ccc8769420ced0cd3200287213f526f002759675deeee49147905d658a0481d"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Rules/LevelDefinition.cs",
+      "sha256": "fbda19755e5541e18dc88e362416f018776b26026c957f44cd96461e027e72c0"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Rules/PixelFlow.Rules.asmdef",
+      "sha256": "c42bc6cca09b68c9f99d4a36ed36b18a131eb2b5043cfb2b18112649fa680ec7"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Rules/PuzzleSession.cs",
+      "sha256": "3e98f7b405c7c2b30c22fd938e8eea3bfe37b17e4a519cca25ccea0ea5452004"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Rules/TrackGeometry.cs",
+      "sha256": "065e52a2907911c9726cca12bd7c3da6bcc4eab5094eb57a4d62ccdba5a9daa9"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Runtime/BoardPresenter.cs",
+      "sha256": "e36cbc16082cf46eb47b0cd35d7eeae6e70314ceac4104e5247b47c132245984"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Runtime/PigView.cs",
+      "sha256": "bbefcb674dfe0b8cad9c53a9dc991fb4fcba89dc1b9e58dc3083f5e571c8fed1"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Runtime/PixelFlow.Runtime.asmdef",
+      "sha256": "365f3134ec4d7e3632b6cf17f92a4d92b7eb2e00a054a93e6ed00ccb54f65d9f"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Runtime/PixelFlowApp.cs",
+      "sha256": "9c39ba6b33ff917453d1a4fe0b4d8868d10dc2fefb42b7768a27c5175cb71d73"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Runtime/PixelFlowCampaignConfig.cs",
+      "sha256": "3ff90e32b03c8cf9811746c7475f22ddc860adcb1d2a42fd55ede7045a715b49"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Runtime/PixelFlowPresentation.cs",
+      "sha256": "c9f3a4d20027154b0b942344d7810e41e4968406ed516385ac1050c8aac3c483"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Runtime/PixelFlowProgress.cs",
+      "sha256": "12e5eb339ac85d584a14e26f0f22b6944e0419e21be61ba9f4e2666edfb91c77"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Runtime/PixelFlowSmoke.cs",
+      "sha256": "dbe979de7ed5610a454f34ba0c8439898b8051133aaec59a90b4d65bd0745400"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Runtime/PixelFlowView.cs",
+      "sha256": "cd4924bb422997b3565cb96f6a58459d0a67e4b8b7ed3edb13013f8e29788064"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Runtime/SoftCube.cs",
+      "sha256": "c72c82546b9141173ee566315dffc49333479682475d31b941de7b1b8bd92339"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Scenes/PixelFlow.unity",
+      "sha256": "57069881c8f8e5373fe172c5e8b45f6ebf61147c902c46d552e2fcc51e52bc0e"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Tests/Editor/CampaignTests.cs",
+      "sha256": "39b677f5ab79b4aba31edc659ad41e20f173de2f1ba65d25459569e8336dc66a"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Tests/Editor/PixelFlow.Tests.Editor.asmdef",
+      "sha256": "15bb182072e85f178d7e145505a1a36b7729f457b69692fdaa698da0aba5a809"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Tests/Editor/PresentationReviewTests.cs",
+      "sha256": "2118cc2f95d4499baba363a0e58a1502bdb6456795d61b28e3ca4a69e99d783d"
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Tests/Editor/PuzzleSessionTests.cs",
+      "sha256": "f2d208df28ea5a19e52e30f01997563ef185f3b09aa4420abca5d64643a6fe19"
+    }
+  ],
+  "scope": "Owned runtime/editor boundaries and selected source/output identity; Unity tests, rendering and player interaction are separate reports."
+}

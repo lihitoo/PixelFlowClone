@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee615fe4a6fe0143b822f943562213e, type: 3}
+  m_Name: PixelFlowAudioProfile
+  m_EditorClassIdentifier: Dreamy.Audio.Runtime::Dreamy.Audio.DreamyAudioProfile
+  schemaVersion: 1
+  buses:
+  - id: music
+    displayName: Music
+    mixerGroup: {fileID: 0}
+    exposedVolumeParameter: 
+    defaultVolume: 0.8
+    persistVolume: 1
+    preferenceKey: 
+    voiceBudget: 2
+  - id: sfx
+    displayName: SFX
+    mixerGroup: {fileID: 0}
+    exposedVolumeParameter: 
+    defaultVolume: 1
+    persistVolume: 1
+    preferenceKey: 
+    voiceBudget: 24
+  - id: ui
+    displayName: UI
+    mixerGroup: {fileID: 0}
+    exposedVolumeParameter: 
+    defaultVolume: 1
+    persistVolume: 1
+    preferenceKey: 
+    voiceBudget: 8
+  - id: voice
+    displayName: Voice
+    mixerGroup: {fileID: 0}
+    exposedVolumeParameter: 
+    defaultVolume: 1
+    persistVolume: 1
+    preferenceKey: 
+    voiceBudget: 4
+  - id: ambience
+    displayName: Ambience
+    mixerGroup: {fileID: 0}
+    exposedVolumeParameter: 
+    defaultVolume: 0.7
+    persistVolume: 1
+    preferenceKey: 
+    voiceBudget: 4
+  libraries:
+  - {fileID: 11400000, guid: aa17682bce218614594de80a8fb4376f, type: 2}
+  initialPoolSize: 8
+  maxPoolSize: 16
+  dontDestroyOnLoad: 1
+  logWarnings: 1

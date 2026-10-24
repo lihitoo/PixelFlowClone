@@ -1,0 +1,13 @@
+{
+  "name": "Dreamy.Feedback.Dotween.Runtime",
+  "rootNamespace": "Dreamy.Feedback.Dotween",
+  "references": [
+    "Dreamy.Feedback.Runtime",
+    "Dreamy.Feedback.Contracts"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "DOTween.dll"
+  ],
+  "autoReferenced": true
+}

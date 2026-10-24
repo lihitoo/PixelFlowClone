@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1d9141b74809f44b8d8a8a7f6f4c83, type: 3}
+  m_Name: RewardText
+  m_EditorClassIdentifier: Dreamy.Feedback.Contracts::Dreamy.Feedback.FloatingTextFeedbackAsset
+  id: effect.reward-text
+  settings:
+    Prefab: {fileID: 6979914211179800352, guid: c5eff0dbbd5e45244ab53bc6352378e1, type: 3}
+    Color: {r: 1, g: 0.85, b: 0.2, a: 1}
+    Duration: 0.9
+    MoveOffset: {x: 0, y: 90, z: 0}
+    StartScale: 1
+    EndScale: 1.15
+    PrewarmCount: 2
+  format: +{amount}

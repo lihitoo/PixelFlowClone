@@ -1,0 +1,143 @@
+{
+  "sourceId": "store-apple",
+  "images": [
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/94/bf/e794bf86-9e39-c5f9-04e5-af4a4a49391f/Placeholder.mill/200x200Icon.ApSiOS01-75.webp",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/94/bf/e794bf86-9e39-c5f9-04e5-af4a4a49391f/Placeholder.mill/200x200Icon.ApSiOS01-75.webp",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "alt": "Replay Video",
+      "url": "https://apps.apple.com/assets/images/video-control/video-control-replay.png",
+      "width": 56,
+      "height": 56
+    },
+    {
+      "alt": "Pause",
+      "url": "https://apps.apple.com/assets/images/video-control/video-control-pause.png",
+      "width": 56,
+      "height": 56
+    },
+    {
+      "alt": "Mute",
+      "url": "https://apps.apple.com/assets/images/video-control/video-control-volume-muted.png",
+      "width": 56,
+      "height": 56
+    },
+    {
+      "alt": "Fullscreen",
+      "url": "https://apps.apple.com/assets/images/video-control/video-control-fullscreen.png",
+      "width": 56,
+      "height": 56
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/93/5c/72935c74-649f-189d-8767-7cf3587f2243/Image_1.jpg/230x498bb.webp",
+      "width": 230,
+      "height": 498
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/16/2e/c3162e97-c9b2-b52e-3fc4-348da2a758eb/Image_2.jpg/230x498bb.webp",
+      "width": 230,
+      "height": 498
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/c0/2a/8bc02a6f-a1c5-2ee4-9b59-d975a1efb05d/Image_3.jpg/230x498bb.webp",
+      "width": 230,
+      "height": 498
+    },
+    {
+      "alt": "",
+      "url": "https://apps.apple.com/assets/artwork/1x1.gif",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "https://apps.apple.com/assets/artwork/1x1.gif",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/bc/56/78/bc56789a-12e5-f2a9-2ec0-5c09f77a968f/14856334-c706-4439-9aa1-3892ce5460fd.png/400x225SCS.ApDPCS01.webp",
+      "width": 400,
+      "height": 225
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/0c/98/e60c982f-388c-87f6-6927-eb23049b5495/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64Icon.ApSiOS01-75.webp",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/8d/a4/b28da417-fce4-1dee-79d4-cf5a63efdc7e/Placeholder.mill/64x64Icon.ApSiOS01-75.webp",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/df/0e/7ddf0e72-552f-b90f-b278-35273de3fe43/Placeholder.mill/64x64Icon.ApSiOS01-75.webp",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/1b/e5/031be54e-3880-1c79-35df-7e046bfa72b8/Placeholder.mill/64x64Icon.ApSiOS01-75.webp",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/f4/14/1af41485-b6ea-7542-6ef8-8f2333d19fe4/Placeholder.mill/64x64Icon.ApSiOS01-75.webp",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/13/ef/7e13ef6b-e3b0-2ef2-656a-2d64ddbe7ced/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/64x64Icon.ApSiOS01-75.webp",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/58/87/4d588743-a1c1-3450-6d19-e873b7ea7647/Placeholder.mill/64x64Icon.ApSiOS01-75.webp",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/96/fd/6196fd97-2107-37a2-2640-388e997ca0b6/Placeholder.mill/64x64Icon.ApSiOS01-75.webp",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/e9/2e/d9e92ebf-2e24-41ea-5c33-65431d86d4e8/Placeholder.mill/64x64Icon.ApSiOS01-75.webp",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/59/6f/13596f11-566a-a1a7-0945-c2073b4a633e/Placeholder.mill/64x64Icon.ApSiOS01-75.webp",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "alt": "",
+      "url": "https://apps.apple.com/assets/artwork/1x1.gif",
+      "width": 0,
+      "height": 0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "captureKind": "visible Unity Game View desktop region",
+  "regionPhysicalPixels": [
+    30,
+    219,
+    712,
+    1431
+  ],
+  "desktopSize": [
+    2560,
+    1600
+  ],
+  "imageSize": [
+    682,
+    1212
+  ],
+  "gameViewConfiguredSize": [
+    720,
+    1280
+  ],
+  "displayScale": "approximately0.95; image not rescaled",
+  "state": "Home",
+  "selectedSourceLevel": 36,
+  "setup": "isolated HomeReview fixture seeds level36 and2000coins; not earned progression",
+  "originalVersionMatch": "unverified; source art and campaign are0.36.3, web reference version unresolved",
+  "nativeScreenCapture": "WaitForEndOfFrame did not finish in this Editor session; used actual visible Game View region"
+}

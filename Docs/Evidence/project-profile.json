@@ -1,0 +1,177 @@
+{
+  "unity": "6000.4.12f1",
+  "templateCommit": "f6486d0e8fa7e877360d7b775c96ad419474fe0f",
+  "observedAt": "2026-10-23T18:22:07.972427+00:00",
+  "packages": [
+    {
+      "name": "com.dreamy.assets",
+      "version": "0.1.1",
+      "gitCommit": "68b5a7457ed79dda01b0e0865c445db12ffba0b0",
+      "dependencies": {
+        "com.unity.addressables": "2.7.2",
+        "com.cysharp.unitask": "2.5.10",
+        "com.dreamy.core": "1.1.2"
+      },
+      "sourceObserved": true
+    },
+    {
+      "name": "com.dreamy.audio",
+      "version": "0.1.0",
+      "gitCommit": "69128a81faeb781bfdf9a4b93720a8381fc40fc2",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "sourceObserved": true
+    },
+    {
+      "name": "com.dreamy.core",
+      "version": "1.2.0",
+      "gitCommit": "ba844659fbc65655f21b082f89115295167f2405",
+      "dependencies": {},
+      "sourceObserved": true
+    },
+    {
+      "name": "com.dreamy.dataconfig",
+      "version": "0.2.1",
+      "gitCommit": "d261ae8bfd63ce5db35264e6eb2f8f6cb60cacfc",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "sourceObserved": true
+    },
+    {
+      "name": "com.dreamy.datasave",
+      "version": "0.2.0",
+      "gitCommit": "a88e22b0da2034c150937e3efd23454a3528303a",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "sourceObserved": true
+    },
+    {
+      "name": "com.dreamy.editor-tools",
+      "version": "0.2.2",
+      "gitCommit": "a230ad458aeebe657ba5f22a136aa199cf9cdc67",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "sourceObserved": true
+    },
+    {
+      "name": "com.dreamy.feature.economy",
+      "version": "0.2.1",
+      "gitCommit": "97ff875f73735c4169062545949aeee7b87de1fa",
+      "dependencies": {
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.ui": "0.2.0",
+        "com.dreamy.datasave": "0.2.0"
+      },
+      "sourceObserved": true
+    },
+    {
+      "name": "com.dreamy.feature.settings",
+      "version": "0.2.2",
+      "gitCommit": "81e0f8cc36a80e681ca675dc86f2037fa0dc3904",
+      "dependencies": {
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.audio": "0.1.0",
+        "com.cysharp.unitask": "2.5.10",
+        "com.dreamy.feature": "0.1.0",
+        "com.dreamy.ui": "0.2.0"
+      },
+      "sourceObserved": true
+    },
+    {
+      "name": "com.dreamy.feature.shop",
+      "version": "0.1.2",
+      "gitCommit": "3fee66cfd839d2d626e5c15878dcf0a440c413f9",
+      "dependencies": {
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.dataconfig": "0.2.0",
+        "com.dreamy.feature.economy": "0.2.1",
+        "com.dreamy.feature": "0.1.0",
+        "com.dreamy.ui": "0.2.0",
+        "com.cysharp.unitask": "2.5.10"
+      },
+      "sourceObserved": true
+    },
+    {
+      "name": "com.dreamy.feature",
+      "version": "0.1.0",
+      "gitCommit": "d129106fb06cee5174ebcda6ddff47abd3f66242",
+      "dependencies": {},
+      "sourceObserved": true
+    },
+    {
+      "name": "com.dreamy.feedback",
+      "version": "0.4.0",
+      "gitCommit": "2d22a64f83d409bae291f12aad3e0cb8c1a970df",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.cysharp.unitask": "2.5.10",
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "sourceObserved": true
+    },
+    {
+      "name": "com.dreamy.ui",
+      "version": "0.2.0",
+      "gitCommit": "91bfb340955d0fc819b8f7475e6407358f5cbf53",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.cysharp.unitask": "2.5.10",
+        "com.demigiant.dotween": "0.0.3",
+        "com.dreamy.core": "1.1.2",
+        "com.dreamy.assets": "0.1.1"
+      },
+      "sourceObserved": true
+    }
+  ],
+  "directCloneApiSources": [
+    {
+      "path": "Library/PackageCache/com.dreamy.dataconfig@d261ae8bfd63/Runtime/IDataConfigService.cs",
+      "sha256": "77ab0ae4f41cc940d76bc3f9345c73043f7ed501f7dc3b433d24cf82eaa9a88e"
+    },
+    {
+      "path": "Library/PackageCache/com.dreamy.dataconfig@d261ae8bfd63/Runtime/ConfigBase.cs",
+      "sha256": "7215c6129f5fe560a0373a4d0886ce4a0812ada3ba129eba212ae174db0df65b"
+    },
+    {
+      "path": "Library/PackageCache/com.dreamy.dataconfig@d261ae8bfd63/Runtime/ResourcesJsonConfigSource.cs",
+      "sha256": "0f6b54c5ba7ecd4ec9c8af551228953ba950046bae1437a37d4fd14874426e0e"
+    },
+    {
+      "path": "Library/PackageCache/com.dreamy.datasave@a88e22b0da20/Runtime/DatasaveService.cs",
+      "sha256": "fe6786709e163d1bf1c9f04c3d954b1f72fc3f6dd4552f6bb53781525d1eefb8"
+    },
+    {
+      "path": "Library/PackageCache/com.dreamy.datasave@a88e22b0da20/Runtime/DatasaveOptions.cs",
+      "sha256": "62237a22bc01c82187da821ba8e072874eb80190fba33953834429dff6570ea8"
+    },
+    {
+      "path": "Library/PackageCache/com.dreamy.datasave@a88e22b0da20/Runtime/SaveData.cs",
+      "sha256": "eb9770fede3476295080cc0b3f3a124e6a1296ea998bcbf863030d0d4d5033bb"
+    }
+  ],
+  "compatibilityNote": "Toolkit compatibility registry was inspected. Several template package revisions are newer/different than that historical snapshot. This profile records actual checked-out source and project-level verification, not a global registry support claim.",
+  "baseline": "Unity initial import exited 0; clone gameplay and player verification remain separate.",
+  "directUse": [
+    "Dreamy.DataConfig.Runtime",
+    "Dreamy.Datasave.Runtime",
+    "UniTask",
+    "Unity.InputSystem",
+    "UnityEngine.UI",
+    "Unity.TextMeshPro"
+  ],
+  "renderPipeline": "Template-derived Generated/PixelFlowPipeline.asset; Universal Renderer, URP 17.4.0, render scale 1, MSAA 4.",
+  "currentBuildPolicy": "No further player builds at owner request; Android cancelled.",
+  "sourceOnlyAfterLastPlayerBuild": [
+    "Verification screenshot helper writes frame pixels synchronously; not player-retested.",
+    "Pig mesh faces the camera based on original eye UV geometry; review in Editor.",
+    "One-time Editor startup opens the clone scene only from a clean Untitled scene."
+  ]
+}

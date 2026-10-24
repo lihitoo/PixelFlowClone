@@ -1,0 +1,3287 @@
+[
+  {
+    "path": "Start Page Variant",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 720}",
+    "m_SizeDelta": "{x: 0, y: -720}",
+    "m_Pivot": "{x: 0.5, y: 0}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Column",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 1}",
+    "m_AnchoredPosition": "{x: 2, y: 112.5}",
+    "m_SizeDelta": "{x: 67.5, y: -525}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 342, y: 384}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Normal Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Normal Content/Normal Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Normal Content/Normal Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Normal Content/Normal Bg Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: -8.699982, y: 11.849976}",
+    "m_SizeDelta": "{x: 298.4, y: 306.1}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Normal Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Hard Content/Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Hard Content/Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 0, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: -4.699999}",
+    "m_SizeDelta": "{x: 90.20001, y: 87.8}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Text",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Very Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Very Hard Content/Very Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Very Hard Content/Very Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Very Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Very Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 363.41, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: -4.699999}",
+    "m_SizeDelta": "{x: 90.20001, y: 87.8}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Text",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 181.705, y: -50}",
+    "m_SizeDelta": "{x: 263.41, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Ultra Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Ultra Hard Content/Ultra Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: -10.8}",
+    "m_SizeDelta": "{x: 585.4, y: 642}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Ultra Hard Content/Ultra Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 20.000053}",
+    "m_SizeDelta": "{x: -40, y: -0.00010681152}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Ultra Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Ultra Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 369.47, y: 130}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 84, y: 74}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Label Text",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 184.735, y: -65}",
+    "m_SizeDelta": "{x: 269.47, y: 130}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Variables",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Variables/Level Number",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Variables/Level Type",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Animations",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Animations/Current Level Animation",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Behaviours",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Behaviours/Level Context Provider",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant/Behaviours/Level Context Provider/Level Context Active Binding",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 342, y: 384}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Normal Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: -8.699982, y: 11.849976}",
+    "m_SizeDelta": "{x: 298.4, y: 306.1}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Normal Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Hard Content/Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Hard Content/Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 0, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: -4.699999}",
+    "m_SizeDelta": "{x: 90.20001, y: 87.8}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Text",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Very Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Very Hard Content/Very Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Very Hard Content/Very Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Very Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Very Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 363.41, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: -4.699999}",
+    "m_SizeDelta": "{x: 90.20001, y: 87.8}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Text",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 181.705, y: -50}",
+    "m_SizeDelta": "{x: 263.41, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Ultra Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Ultra Hard Content/Ultra Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: -10.8}",
+    "m_SizeDelta": "{x: 585.4, y: 642}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Ultra Hard Content/Ultra Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 20.000053}",
+    "m_SizeDelta": "{x: -40, y: -0.00010681152}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Ultra Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 369.47, y: 130}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 84, y: 74}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Label Text",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 184.735, y: -65}",
+    "m_SizeDelta": "{x: 269.47, y: 130}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Variables",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Variables/Level Number",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Variables/Level Type",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Animations",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Animations/Current Level Animation",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Behaviours",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Behaviours/Level Context Provider",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (1)/Behaviours/Level Context Provider/Level Context Active Binding",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 342, y: 384}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Normal Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: -8.699982, y: 11.849976}",
+    "m_SizeDelta": "{x: 298.4, y: 306.1}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Normal Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Hard Content/Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Hard Content/Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 0, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: -4.699999}",
+    "m_SizeDelta": "{x: 90.20001, y: 87.8}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Text",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Very Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Very Hard Content/Very Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Very Hard Content/Very Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Very Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Very Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 363.41, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: -4.699999}",
+    "m_SizeDelta": "{x: 90.20001, y: 87.8}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Text",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 181.705, y: -50}",
+    "m_SizeDelta": "{x: 263.41, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Ultra Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Ultra Hard Content/Ultra Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: -10.8}",
+    "m_SizeDelta": "{x: 585.4, y: 642}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Ultra Hard Content/Ultra Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 20.000053}",
+    "m_SizeDelta": "{x: -40, y: -0.00010681152}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Ultra Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 369.47, y: 130}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 84, y: 74}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Label Text",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 184.735, y: -65}",
+    "m_SizeDelta": "{x: 269.47, y: 130}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Variables",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Variables/Level Number",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Variables/Level Type",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Animations",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Animations/Current Level Animation",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Behaviours",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Behaviours/Level Context Provider",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (2)/Behaviours/Level Context Provider/Level Context Active Binding",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 342, y: 384}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Normal Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: -8.699982, y: 11.849976}",
+    "m_SizeDelta": "{x: 298.4, y: 306.1}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Normal Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Hard Content/Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Hard Content/Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 0, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: -4.699999}",
+    "m_SizeDelta": "{x: 90.20001, y: 87.8}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Text",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Very Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Very Hard Content/Very Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Very Hard Content/Very Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Very Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Very Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 363.41, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: -4.699999}",
+    "m_SizeDelta": "{x: 90.20001, y: 87.8}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Text",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 181.705, y: -50}",
+    "m_SizeDelta": "{x: 263.41, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Ultra Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Ultra Hard Content/Ultra Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: -10.8}",
+    "m_SizeDelta": "{x: 585.4, y: 642}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Ultra Hard Content/Ultra Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 20.000053}",
+    "m_SizeDelta": "{x: -40, y: -0.00010681152}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Ultra Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 369.47, y: 130}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 84, y: 74}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Label Text",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 184.735, y: -65}",
+    "m_SizeDelta": "{x: 269.47, y: 130}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Variables",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Variables/Level Number",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Variables/Level Type",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Animations",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Animations/Current Level Animation",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Behaviours",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Behaviours/Level Context Provider",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (3)/Behaviours/Level Context Provider/Level Context Active Binding",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 342, y: 384}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Normal Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Normal Content/Normal Bg Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: -8.699982, y: 11.849976}",
+    "m_SizeDelta": "{x: 298.4, y: 306.1}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Normal Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Hard Content/Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Hard Content/Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 0, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: -4.699999}",
+    "m_SizeDelta": "{x: 90.20001, y: 87.8}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Hard Content/Label/Hard Label Text",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Very Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Very Hard Content/Very Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 2.7}",
+    "m_SizeDelta": "{x: 585.4, y: 627.4}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Very Hard Content/Very Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: -40, y: -40}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Very Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Very Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 363.41, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: -4.699999}",
+    "m_SizeDelta": "{x: 90.20001, y: 87.8}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Very Hard Content/Label/Very Hard Label Text",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 181.705, y: -50}",
+    "m_SizeDelta": "{x: 263.41, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Ultra Hard Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Ultra Hard Content/Ultra Hard Bg Glow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: -10.8}",
+    "m_SizeDelta": "{x: 585.4, y: 642}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Ultra Hard Content/Ultra Hard Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 20.000053}",
+    "m_SizeDelta": "{x: -40, y: -0.00010681152}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Ultra Hard Content/Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 160, y: 140}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 10}",
+    "m_SizeDelta": "{x: 369.47, y: 130}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Hard Label Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 84, y: 74}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Hitbox/Content/Scale Animation/Ultra Hard Content/Label/Ultra Label Text",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 184.735, y: -65}",
+    "m_SizeDelta": "{x: 269.47, y: 130}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Variables",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Variables/Level Number",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Variables/Level Type",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Animations",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Animations/Current Level Animation",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Behaviours",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Behaviours/Level Context Provider",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Level Tree/Level Tree Layout/Level Tree Items/Level Tree Item Variant (4)/Behaviours/Level Context Provider/Level Context Active Binding",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Top Shadow",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 800}",
+    "m_Pivot": "{x: 0.5, y: 1}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant",
+    "m_AnchorMin": "{x: 0.5, y: 0}",
+    "m_AnchorMax": "{x: 0.5, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 689}",
+    "m_SizeDelta": "{x: 650, y: 300}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Hitbox",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Hitbox/Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Hitbox/Content/Unipig Play Button Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Hitbox/Content/Unipig Play Button Glow/Glow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 240, y: 220}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Hitbox/Content/Unipig Play Button Glow/ItemSparkleSoftRainbow",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: -6}",
+    "m_SizeDelta": "{x: 100, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Hitbox/Content/Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Hitbox/Content/Text (TMP)",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 14}",
+    "m_SizeDelta": "{x: -189.87732, y: -100.85321}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Hitbox/Content/UISparkleNoText",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 100, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 0, y: 0, z: 0}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Hitbox/Content/Coin Tag Background",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 527.7, y: 23.4}",
+    "m_SizeDelta": "{x: 196.68, y: 292.38}",
+    "m_Pivot": "{x: 0, y: 1}",
+    "m_LocalScale": "{x: 0.85, y: 0.85, z: 0.85}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Hitbox/Content/Coin Tag Background/Coin Amount",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 6.935364, y: -36.700012}",
+    "m_SizeDelta": "{x: -94.556, y: -190.5511}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Logic",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Logic/Level Reward Claim Transform Sync",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Logic/CanvasSortOverrideController",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 100, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Logic/ResourceAnimationTarget",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 100, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/Logic/Coin Tag Controller",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 100, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/ResourceDestination",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Content/Core Content/Start Page Play Button Variant/ResourceDestination/IconParent",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 100, y: 100}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Spacer",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 0}",
+    "m_Pivot": "{x: 0, y: 1}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Endgame League Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Endgame League Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Pixel Arena Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Pixel Arena Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Cosmic Journey Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Cosmic Journey Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 150, y: -180}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 150, y: -180}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 0.8755596}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg/Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg (1)",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 0.8755596}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg (1)/CircularProgressBar",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg (1)/CircularProgressBar/Background Image",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg (1)/CircularProgressBar/Background Image (1)",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg (1)/CircularProgressBar/Fill Area",
+    "m_AnchorMin": "{x: 0.085, y: 0.135}",
+    "m_AnchorMax": "{x: 0.915, y: 0.92}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg (1)/CircularProgressBar/Fill Area/Fill Mask Image",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 248, y: 248}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg (1)/CircularProgressBar/Fill Area/Fill Mask Image/Fill Image",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 248, y: 248}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg (1)/CircularProgressBar/Fill Area/Fill Mask Image/Fill Image/Fill Image Green",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 248, y: 248}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg (1)/CircularProgressBar/EdgePivot",
+    "m_AnchorMin": "{x: 0.085, y: 0.135}",
+    "m_AnchorMax": "{x: 0.915, y: 0.92}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg (1)/CircularProgressBar/EdgePivot/Edge Fill",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: -110}",
+    "m_SizeDelta": "{x: 50, y: 50}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Bg (1)/CircularProgressBar/EdgePivot/Edge Fill/Fill Image Green",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 110}",
+    "m_SizeDelta": "{x: 248, y: 248}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Icon",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: -15}",
+    "m_SizeDelta": "{x: 0, y: 335}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Notification",
+    "m_AnchorMin": "{x: 0.7225319, y: 0.6442411}",
+    "m_AnchorMax": "{x: 1.0602441, y: 0.9668665}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Notification/Notification Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Notification/Exclamation Icon",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: -7.6293945E-06, y: 0}",
+    "m_SizeDelta": "{x: 256, y: 256}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 0.33, y: 0.33, z: 0.33}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Countdown Label",
+    "m_AnchorMin": "{x: 0.1, y: 0}",
+    "m_AnchorMax": "{x: 0.9, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 90}",
+    "m_Pivot": "{x: 0.5, y: 0}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Countdown Label/Lava Quest Countdown View Simple",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Countdown Label/Lava Quest Countdown View Simple/Time Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Countdown Label/Lava Quest Countdown View Simple/Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 10}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Countdown Label/Lava Quest Countdown View Simple/Label Text",
+    "m_AnchorMin": "{x: 0.1, y: 0.18960641}",
+    "m_AnchorMax": "{x: 0.9, y: 0.86666685}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Button/Hitbox/Content/Countdown Label/Lava Quest Countdown View Simple/Time Text",
+    "m_AnchorMin": "{x: 0.1, y: 0.18960641}",
+    "m_AnchorMax": "{x: 0.9, y: 0.86666685}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Progress Image Start Position",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 230, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Progress Image Start Position/Multiplier Token Parent",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 170, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Progress Image Start Position/Multiplier Token Parent/Fx_Spread_Star01",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 5, y: 5}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 80, y: 80, z: 80}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Lava Quest Main Button Controller/Button Parent/Lava Quest Main Button/Progress Amount Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 340, y: 0}",
+    "m_SizeDelta": "{x: 200, y: 100}",
+    "m_Pivot": "{x: 0, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Race Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Race Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Fairy Shoots Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Left Variant/Fairy Shoots Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant",
+    "m_AnchorMin": "{x: 1, y: 1}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 0}",
+    "m_Pivot": "{x: 1, y: 1}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Unipig Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Unipig Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 150, y: -180}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 150, y: -180}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 0.8755596}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg/Bg Image",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 0.8755596}",
+    "m_AnchoredPosition": "{x: 0, y: 19.611816}",
+    "m_SizeDelta": "{x: 0, y: 39.223785}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg/CircularProgressBar",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg/CircularProgressBar/Background Image",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg/CircularProgressBar/Background Image (1)",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg/CircularProgressBar/Fill Area",
+    "m_AnchorMin": "{x: 0.085, y: 0.135}",
+    "m_AnchorMax": "{x: 0.915, y: 0.92}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg/CircularProgressBar/Fill Area/Fill Mask Image",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 248, y: 248}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg/CircularProgressBar/Fill Area/Fill Mask Image/Fill Image",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 248, y: 248}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg/CircularProgressBar/Fill Area/Fill Mask Image/Fill Image/Fill Image Green",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 248, y: 248}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg/CircularProgressBar/EdgePivot",
+    "m_AnchorMin": "{x: 0.085, y: 0.135}",
+    "m_AnchorMax": "{x: 0.915, y: 0.92}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg/CircularProgressBar/EdgePivot/Edge Fill",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: -110}",
+    "m_SizeDelta": "{x: 50, y: 50}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Bg/CircularProgressBar/EdgePivot/Edge Fill/Fill Image Green",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 110}",
+    "m_SizeDelta": "{x: 248, y: 248}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Icon",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: -4}",
+    "m_SizeDelta": "{x: 256, y: 256}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Notification",
+    "m_AnchorMin": "{x: 0.7225319, y: 0.6442411}",
+    "m_AnchorMax": "{x: 1.0602441, y: 0.9668665}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Notification/Notification Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Notification/Notification Count Text",
+    "m_AnchorMin": "{x: 0.1995038, y: 0.1927717}",
+    "m_AnchorMax": "{x: 0.8002765, y: 0.8619717}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label",
+    "m_AnchorMin": "{x: 0.1, y: 0}",
+    "m_AnchorMax": "{x: 0.9, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 90}",
+    "m_Pivot": "{x: 0.5, y: 0}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Battle Pass Countdown View Simple",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Battle Pass Countdown View Simple/Time Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Battle Pass Countdown View Simple/Time Text",
+    "m_AnchorMin": "{x: 0.1, y: 0.18960641}",
+    "m_AnchorMax": "{x: 0.9, y: 0.86666685}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Label Locked",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Label Locked/Locked Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Label Locked/Locked Text",
+    "m_AnchorMin": "{x: 0.1, y: 0.18960641}",
+    "m_AnchorMax": "{x: 0.9, y: 0.86666685}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Label Open",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Label Open/Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: -1.5258789E-05}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Label Open/Open Text",
+    "m_AnchorMin": "{x: 0.1, y: 0.18960641}",
+    "m_AnchorMax": "{x: 0.9, y: 0.86666685}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 7.6293945E-06}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Label Claim",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Label Claim/Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: -1.5258789E-05}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Content/Button Label/Label Claim/Claim Text",
+    "m_AnchorMin": "{x: 0.1, y: 0.18960641}",
+    "m_AnchorMax": "{x: 0.9, y: 0.86666685}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 7.6293945E-06}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Progress Image Start Position",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: -230, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Progress Image Start Position/Multiplier Token Parent",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 170, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Progress Image Start Position/Multiplier Token Parent/Fx_Spread_Star01",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 5, y: 5}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 80, y: 80, z: 80}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Tutorial Objects",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Tutorial Objects/Tutorial Arrow Pivot",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: -430, y: 0}",
+    "m_SizeDelta": "{x: 240, y: 240}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Button/Hitbox/Tutorial Objects/Tutorial Arrow Pivot/Tutorial Arrow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Battle Pass Main Button Controller/Button Parent/Battle Pass Main Button/Progress Amount Text",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: -333, y: 0}",
+    "m_SizeDelta": "{x: 200, y: 100}",
+    "m_Pivot": "{x: 1, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button",
+    "m_AnchorMin": "{x: 0, y: 1}",
+    "m_AnchorMax": "{x: 0, y: 1}",
+    "m_AnchoredPosition": "{x: 150, y: -180}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 0.8755596}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Bg/Background Image",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Icon Frame",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: -8, y: -32}",
+    "m_SizeDelta": "{x: 320, y: 320}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Icon Frame/Icon",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 18, y: 60}",
+    "m_SizeDelta": "{x: 340, y: 340}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Notification Frame",
+    "m_AnchorMin": "{x: 0.7091986, y: 0.6304445}",
+    "m_AnchorMax": "{x: 1.0536667, y: 0.9607778}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Notification Frame/Green Exclamation",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Notification Frame/Green Exclamation/Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Notification Frame/Green Exclamation/Icon",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: -7.6293945E-06, y: 0}",
+    "m_SizeDelta": "{x: 256, y: 256}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 0.33, y: 0.33, z: 0.33}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Button Label",
+    "m_AnchorMin": "{x: 0.1, y: 0}",
+    "m_AnchorMax": "{x: 0.9, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 90}",
+    "m_Pivot": "{x: 0.5, y: 0}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Button Label/Cosmic Journey Countdown View Simple",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Button Label/Cosmic Journey Countdown View Simple/Time Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Button Label/Cosmic Journey Countdown View Simple/Time Text",
+    "m_AnchorMin": "{x: 0.1, y: 0.18960641}",
+    "m_AnchorMax": "{x: 0.9, y: 0.86666685}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Button Label/Label Locked",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Button Label/Label Locked/Locked Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Button Label/Label Locked/Locked Text",
+    "m_AnchorMin": "{x: 0.1, y: 0.18960641}",
+    "m_AnchorMax": "{x: 0.9, y: 0.86666685}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Button Label/Label Bonus",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Button Label/Label Bonus/Label Bg",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: -1.5258789E-05}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Button Label/Label Bonus/Bonus Text",
+    "m_AnchorMin": "{x: 0.1, y: 0.18960641}",
+    "m_AnchorMax": "{x: 0.9, y: 0.86666685}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 7.6293945E-06}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Button/Hitbox/Content/Fx Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Progress Image Start Position",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 230, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Progress Image Start Position/Multiplier Token Parent",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 170, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Progress Image Start Position/Multiplier Token Parent/Fx_Spread_Star01",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 5, y: 5}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 80, y: 80, z: 80}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Tutorial Objects",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 1140, y: 2756}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: -1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Tutorial Objects/Tutorial Arrow Pivot",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 430, y: 0}",
+    "m_SizeDelta": "{x: 240, y: 240}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Daily Bonus Main Button Controller/Button Parent/Daily Bonus Main Button/Tutorial Objects/Tutorial Arrow Pivot/Tutorial Arrow",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Rush Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Rush Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Start Page Claimable Buttons",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Mission Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Mission Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Offerwall Main Button Controller",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 0, y: 0}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 300, y: 360}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Body/Start Page Layout/Body/Buttons/Start Page Buttons Right Variant/Offerwall Main Button Controller/Button Parent",
+    "m_AnchorMin": "{x: 0, y: 0}",
+    "m_AnchorMax": "{x: 1, y: 1}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Logic",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  },
+  {
+    "path": "Start Page Variant/Logic/IAP Source Current Value Pusher",
+    "m_AnchorMin": "{x: 0.5, y: 0.5}",
+    "m_AnchorMax": "{x: 0.5, y: 0.5}",
+    "m_AnchoredPosition": "{x: 0, y: 0}",
+    "m_SizeDelta": "{x: 0, y: 0}",
+    "m_Pivot": "{x: 0.5, y: 0.5}",
+    "m_LocalScale": "{x: 1, y: 1, z: 1}"
+  }
+]

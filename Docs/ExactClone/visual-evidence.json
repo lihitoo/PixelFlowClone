@@ -1,0 +1,779 @@
+{
+  "schemaVersion": 1,
+  "images": [
+    {
+      "id": "img-store-google-00",
+      "path": "Docs/ExactClone/Research/images/store-google-00.webp",
+      "sourceId": "store-google",
+      "url": "https://play-lh.googleusercontent.com/FvAiHRhj8Wo1vO_4ez1V8ChSJKAw46dos-FEIkbmNs_wtbDKg0Y9eyVJe1hJn2R-mwyr4_LmWkIGJCHHY74K=w240-h480-rw",
+      "sha256": "93f3cb541f9fd18d9405f31de4dac1faea9ca5cfa1876954f453765e62ec3b3b",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-store-apple-00",
+      "path": "Docs/ExactClone/Research/images/store-apple-00.webp",
+      "sourceId": "store-apple",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/94/bf/e794bf86-9e39-c5f9-04e5-af4a4a49391f/Placeholder.mill/200x200Icon.ApSiOS01-75.webp",
+      "sha256": "430cef17c0a0f057c983b26bad6ad9943056adf6e398789c39b064473a7f7a2b",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-store-apple-01",
+      "path": "Docs/ExactClone/Research/images/store-apple-01.webp",
+      "sourceId": "store-apple",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/94/bf/e794bf86-9e39-c5f9-04e5-af4a4a49391f/Placeholder.mill/200x200Icon.ApSiOS01-75.webp",
+      "sha256": "430cef17c0a0f057c983b26bad6ad9943056adf6e398789c39b064473a7f7a2b",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-store-apple-02",
+      "path": "Docs/ExactClone/Research/images/store-apple-02.webp",
+      "sourceId": "store-apple",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/93/5c/72935c74-649f-189d-8767-7cf3587f2243/Image_1.jpg/230x498bb.webp",
+      "sha256": "18edeb29e80df25cab4a2a1b2a4abf94836d99e7efc446b2a6f7f13ba3f0f4f0",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-store-apple-03",
+      "path": "Docs/ExactClone/Research/images/store-apple-03.webp",
+      "sourceId": "store-apple",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/16/2e/c3162e97-c9b2-b52e-3fc4-348da2a758eb/Image_2.jpg/230x498bb.webp",
+      "sha256": "f851e79be0cea3e46398af2e9cf5dc6bbed501483575e6ee0da43c9a870b63c8",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-store-apple-04",
+      "path": "Docs/ExactClone/Research/images/store-apple-04.webp",
+      "sourceId": "store-apple",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/c0/2a/8bc02a6f-a1c5-2ee4-9b59-d975a1efb05d/Image_3.jpg/230x498bb.webp",
+      "sha256": "91eacef1dcf402e738ac89872ed5f2d8ef8efa28d34e60212e541f97ca02c4c9",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-store-apple-05",
+      "path": "Docs/ExactClone/Research/images/store-apple-05.webp",
+      "sourceId": "store-apple",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/bc/56/78/bc56789a-12e5-f2a9-2ec0-5c09f77a968f/14856334-c706-4439-9aa1-3892ce5460fd.png/400x225SCS.ApDPCS01.webp",
+      "sha256": "68fac50c0744f887b1e45cdf8848d980abca4de6a4e14785333d98fe3888c53f",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-00",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-00.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQHWugWZUlt5Xg/article-cover_image-shrink_720_1280/B4DZyY0FY6JIAI-/0/1772090318850?e=2147483647&v=beta&t=0cCOG7Iq6NnxLulRzKkgxndPOj5gzDu5v6HLpl0zpwk",
+      "sha256": "39ae486068818cca2e29a3972c52e23e5bb6028a1f35206eeeb782cf5ba52941",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-01",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-01.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQERsN_LkxIqnw/article-inline_image-shrink_400_744/B4DZyY3M7NJwAc-/0/1772091137774?e=2147483647&v=beta&t=YB3gPpbjehQ2pz5gQ3HX6RsTr7dECkG1RcxxgvCGsmo",
+      "sha256": "2b43ef5432458f4c9a27310e4fde0da68025c0de4f07efca7e8f52f72089bb23",
+      "review": "usable-reference",
+      "observation": "Four progressive shop states; no-ads, six coin packs, bundles",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-02",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-02.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQE_U_CUlLsTtg/article-inline_image-shrink_1000_1488/B4DZyY0f7ZGQAQ-/0/1772090426032?e=2147483647&v=beta&t=8y7g0SvgTs-h6FETCH9hjavHfRz7XaowSDFyaokIiUM",
+      "sha256": "e671d1d6971554e6a371f3b751319890645828de134db94a4491786e44c64481",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-03",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-03.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQFJoxXfS2R50g/article-inline_image-shrink_1500_2232/B4DZyY0pTDJIAU-/0/1772090464261?e=2147483647&v=beta&t=RfKWooqdojeu6X1ebLaDjTblxPWtCefLSx5dzFBS9WM",
+      "sha256": "823b98877335372a55766c47387bbe408813f36850eb9b6f841c747011727d20",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-04",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-04.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQH6UUPhAE0WIw/article-inline_image-shrink_1000_1488/B4DZyY09YuJAAQ-/0/1772090546491?e=2147483647&v=beta&t=SLTd_Qc3GXkeihN_9EIET1gPH3QC6Kki_ly6usL08mU",
+      "sha256": "0c9a8b64a28691b52a54ad04a532c4a4f76c8d2d3ff9f2426504a98fc157f1f6",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-05",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-05.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQHb_y3qE1IPUw/article-cover_image-shrink_720_1280/B4DZ75sPVmIYAQ-/0/1782305587316?e=2147483647&v=beta&t=cbSVChlvYXxkDnRZhN2C_tQFxxNpdYKtiMiuPLkFGj0",
+      "sha256": "61a85043b97d5de7488698366a5e86811489c339a8394ae6babb65587994650f",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-06",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-06.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQG5hxI6Us220A/article-cover_image-shrink_720_1280/B4DZ8kqTgDJ8AQ-/0/1783026498972?e=2147483647&v=beta&t=PL9XIBlQAQXbxqzrZic2RLJHZrol6xkmh-IhogpkvlY",
+      "sha256": "4ca71f761e9e408722ab9a7da38736d44d70df2b199381ea00b5dd7c85b5c2b5",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-07",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-07.jpg",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4E12AQGr26ao68M6vQ/article-cover_image-shrink_720_1280/B4EZWXLVABGYAI-/0/1741998085259?e=2147483647&v=beta&t=9O1ImkEPI5ah9ZfizVhbjjoagxBWDorHmQnuwdyr52I",
+      "sha256": "a9f123993208e72895ede643da51497a901c043628290eda15028ff74b6b7bdf",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-08",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-08.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQEYqhHk1hRKPg/article-inline_image-shrink_400_744/B4DZyY2RD0GQAY-/0/1772090889693?e=2147483647&v=beta&t=37EGqSk55OZC2i9E9JfCLdpkrAqNhsKnwxrbupO5Ooc",
+      "sha256": "563771c4edd6c7ee220c3a5d49d70dd702b296a2a10caef0817a00f5b2b0c6c4",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-09",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-09.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQGi7xX7YUMs-g/article-cover_image-shrink_720_1280/B56Z0fdrxeH8AI-/0/1774349374110?e=2147483647&v=beta&t=cGb3jddmud2Oi4r-Gv7MxNRwNI1n22hfq2dSYhePm-Y",
+      "sha256": "2c948f0120a0e7a1f611fe0e334538b8b2e5643d0e44749824c3cd82e52b1005",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-10",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-10.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQFXswRV_KNQrw/article-cover_image-shrink_720_1280/B4DZzZFEtXGwAM-/0/1773168517790?e=2147483647&v=beta&t=eZsfrBI_g-av1YqeTJN5qcUCPA9eNmkRdomDvXyZN64",
+      "sha256": "04dd6b19dc6cf0e96f3cd4dbc195e2ebece30e3a9fe77cac6020694ed0de5946",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-11",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-11.jpg",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQGqccalDuO29A/article-cover_image-shrink_720_1280/B4DZytnN5tIgAI-/0/1772439266249?e=2147483647&v=beta&t=dBTiAB9dhAIAHhBnnwbIpP5UbGfKQaWOrq9DYXkV_4c",
+      "sha256": "ac9cd9adc7a21931ed2228728853c56b2a34a559422f6cc888d74efad6de0502",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-12",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-12.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQFBRghgC1YzvQ/article-cover_image-shrink_720_1280/B4DZx9MTmyIUAI-/0/1771626905414?e=2147483647&v=beta&t=U4iiqHbGlS3LitX96_z4mcnXzE3dYiw6adeliLBA_MA",
+      "sha256": "55d94d1d312c2404c0dfcdd546ab80a4e1cba6c2b3a579593e8bd54acfdbfe84",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-shop-analysis-13",
+      "path": "Docs/ExactClone/Research/images/shop-analysis-13.png",
+      "sourceId": "shop-analysis",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQGuIH48LjxCww/article-cover_image-shrink_720_1280/B4DZxDNlncI4AI-/0/1770654163182?e=2147483647&v=beta&t=IJbns2MuSRY_NHnnrcUp0vIr98RVAWdxdpczp-ZvI9s",
+      "sha256": "3b6f879971d79e7e8f5cd4be4de8659a106f18f0df928cfddaeee24eb7c69766",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-00",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-00.png",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2Ff95e6788-f2f6-4abf-9405-a216e673480a.png&w=640&q=75",
+      "sha256": "66d36b2c0edd8467eab6f00419c96c716d2eecd20825790142e5b6e92cd7003a",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-01",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-01.png",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2Ff95e6788-f2f6-4abf-9405-a216e673480a.png&w=640&q=75",
+      "sha256": "66d36b2c0edd8467eab6f00419c96c716d2eecd20825790142e5b6e92cd7003a",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-02",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-02.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2F0e024e23-9790-433c-af4f-b0708bb61eaa.webp&w=1080&q=75",
+      "sha256": "30c7339a173f99b3ab9d31cf8e4e2ab3cd022951c9c1346f8dd95dc3ec4b19af",
+      "review": "usable-reference",
+      "observation": "Feature illustration only, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-03",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-03.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2F505a9a34-dc7f-4fae-b6a7-7877bfad95f2.webp&w=1080&q=75",
+      "sha256": "34bf05f769b99ef028413caa7a73cc0c9a0320bf0763717f1e378c008d612055",
+      "review": "usable-reference",
+      "observation": "Feature illustration only, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-04",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-04.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2Fcb177713-8b63-4e00-8666-3f7f470a9ab4.webp&w=1080&q=75",
+      "sha256": "08049d7f5a43b62b9cd2cb5e43fa3160490c9b9f5fab1bb4b78d34ae8bb8acf3",
+      "review": "usable-reference",
+      "observation": "Feature illustration only, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-05",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-05.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2Fff686788-e86d-4a81-9b78-83a6404eee84.webp&w=1080&q=75",
+      "sha256": "c572a31ddc6b0ee4b99b449043bd39d8782e67e5d026039490ae39411f3ab2dc",
+      "review": "usable-reference",
+      "observation": "Feature illustration only, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-06",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-06.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2Fbf2136da-9716-4a7d-a6ac-952ec9d9c049.webp&w=1080&q=75",
+      "sha256": "24dc231aa0848777fb7ee883e23051e8e4de075e55b8a9d6a69c439cf4b29fe7",
+      "review": "usable-reference",
+      "observation": "Feature illustration only, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-07",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-07.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2F318e3910-618f-40c5-a060-77bf2f68997c.webp&w=1080&q=75",
+      "sha256": "11957f6a5ddd72508e501d55e96ca7109a400fe50cccb988163ef8f39471d5e4",
+      "review": "usable-reference",
+      "observation": "Feature illustration only, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-08",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-08.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2Fc2a3d610-9d19-4ac6-b9b7-bfbaa873d3ac.webp&w=1080&q=75",
+      "sha256": "a7e67524fa2d15a628367b3b26d881174f26eeab2631ba4dfa49264211e94996",
+      "review": "usable-reference",
+      "observation": "Pumpkin feature illustration, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-09",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-09.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2F05187aef-3992-4061-836a-783b86b6c99e.webp&w=1080&q=75",
+      "sha256": "fe4b997533de6096b852a3981d976ae6b3c2613f4cf4b5d3e825dcf6c126e5de",
+      "review": "usable-reference",
+      "observation": "UFO feature illustration, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-10",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-10.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2Ff65a9691-9b53-44b7-9989-8c15a28dd262.webp&w=1080&q=75",
+      "sha256": "6573bca462d30a99fb3de9e4c5cedba57aeaf54f9c3e85e5555d4dc812a75052",
+      "review": "usable-reference",
+      "observation": "Feature illustration only, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-11",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-11.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2F8ba763e0-f2b0-4fc0-b1d3-8474bff76e59.webp&w=1080&q=75",
+      "sha256": "bc32c59b0e1c11588e3b0c3c49184c7da5c8f3a6a79aa128fb214cc6ef18b09a",
+      "review": "usable-reference",
+      "observation": "Feature illustration only, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-12",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-12.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2F82d68621-a81e-4a35-aa7c-ee84625dedf5.webp&w=1080&q=75",
+      "sha256": "6adff6b5b0ea49c4b721462d7278ec28fb072457fd53d5f5845296e9ba61c485",
+      "review": "usable-reference",
+      "observation": "Feature illustration only, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-mechanics-gallery-13",
+      "path": "Docs/ExactClone/Research/images/mechanics-gallery-13.jpg",
+      "sourceId": "mechanics-gallery",
+      "url": "https://pixel-flow.app/_next/image?url=https%3A%2F%2Fgl.imgbear.xyz%2Fcaaf6583-ab93-478b-9ac2-d8720db631d0.webp&w=1080&q=75",
+      "sha256": "a077e77974d34df13308e3026c054833ae1f931abaae2b1ba12584f126c8a42b",
+      "review": "usable-reference",
+      "observation": "Feature illustration only, not runtime screenshot",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-00",
+      "path": "Docs/ExactClone/Research/images/first-hour-00.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQFjtJAHbzMwLQ/article-cover_image-shrink_720_1280/B56Z0qzcnRJsAI-/0/1774539624867?e=2147483647&v=beta&t=HkpI93rercc-qQx5ZUrYAju39JuliDzG8eNtIhQpy_A",
+      "sha256": "b49d6d29303d7ed992d9644e44a253a8845150b7041b5113f09cc3cbaa240c0a",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-01",
+      "path": "Docs/ExactClone/Research/images/first-hour-01.jpg",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D5603AQHFtYBbHQAllA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698391652507?e=2147483647&v=beta&t=whNtWb6m6ZWMO3Jas78r2HlR23tAdCIMrJMcWruTrFI",
+      "sha256": "51383c28091c506869cf9286b2579d436483a59701579378155f935ac5c9b488",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-02",
+      "path": "Docs/ExactClone/Research/images/first-hour-02.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQHZxAU9XS7gkg/article-inline_image-shrink_400_744/B56Z0qvnEXK0Ag-/0/1774538618956?e=2147483647&v=beta&t=fzWIuyFUwWgOdjZK84ZEdocT8x2bE3BPFse_RutzcEo",
+      "sha256": "8b695f18e3b0e2b5fbdf61df428e03c710fab88a70217ac886958ebad7b488b0",
+      "review": "usable-reference",
+      "observation": "Home/gameplay/shop/Fire Quest panel montage; old unspecified version",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-03",
+      "path": "Docs/ExactClone/Research/images/first-hour-03.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQHhjeS_wGpwuA/article-inline_image-shrink_400_744/B56Z0q0SiuHwAY-/0/1774539845203?e=2147483647&v=beta&t=yCt3FPjhMdCigmEOCBf8zHKkJmXnJmoQ3VoCjTdWSRA",
+      "sha256": "4708fb1541b09a806ec2bbfc41c957112bff2a0ae82bd5514c944565e683cfb8",
+      "review": "usable-reference",
+      "observation": "Core tutorial spotlight sequence",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-04",
+      "path": "Docs/ExactClone/Research/images/first-hour-04.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQFp2PbKHPqKcA/article-inline_image-shrink_400_744/B56Z0q1sm2JMAc-/0/1774540214564?e=2147483647&v=beta&t=ROqm-YsmL62Q6V1hiwxQXui-GnEy_iavuinCy5iap1s",
+      "sha256": "7196364e8788e0a524f58aa49eac510a00de3ac6170c45a0ac3458c2b59b5a06",
+      "review": "usable-reference",
+      "observation": "No Ads, gameplay and Home difficulty path",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-05",
+      "path": "Docs/ExactClone/Research/images/first-hour-05.jpg",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQGHplwHBinLcA/article-cover_image-shrink_720_1280/B56ZmUftxlIAAI-/0/1759132966494?e=2147483647&v=beta&t=4ublGCcc5u5CGfLowTXNlpNAZmBsZRt84akRBV8Qtnk",
+      "sha256": "2fb8fa30cbbd53df39ac0cd921480692aa8abb9da8e8aacbb176735469665b9f",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-06",
+      "path": "Docs/ExactClone/Research/images/first-hour-06.jpg",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQEi-oITkj39bA/article-cover_image-shrink_720_1280/B56ZlwSuMbI4AM-/0/1758525580871?e=2147483647&v=beta&t=tuVjgQE9gnFu6f1kV6Aj2QTUSDTYHacwVq_DCNGin3Q",
+      "sha256": "0e9642f601096880afd9f3795471eb66dcf7af63fce6e6f835f9b85c3210102b",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-07",
+      "path": "Docs/ExactClone/Research/images/first-hour-07.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQEGW4vMzZO93Q/article-cover_image-shrink_720_1280/B56Zh1pC1vG0AI-/0/1754320352201?e=2147483647&v=beta&t=NCaKrMGo-00ViFqIPvn2tCteX8R8joFqaO6k2inqaqo",
+      "sha256": "8f7cac0ca8ce960eff68462b0ba386f5d9b5b195200c5fd89b6f7d3409c4cd79",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-08",
+      "path": "Docs/ExactClone/Research/images/first-hour-08.jpg",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D4E12AQEvuSowFe1QuQ/article-cover_image-shrink_720_1280/B4EZfvlsezGcAQ-/0/1752071326452?e=2147483647&v=beta&t=pXeBlmxbrUiXxjOtCmfEikHAGA4IWRifYjMhlNsdjHQ",
+      "sha256": "c3dd73ebfdace28bb5421948449f48792083fbc66814755d888a56d6a8ac4166",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-09",
+      "path": "Docs/ExactClone/Research/images/first-hour-09.jpg",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQEf3jjaeMUrTA/article-cover_image-shrink_720_1280/B56ZbTYa0rHgAU-/0/1747303116432?e=2147483647&v=beta&t=Q_Kb9eL_mjy7d5yBJAI-RO9_XrB9Doji-Ixk6ZjX2Js",
+      "sha256": "a62824f0828fd28745ed8cf27160012c55c3a20ea076ef89c2b74f75a2042f84",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-10",
+      "path": "Docs/ExactClone/Research/images/first-hour-10.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQELN_-_lC7-OQ/article-cover_image-shrink_720_1280/B56ZabfvntGoAI-/0/1746365516047?e=2147483647&v=beta&t=HmV5_X4iwvIZiCZfDi6GWfm_X71RrcDoSZCeTLSO-HU",
+      "sha256": "56547f31d3a196740d83533cd69e263210b3b07aa28014bd775a81db7d6bcc35",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-11",
+      "path": "Docs/ExactClone/Research/images/first-hour-11.jpg",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQGqccalDuO29A/article-cover_image-shrink_720_1280/B4DZytnN5tIgAI-/0/1772439266249?e=2147483647&v=beta&t=dBTiAB9dhAIAHhBnnwbIpP5UbGfKQaWOrq9DYXkV_4c",
+      "sha256": "ac9cd9adc7a21931ed2228728853c56b2a34a559422f6cc888d74efad6de0502",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-12",
+      "path": "Docs/ExactClone/Research/images/first-hour-12.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQHp0GLGjCXDiw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1663726647096?e=2147483647&v=beta&t=N7OIjG1yY6H5r5MWG4dAFYh7JeCQXX5OP7J_SIhOkDU",
+      "sha256": "d88511298ba4a0919b88a2a340c6c61b25327aac6aadc6b7209df3ad5ec6ebd3",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-13",
+      "path": "Docs/ExactClone/Research/images/first-hour-13.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQEmd0kH3f_XSg/article-cover_image-shrink_720_1280/B4DZ3zFMr2HYAQ-/0/1777899724406?e=2147483647&v=beta&t=M9pBhMlTDfd4EUI0NDW8Q-PSSCrj0opwMSUo86e4CQA",
+      "sha256": "3b53acde1872fba126c0ae6bb96fdfeb2a523f81cd01feebe3187a9b3f610c8f",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-14",
+      "path": "Docs/ExactClone/Research/images/first-hour-14.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQFXswRV_KNQrw/article-cover_image-shrink_720_1280/B4DZzZFEtXGwAM-/0/1773168517790?e=2147483647&v=beta&t=eZsfrBI_g-av1YqeTJN5qcUCPA9eNmkRdomDvXyZN64",
+      "sha256": "04dd6b19dc6cf0e96f3cd4dbc195e2ebece30e3a9fe77cac6020694ed0de5946",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-15",
+      "path": "Docs/ExactClone/Research/images/first-hour-15.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQG_QSk3TlErtQ/article-cover_image-shrink_720_1280/B4DZ_3ftlMHEAQ-/0/1786563715970?e=2147483647&v=beta&t=MaCYPw6EMiH4J1uyIxQas_JjIQWYts313GHx1MPcZlY",
+      "sha256": "1319917024beb039c58e7c6e77c17c340f173a8fcd2108ee7095ededb20c619c",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-16",
+      "path": "Docs/ExactClone/Research/images/first-hour-16.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQGzsG_8E4kKmA/article-cover_image-shrink_720_1280/B4DZ2V6IidIkAI-/0/1776336540828?e=2147483647&v=beta&t=EqmCEMb6B-AypbsXwicOM-uV_3UuMn8aQWJH_fOAoLU",
+      "sha256": "557b81d601d4021cc2b5ecc6bcba4aa436002d8478a7717698e5627bf16ccfc9",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-17",
+      "path": "Docs/ExactClone/Research/images/first-hour-17.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D5612AQGGskgPgjUOYw/article-cover_image-shrink_720_1280/B56Z0S2Pv3HIAI-/0/1774137709442?e=2147483647&v=beta&t=OGmPOa-_I_9HlEaJYU7ZVNTCs0t99LH7Y5V8eZpGYN4",
+      "sha256": "a86695aea61eb4ef72a167748f08f9cd25f58ce10a8e7ac9d8ccef81030529ea",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-18",
+      "path": "Docs/ExactClone/Research/images/first-hour-18.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQFo_JsVoV5rSA/article-cover_image-shrink_720_1280/B4DZ1nltT2JkAM-/0/1775559432341?e=2147483647&v=beta&t=BZHmNKR4LcI25kZl_0kZXqiDdMHW_npjhJzs9FKgOo8",
+      "sha256": "ee5043071b3c4f6eb3bfa33315db6497a68a0ca6a78c9ce6d6f91f68afba13bc",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-19",
+      "path": "Docs/ExactClone/Research/images/first-hour-19.png",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQHWugWZUlt5Xg/article-cover_image-shrink_720_1280/B4DZyY0FY6JIAI-/0/1772090318850?e=2147483647&v=beta&t=0cCOG7Iq6NnxLulRzKkgxndPOj5gzDu5v6HLpl0zpwk",
+      "sha256": "39ae486068818cca2e29a3972c52e23e5bb6028a1f35206eeeb782cf5ba52941",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-first-hour-20",
+      "path": "Docs/ExactClone/Research/images/first-hour-20.jpg",
+      "sourceId": "first-hour",
+      "url": "https://media.licdn.com/dms/image/v2/D4D12AQHiSP0lpUDAWQ/article-cover_image-shrink_720_1280/B4DZ23CP6YJAAM-/0/1776892313679?e=2147483647&v=beta&t=XPmrQeO9YxX7Q7Fq_AeH62icGMYsATNpW0atZfCfGxk",
+      "sha256": "53364786edadca414d44b6b123ca84810645e7b78d6b0d342a307ee059405e09",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-event-backend-00",
+      "path": "Docs/ExactClone/Research/images/event-backend-00.webp",
+      "sourceId": "event-backend",
+      "url": "https://heroiclabs.com/images/posts/2025/10-year-anniversary/we-are-10-blog_hu355636409475616215.webp",
+      "sha256": "b8b297292358531cc2e73982ea6613614866e6b6cbba86b261f2765e80e907b2",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-event-backend-01",
+      "path": "Docs/ExactClone/Research/images/event-backend-01.webp",
+      "sourceId": "event-backend",
+      "url": "https://heroiclabs.com/images/posts/2026/pixel-flow-feature_hu1480691728793583930.webp",
+      "sha256": "ffc14d96dbe0ab64dd803bdc0c9158fa98efd2f39b6c4a560c60fd22ceb6792e",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-event-backend-02",
+      "path": "Docs/ExactClone/Research/images/event-backend-02.jpg",
+      "sourceId": "event-backend",
+      "url": "https://heroiclabs.com/blog/pixel-flow-highlight-announcement/images/pixel-flow-gameplay.d2f2798b77e37efd6123b21584ce88342bdf18c2deaa9748048bee6e4339ad9f.gif",
+      "sha256": "d2f2798b77e37efd6123b21584ce88342bdf18c2deaa9748048bee6e4339ad9f",
+      "review": "usable-reference",
+      "observation": "Portrait gameplay with rounded belt, waiting row and booster bar",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-event-backend-03",
+      "path": "Docs/ExactClone/Research/images/event-backend-03.webp",
+      "sourceId": "event-backend",
+      "url": "https://heroiclabs.com/blog/pixel-flow-highlight-announcement/images/pixel-flow-events_hu14720780610628835779.webp",
+      "sha256": "c671b78ba5350f3983cf692d8082087de79f54f6d354d7316e1e59e6f54b5128",
+      "review": "usable-reference",
+      "observation": "Fire Quest and Pixel Arena panels",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-event-backend-04",
+      "path": "Docs/ExactClone/Research/images/event-backend-04.webp",
+      "sourceId": "event-backend",
+      "url": "https://heroiclabs.com/images/soc-2-type-ii-logo_hu1117642166017018702.webp",
+      "sha256": "92afbef903de027877e63f78230e981a21416eea185ffd0f83102e0e6fd86d3d",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-arena-fail-00",
+      "path": "Docs/ExactClone/Research/images/arena-fail-00.png",
+      "sourceId": "arena-fail",
+      "url": "https://www.gamigion.com/wp-content/uploads/2024/10/gamigion-smoke-transparent.png",
+      "sha256": "4368533b286b1ad158b1c07bda19a335bcc61674844c814cecdeb86cae4c6181",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-arena-fail-01",
+      "path": "Docs/ExactClone/Research/images/arena-fail-01.png",
+      "sourceId": "arena-fail",
+      "url": "https://www.gamigion.com/wp-content/uploads/2024/10/gamigion-smoke-transparent.png",
+      "sha256": "4368533b286b1ad158b1c07bda19a335bcc61674844c814cecdeb86cae4c6181",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-arena-fail-03",
+      "path": "Docs/ExactClone/Research/images/arena-fail-03.png",
+      "sourceId": "arena-fail",
+      "url": "https://www.gamigion.com/wp-content/uploads/2024/10/gamigion-smoke-transparent.png",
+      "sha256": "4368533b286b1ad158b1c07bda19a335bcc61674844c814cecdeb86cae4c6181",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-arena-fail-04",
+      "path": "Docs/ExactClone/Research/images/arena-fail-04.png",
+      "sourceId": "arena-fail",
+      "url": "https://www.gamigion.com/wp-content/uploads/2026/03/image-198.png",
+      "sha256": "e69e420be5dc95ead60a0391b5d1395b398b9d1cda93e17afd63c19c3f209049",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-arena-fail-05",
+      "path": "Docs/ExactClone/Research/images/arena-fail-05.png",
+      "sourceId": "arena-fail",
+      "url": "https://www.gamigion.com/wp-content/uploads/2026/03/image-198.png",
+      "sha256": "e69e420be5dc95ead60a0391b5d1395b398b9d1cda93e17afd63c19c3f209049",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-arena-fail-06",
+      "path": "Docs/ExactClone/Research/images/arena-fail-06.png",
+      "sourceId": "arena-fail",
+      "url": "https://www.gamigion.com/wp-content/uploads/2026/03/image-95-1240x611.png",
+      "sha256": "1f25298b415a767e34e6fcb9ddc973ebdc248507463b9a714ab0125ede39af52",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-arena-fail-07",
+      "path": "Docs/ExactClone/Research/images/arena-fail-07.jpg",
+      "sourceId": "arena-fail",
+      "url": "https://www.gamigion.com/wp-content/uploads/2024/09/shutterstock_2418067707.jpg",
+      "sha256": "4d04bd92919d594ace597d7d6076e4905416d31d2125bd069f058d6640dad497",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-arena-fail-08",
+      "path": "Docs/ExactClone/Research/images/arena-fail-08.webp",
+      "sourceId": "arena-fail",
+      "url": "https://www.gamigion.com/wp-content/uploads/2026/10/Zach1-620x304.webp",
+      "sha256": "11a8902ea68075c3413743f25ae5c0ca141a9c39d4c00a052c9d3fe8d88313d1",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-arena-fail-09",
+      "path": "Docs/ExactClone/Research/images/arena-fail-09.webp",
+      "sourceId": "arena-fail",
+      "url": "https://www.gamigion.com/wp-content/uploads/2026/10/image-144-620x401.png.webp",
+      "sha256": "2e2577ffa38001b1e5ed741272435b106726200fed089068a309832724cdfe5e",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-arena-fail-10",
+      "path": "Docs/ExactClone/Research/images/arena-fail-10.webp",
+      "sourceId": "arena-fail",
+      "url": "https://www.gamigion.com/wp-content/uploads/2026/10/Gist10-620x415.png.webp",
+      "sha256": "f27336d0c5d7a5464c6a94e6f53afc001638e548a24d4efd47509efe91a93eb8",
+      "review": "excluded-as-runtime-reference",
+      "observation": "Logo/marketing/illustration/table/related article; retained as research, not gameplay or screen evidence.",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "img-ui-triptych",
+      "path": "Docs/ExactClone/Research/images/ui-triptych.jpg",
+      "sourceId": "ui-triptych",
+      "url": "https://media.licdn.com/dms/image/v2/D4D22AQFNEUzDeUm7nw/feedshare-shrink_800/B4DZvCVNqDKcAg-/0/1768491899720?e=2147483647&t=EpfNlMOT1IMRoLIlkAGuxKRUom5XPeObrwqOCh85XAE&v=beta",
+      "sha256": "7eebdeb5a9cd0cc31e2282e864fed2cc869449c62022aa1e6fbd30374d58be49",
+      "review": "usable-reference",
+      "observation": "Home level path, gameplay and OUT OF SPACE fail offer; third-party unspecified version",
+      "targetVersionVerified": false
+    },
+    {
+      "id": "video-frame-2",
+      "path": "Docs/ExactClone/Research/video-frames-480/survey-002.png",
+      "sourceId": "video-early",
+      "url": "https://www.youtube.com/watch?v=ukM7_qSP1Fo",
+      "sha256": "f65bb471a10198914b03082d3c3f68b5463dd2319f78d90ee1598a915f8c59ca",
+      "review": "usable-reference",
+      "observation": "source gameplay level1 already in progress",
+      "targetVersionVerified": false,
+      "sample": {
+        "method": "Sequential decode with ffmpeg fps=1/5; no input fast-seek on MPEG-TS timestamps.",
+        "index": 2,
+        "nominalBinSeconds": [
+          5,
+          10
+        ],
+        "timingMeasurement": false
+      },
+      "screens": [
+        "PLAY01",
+        "PLAY02",
+        "PLAY03",
+        "PLAY04"
+      ]
+    },
+    {
+      "id": "video-frame-30",
+      "path": "Docs/ExactClone/Research/video-frames-480/survey-030.png",
+      "sourceId": "video-early",
+      "url": "https://www.youtube.com/watch?v=ukM7_qSP1Fo",
+      "sha256": "48adc7d270733c15244535a4ccf633d9cc5d5454128652b90c491d1752380459",
+      "review": "usable-reference",
+      "observation": "source loading splash",
+      "targetVersionVerified": false,
+      "sample": {
+        "method": "Sequential decode with ffmpeg fps=1/5; no input fast-seek on MPEG-TS timestamps.",
+        "index": 30,
+        "nominalBinSeconds": [
+          145,
+          150
+        ],
+        "timingMeasurement": false
+      },
+      "screens": [
+        "SYS01",
+        "SYS02"
+      ]
+    }
+  ],
+  "sourceCaptureReceipts": "Research/capture-receipts.json",
+  "warning": "Published state montage and source video evidence are different from live0.36.3 captures. Never use unrelated images or help-page screenshots as evidence of an in-game screen.",
+  "excludedFrameSet": {
+    "path": "Research/video-frames",
+    "reason": "Earlier fast-seek frames are not timestamp-reliable for MPEG-TS input; names such as source-loading did not match decoded state. Use only sequential video-frames-480 entries with reviewed states."
+  }
+}

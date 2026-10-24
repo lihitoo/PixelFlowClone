@@ -1,0 +1,9 @@
+{
+  "result": "Succeeded",
+  "target": "StandaloneWindows64",
+  "bytes": 124365870,
+  "errors": 0,
+  "warnings": 2,
+  "unity": "6000.4.12f1",
+  "development": false
+}

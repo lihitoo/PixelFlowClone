@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Failed(Child)" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-24 03:24:54Z" end-time="2026-10-24 03:24:56Z" duration="1.5778198">
+  <test-suite type="TestSuite" id="1000" name="Pixel Flow Clone" fullname="Pixel Flow Clone" runstate="Runnable" testcasecount="56" result="Failed" site="Child" start-time="2026-10-24 03:24:54Z" end-time="2026-10-24 03:24:56Z" duration="1.577820" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1078" name="PixelFlow.Tests.Editor.dll" fullname="D:/Game/PixelFlowClone/Library/ScriptAssemblies/PixelFlow.Tests.Editor.dll" runstate="Runnable" testcasecount="22" result="Failed" site="Child" start-time="2026-10-24 03:24:55Z" end-time="2026-10-24 03:24:56Z" duration="1.013950" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="37892" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1079" name="PixelFlow" fullname="PixelFlow" runstate="Runnable" testcasecount="22" result="Failed" site="Child" start-time="2026-10-24 03:24:55Z" end-time="2026-10-24 03:24:56Z" duration="1.012454" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1080" name="Tests" fullname="PixelFlow.Tests" runstate="Runnable" testcasecount="22" result="Failed" site="Child" start-time="2026-10-24 03:24:55Z" end-time="2026-10-24 03:24:56Z" duration="1.011862" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1063" name="PresentationReviewTests" fullname="PixelFlow.Tests.PresentationReviewTests" classname="PixelFlow.Tests.PresentationReviewTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-24 03:24:55Z" end-time="2026-10-24 03:24:56Z" duration="1.009426" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1064" name="CaptureRepresentativeStates" fullname="PixelFlow.Tests.PresentationReviewTests.CaptureRepresentativeStates" methodname="CaptureRepresentativeStates" classname="PixelFlow.Tests.PresentationReviewTests" runstate="Runnable" seed="502723270" result="Failed" start-time="2026-10-24 03:24:32Z" end-time="2026-10-24 03:24:44Z" duration="12.492971" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="180000" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: Playing
+  But was:  Home
+]]></message>
+                <stack-trace><![CDATA[at PixelFlow.Tests.PresentationReviewTests+<CaptureRepresentativeStates>d__13.MoveNext () [0x000a8] in D:\Game\PixelFlowClone\Assets\_Project\PixelFlow\Tests\Editor\PresentationReviewTests.cs:117
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@996f223345ba\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1065" name="PointerInputResetAndProgressionRoute" fullname="PixelFlow.Tests.PresentationReviewTests.PointerInputResetAndProgressionRoute" methodname="PointerInputResetAndProgressionRoute" classname="PixelFlow.Tests.PresentationReviewTests" runstate="Runnable" seed="1762727981" result="Failed" start-time="2026-10-24 03:24:44Z" end-time="2026-10-24 03:24:56Z" duration="11.506863" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: Playing
+  But was:  Home
+]]></message>
+                <stack-trace><![CDATA[at PixelFlow.Tests.PresentationReviewTests+<PointerInputResetAndProgressionRoute>d__14.MoveNext () [0x000f5] in D:\Game\PixelFlowClone\Assets\_Project\PixelFlow\Tests\Editor\PresentationReviewTests.cs:134
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@996f223345ba\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/trinh/AppData/LocalLow/Dreamy/Pixel Flow Clone\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

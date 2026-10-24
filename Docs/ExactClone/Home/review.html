@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pixel Flow — đối chiếu Home</title>
+<style>body{margin:0;background:#111827;color:#e5edf9;font:16px/1.55 system-ui}main{max-width:1100px;margin:auto;padding:28px}a{color:#8ed9ff}h1{font-size:28px}section{display:grid;grid-template-columns:1fr 1fr;gap:24px}figure{margin:0}figcaption{margin:12px 0}.phone{max-width:370px;aspect-ratio:9/16;overflow:hidden;background:#030712;border:1px solid #405069}.phone img{width:100%;display:block}.reference img{width:300%;margin-top:-10%}.note{background:#26334a;padding:16px;border-radius:12px}li{margin:8px 0}details img{max-width:100%}@media(max-width:700px){section{grid-template-columns:1fr}}</style>
+<main><h1>Pixel Flow — Home đang triển khai</h1>
+<p class="note">Đây là checkpoint có ảnh Game View thực, chưa phải nghiệm thu “y hệt 100%”. Art và campaign lấy từ bản 0.36.3; ảnh tham chiếu web chưa xác minh version. Level36/2000 coin ở clone là fixture trong save cô lập.</p>
+<section>
+<figure><div class="phone reference"><img src="../Research/images/ui-triptych.jpg" alt="Home tham chiếu, phần bên trái ảnh gốc"></div><figcaption>Tham chiếu web — level36. Cắt hiển thị bằng CSS; <a href="../Research/images/ui-triptych.jpg">mở ảnh nguồn đầy đủ</a>. Không coi đây là screenshot runtime 0.36.3 đã xác minh.</figcaption></figure>
+<figure><div class="phone"><img src="game-view-visible-Home-36.png" alt="Game View clone Home36"></div><figcaption>Clone — vùng Game View thực đang hiển thị trong Unity. 682×1212px; Game View cấu hình720×1280, scale khoảng0.95. <a href="game-view-visible-Home-36.json">Receipt</a> · <a href="editor-Home-36.png">toàn cửa sổ Editor</a>.</figcaption></figure>
+</section>
+<p>So sánh được: header/gear, đường level, màu và nhãn Hard/Very Hard, Play, Shop/Start/rank khóa. Chưa thể chấm pixel parity: font/spacing/pattern và kích thước node còn khác; số lượng/vị trí dock và mốc unlock cần reference đúng version. Cùng level36 không đảm bảo cùng cấu hình event.</p>
+<ul>
+<li><a href="test-summary.json">137/137 test qua</a>: 96 rules/data/save,7 UI routes,34 template. <a href="editor-tests-final.xml">XML thực tế</a>.</li>
+<li><a href="../../Evidence/editor-review/home-20261024-090539/source-home.json">Luồng Home bằng pointer</a>; <a href="../../Evidence/editor-review/home-20261024-090539/settings-720x1280.png">Settings</a>; <a href="../../Evidence/editor-review/home-20261024-090539/home-refilled-lives-720x1280.png">Refill lives</a>; <a href="../../Evidence/editor-review/home-20261024-090539/home-rank-unavailable-720x1280.png">Rank unavailable</a>. Các ảnh này là preview offscreen URP, được ghi riêng với Game View.</li>
+<li><a href="home-asset-intake.json">47 sprite nguồn → output/hash/GUID</a>; <a href="home-import-bindings.json">binding và nine-slice border</a>; <a href="static-validation.json">kiểm tra66 asset</a>.</li>
+<li><a href="TASK.vi.md">Brief Home trước triển khai</a>; <a href="DREAMY_REUSE.vi.md">quyết định dùng Dreamy</a>; <a href="../screen-contracts.json">các gap còn lại của toàn game</a>.</li>
+</ul>
+<p>Lives interval/refill price và unlock thresholds hiện là tuning ước lượng có nhãn. Rank/pass/event/No Ads có client entry/error/Retry/close; provider online/IAP và nội dung native đầy đủ vẫn chưa hoàn thành. Shop hiện vẫn là shop coin cũ. Không build player trong checkpoint này.</p>
+</main></html>

@@ -1,0 +1,35 @@
+﻿{
+    "status":  "fail",
+    "exitCode":  0,
+    "timedOut":  false,
+    "executableSha256":  "a7c539401c1f92b6fb7970ecb6b9c405293775ad12a544736626bd9e52c481d6",
+    "artifactFingerprint":  "fbfff56e99e500a1bd2f9821b1f10d89a3e407d739f27b1d2b3c4dae8874a34d",
+    "artifactFiles":  242,
+    "failures":  [
+                     "Missing capture: home-progress.png"
+                 ],
+    "captures":  [
+                     {
+                         "file":  "home.png",
+                         "width":  540,
+                         "height":  960,
+                         "sampledColors":  18,
+                         "sha256":  "ef6f198c524f4d43f02235bb9647a69f21c5f07e0af304222cad83932836ddb5"
+                     },
+                     {
+                         "file":  "level-1.png",
+                         "width":  540,
+                         "height":  960,
+                         "sampledColors":  30,
+                         "sha256":  "65fbc4ee92d52c3d6d955322db87a82210bb5c55bb7f7d2a80f6b76214a12817"
+                     },
+                     {
+                         "file":  "win.png",
+                         "width":  540,
+                         "height":  960,
+                         "sampledColors":  15,
+                         "sha256":  "121406c569097fad73e1bd09190c9544cab4081fea76fc9764c9afd9280b9bd9"
+                     }
+                 ],
+    "scope":  "Scenario checks plus real process exit and nonblank frame identity. Visual fidelity, listening, device performance and human acceptance are separate."
+}

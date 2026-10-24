@@ -1,0 +1,586 @@
+{
+  "counts": {
+    "pixelHealths": 109,
+    "keys": 143,
+    "gates": 294,
+    "pixelPipes": 89,
+    "surprisePixels": 46,
+    "snakes": 194,
+    "walls": 254,
+    "eggBoxes": 194,
+    "pixelIceBlocks": 237,
+    "pixelWoodBlocks": 137,
+    "pixelColorDoors": 168,
+    "biscuits": 87,
+    "splitObjects": 167,
+    "ufos": 145,
+    "pumpkins": 154,
+    "curtains": 116,
+    "shooterCages": 216,
+    "multiSnakes": 168,
+    "beanBoxes": 112,
+    "musicToys": 98,
+    "crossbows": 117,
+    "accordions": 122,
+    "coloredShooterCages": 109,
+    "matryoshkas": 110,
+    "spaceships": 100,
+    "pixelMixers": 55
+  },
+  "types": {
+    "pixelHealths": {
+      "firstLevel": 30,
+      "sample": {
+        "x": 0,
+        "y": 1,
+        "health": 6
+      }
+    },
+    "keys": {
+      "firstLevel": 40,
+      "sample": {
+        "GridPoints": {
+          "count": 4,
+          "sample": [
+            {
+              "X": 1,
+              "Y": 1
+            }
+          ]
+        }
+      }
+    },
+    "gates": {
+      "firstLevel": 55,
+      "sample": {
+        "GridPoints": {
+          "count": 4,
+          "sample": [
+            {
+              "X": 19,
+              "Y": 0
+            }
+          ]
+        },
+        "Direction": 0,
+        "Length": 19,
+        "Material": 8,
+        "Count": 40
+      }
+    },
+    "pixelPipes": {
+      "firstLevel": 70,
+      "sample": {
+        "GridPoints": {
+          "count": 9,
+          "sample": [
+            {
+              "X": 2,
+              "Y": 10
+            }
+          ]
+        },
+        "Queue": {
+          "count": 1,
+          "sample": [
+            {
+              "Material": 13,
+              "Count": 20
+            }
+          ]
+        }
+      }
+    },
+    "surprisePixels": {
+      "firstLevel": 85,
+      "sample": {
+        "X": 1,
+        "Y": 1
+      }
+    },
+    "snakes": {
+      "firstLevel": 100,
+      "sample": {
+        "MainGridPoints": {
+          "count": 4,
+          "sample": [
+            {
+              "X": 18,
+              "Y": 0
+            }
+          ]
+        },
+        "SnakeGridPoints": {
+          "count": 9,
+          "sample": [
+            {
+              "GridPoints": {
+                "count": 4,
+                "sample": [
+                  {
+                    "X": 18,
+                    "Y": 18
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "Material": 16,
+        "Count": 62
+      }
+    },
+    "walls": {
+      "firstLevel": 120,
+      "sample": {
+        "GridPoints": {
+          "count": 4,
+          "sample": [
+            {
+              "X": 4,
+              "Y": 1
+            }
+          ]
+        }
+      }
+    },
+    "eggBoxes": {
+      "firstLevel": 140,
+      "sample": {
+        "GridPoints": {
+          "count": 16,
+          "sample": [
+            {
+              "X": 2,
+              "Y": 0
+            }
+          ]
+        },
+        "EggArea": {
+          "X": 2,
+          "Y": 2
+        },
+        "Eggs": {
+          "count": 4,
+          "sample": [
+            {
+              "Material": 9,
+              "Count": 10
+            }
+          ]
+        }
+      }
+    },
+    "pixelIceBlocks": {
+      "firstLevel": 200,
+      "sample": {
+        "GridPoints": {
+          "count": 196,
+          "sample": [
+            {
+              "X": 3,
+              "Y": 3
+            }
+          ]
+        },
+        "BlockSize": 2,
+        "Health": 100
+      }
+    },
+    "pixelWoodBlocks": {
+      "firstLevel": 230,
+      "sample": {
+        "GridPoints": {
+          "count": 192,
+          "sample": [
+            {
+              "X": 4,
+              "Y": 5
+            }
+          ]
+        },
+        "BlockSize": 4,
+        "Health": 5
+      }
+    },
+    "pixelColorDoors": {
+      "firstLevel": 350,
+      "sample": {
+        "GridPoints": {
+          "count": 324,
+          "sample": [
+            {
+              "X": 12,
+              "Y": 2
+            }
+          ]
+        },
+        "Material": 8,
+        "Health": 40
+      }
+    },
+    "biscuits": {
+      "firstLevel": 400,
+      "sample": {
+        "GridPoints": {
+          "count": 25,
+          "sample": [
+            {
+              "X": 2,
+              "Y": 0
+            }
+          ]
+        },
+        "LayerCount": 3,
+        "LayerHealth": 10
+      }
+    },
+    "splitObjects": {
+      "firstLevel": 500,
+      "sample": {
+        "GridPoints": {
+          "count": 4,
+          "sample": [
+            {
+              "GridPoints": {
+                "count": 4,
+                "sample": [
+                  {
+                    "X": 27,
+                    "Y": 11
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "StartEndArea": {
+          "X": 2,
+          "Y": 2
+        },
+        "SegmentDecreasePerHit": 1
+      }
+    },
+    "ufos": {
+      "firstLevel": 600,
+      "sample": {
+        "GridPoints": {
+          "count": 64,
+          "sample": [
+            {
+              "X": 6,
+              "Y": 3
+            }
+          ]
+        },
+        "Seats": {
+          "count": 4,
+          "sample": [
+            {
+              "Material": 8
+            }
+          ]
+        }
+      }
+    },
+    "pumpkins": {
+      "firstLevel": 700,
+      "sample": {
+        "GridPoints": {
+          "count": 25,
+          "sample": [
+            {
+              "X": 15,
+              "Y": 0
+            }
+          ]
+        },
+        "Pumpkins": {
+          "count": 3,
+          "sample": [
+            {
+              "MaterialId": 29,
+              "Health": 10
+            }
+          ]
+        }
+      }
+    },
+    "curtains": {
+      "firstLevel": 901,
+      "sample": {
+        "BaseArea": {
+          "x": 8,
+          "y": 5
+        },
+        "GridPoints": {
+          "count": 160,
+          "sample": [
+            {
+              "X": 2,
+              "Y": 7
+            }
+          ]
+        },
+        "Segments": {
+          "count": 4,
+          "sample": [
+            {
+              "Material": 2,
+              "Health": 20
+            }
+          ]
+        }
+      }
+    },
+    "shooterCages": {
+      "firstLevel": 1001,
+      "sample": {
+        "GridPoints": {
+          "count": 49,
+          "sample": [
+            {
+              "X": 2,
+              "Y": 3
+            }
+          ]
+        },
+        "CagedShooter": {
+          "id": 10000,
+          "ammo": 10,
+          "material": 24
+        }
+      }
+    },
+    "multiSnakes": {
+      "firstLevel": 1101,
+      "sample": {
+        "MainGridPoints": {
+          "count": 9,
+          "sample": [
+            {
+              "X": 4,
+              "Y": 3
+            }
+          ]
+        },
+        "SnakeGridPoints": {
+          "count": 4,
+          "sample": [
+            {
+              "GridPoints": {
+                "count": 9,
+                "sample": [
+                  {
+                    "X": 29,
+                    "Y": 3
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "Segments": {
+          "count": 5,
+          "sample": [
+            {
+              "ClipFrom": 0.0,
+              "ClipTo": 0.14666666090488434,
+              "Material": 10,
+              "Count": 60
+            }
+          ]
+        }
+      }
+    },
+    "beanBoxes": {
+      "firstLevel": 1201,
+      "sample": {
+        "GridPoints": {
+          "count": 36,
+          "sample": [
+            {
+              "X": 14,
+              "Y": 0
+            }
+          ]
+        },
+        "BeanArea": {
+          "X": 6,
+          "Y": 6
+        },
+        "Groups": {
+          "count": 1,
+          "sample": [
+            {
+              "MaterialId": 5,
+              "TotalHealth": 36
+            }
+          ]
+        },
+        "BeanCount": 19,
+        "BeanScale": 1.0
+      }
+    },
+    "musicToys": {
+      "firstLevel": 1401,
+      "sample": {
+        "Direction": 0,
+        "SegmentArea": {
+          "X": 3,
+          "Y": 6
+        },
+        "GridPoints": {
+          "count": 108,
+          "sample": [
+            {
+              "X": 4,
+              "Y": 8
+            }
+          ]
+        },
+        "Segments": {
+          "count": 6,
+          "sample": [
+            {
+              "Material": 3,
+              "Health": 1
+            }
+          ]
+        }
+      }
+    },
+    "crossbows": {
+      "firstLevel": 1501,
+      "sample": {
+        "GridPoints": {
+          "count": 64,
+          "sample": [
+            {
+              "X": 4,
+              "Y": 34
+            }
+          ]
+        },
+        "Area": 6,
+        "Direction": 2,
+        "Material": 4,
+        "Health": 30
+      }
+    },
+    "accordions": {
+      "firstLevel": 1601,
+      "sample": {
+        "BaseDimensions": {
+          "x": 10,
+          "y": 26
+        },
+        "Orientation": 0,
+        "GridPoints": {
+          "count": 260,
+          "sample": [
+            {
+              "X": 2,
+              "Y": 11
+            }
+          ]
+        },
+        "Material": 2,
+        "HpPerShrink": 15,
+        "LastShrinkBonus": 5,
+        "WheelScale": 2.1000001430511475
+      }
+    },
+    "coloredShooterCages": {
+      "firstLevel": 1701,
+      "sample": {
+        "GridPoints": {
+          "count": 49,
+          "sample": [
+            {
+              "X": 2,
+              "Y": 1
+            }
+          ]
+        },
+        "Material": 33,
+        "Health": 80,
+        "CagedShooter": {
+          "id": 20000,
+          "ammo": 20,
+          "material": 4
+        }
+      }
+    },
+    "matryoshkas": {
+      "firstLevel": 1901,
+      "sample": {
+        "GridPoints": {
+          "count": 144,
+          "sample": [
+            {
+              "X": 3,
+              "Y": 0
+            }
+          ]
+        },
+        "Layers": {
+          "count": 7,
+          "sample": [
+            {
+              "MaterialId": 9,
+              "Health": 20
+            }
+          ]
+        }
+      }
+    },
+    "spaceships": {
+      "firstLevel": 2001,
+      "sample": {
+        "GridPoints": {
+          "count": 64,
+          "sample": [
+            {
+              "X": 2,
+              "Y": 12
+            }
+          ]
+        },
+        "Material": 1
+      }
+    },
+    "pixelMixers": {
+      "firstLevel": 2401,
+      "sample": {
+        "GridPoints": {
+          "count": 25,
+          "sample": [
+            {
+              "X": 10,
+              "Y": 24
+            }
+          ]
+        },
+        "TailGridPoints": {
+          "count": 21,
+          "sample": [
+            {
+              "GridPoints": {
+                "count": 5,
+                "sample": [
+                  {
+                    "X": 10,
+                    "Y": 23
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "Material": 27,
+        "Health": 70
+      }
+    }
+  }
+}
