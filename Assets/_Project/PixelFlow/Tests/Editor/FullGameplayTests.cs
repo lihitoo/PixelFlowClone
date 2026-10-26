@@ -25,6 +25,24 @@ namespace PixelFlow.Tests
             var data = JsonConvert.DeserializeObject<PixelFlowCampaignConfig>(asset.text); data.Initialize("pixelFlowCampaign"); return data;
         }
 
+        [TestCase(false, -1)] [TestCase(true, 2)]
+        public void BoardColorPickUsesBlockingLayerAndRejectsOutsideBoard(bool goal, int expected)
+        {
+            var definition = Small();
+            definition.Objects.Add(new BoardObjectDefinition { Id = 0, Kind = BoardObjectKind.Wood, Goal = goal,
+                Cells = new() { new(0, 0) }, Layers = new() { new(2, 1) } });
+            var session = new PuzzleSession(definition);
+            Assert.That(session.PixelAt(0, 0), Is.EqualTo(1), "Pixel color differs from the covering object");
+            Assert.That(session.TargetColorAt(0, 0), Is.EqualTo(expected));
+            Assert.That(session.TargetColorAt(-1, 0), Is.EqualTo(-1));
+            Assert.That(session.TargetColorAt(definition.Width, 0), Is.EqualTo(-1));
+            if (goal)
+            {
+                Assert.That(session.ClearVisibleColor(2), Is.True);
+                Assert.That(session.TargetColorAt(0, 0), Is.EqualTo(1), "Cleared cover reveals the original pixel target");
+            }
+        }
+
         [Test, Timeout(180000)] public void EveryMainCampaignEntryLoadsWithTypedValidatedFeatures()
         {
             var campaign = Catalog(); Assert.That(campaign.LevelCount, Is.EqualTo(2600));

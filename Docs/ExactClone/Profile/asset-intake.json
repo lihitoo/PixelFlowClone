@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "sourceVersion": "0.36.3",
+  "receipts": [
+    {
+      "role": "Avatar0",
+      "assetId": "asset-7fa81eb3e1ecfe7cd8d5",
+      "source": "exports/Sprite/resources.assets/Avatar Image 0__2236.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Avatar%20Image%200__2236.png",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Profile/Avatar0.png",
+      "sha256": "692763a40ad50c452b0c9cc8d5702a92d6f8c155c16e56f5ff39d58f18832a20",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 50462
+    },
+    {
+      "role": "Avatar1",
+      "assetId": "asset-d938f97fad1c4b650f0a",
+      "source": "exports/Sprite/resources.assets/Avatar Image 1__1999.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Avatar%20Image%201__1999.png",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Profile/Avatar1.png",
+      "sha256": "3e3b1100a50e1993550649d132d0c9b62ac32211df37ba3776cd4bd5a93e9067",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 54522
+    },
+    {
+      "role": "Avatar2",
+      "assetId": "asset-b19994e57bab4dabd136",
+      "source": "exports/Sprite/resources.assets/Avatar Image 2__1953.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Avatar%20Image%202__1953.png",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Profile/Avatar2.png",
+      "sha256": "ff3a539a0a0d84cf84645e64805715e6b7e426c193fb9fb743d0604fe05dbdf7",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 64290
+    },
+    {
+      "role": "Avatar3",
+      "assetId": "asset-ca8593a096bb5f1a62c2",
+      "source": "exports/Sprite/resources.assets/Avatar Image 3__2111.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Avatar%20Image%203__2111.png",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Profile/Avatar3.png",
+      "sha256": "c8278ebec0c87055343f4d025f7c4a21d18045cc115ab75d5616007885d5927e",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 57231
+    },
+    {
+      "role": "Avatar4",
+      "assetId": "asset-ee6474d361fcacef84fc",
+      "source": "exports/Sprite/resources.assets/Avatar Image 4__2087.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Avatar%20Image%204__2087.png",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Profile/Avatar4.png",
+      "sha256": "cf8ec6d6bd9d70497b8f38bec37c1085551a937a1dbd24a02b61b343879264e4",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 49311
+    },
+    {
+      "role": "Avatar5",
+      "assetId": "asset-11c35deef61b08540c4f",
+      "source": "exports/Sprite/resources.assets/Avatar Image 5__2181.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Avatar%20Image%205__2181.png",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Profile/Avatar5.png",
+      "sha256": "cb4699d003d28b2b46a89e3626aeaaed1321719ec55ee7784ca1d449e400c461",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 55881
+    },
+    {
+      "role": "Avatar6",
+      "assetId": "asset-4d3b1837122f2bb75c57",
+      "source": "exports/Sprite/resources.assets/Avatar Image 6__1993.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Avatar%20Image%206__1993.png",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Profile/Avatar6.png",
+      "sha256": "757b81940db4e4f851c4753db5e3bcac1f099a3e396b393c5342adc07d2890ec",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 56696
+    },
+    {
+      "role": "Avatar7",
+      "assetId": "asset-8a7bd186c9703283f80b",
+      "source": "exports/Sprite/resources.assets/Avatar Image 7__2164.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Avatar%20Image%207__2164.png",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Profile/Avatar7.png",
+      "sha256": "63e0e516158776bef3810130ac0a5e1e7886db93719742d7bbfa5b6ef6bf25b4",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 56817
+    },
+    {
+      "role": "Avatar8",
+      "assetId": "asset-af1020e5637f052095d6",
+      "source": "exports/Sprite/resources.assets/Avatar Image 8__1948.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Avatar%20Image%208__1948.png",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Profile/Avatar8.png",
+      "sha256": "03ddf1d3e27e5efab8c516849b713ecf4aec765c2a26030b3bde28a9b9591d45",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 65211
+    },
+    {
+      "role": "FrameBlue",
+      "assetId": "asset-ab310895c263f7a9abcd",
+      "source": "exports/Sprite/resources.assets/Frame_Avatar_Blue__2047.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Frame_Avatar_Blue__2047.png",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Profile/FrameBlue.png",
+      "sha256": "969782cd5e3d9dbd235a0d267f884ade6e2e5b0061c729555ac0a4336e8b3145",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 19929
+    },
+    {
+      "role": "FrameGold",
+      "assetId": "asset-4c8dee49f898859bf20c",
+      "source": "exports/Sprite/resources.assets/Frame_Avatar_Gold__2118.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/Frame_Avatar_Gold__2118.png",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Profile/FrameGold.png",
+      "sha256": "37c7956d2825635a5b6a9f3502ffc199ea444ec90b05fee123b79b0f18f56df4",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 22799
+    }
+  ]
+}

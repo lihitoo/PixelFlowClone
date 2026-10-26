@@ -1,0 +1,69 @@
+{
+  "url": "https://balancy.co/blog/2026/03/20/pixel-flow-shop-liveops-monetization-patterns/",
+  "status": 200,
+  "images": [
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pixel-Flow-Cover.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pixel-Flow-Cover.png 1280w, https://balancy.co/wp-content/uploads/2026/03/Pixel-Flow-Cover-300x169.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pixel-Flow-Cover-1024x576.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pixel-Flow-Cover-768x432.png 768w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-1-1024x555.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-1-1024x555.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pf-1-300x163.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-1-768x416.png 768w, https://balancy.co/wp-content/uploads/2026/03/Pf-1.png 1488w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-2-1024x558.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-2-1024x558.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pf-2-300x164.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-2-768x419.png 768w, https://balancy.co/wp-content/uploads/2026/03/Pf-2.png 1038w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-3-1024x483.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-3-1024x483.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pf-3-300x142.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-3-768x362.png 768w, https://balancy.co/wp-content/uploads/2026/03/Pf-3.png 1204w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-4-1024x244.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-4-1024x244.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pf-4-300x71.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-4-768x183.png 768w, https://balancy.co/wp-content/uploads/2026/03/Pf-4.png 1494w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-5-1024x276.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-5-1024x276.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pf-5-300x81.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-5-768x207.png 768w, https://balancy.co/wp-content/uploads/2026/03/Pf-5.png 1218w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-6-1024x243.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-6-1024x243.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pf-6-300x71.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-6-768x182.png 768w, https://balancy.co/wp-content/uploads/2026/03/Pf-6.png 1416w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-7-1024x162.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-7-1024x162.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pf-7-300x48.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-7-768x122.png 768w, https://balancy.co/wp-content/uploads/2026/03/Pf-7-1536x244.png 1536w, https://balancy.co/wp-content/uploads/2026/03/Pf-7.png 1576w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-8-1024x147.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-8-1024x147.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pf-8-300x43.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-8-768x110.png 768w, https://balancy.co/wp-content/uploads/2026/03/Pf-8-1536x220.png 1536w, https://balancy.co/wp-content/uploads/2026/03/Pf-8-2048x294.png 2048w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-9-1024x255.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-9-1024x255.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pf-9-300x75.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-9-768x191.png 768w, https://balancy.co/wp-content/uploads/2026/03/Pf-9.png 1340w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-10-1024x270.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-10-1024x270.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pf-10-300x79.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-10-768x203.png 768w, https://balancy.co/wp-content/uploads/2026/03/Pf-10-1536x405.png 1536w, https://balancy.co/wp-content/uploads/2026/03/Pf-10-2048x541.png 2048w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-11-1024x384.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-11-1024x384.png 1024w, https://balancy.co/wp-content/uploads/2026/03/Pf-11-300x112.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-11-768x288.png 768w, https://balancy.co/wp-content/uploads/2026/03/Pf-11.png 1526w"
+    },
+    {
+      "src": "https://balancy.co/wp-content/uploads/2026/03/Pf-12.png",
+      "srcset": "https://balancy.co/wp-content/uploads/2026/03/Pf-12.png 928w, https://balancy.co/wp-content/uploads/2026/03/Pf-12-300x107.png 300w, https://balancy.co/wp-content/uploads/2026/03/Pf-12-768x275.png 768w"
+    }
+  ],
+  "videos": [],
+  "meta": [
+    {
+      "property": "article:published_time",
+      "content": "2026-03-20T01:24:46+00:00"
+    },
+    {
+      "property": "og:image",
+      "content": "https://balancy.co/wp-content/uploads/2026/03/Pixel-Flow-Cover.png"
+    }
+  ]
+}

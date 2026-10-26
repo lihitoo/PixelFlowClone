@@ -30,11 +30,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: aaf44ae2917c45749a7bdf79e64c2cc7
-    m_Address: Panel/SettingsPanel.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d156d2ae8a81df948bb4f3a23be16d2b
     m_Address: UI
     m_ReadOnly: 0

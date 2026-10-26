@@ -58,7 +58,11 @@ namespace PixelFlow
             Shop.Recover(); FoundationShop = new PixelFlowFoundationShopService(Shop, Progress, Campaign.Home, context.Lifetime);
             context.Register(Shop); context.Register<IShopPurchaseGateway>(Shop.Gateway); context.Register<IShopService>(FoundationShop);
             ShopFeatureInstaller.Install(context.Presenters, FoundationShop, context.Feedback,
-                panel => new PixelFlowFoundationShopPresenter(FoundationShop, panel, appController != null ? appController : throw new InvalidOperationException("MainScene controller is not bound.")));
+                panel => new ShopScreenPresenter(FoundationShop, panel, appController != null ? appController : throw new InvalidOperationException("MainScene controller is not bound.")));
+            context.Presenters.Register<Dreamy.Feature.Settings.Integration.SettingsPanel>(panel =>
+                new SettingsScreenPresenter(Progress, panel, appController != null ? appController : throw new InvalidOperationException("MainScene controller is not bound.")));
+            context.Presenters.Register<LivesPanel>(panel =>
+                new LivesPresenter(panel, Progress, Campaign.Home, appController != null ? appController : throw new InvalidOperationException("MainScene controller is not bound.")));
             if (audioCues == null || audioCues.Profile == null) throw new InvalidOperationException("Assign the Pixel Flow Dreamy Audio profile/cues.");
             Audio = DreamyAudio.Service;
             if (!audioInitialized) { Audio.Initialize(audioCues.Profile); audioInitialized = true; }

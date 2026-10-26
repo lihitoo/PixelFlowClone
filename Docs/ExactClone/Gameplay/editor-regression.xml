@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="139" result="Failed(Child)" total="139" passed="138" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-25 17:58:39Z" end-time="2026-10-25 17:59:30Z" duration="50.9699755">
+  <test-suite type="TestSuite" id="1000" name="Pixel Flow Clone" fullname="Pixel Flow Clone" runstate="Runnable" testcasecount="173" result="Failed" site="Child" start-time="2026-10-25 17:58:39Z" end-time="2026-10-25 17:59:30Z" duration="50.969976" total="139" passed="138" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1206" name="PixelFlow.Tests.Editor.dll" fullname="D:/Game/PixelFlowClone/Library/ScriptAssemblies/PixelFlow.Tests.Editor.dll" runstate="Runnable" testcasecount="139" result="Failed" site="Child" start-time="2026-10-25 17:58:42Z" end-time="2026-10-25 17:59:30Z" duration="48.288951" total="139" passed="138" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="46452" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1207" name="PixelFlow" fullname="PixelFlow" runstate="Runnable" testcasecount="139" result="Failed" site="Child" start-time="2026-10-25 17:58:42Z" end-time="2026-10-25 17:59:30Z" duration="47.886279" total="139" passed="138" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1208" name="EditorReview" fullname="PixelFlow.EditorReview" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-10-25 17:58:42Z" end-time="2026-10-25 17:58:53Z" duration="11.462170" total="15" passed="14" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1052" name="PresentationReviewTests" fullname="PixelFlow.EditorReview.PresentationReviewTests" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-10-25 17:58:42Z" end-time="2026-10-25 17:58:53Z" duration="11.428730" total="15" passed="14" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1062" name="AuthoredGameplayHudGearWalletAndFourBoosters" fullname="PixelFlow.EditorReview.PresentationReviewTests.AuthoredGameplayHudGearWalletAndFourBoosters" methodname="AuthoredGameplayHudGearWalletAndFourBoosters" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="91351294" result="Passed" start-time="2026-10-25 17:47:42Z" end-time="2026-10-25 17:48:31Z" duration="49.006529" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1055" name="AuthoredLivesFullEmptyUnlimitedAndResponsive" fullname="PixelFlow.EditorReview.PresentationReviewTests.AuthoredLivesFullEmptyUnlimitedAndResponsive" methodname="AuthoredLivesFullEmptyUnlimitedAndResponsive" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1058349060" result="Passed" start-time="2026-10-25 17:48:31Z" end-time="2026-10-25 17:49:12Z" duration="40.818394" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1054" name="AuthoredSettingsPreferencesContextAndAttemptConfirmation" fullname="PixelFlow.EditorReview.PresentationReviewTests.AuthoredSettingsPreferencesContextAndAttemptConfirmation" methodname="AuthoredSettingsPreferencesContextAndAttemptConfirmation" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1989008681" result="Passed" start-time="2026-10-25 17:49:12Z" end-time="2026-10-25 17:49:58Z" duration="46.218158" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1053" name="AuthoredSettingsSaveFailureRetryAndAttemptRecovery" fullname="PixelFlow.EditorReview.PresentationReviewTests.AuthoredSettingsSaveFailureRetryAndAttemptRecovery" methodname="AuthoredSettingsSaveFailureRetryAndAttemptRecovery" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="957144676" result="Passed" start-time="2026-10-25 17:49:58Z" end-time="2026-10-25 17:50:37Z" duration="38.567710" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[Pixel Flow operation failed: Fixture disk failure
+Pixel Flow operation failed: Fixture disk failure
+Pixel Flow operation failed: Fixture disk failure
+]]></output>
+            </test-case>
+            <test-case id="1061" name="CaptureRepresentativeStates" fullname="PixelFlow.EditorReview.PresentationReviewTests.CaptureRepresentativeStates" methodname="CaptureRepresentativeStates" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="63509374" result="Passed" start-time="2026-10-25 17:50:37Z" end-time="2026-10-25 17:51:14Z" duration="37.025831" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="180000" />
+              </properties>
+            </test-case>
+            <test-case id="1067" name="FinalCampaignWinReturnsHomeAndRewardsOnce" fullname="PixelFlow.EditorReview.PresentationReviewTests.FinalCampaignWinReturnsHomeAndRewardsOnce" methodname="FinalCampaignWinReturnsHomeAndRewardsOnce" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1112262088" result="Passed" start-time="2026-10-25 17:51:14Z" end-time="2026-10-25 17:51:50Z" duration="35.780520" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+            </test-case>
+            <test-case id="1064" name="FullOfflineMenusBoostersResumeAndContinueRoute" fullname="PixelFlow.EditorReview.PresentationReviewTests.FullOfflineMenusBoostersResumeAndContinueRoute" methodname="FullOfflineMenusBoostersResumeAndContinueRoute" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1949271104" result="Passed" start-time="2026-10-25 17:51:50Z" end-time="2026-10-25 17:52:36Z" duration="46.434148" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+            </test-case>
+            <test-case id="1059" name="MiniShopFromLivesAndEmptyBoosterReturnsToOrigin" fullname="PixelFlow.EditorReview.PresentationReviewTests.MiniShopFromLivesAndEmptyBoosterReturnsToOrigin" methodname="MiniShopFromLivesAndEmptyBoosterReturnsToOrigin" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="202392041" result="Passed" start-time="2026-10-25 17:52:37Z" end-time="2026-10-25 17:53:20Z" duration="43.775082" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+            </test-case>
+            <test-case id="1063" name="PointerInputResetAndProgressionRoute" fullname="PixelFlow.EditorReview.PresentationReviewTests.PointerInputResetAndProgressionRoute" methodname="PointerInputResetAndProgressionRoute" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1523596725" result="Failed" start-time="2026-10-25 17:53:21Z" end-time="2026-10-25 17:53:58Z" duration="37.726491" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: less than 1.0f
+  But was:  1.0f
+]]></message>
+                <stack-trace><![CDATA[at PixelFlow.EditorReview.PresentationReviewTests+<PointerInputResetAndProgressionRoute>d__27.MoveNext () [0x00337] in D:\Game\PixelFlowClone\Assets\_Project\PixelFlow\Tests\Editor\PresentationReviewTests.cs:606
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@996f223345ba\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1065" name="RepresentativeAdvancedLevelPresentationRoute" fullname="PixelFlow.EditorReview.PresentationReviewTests.RepresentativeAdvancedLevelPresentationRoute" methodname="RepresentativeAdvancedLevelPresentationRoute" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="13349332" result="Passed" start-time="2026-10-25 17:53:58Z" end-time="2026-10-25 17:54:50Z" duration="52.105579" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+            </test-case>
+            <test-case id="1066" name="SaveFailureRollsBackBoosterAndRetryRecoversThroughUi" fullname="PixelFlow.EditorReview.PresentationReviewTests.SaveFailureRollsBackBoosterAndRetryRecoversThroughUi" methodname="SaveFailureRollsBackBoosterAndRetryRecoversThroughUi" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1737668747" result="Passed" start-time="2026-10-25 17:54:51Z" end-time="2026-10-25 17:55:31Z" duration="39.960700" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+              <output><![CDATA[Pixel Flow operation failed: Fixture disk failure
+Pixel Flow operation failed: Fixture disk failure
+]]></output>
+            </test-case>
+            <test-case id="1057" name="ShopAuthoredProductsPurchaseCorrectRewards" fullname="PixelFlow.EditorReview.PresentationReviewTests.ShopAuthoredProductsPurchaseCorrectRewards" methodname="ShopAuthoredProductsPurchaseCorrectRewards" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1154298886" result="Passed" start-time="2026-10-25 17:55:31Z" end-time="2026-10-25 17:56:32Z" duration="61.397199" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+            </test-case>
+            <test-case id="1060" name="SourceHomeHeaderTabsLivesAndLockedRank" fullname="PixelFlow.EditorReview.PresentationReviewTests.SourceHomeHeaderTabsLivesAndLockedRank" methodname="SourceHomeHeaderTabsLivesAndLockedRank" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="75737237" result="Passed" start-time="2026-10-25 17:56:32Z" end-time="2026-10-25 17:57:16Z" duration="44.149381" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="180000" />
+              </properties>
+            </test-case>
+            <test-case id="1058" name="SourceShopBundlesScrollOwnedNoAdsAndRestore" fullname="PixelFlow.EditorReview.PresentationReviewTests.SourceShopBundlesScrollOwnedNoAdsAndRestore" methodname="SourceShopBundlesScrollOwnedNoAdsAndRestore" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1608725068" result="Passed" start-time="2026-10-25 17:57:17Z" end-time="2026-10-25 17:58:05Z" duration="48.618553" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+              <output><![CDATA[Shop restore failed: Unable to restore purchases. Please try again.
+]]></output>
+            </test-case>
+            <test-case id="1056" name="SourceShopPurchasesCancelFailurePendingAndRepeat" fullname="PixelFlow.EditorReview.PresentationReviewTests.SourceShopPurchasesCancelFailurePendingAndRepeat" methodname="SourceShopPurchasesCancelFailurePendingAndRepeat" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="2095746183" result="Passed" start-time="2026-10-25 17:58:05Z" end-time="2026-10-25 17:58:53Z" duration="47.909979" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1209" name="Tests" fullname="PixelFlow.Tests" runstate="Runnable" testcasecount="124" result="Passed" start-time="2026-10-25 17:58:53Z" end-time="2026-10-25 17:59:30Z" duration="36.338229" total="124" passed="124" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1068" name="CampaignTests" fullname="PixelFlow.Tests.CampaignTests" classname="PixelFlow.Tests.CampaignTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-25 17:58:53Z" end-time="2026-10-25 17:58:54Z" duration="0.370506" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1069" name="CampaignPreservesOriginalEarlyLevelCountsAndPalette" fullname="PixelFlow.Tests.CampaignTests.CampaignPreservesOriginalEarlyLevelCountsAndPalette" methodname="CampaignPreservesOriginalEarlyLevelCountsAndPalette" classname="PixelFlow.Tests.CampaignTests" runstate="Runnable" seed="258998685" result="Passed" start-time="2026-10-25 17:58:53Z" end-time="2026-10-25 17:58:54Z" duration="0.067211" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1078" name="CompletingAndReloadingPreservesUnlockWithoutDuplicateCompletion" fullname="PixelFlow.Tests.CampaignTests.CompletingAndReloadingPreservesUnlockWithoutDuplicateCompletion" methodname="CompletingAndReloadingPreservesUnlockWithoutDuplicateCompletion" classname="PixelFlow.Tests.CampaignTests" runstate="Runnable" seed="47018437" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.041278" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1077" name="OriginalLevelCanBeClearedThroughThePublicRules" fullname="PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules" classname="PixelFlow.Tests.CampaignTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.258848" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1070" name="OriginalLevelCanBeClearedThroughThePublicRules(0)" fullname="PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(0)" methodname="OriginalLevelCanBeClearedThroughThePublicRules" classname="PixelFlow.Tests.CampaignTests" runstate="Runnable" seed="1552329462" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.054213" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1071" name="OriginalLevelCanBeClearedThroughThePublicRules(1)" fullname="PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(1)" methodname="OriginalLevelCanBeClearedThroughThePublicRules" classname="PixelFlow.Tests.CampaignTests" runstate="Runnable" seed="1847277004" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.044236" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1072" name="OriginalLevelCanBeClearedThroughThePublicRules(2)" fullname="PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(2)" methodname="OriginalLevelCanBeClearedThroughThePublicRules" classname="PixelFlow.Tests.CampaignTests" runstate="Runnable" seed="1497276460" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.031743" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1073" name="OriginalLevelCanBeClearedThroughThePublicRules(3)" fullname="PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(3)" methodname="OriginalLevelCanBeClearedThroughThePublicRules" classname="PixelFlow.Tests.CampaignTests" runstate="Runnable" seed="1060945585" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.035527" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1074" name="OriginalLevelCanBeClearedThroughThePublicRules(4)" fullname="PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(4)" methodname="OriginalLevelCanBeClearedThroughThePublicRules" classname="PixelFlow.Tests.CampaignTests" runstate="Runnable" seed="829652770" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.029395" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1075" name="OriginalLevelCanBeClearedThroughThePublicRules(5)" fullname="PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(5)" methodname="OriginalLevelCanBeClearedThroughThePublicRules" classname="PixelFlow.Tests.CampaignTests" runstate="Runnable" seed="954485796" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.028344" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1076" name="OriginalLevelCanBeClearedThroughThePublicRules(6)" fullname="PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(6)" methodname="OriginalLevelCanBeClearedThroughThePublicRules" classname="PixelFlow.Tests.CampaignTests" runstate="Runnable" seed="1748139935" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.031580" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1079" name="FullGameplayTests" fullname="PixelFlow.Tests.FullGameplayTests" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" testcasecount="66" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:59:21Z" duration="27.341051" total="66" passed="66" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="ParameterizedMethod" id="1132" name="ColoredObjectLayersContributeGoalsAndClearInOrder" fullname="PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.108492" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1122" name="ColoredObjectLayersContributeGoalsAndClearInOrder(Gate)" fullname="PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(Gate)" methodname="ColoredObjectLayersContributeGoalsAndClearInOrder" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1921049413" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.005966" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1123" name="ColoredObjectLayersContributeGoalsAndClearInOrder(PixelPipe)" fullname="PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(PixelPipe)" methodname="ColoredObjectLayersContributeGoalsAndClearInOrder" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1099121303" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.000217" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1124" name="ColoredObjectLayersContributeGoalsAndClearInOrder(Snake)" fullname="PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(Snake)" methodname="ColoredObjectLayersContributeGoalsAndClearInOrder" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="620984709" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.000777" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1125" name="ColoredObjectLayersContributeGoalsAndClearInOrder(EggBox)" fullname="PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(EggBox)" methodname="ColoredObjectLayersContributeGoalsAndClearInOrder" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1640340408" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.000137" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1126" name="ColoredObjectLayersContributeGoalsAndClearInOrder(Pumpkin)" fullname="PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(Pumpkin)" methodname="ColoredObjectLayersContributeGoalsAndClearInOrder" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1944034521" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.000119" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1127" name="ColoredObjectLayersContributeGoalsAndClearInOrder(MultiSnake)" fullname="PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(MultiSnake)" methodname="ColoredObjectLayersContributeGoalsAndClearInOrder" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1612633547" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.000118" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1128" name="ColoredObjectLayersContributeGoalsAndClearInOrder(BeanBox)" fullname="PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(BeanBox)" methodname="ColoredObjectLayersContributeGoalsAndClearInOrder" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="157324236" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.000117" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1129" name="ColoredObjectLayersContributeGoalsAndClearInOrder(Crossbow)" fullname="PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(Crossbow)" methodname="ColoredObjectLayersContributeGoalsAndClearInOrder" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1605882508" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.000119" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1130" name="ColoredObjectLayersContributeGoalsAndClearInOrder(ColoredCage)" fullname="PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(ColoredCage)" methodname="ColoredObjectLayersContributeGoalsAndClearInOrder" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="33499150" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.000114" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1131" name="ColoredObjectLayersContributeGoalsAndClearInOrder(Matryoshka)" fullname="PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(Matryoshka)" methodname="ColoredObjectLayersContributeGoalsAndClearInOrder" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1602737330" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.000115" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1121" name="CorruptSnapshotIsRejectedBeforeMutatingTheSession" fullname="PixelFlow.Tests.FullGameplayTests.CorruptSnapshotIsRejectedBeforeMutatingTheSession" methodname="CorruptSnapshotIsRejectedBeforeMutatingTheSession" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="234151571" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.030024" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1143" name="DoorReturnsWrongColorEarlyAndMatchingPassageDamagesIt" fullname="PixelFlow.Tests.FullGameplayTests.DoorReturnsWrongColorEarlyAndMatchingPassageDamagesIt" methodname="DoorReturnsWrongColorEarlyAndMatchingPassageDamagesIt" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="104764892" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:54Z" duration="0.001320" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1145" name="EntirelyObjectBasedSourceLevelHasGoalsAndRestores" fullname="PixelFlow.Tests.FullGameplayTests.EntirelyObjectBasedSourceLevelHasGoalsAndRestores" methodname="EntirelyObjectBasedSourceLevelHasGoalsAndRestores" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1693416958" result="Passed" start-time="2026-10-25 17:58:54Z" end-time="2026-10-25 17:58:55Z" duration="0.651593" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1080" name="EveryMainCampaignEntryLoadsWithTypedValidatedFeatures" fullname="PixelFlow.Tests.FullGameplayTests.EveryMainCampaignEntryLoadsWithTypedValidatedFeatures" methodname="EveryMainCampaignEntryLoadsWithTypedValidatedFeatures" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="401041647" result="Passed" start-time="2026-10-25 17:58:55Z" end-time="2026-10-25 17:59:08Z" duration="13.175326" asserts="0">
+              <properties>
+                <property name="Timeout" value="180000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1141" name="ExposedKeyUnlocksQueueAndCageReleasesDistinctShooter" fullname="PixelFlow.Tests.FullGameplayTests.ExposedKeyUnlocksQueueAndCageReleasesDistinctShooter" methodname="ExposedKeyUnlocksQueueAndCageReleasesDistinctShooter" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="771247623" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.001728" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1117" name="HammerRemovesWoodWithoutInventingExtraAmmunition" fullname="PixelFlow.Tests.FullGameplayTests.HammerRemovesWoodWithoutInventingExtraAmmunition" methodname="HammerRemovesWoodWithoutInventingExtraAmmunition" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1232942715" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.001249" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1116" name="HiddenShooterRevealsAtFrontAndFrozenShooterNeedsHits" fullname="PixelFlow.Tests.FullGameplayTests.HiddenShooterRevealsAtFrontAndFrozenShooterNeedsHits" methodname="HiddenShooterRevealsAtFrontAndFrozenShooterNeedsHits" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1562147322" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.000332" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1115" name="LinkedLaunchIsAtomicAndRespectsTotalCapacity" fullname="PixelFlow.Tests.FullGameplayTests.LinkedLaunchIsAtomicAndRespectsTotalCapacity" methodname="LinkedLaunchIsAtomicAndRespectsTotalCapacity" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1258671934" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.000705" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1142" name="MalletsUfoTotemAndAstronautRespondToTheirOwnEvents" fullname="PixelFlow.Tests.FullGameplayTests.MalletsUfoTotemAndAstronautRespondToTheirOwnEvents" methodname="MalletsUfoTotemAndAstronautRespondToTheirOwnEvents" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="75086525" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.001062" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1118" name="PixelHitsOpenIceAndMatchingSlotCage" fullname="PixelFlow.Tests.FullGameplayTests.PixelHitsOpenIceAndMatchingSlotCage" methodname="PixelHitsOpenIceAndMatchingSlotCage" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1251578468" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.000500" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1140" name="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo" fullname="PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.004134" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1133" name="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Ice)" fullname="PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Ice)" methodname="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1644506236" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.000603" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1134" name="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Biscuit)" fullname="PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Biscuit)" methodname="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="736386104" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.000114" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1135" name="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Split)" fullname="PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Split)" methodname="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="60776246" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.000103" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1136" name="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(ColorDoor)" fullname="PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(ColorDoor)" methodname="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1383826701" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.000095" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1137" name="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Curtain)" fullname="PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Curtain)" methodname="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1280190489" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.000156" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1138" name="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Accordion)" fullname="PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Accordion)" methodname="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1808307510" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.000164" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1139" name="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Mixer)" fullname="PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Mixer)" methodname="ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1163454635" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.000098" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1119" name="RearSelectionAndColorBoosterHaveRealStateEffects" fullname="PixelFlow.Tests.FullGameplayTests.RearSelectionAndColorBoosterHaveRealStateEffects" methodname="RearSelectionAndColorBoosterHaveRealStateEffects" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1077964509" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.000363" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1114" name="RepresentativeSourceFeatureStateRoundTrips" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" testcasecount="33" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:21Z" duration="12.986207" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1081" name="RepresentativeSourceFeatureStateRoundTrips(8)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(8)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="63597265" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.207065" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1082" name="RepresentativeSourceFeatureStateRoundTrips(14)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(14)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="696733990" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:08Z" duration="0.234759" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1083" name="RepresentativeSourceFeatureStateRoundTrips(30)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(30)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="2030431586" result="Passed" start-time="2026-10-25 17:59:08Z" end-time="2026-10-25 17:59:09Z" duration="0.351330" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1084" name="RepresentativeSourceFeatureStateRoundTrips(40)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(40)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="32750306" result="Passed" start-time="2026-10-25 17:59:09Z" end-time="2026-10-25 17:59:09Z" duration="0.225639" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1085" name="RepresentativeSourceFeatureStateRoundTrips(55)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(55)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1707126104" result="Passed" start-time="2026-10-25 17:59:09Z" end-time="2026-10-25 17:59:09Z" duration="0.221685" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1086" name="RepresentativeSourceFeatureStateRoundTrips(70)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(70)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="2055620975" result="Passed" start-time="2026-10-25 17:59:09Z" end-time="2026-10-25 17:59:09Z" duration="0.223617" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1087" name="RepresentativeSourceFeatureStateRoundTrips(100)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(100)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="246830779" result="Passed" start-time="2026-10-25 17:59:09Z" end-time="2026-10-25 17:59:10Z" duration="0.222177" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1088" name="RepresentativeSourceFeatureStateRoundTrips(120)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(120)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1905548520" result="Passed" start-time="2026-10-25 17:59:10Z" end-time="2026-10-25 17:59:10Z" duration="0.299115" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1089" name="RepresentativeSourceFeatureStateRoundTrips(140)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(140)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1387598416" result="Passed" start-time="2026-10-25 17:59:10Z" end-time="2026-10-25 17:59:10Z" duration="0.308444" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1090" name="RepresentativeSourceFeatureStateRoundTrips(171)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(171)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1300416339" result="Passed" start-time="2026-10-25 17:59:10Z" end-time="2026-10-25 17:59:11Z" duration="0.435250" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1091" name="RepresentativeSourceFeatureStateRoundTrips(200)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(200)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1947789402" result="Passed" start-time="2026-10-25 17:59:11Z" end-time="2026-10-25 17:59:11Z" duration="0.314573" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1092" name="RepresentativeSourceFeatureStateRoundTrips(230)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(230)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1553400289" result="Passed" start-time="2026-10-25 17:59:11Z" end-time="2026-10-25 17:59:11Z" duration="0.438140" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1093" name="RepresentativeSourceFeatureStateRoundTrips(290)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(290)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1316231601" result="Passed" start-time="2026-10-25 17:59:11Z" end-time="2026-10-25 17:59:12Z" duration="0.466412" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1094" name="RepresentativeSourceFeatureStateRoundTrips(350)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(350)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="2003884271" result="Passed" start-time="2026-10-25 17:59:12Z" end-time="2026-10-25 17:59:12Z" duration="0.499618" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1095" name="RepresentativeSourceFeatureStateRoundTrips(400)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(400)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1168147203" result="Passed" start-time="2026-10-25 17:59:12Z" end-time="2026-10-25 17:59:13Z" duration="0.444828" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1096" name="RepresentativeSourceFeatureStateRoundTrips(500)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(500)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="475352182" result="Passed" start-time="2026-10-25 17:59:13Z" end-time="2026-10-25 17:59:13Z" duration="0.472167" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1097" name="RepresentativeSourceFeatureStateRoundTrips(600)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(600)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="2055008474" result="Passed" start-time="2026-10-25 17:59:13Z" end-time="2026-10-25 17:59:14Z" duration="0.439485" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1098" name="RepresentativeSourceFeatureStateRoundTrips(700)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(700)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="384584643" result="Passed" start-time="2026-10-25 17:59:14Z" end-time="2026-10-25 17:59:14Z" duration="0.462733" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1099" name="RepresentativeSourceFeatureStateRoundTrips(801)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(801)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1141214723" result="Passed" start-time="2026-10-25 17:59:14Z" end-time="2026-10-25 17:59:15Z" duration="0.442082" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1100" name="RepresentativeSourceFeatureStateRoundTrips(901)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(901)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="189348682" result="Passed" start-time="2026-10-25 17:59:15Z" end-time="2026-10-25 17:59:15Z" duration="0.510442" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1101" name="RepresentativeSourceFeatureStateRoundTrips(1001)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1001)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1799987833" result="Passed" start-time="2026-10-25 17:59:15Z" end-time="2026-10-25 17:59:16Z" duration="0.447414" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1102" name="RepresentativeSourceFeatureStateRoundTrips(1101)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1101)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1057173870" result="Passed" start-time="2026-10-25 17:59:16Z" end-time="2026-10-25 17:59:16Z" duration="0.402375" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1103" name="RepresentativeSourceFeatureStateRoundTrips(1201)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1201)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="809426920" result="Passed" start-time="2026-10-25 17:59:16Z" end-time="2026-10-25 17:59:16Z" duration="0.406586" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1104" name="RepresentativeSourceFeatureStateRoundTrips(1301)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1301)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="815003904" result="Passed" start-time="2026-10-25 17:59:16Z" end-time="2026-10-25 17:59:17Z" duration="0.475821" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1105" name="RepresentativeSourceFeatureStateRoundTrips(1401)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1401)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1358194281" result="Passed" start-time="2026-10-25 17:59:17Z" end-time="2026-10-25 17:59:17Z" duration="0.439407" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1106" name="RepresentativeSourceFeatureStateRoundTrips(1501)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1501)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="205637922" result="Passed" start-time="2026-10-25 17:59:17Z" end-time="2026-10-25 17:59:18Z" duration="0.431996" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1107" name="RepresentativeSourceFeatureStateRoundTrips(1601)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1601)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="961865436" result="Passed" start-time="2026-10-25 17:59:18Z" end-time="2026-10-25 17:59:18Z" duration="0.560040" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1108" name="RepresentativeSourceFeatureStateRoundTrips(1701)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1701)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="704815424" result="Passed" start-time="2026-10-25 17:59:18Z" end-time="2026-10-25 17:59:19Z" duration="0.474557" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1109" name="RepresentativeSourceFeatureStateRoundTrips(1801)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1801)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1544094653" result="Passed" start-time="2026-10-25 17:59:19Z" end-time="2026-10-25 17:59:19Z" duration="0.422033" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1110" name="RepresentativeSourceFeatureStateRoundTrips(1901)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1901)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1848072659" result="Passed" start-time="2026-10-25 17:59:19Z" end-time="2026-10-25 17:59:20Z" duration="0.355996" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1111" name="RepresentativeSourceFeatureStateRoundTrips(2001)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(2001)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="91543529" result="Passed" start-time="2026-10-25 17:59:20Z" end-time="2026-10-25 17:59:20Z" duration="0.399811" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1112" name="RepresentativeSourceFeatureStateRoundTrips(2201)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(2201)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1867044540" result="Passed" start-time="2026-10-25 17:59:20Z" end-time="2026-10-25 17:59:20Z" duration="0.451638" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1113" name="RepresentativeSourceFeatureStateRoundTrips(2401)" fullname="PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(2401)" methodname="RepresentativeSourceFeatureStateRoundTrips" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1168961314" result="Passed" start-time="2026-10-25 17:59:20Z" end-time="2026-10-25 17:59:21Z" duration="0.393036" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1146" name="SnapshotCannotClaimAWinWithGoalsStillOnBoard" fullname="PixelFlow.Tests.FullGameplayTests.SnapshotCannotClaimAWinWithGoalsStillOnBoard" methodname="SnapshotCannotClaimAWinWithGoalsStillOnBoard" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1198540467" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000568" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1149" name="SurpriseAndConnectedSourceLevelsCanBeSolvedThroughNormalLaunchRules" fullname="PixelFlow.Tests.FullGameplayTests.SurpriseAndConnectedSourceLevelsCanBeSolvedThroughNormalLaunchRules" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.367835" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1147" name="SurpriseAndConnectedSourceLevelsCanBeSolvedThroughNormalLaunchRules(8)" fullname="PixelFlow.Tests.FullGameplayTests.SurpriseAndConnectedSourceLevelsCanBeSolvedThroughNormalLaunchRules(8)" methodname="SurpriseAndConnectedSourceLevelsCanBeSolvedThroughNormalLaunchRules" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1034822725" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.181376" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1148" name="SurpriseAndConnectedSourceLevelsCanBeSolvedThroughNormalLaunchRules(14)" fullname="PixelFlow.Tests.FullGameplayTests.SurpriseAndConnectedSourceLevelsCanBeSolvedThroughNormalLaunchRules(14)" methodname="SurpriseAndConnectedSourceLevelsCanBeSolvedThroughNormalLaunchRules" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="606131582" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.184926" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1120" name="TimerLossReviveAndSnapshotRestorePreserveRunIdentity" fullname="PixelFlow.Tests.FullGameplayTests.TimerLossReviveAndSnapshotRestorePreserveRunIdentity" methodname="TimerLossReviveAndSnapshotRestorePreserveRunIdentity" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="312722936" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.001888" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1144" name="UnicornUsesWaitingAmmoAndCannotRepeatWithoutCharging" fullname="PixelFlow.Tests.FullGameplayTests.UnicornUsesWaitingAmmoAndCannotRepeatWithoutCharging" methodname="UnicornUsesWaitingAmmoAndCannotRepeatWithoutCharging" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="60659140" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.001724" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1150" name="HomeFlowTests" fullname="PixelFlow.Tests.HomeFlowTests" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.102010" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1156" name="AbandonAttemptIsAtomicAndCannotChargeTwice" fullname="PixelFlow.Tests.HomeFlowTests.AbandonAttemptIsAtomicAndCannotChargeTwice" methodname="AbandonAttemptIsAtomicAndCannotChargeTwice" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="1094069641" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.093950" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1157" name="AbandonPreservesUnlimitedLivesAndAlreadyFailedAttempt" fullname="PixelFlow.Tests.HomeFlowTests.AbandonPreservesUnlimitedLivesAndAlreadyFailedAttempt" methodname="AbandonPreservesUnlimitedLivesAndAlreadyFailedAttempt" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="812343221" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.001110" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1153" name="LegacyLivesMigrationPreservesWalletAndSettings" fullname="PixelFlow.Tests.HomeFlowTests.LegacyLivesMigrationPreservesWalletAndSettings" methodname="LegacyLivesMigrationPreservesWalletAndSettings" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="1805581051" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000392" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1154" name="RefillCommitsWalletAndLivesTogetherAndRejectsDoubleSpend" fullname="PixelFlow.Tests.HomeFlowTests.RefillCommitsWalletAndLivesTogetherAndRejectsDoubleSpend" methodname="RefillCommitsWalletAndLivesTogetherAndRejectsDoubleSpend" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="1633080829" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000960" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1151" name="RegenerationCapsAndDoesNotMutateInput" fullname="PixelFlow.Tests.HomeFlowTests.RegenerationCapsAndDoesNotMutateInput" methodname="RegenerationCapsAndDoesNotMutateInput" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="813631990" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000818" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1155" name="SeparateAudioLevelsPersistAndRejectInvalidInput" fullname="PixelFlow.Tests.HomeFlowTests.SeparateAudioLevelsPersistAndRejectInvalidInput" methodname="SeparateAudioLevelsPersistAndRejectInvalidInput" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="1930924883" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.001906" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1152" name="UnlimitedLifeDoesNotSpendAndEmptyCannotPlay" fullname="PixelFlow.Tests.HomeFlowTests.UnlimitedLifeDoesNotSpendAndEmptyCannotPlay" methodname="UnlimitedLifeDoesNotSpendAndEmptyCannotPlay" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="378827617" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000248" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1158" name="ProgressFlowTests" fullname="PixelFlow.Tests.ProgressFlowTests" classname="PixelFlow.Tests.ProgressFlowTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.011523" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1163" name="FutureSchemaFailsWithoutOverwritingTheSave" fullname="PixelFlow.Tests.ProgressFlowTests.FutureSchemaFailsWithoutOverwritingTheSave" methodname="FutureSchemaFailsWithoutOverwritingTheSave" classname="PixelFlow.Tests.ProgressFlowTests" runstate="Runnable" seed="776515704" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.006162" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1159" name="MigrationPreservesOldUnlockCompletionAndSound" fullname="PixelFlow.Tests.ProgressFlowTests.MigrationPreservesOldUnlockCompletionAndSound" methodname="MigrationPreservesOldUnlockCompletionAndSound" classname="PixelFlow.Tests.ProgressFlowTests" runstate="Runnable" seed="1325842147" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000893" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1162" name="PurchaseConsumptionCheckpointAndReloadAreOnePersistentState" fullname="PixelFlow.Tests.ProgressFlowTests.PurchaseConsumptionCheckpointAndReloadAreOnePersistentState" methodname="PurchaseConsumptionCheckpointAndReloadAreOnePersistentState" classname="PixelFlow.Tests.ProgressFlowTests" runstate="Runnable" seed="1808197706" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.001192" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1161" name="RewardsAndDailyClaimsAreIdempotentAndRejectClockRollback" fullname="PixelFlow.Tests.ProgressFlowTests.RewardsAndDailyClaimsAreIdempotentAndRejectClockRollback" methodname="RewardsAndDailyClaimsAreIdempotentAndRejectClockRollback" classname="PixelFlow.Tests.ProgressFlowTests" runstate="Runnable" seed="922572652" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000805" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1160" name="SaveFailureCannotConsumeCoinsInventoryOrGrantCompletion" fullname="PixelFlow.Tests.ProgressFlowTests.SaveFailureCannotConsumeCoinsInventoryOrGrantCompletion" methodname="SaveFailureCannotConsumeCoinsInventoryOrGrantCompletion" classname="PixelFlow.Tests.ProgressFlowTests" runstate="Runnable" seed="1028550489" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000780" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1164" name="PuzzleSessionTests" fullname="PixelFlow.Tests.PuzzleSessionTests" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.096560" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1166" name="FullBeltRejectsWithoutConsumingQueue" fullname="PixelFlow.Tests.PuzzleSessionTests.FullBeltRejectsWithoutConsumingQueue" methodname="FullBeltRejectsWithoutConsumingQueue" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" seed="621912413" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.001042" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1172" name="InvalidCoordinatesDuplicateIdsAndMissingAmmoAreRejected" fullname="PixelFlow.Tests.PuzzleSessionTests.InvalidCoordinatesDuplicateIdsAndMissingAmmoAreRejected" methodname="InvalidCoordinatesDuplicateIdsAndMissingAmmoAreRejected" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" seed="1160477163" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.001226" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1173" name="InvalidTimeIsRejected" fullname="PixelFlow.Tests.PuzzleSessionTests.InvalidTimeIsRejected" methodname="InvalidTimeIsRejected" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" seed="1882406082" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000370" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1169" name="MatchingShotsConsumeOneAmmoAndEmitOneResult" fullname="PixelFlow.Tests.PuzzleSessionTests.MatchingShotsConsumeOneAmmoAndEmitOneResult" methodname="MatchingShotsConsumeOneAmmoAndEmitOneResult" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" seed="1140412698" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000503" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1174" name="NearerDifferentColorBlocksShotsFromThatSide" fullname="PixelFlow.Tests.PuzzleSessionTests.NearerDifferentColorBlocksShotsFromThatSide" methodname="NearerDifferentColorBlocksShotsFromThatSide" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" seed="1621148601" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000266" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1165" name="OnlyFrontAndWaitingShootersCanBeLaunched" fullname="PixelFlow.Tests.PuzzleSessionTests.OnlyFrontAndWaitingShootersCanBeLaunched" methodname="OnlyFrontAndWaitingShootersCanBeLaunched" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" seed="2095973130" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000205" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1175" name="QueuedEntranceDoesNotAccumulateAShotBurst" fullname="PixelFlow.Tests.PuzzleSessionTests.QueuedEntranceDoesNotAccumulateAShotBurst" methodname="QueuedEntranceDoesNotAccumulateAShotBurst" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" seed="670771770" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.001125" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1168" name="ReturningShooterLosesOnlyWhenNoWaitingSlotRemains" fullname="PixelFlow.Tests.PuzzleSessionTests.ReturningShooterLosesOnlyWhenNoWaitingSlotRemains" methodname="ReturningShooterLosesOnlyWhenNoWaitingSlotRemains" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" seed="836734064" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000270" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1170" name="SessionsNeverMutateSourceDefinitionOrAnotherSession" fullname="PixelFlow.Tests.PuzzleSessionTests.SessionsNeverMutateSourceDefinitionOrAnotherSession" methodname="SessionsNeverMutateSourceDefinitionOrAnotherSession" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" seed="988477080" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000276" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1171" name="SmallAndLargeFrameStepsGiveTheSameRuleResult" fullname="PixelFlow.Tests.PuzzleSessionTests.SmallAndLargeFrameStepsGiveTheSameRuleResult" methodname="SmallAndLargeFrameStepsGiveTheSameRuleResult" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" seed="399880521" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000590" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1167" name="UnmatchedShooterReturnsWithAmmoAndCanBeRelaunched" fullname="PixelFlow.Tests.PuzzleSessionTests.UnmatchedShooterReturnsWithAmmoAndCanBeRelaunched" methodname="UnmatchedShooterReturnsWithAmmoAndCanBeRelaunched" classname="PixelFlow.Tests.PuzzleSessionTests" runstate="Runnable" seed="393151962" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:21Z" duration="0.000337" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1176" name="ResourceWalletTests" fullname="PixelFlow.Tests.ResourceWalletTests" classname="PixelFlow.Tests.ResourceWalletTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-25 17:59:21Z" end-time="2026-10-25 17:59:22Z" duration="0.190118" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1180" name="DisposeUnsubscribesAndRejectsFurtherWrites" fullname="PixelFlow.Tests.ResourceWalletTests.DisposeUnsubscribesAndRejectsFurtherWrites" methodname="DisposeUnsubscribesAndRejectsFurtherWrites" classname="PixelFlow.Tests.ResourceWalletTests" runstate="Runnable" seed="262859440" result="Passed" start-time="2026-10-25 17:59:22Z" end-time="2026-10-25 17:59:22Z" duration="0.091345" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1177" name="ExchangePersistsOnceAndSurvivesReloadWithoutSecondWallet" fullname="PixelFlow.Tests.ResourceWalletTests.ExchangePersistsOnceAndSurvivesReloadWithoutSecondWallet" methodname="ExchangePersistsOnceAndSurvivesReloadWithoutSecondWallet" classname="PixelFlow.Tests.ResourceWalletTests" runstate="Runnable" seed="153876592" result="Passed" start-time="2026-10-25 17:59:22Z" end-time="2026-10-25 17:59:22Z" duration="0.003140" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1178" name="FailedPersistenceDoesNotPublishOrDeduplicateAnUndeliveredGrant" fullname="PixelFlow.Tests.ResourceWalletTests.FailedPersistenceDoesNotPublishOrDeduplicateAnUndeliveredGrant" methodname="FailedPersistenceDoesNotPublishOrDeduplicateAnUndeliveredGrant" classname="PixelFlow.Tests.ResourceWalletTests" runstate="Runnable" seed="259555465" result="Passed" start-time="2026-10-25 17:59:22Z" end-time="2026-10-25 17:59:22Z" duration="0.000989" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1179" name="InsufficientAndOverflowLeaveAllResourcesUnchanged" fullname="PixelFlow.Tests.ResourceWalletTests.InsufficientAndOverflowLeaveAllResourcesUnchanged" methodname="InsufficientAndOverflowLeaveAllResourcesUnchanged" classname="PixelFlow.Tests.ResourceWalletTests" runstate="Runnable" seed="404601389" result="Passed" start-time="2026-10-25 17:59:22Z" end-time="2026-10-25 17:59:22Z" duration="0.001494" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1181" name="ShopFlowTests" fullname="PixelFlow.Tests.ShopFlowTests" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" testcasecount="22" result="Passed" start-time="2026-10-25 17:59:22Z" end-time="2026-10-25 17:59:30Z" duration="8.214797" total="22" passed="22" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1197" name="AcknowledgementFailureCannotReplayPaidRewards" fullname="PixelFlow.Tests.ShopFlowTests.AcknowledgementFailureCannotReplayPaidRewards" methodname="AcknowledgementFailureCannotReplayPaidRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="1578292942" result="Passed" start-time="2026-10-25 17:59:22Z" end-time="2026-10-25 17:59:22Z" duration="0.304353" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1196" name="BundleSaveFailureLeavesAllRewardsUntouchedAndRecoversOnce" fullname="PixelFlow.Tests.ShopFlowTests.BundleSaveFailureLeavesAllRewardsUntouchedAndRecoversOnce" methodname="BundleSaveFailureLeavesAllRewardsUntouchedAndRecoversOnce" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="1784126175" result="Passed" start-time="2026-10-25 17:59:22Z" end-time="2026-10-25 17:59:22Z" duration="0.298263" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1201" name="CancelOrFailureDoesNotGrant" fullname="PixelFlow.Tests.ShopFlowTests.CancelOrFailureDoesNotGrant" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-25 17:59:22Z" end-time="2026-10-25 17:59:23Z" duration="0.696134" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1199" name="CancelOrFailureDoesNotGrant(Cancelled,Cancelled)" fullname="PixelFlow.Tests.ShopFlowTests.CancelOrFailureDoesNotGrant(Cancelled,Cancelled)" methodname="CancelOrFailureDoesNotGrant" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="1720718221" result="Passed" start-time="2026-10-25 17:59:22Z" end-time="2026-10-25 17:59:23Z" duration="0.297461" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1200" name="CancelOrFailureDoesNotGrant(Failed,Failed)" fullname="PixelFlow.Tests.ShopFlowTests.CancelOrFailureDoesNotGrant(Failed,Failed)" methodname="CancelOrFailureDoesNotGrant" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="353481921" result="Passed" start-time="2026-10-25 17:59:23Z" end-time="2026-10-25 17:59:23Z" duration="0.299329" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1182" name="CatalogMatchesObservedElevenOffersAndEarlyUnlocks" fullname="PixelFlow.Tests.ShopFlowTests.CatalogMatchesObservedElevenOffersAndEarlyUnlocks" methodname="CatalogMatchesObservedElevenOffersAndEarlyUnlocks" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="211986288" result="Passed" start-time="2026-10-25 17:59:23Z" end-time="2026-10-25 17:59:23Z" duration="0.001239" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1203" name="DeferredOrderSurvivesCancelledClientAndRestart" fullname="PixelFlow.Tests.ShopFlowTests.DeferredOrderSurvivesCancelledClientAndRestart" methodname="DeferredOrderSurvivesCancelledClientAndRestart" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="1503513791" result="Passed" start-time="2026-10-25 17:59:23Z" end-time="2026-10-25 17:59:23Z" duration="0.296835" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1202" name="DeferredPurchaseBlocksAnotherAndOnlyGrantsAfterApproval" fullname="PixelFlow.Tests.ShopFlowTests.DeferredPurchaseBlocksAnotherAndOnlyGrantsAfterApproval" methodname="DeferredPurchaseBlocksAnotherAndOnlyGrantsAfterApproval" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="905175064" result="Passed" start-time="2026-10-25 17:59:23Z" end-time="2026-10-25 17:59:23Z" duration="0.298758" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1205" name="EmptyRestoreAndRestoreFailureCannotInventEntitlement" fullname="PixelFlow.Tests.ShopFlowTests.EmptyRestoreAndRestoreFailureCannotInventEntitlement" methodname="EmptyRestoreAndRestoreFailureCannotInventEntitlement" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="854205142" result="Passed" start-time="2026-10-25 17:59:23Z" end-time="2026-10-25 17:59:24Z" duration="0.298753" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1195" name="EveryProductCommitsItsObservedRewards" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-25 17:59:24Z" end-time="2026-10-25 17:59:27Z" duration="3.381440" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1184" name="EveryProductCommitsItsObservedRewards(&quot;gold-1000&quot;,1000,0,0,False)" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(&quot;gold-1000&quot;,1000,0,0,False)" methodname="EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="1647576108" result="Passed" start-time="2026-10-25 17:59:24Z" end-time="2026-10-25 17:59:24Z" duration="0.298144" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1185" name="EveryProductCommitsItsObservedRewards(&quot;gold-5000&quot;,5000,0,0,False)" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(&quot;gold-5000&quot;,5000,0,0,False)" methodname="EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="1718205498" result="Passed" start-time="2026-10-25 17:59:24Z" end-time="2026-10-25 17:59:24Z" duration="0.297418" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1186" name="EveryProductCommitsItsObservedRewards(&quot;gold-10000&quot;,10000,0,0,False)" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(&quot;gold-10000&quot;,10000,0,0,False)" methodname="EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="1154568291" result="Passed" start-time="2026-10-25 17:59:24Z" end-time="2026-10-25 17:59:25Z" duration="0.299835" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1187" name="EveryProductCommitsItsObservedRewards(&quot;gold-25000&quot;,25000,0,0,False)" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(&quot;gold-25000&quot;,25000,0,0,False)" methodname="EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="103417565" result="Passed" start-time="2026-10-25 17:59:25Z" end-time="2026-10-25 17:59:25Z" duration="0.298133" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1188" name="EveryProductCommitsItsObservedRewards(&quot;gold-50000&quot;,50000,0,0,False)" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(&quot;gold-50000&quot;,50000,0,0,False)" methodname="EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="475409585" result="Passed" start-time="2026-10-25 17:59:25Z" end-time="2026-10-25 17:59:25Z" duration="0.296921" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1189" name="EveryProductCommitsItsObservedRewards(&quot;gold-100000&quot;,100000,0,0,False)" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(&quot;gold-100000&quot;,100000,0,0,False)" methodname="EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="1096535372" result="Passed" start-time="2026-10-25 17:59:25Z" end-time="2026-10-25 17:59:26Z" duration="0.298256" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1190" name="EveryProductCommitsItsObservedRewards(&quot;no-ads&quot;,0,0,0,True)" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(&quot;no-ads&quot;,0,0,0,True)" methodname="EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="1892746153" result="Passed" start-time="2026-10-25 17:59:26Z" end-time="2026-10-25 17:59:26Z" duration="0.298608" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1191" name="EveryProductCommitsItsObservedRewards(&quot;no-ads-bundle&quot;,1000,1,3600,True)" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(&quot;no-ads-bundle&quot;,1000,1,3600,True)" methodname="EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="582440104" result="Passed" start-time="2026-10-25 17:59:26Z" end-time="2026-10-25 17:59:26Z" duration="0.298680" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1192" name="EveryProductCommitsItsObservedRewards(&quot;small-bundle&quot;,5000,1,7200,False)" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(&quot;small-bundle&quot;,5000,1,7200,False)" methodname="EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="1199651514" result="Passed" start-time="2026-10-25 17:59:26Z" end-time="2026-10-25 17:59:27Z" duration="0.296916" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1193" name="EveryProductCommitsItsObservedRewards(&quot;medium-bundle&quot;,10000,2,7200,False)" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(&quot;medium-bundle&quot;,10000,2,7200,False)" methodname="EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="246154998" result="Passed" start-time="2026-10-25 17:59:27Z" end-time="2026-10-25 17:59:27Z" duration="0.298715" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1194" name="EveryProductCommitsItsObservedRewards(&quot;ultra-bundle&quot;,25000,5,21600,False)" fullname="PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(&quot;ultra-bundle&quot;,25000,5,21600,False)" methodname="EveryProductCommitsItsObservedRewards" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="230499528" result="Passed" start-time="2026-10-25 17:59:27Z" end-time="2026-10-25 17:59:27Z" duration="0.296831" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1204" name="InventoryOverflowCannotPartiallyGrantBundle" fullname="PixelFlow.Tests.ShopFlowTests.InventoryOverflowCannotPartiallyGrantBundle" methodname="InventoryOverflowCannotPartiallyGrantBundle" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="1366037507" result="Passed" start-time="2026-10-25 17:59:27Z" end-time="2026-10-25 17:59:29Z" duration="2.133284" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1198" name="NoAdsBundleCannotBeBoughtTwiceAndRestoreDoesNotRepeatConsumables" fullname="PixelFlow.Tests.ShopFlowTests.NoAdsBundleCannotBeBoughtTwiceAndRestoreDoesNotRepeatConsumables" methodname="NoAdsBundleCannotBeBoughtTwiceAndRestoreDoesNotRepeatConsumables" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="290701609" result="Passed" start-time="2026-10-25 17:59:29Z" end-time="2026-10-25 17:59:30Z" duration="0.201017" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1183" name="RepeatedConsumablePurchasesHaveDistinctReceiptsAndPersist" fullname="PixelFlow.Tests.ShopFlowTests.RepeatedConsumablePurchasesHaveDistinctReceiptsAndPersist" methodname="RepeatedConsumablePurchasesHaveDistinctReceiptsAndPersist" classname="PixelFlow.Tests.ShopFlowTests" runstate="Runnable" seed="577888458" result="Passed" start-time="2026-10-25 17:59:30Z" end-time="2026-10-25 17:59:30Z" duration="0.299983" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/trinh/AppData/LocalLow/Dreamy/Pixel Flow Clone\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -128,6 +128,15 @@ namespace PixelFlow
             var next = Clone(Data); next.ActiveLevel = level; next.ActiveRun = snapshot; Commit(next);
         }
         public void DiscardRun() { var next = Clone(Data); next.ActiveRun = null; Commit(next); }
+        public void AbandonRun(long now)
+        {
+            if (Data.ActiveRun == null) return;
+            var next = Clone(Data);
+            if (next.LastFailedRun != next.ActiveRun.RunId)
+                next.Lives = HomeLifeRules.Spend(next.Lives, now, homeTuning.MaximumHearts, homeTuning.HeartIntervalSeconds) ?? next.Lives;
+            next.LastFailedRun = next.ActiveRun.RunId; next.WinsSinceFailure = 0; next.ActiveRun = null;
+            Commit(next);
+        }
         public int Amount(BoosterKind kind) => (int)kind < 4 && (int)kind >= 0 ? Data.Boosters[(int)kind] : 0;
         public int Price(BoosterKind kind) => (int)kind < 4 && (int)kind >= 0 ? tuning.BoosterPrices[(int)kind] : 0;
         public bool Buy(BoosterKind kind)

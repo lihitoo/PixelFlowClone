@@ -28,7 +28,7 @@ namespace Dreamy.Feature.Shop.Integration
         [SerializeField] private OfferSlot[] offers = Array.Empty<OfferSlot>();
         [SerializeField] private SectionSlot[] sections = Array.Empty<SectionSlot>();
         [SerializeField] private ScrollRect scroll;
-        [SerializeField] private Button startButton, settingsButton, livesButton, coinsButton, shopButton, restoreButton, rankButton;
+        [SerializeField] private Button startButton, settingsButton, livesButton, coinsButton, shopButton, rankButton;
         [SerializeField] private GameObject header;
         [SerializeField] private TMP_Text miniBalance, rankLabel;
         [SerializeField] private Sprite rankSprite, lockedRankSprite;
@@ -39,7 +39,7 @@ namespace Dreamy.Feature.Shop.Integration
         [SerializeField] private ResourceUIHolder coinHolder;
         [Header("Feed layout (native authored units)")]
         [SerializeField] private float sectionHeight = 114, goldRowHeight = 480, goldColumnSpacing = 333, bannerHeight = 352.5f, bundleHeight = 435;
-        [SerializeField] private float sectionCenter = 40.5f, goldBottomGap = 37.5f, restoreOffset = 60, restoreSpace = 150;
+        [SerializeField] private float sectionCenter = 40.5f, goldBottomGap = 37.5f, contentBottomPadding = 24;
         private readonly Dictionary<string, Button> buttons = new();
         private readonly List<Action> unsubscribe = new();
         public ScrollRect Scroll => scroll;
@@ -48,10 +48,9 @@ namespace Dreamy.Feature.Shop.Integration
         public Button SettingsButton => settingsButton;
         public Button RankButton => rankButton;
         public Button CloseButton => closeButton;
-        public Button RestoreButton => restoreButton;
         public IReadOnlyDictionary<string, Button> OfferButtons => buttons;
         private Transform feedRewardSource;
-        public event Action RestoreRequested, SettingsRequested, LivesRequested, RankRequested, HeaderRefreshRequested;
+        public event Action SettingsRequested, LivesRequested, RankRequested, HeaderRefreshRequested;
         public event Action<bool> PurchaseBusyChanged;
         public event Action<ShopPurchaseResult> PurchaseResult;
         private string focus;
@@ -72,7 +71,6 @@ namespace Dreamy.Feature.Shop.Integration
             BindButton(settingsButton, () => SettingsRequested?.Invoke()); BindButton(livesButton, () => LivesRequested?.Invoke());
             BindButton(coinsButton, () => ScrollTo("Gold")); BindButton(shopButton, () => ScrollTo("Top"));
             BindButton(rankButton, () => RankRequested?.Invoke());
-            BindButton(restoreButton, () => RestoreRequested?.Invoke());
         }
         private void BindButton(Button button, Action action)
         {
@@ -112,8 +110,7 @@ namespace Dreamy.Feature.Shop.Integration
                 var group = offers.Where(x => x.Section == id && x.Root.gameObject.activeSelf).ToArray(); if (group.Length == 0) continue;
                 Section(id, ref y); foreach (var slot in group) { Place(slot, 0, y); y += bundleHeight; }
             }
-            ((RectTransform)restoreButton.transform).anchoredPosition = new Vector2(0, -y - restoreOffset);
-            scroll.content.sizeDelta = new Vector2(scroll.content.sizeDelta.x, y + restoreSpace);
+            scroll.content.sizeDelta = new Vector2(scroll.content.sizeDelta.x, y + contentBottomPadding);
             Canvas.ForceUpdateCanvases();
             if (focus != null) { string destination = focus; focus = null; ScrollTo(destination); }
             HeaderRefreshRequested?.Invoke();

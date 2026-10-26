@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="12" result="Passed" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-25 11:54:54Z" end-time="2026-10-25 11:55:05Z" duration="11.3303765">
+  <test-suite type="TestSuite" id="1000" name="Pixel Flow Clone" fullname="Pixel Flow Clone" runstate="Runnable" testcasecount="171" result="Passed" start-time="2026-10-25 11:54:54Z" end-time="2026-10-25 11:55:05Z" duration="11.330377" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1204" name="PixelFlow.Tests.Editor.dll" fullname="D:/Game/PixelFlowClone/Library/ScriptAssemblies/PixelFlow.Tests.Editor.dll" runstate="Runnable" testcasecount="137" result="Passed" start-time="2026-10-25 11:54:56Z" end-time="2026-10-25 11:55:05Z" duration="8.968562" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="46452" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1205" name="PixelFlow" fullname="PixelFlow" runstate="Runnable" testcasecount="137" result="Passed" start-time="2026-10-25 11:54:57Z" end-time="2026-10-25 11:55:05Z" duration="8.398056" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1206" name="EditorReview" fullname="PixelFlow.EditorReview" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-25 11:54:57Z" end-time="2026-10-25 11:55:05Z" duration="8.167478" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1052" name="PresentationReviewTests" fullname="PixelFlow.EditorReview.PresentationReviewTests" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-25 11:54:57Z" end-time="2026-10-25 11:55:05Z" duration="8.147571" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1054" name="AuthoredSettingsPreferencesContextAndAttemptConfirmation" fullname="PixelFlow.EditorReview.PresentationReviewTests.AuthoredSettingsPreferencesContextAndAttemptConfirmation" methodname="AuthoredSettingsPreferencesContextAndAttemptConfirmation" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="547372996" result="Passed" start-time="2026-10-25 11:52:52Z" end-time="2026-10-25 11:53:20Z" duration="27.428105" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1053" name="AuthoredSettingsSaveFailureRetryAndAttemptRecovery" fullname="PixelFlow.EditorReview.PresentationReviewTests.AuthoredSettingsSaveFailureRetryAndAttemptRecovery" methodname="AuthoredSettingsSaveFailureRetryAndAttemptRecovery" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1633846747" result="Passed" start-time="2026-10-25 11:53:20Z" end-time="2026-10-25 11:53:42Z" duration="22.101658" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[Pixel Flow operation failed: Fixture disk failure
+Pixel Flow operation failed: Fixture disk failure
+]]></output>
+            </test-case>
+            <test-case id="1062" name="FullOfflineMenusBoostersResumeAndContinueRoute" fullname="PixelFlow.EditorReview.PresentationReviewTests.FullOfflineMenusBoostersResumeAndContinueRoute" methodname="FullOfflineMenusBoostersResumeAndContinueRoute" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="591499614" result="Passed" start-time="2026-10-25 11:53:42Z" end-time="2026-10-25 11:54:09Z" duration="27.118730" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+            </test-case>
+            <test-case id="1059" name="SourceHomeHeaderTabsLivesAndLockedRank" fullname="PixelFlow.EditorReview.PresentationReviewTests.SourceHomeHeaderTabsLivesAndLockedRank" methodname="SourceHomeHeaderTabsLivesAndLockedRank" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1492987303" result="Passed" start-time="2026-10-25 11:54:09Z" end-time="2026-10-25 11:54:36Z" duration="27.418703" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="180000" />
+              </properties>
+            </test-case>
+            <test-case id="1057" name="SourceShopBundlesScrollOwnedNoAdsAndRestore" fullname="PixelFlow.EditorReview.PresentationReviewTests.SourceShopBundlesScrollOwnedNoAdsAndRestore" methodname="SourceShopBundlesScrollOwnedNoAdsAndRestore" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1232917153" result="Passed" start-time="2026-10-25 11:54:37Z" end-time="2026-10-25 11:55:05Z" duration="28.698437" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Shop restore failed: Unable to restore purchases. Please try again.
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1207" name="Tests" fullname="PixelFlow.Tests" runstate="Runnable" testcasecount="124" result="Passed" start-time="2026-10-25 11:55:05Z" end-time="2026-10-25 11:55:05Z" duration="0.159951" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1148" name="HomeFlowTests" fullname="PixelFlow.Tests.HomeFlowTests" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-25 11:55:05Z" end-time="2026-10-25 11:55:05Z" duration="0.151913" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1154" name="AbandonAttemptIsAtomicAndCannotChargeTwice" fullname="PixelFlow.Tests.HomeFlowTests.AbandonAttemptIsAtomicAndCannotChargeTwice" methodname="AbandonAttemptIsAtomicAndCannotChargeTwice" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="98542123" result="Passed" start-time="2026-10-25 11:55:05Z" end-time="2026-10-25 11:55:05Z" duration="0.046180" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1155" name="AbandonPreservesUnlimitedLivesAndAlreadyFailedAttempt" fullname="PixelFlow.Tests.HomeFlowTests.AbandonPreservesUnlimitedLivesAndAlreadyFailedAttempt" methodname="AbandonPreservesUnlimitedLivesAndAlreadyFailedAttempt" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="263980424" result="Passed" start-time="2026-10-25 11:55:05Z" end-time="2026-10-25 11:55:05Z" duration="0.001177" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1151" name="LegacyLivesMigrationPreservesWalletAndSettings" fullname="PixelFlow.Tests.HomeFlowTests.LegacyLivesMigrationPreservesWalletAndSettings" methodname="LegacyLivesMigrationPreservesWalletAndSettings" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="175231940" result="Passed" start-time="2026-10-25 11:55:05Z" end-time="2026-10-25 11:55:05Z" duration="0.000458" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1152" name="RefillCommitsWalletAndLivesTogetherAndRejectsDoubleSpend" fullname="PixelFlow.Tests.HomeFlowTests.RefillCommitsWalletAndLivesTogetherAndRejectsDoubleSpend" methodname="RefillCommitsWalletAndLivesTogetherAndRejectsDoubleSpend" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="2124975798" result="Passed" start-time="2026-10-25 11:55:05Z" end-time="2026-10-25 11:55:05Z" duration="0.000823" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1149" name="RegenerationCapsAndDoesNotMutateInput" fullname="PixelFlow.Tests.HomeFlowTests.RegenerationCapsAndDoesNotMutateInput" methodname="RegenerationCapsAndDoesNotMutateInput" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="1932364804" result="Passed" start-time="2026-10-25 11:55:05Z" end-time="2026-10-25 11:55:05Z" duration="0.000217" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1153" name="SeparateAudioLevelsPersistAndRejectInvalidInput" fullname="PixelFlow.Tests.HomeFlowTests.SeparateAudioLevelsPersistAndRejectInvalidInput" methodname="SeparateAudioLevelsPersistAndRejectInvalidInput" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="1537201991" result="Passed" start-time="2026-10-25 11:55:05Z" end-time="2026-10-25 11:55:05Z" duration="0.001807" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1150" name="UnlimitedLifeDoesNotSpendAndEmptyCannotPlay" fullname="PixelFlow.Tests.HomeFlowTests.UnlimitedLifeDoesNotSpendAndEmptyCannotPlay" methodname="UnlimitedLifeDoesNotSpendAndEmptyCannotPlay" classname="PixelFlow.Tests.HomeFlowTests" runstate="Runnable" seed="1537700589" result="Passed" start-time="2026-10-25 11:55:05Z" end-time="2026-10-25 11:55:05Z" duration="0.000235" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/trinh/AppData/LocalLow/Dreamy/Pixel Flow Clone\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

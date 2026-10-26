@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "sourceVersion": "0.36.3",
+  "receipts": [
+    {
+      "role": "Trophy",
+      "assetId": "asset-e55432f53eda8be6ec67",
+      "source": "exports/Sprite/sharedassets1.assets/Icon_Trophy_3x__1288.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Trophy_3x__1288.png",
+      "sha256": "1578ef5b7d8819f5409addf55a3a92bd1bb9d9c06eb58bd1ed09b37a9405a0c5",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Results/Trophy.png",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 64215,
+      "importedGuid": "42d9db136246fcf4a848b87944734698"
+    },
+    {
+      "role": "WatchAds",
+      "assetId": "asset-33d94825c645d83671f1",
+      "source": "exports/Sprite/sharedassets1.assets/Icon_WatchAds__952.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_WatchAds__952.png",
+      "sha256": "9ed6279f4a9b766e88cc944040d0f759175a78beac4763ddf736bd2d7d76645f",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Results/WatchAds.png",
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bytes": 18651,
+      "importedGuid": "2cafdba5d45ace34aa71c4db4883995d"
+    },
+    {
+      "role": "WinBanner",
+      "assetId": "asset-98c5b7bdf2bbca14a2fe",
+      "source": "exports/Sprite/sharedassets1.assets/Title_Blue_2x__1204.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Title_Blue_2x__1204.png",
+      "sha256": "9e3ce05957169c2ad926055f2845ff2f777cc5a4df947c166552cbdfbf22bcd7",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Results/WinBanner.png",
+      "sourceBorder": [
+        186.92387,
+        0.0,
+        184.9239,
+        0.0
+      ],
+      "bytes": 77890,
+      "importedGuid": "c72010503f9806e42af954837ce50dc6"
+    },
+    {
+      "role": "FailPopup",
+      "assetId": "asset-74d7ae7c33cda864a566",
+      "source": "exports/Sprite/sharedassets1.assets/Popup_With_Header_Purple__1423.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Popup_With_Header_Purple__1423.png",
+      "sha256": "0beecfcf8ee309173adbdc5ede105bb39c2569b5d8ff736c724e46644f76f3bf",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Results/FailPopup.png",
+      "sourceBorder": [
+        100.0,
+        100.0,
+        100.0,
+        229.0
+      ],
+      "bytes": 32844,
+      "importedGuid": "25dfd4d37770e3f4e828805503eefd8e"
+    },
+    {
+      "role": "OutOfSpaceVideo",
+      "assetId": "asset-56c65efdca6777ea31f5",
+      "source": "exports/VideoClip/sharedassets1.assets/out_of_space_offer__1440.mp4",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/VideoClip/sharedassets1.assets/out_of_space_offer__1440.mp4",
+      "sha256": "50b6ac442d32bcd1d3f5dea093683cd71af7e9e12fa42ac005910c28300188c1",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Results/OutOfSpace.mp4",
+      "bytes": 448781,
+      "importedGuid": "430f5f2acf0d1404c87788019a935227"
+    },
+    {
+      "role": "WinBody",
+      "assetId": "asset-3dd041c03e350a9f59f9",
+      "source": "exports/Sprite/sharedassets1.assets/Popup_Plain_Blue__724.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Popup_Plain_Blue__724.png",
+      "sha256": "69ade95cdbc65bc67fee87c9c61f4f670df2df8b482de03bf06b371f96bd30c1",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Results/WinBody.png",
+      "sourceBorder": [
+        91.0,
+        103.0,
+        91.0,
+        91.0
+      ],
+      "bytes": 42926,
+      "importedGuid": "de7c626db1cc4634286be4042ee9e8e2"
+    },
+    {
+      "role": "RewardInset",
+      "assetId": "asset-5aec14a589299b0c91b0",
+      "source": "exports/Sprite/sharedassets1.assets/Popup_Section_Blue__966.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Popup_Section_Blue__966.png",
+      "sha256": "456c0cb499d09bf8596970cb48ee528b65b822c633bfe2b0b9d5a28a9d9d2ef3",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Results/RewardInset.png",
+      "sourceBorder": [
+        85,
+        85,
+        85,
+        85
+      ],
+      "bytes": 8674,
+      "importedGuid": "ae43312f8c3b1ca47b37728e53e2aa1c"
+    },
+    {
+      "role": "TargetBanner",
+      "assetId": "asset-ef8779898e5f2ca3a52c",
+      "source": "exports/Sprite/sharedassets1.assets/Popup_Section_Blue_Bold__1039.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Popup_Section_Blue_Bold__1039.png",
+      "sha256": "7c24ab45e1cd240f6a96f365c1fb12f652cfda5795fc2ff6977d191a73e36eb7",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Results/TargetBanner.png",
+      "sourceBorder": [
+        240.0,
+        220.0,
+        240.0,
+        220.0
+      ],
+      "bytes": 5604,
+      "importedGuid": "934f0efc750f5e644be07f3cfef03e15"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "assetId": "asset-8249468bb87c4842b1fe",
+      "source": "exports/Sprite/sharedassets1.assets/Popup_Section_Blue__1308.png",
+      "reason": "Duplicate display name Popup_Section_Blue; visually purple, unsuitable for win inset"
+    }
+  ]
+}

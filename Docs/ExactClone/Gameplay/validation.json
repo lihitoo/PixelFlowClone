@@ -1,0 +1,30 @@
+{
+  "status": "client-checkpoint",
+  "tests": {
+    "xml": "editor-final.xml",
+    "passed": 140,
+    "total": 140,
+    "failed": 0
+  },
+  "staticValidation": "static-validation.json",
+  "captureMethod": "Isolated fixture URP offscreen previews; not Game View or physical device",
+  "resolutions": [
+    "1080x1920",
+    "1080x2340",
+    "720x1280"
+  ],
+  "referenceGallery": "../Research/Expansion20261025/review.html",
+  "rea": "../Research/REA20261026/validation.json",
+  "actualGameView": "blocked by disk-full isolated save failure",
+  "savedPrefabAudit": "not-run: disk-full MCP compiler temp file",
+  "editorFinal": {
+    "playing": false,
+    "compiling": false,
+    "scene": "BootstrapScene",
+    "dirty": false,
+    "reviewScopeRestored": true,
+    "consoleClean": false
+  },
+  "playerBuild": "not-run: owner forbids",
+  "wholeGameParity": false
+}

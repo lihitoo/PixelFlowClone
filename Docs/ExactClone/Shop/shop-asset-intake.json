@@ -242,20 +242,25 @@
     },
     {
       "role": "NoAds",
-      "assetId": "asset-303c8c24ebd28f1f238a",
-      "source": "exports/Sprite/sharedassets1.assets/Icon_NoAds__1409.png",
-      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_NoAds__1409.png",
-      "sourceSha256": "86f5eb73121b35f07a10e43a470184e6805fbf416f08508717d5c5c2c18b2313",
+      "assetId": "asset-056da62752b6e187a9e4",
+      "source": "exports/Sprite/sharedassets1.assets/Icon_NoAds_2x__1120.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_NoAds_2x__1120.png",
+      "sourceSha256": "fc54102c734ca2e5b0b9b0ac09f0604a8aef218d76cf4f5844176606525c53ab",
       "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/NoAds.png",
-      "sha256": "86f5eb73121b35f07a10e43a470184e6805fbf416f08508717d5c5c2c18b2313",
-      "bytes": 36004,
+      "sha256": "fc54102c734ca2e5b0b9b0ac09f0604a8aef218d76cf4f5844176606525c53ab",
+      "bytes": 98586,
       "sourceBorder": [
         0.0,
         0.0,
         0.0,
         0.0
       ],
-      "importedGuid": "b44dac32ec76bba458cb0ef44a2b323a"
+      "importedGuid": "b44dac32ec76bba458cb0ef44a2b323a",
+      "previousSource": {
+        "assetId": "asset-303c8c24ebd28f1f238a",
+        "source": "exports/Sprite/sharedassets1.assets/Icon_NoAds__1409.png",
+        "sha256": "86f5eb73121b35f07a10e43a470184e6805fbf416f08508717d5c5c2c18b2313"
+      }
     },
     {
       "role": "Tray",
@@ -327,105 +332,135 @@
     },
     {
       "role": "Gold0",
-      "assetId": "asset-116b9dacfe50259a8fc5",
-      "source": "exports/Sprite/sharedassets1.assets/Golds_0_1x__1236.png",
-      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_0_1x__1236.png",
-      "sourceSha256": "a9031d81d8f5ed093e0ffb994a12fc830ba683a7ff38638c864884adbaab43d4",
+      "assetId": "asset-c8e45e459394572a25ab",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_0_2x__955.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_0_2x__955.png",
+      "sourceSha256": "c9379fecf49aab4610b19e1261f42363fab34aa836cb973e245edefee2124f42",
       "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold0.png",
-      "sha256": "a9031d81d8f5ed093e0ffb994a12fc830ba683a7ff38638c864884adbaab43d4",
-      "bytes": 9617,
+      "sha256": "c9379fecf49aab4610b19e1261f42363fab34aa836cb973e245edefee2124f42",
+      "bytes": 23235,
       "sourceBorder": [
         0.0,
         0.0,
         0.0,
         0.0
       ],
-      "importedGuid": "3b4eb0fc0f6f94a428c0103024a4e577"
+      "importedGuid": "3b4eb0fc0f6f94a428c0103024a4e577",
+      "previousSource": {
+        "assetId": "asset-116b9dacfe50259a8fc5",
+        "source": "exports/Sprite/sharedassets1.assets/Golds_0_1x__1236.png",
+        "sha256": "a9031d81d8f5ed093e0ffb994a12fc830ba683a7ff38638c864884adbaab43d4"
+      }
     },
     {
       "role": "Gold1",
-      "assetId": "asset-71b484e2b9b2d689df46",
-      "source": "exports/Sprite/sharedassets1.assets/Golds_1_1x__1330.png",
-      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_1_1x__1330.png",
-      "sourceSha256": "24f986560aac1a0899cd8fef9efd01d6f1eb0f92b8016e99a475886f9ae63cbb",
+      "assetId": "asset-4596cf27fef281e124a1",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_1_2x__1146.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_1_2x__1146.png",
+      "sourceSha256": "4c5d7b6a30b47bdd1af0dcd35d53680580d8a27bb2ba3321f84c3ddb6c1cfa97",
       "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold1.png",
-      "sha256": "24f986560aac1a0899cd8fef9efd01d6f1eb0f92b8016e99a475886f9ae63cbb",
-      "bytes": 15651,
+      "sha256": "4c5d7b6a30b47bdd1af0dcd35d53680580d8a27bb2ba3321f84c3ddb6c1cfa97",
+      "bytes": 39746,
       "sourceBorder": [
         0.0,
         0.0,
         0.0,
         0.0
       ],
-      "importedGuid": "7649051c151354640a482167f7d29595"
+      "importedGuid": "7649051c151354640a482167f7d29595",
+      "previousSource": {
+        "assetId": "asset-71b484e2b9b2d689df46",
+        "source": "exports/Sprite/sharedassets1.assets/Golds_1_1x__1330.png",
+        "sha256": "24f986560aac1a0899cd8fef9efd01d6f1eb0f92b8016e99a475886f9ae63cbb"
+      }
     },
     {
       "role": "Gold2",
-      "assetId": "asset-52560ae6f8258643a64a",
-      "source": "exports/Sprite/sharedassets1.assets/Golds_2_1x__1000.png",
-      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_2_1x__1000.png",
-      "sourceSha256": "c190f777d3c34264e0673a3aede7a53206c34149af58198f8f3c56470791d9f6",
+      "assetId": "asset-eddde56d14e92994a393",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_2_2x__1349.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_2_2x__1349.png",
+      "sourceSha256": "5f0c843c4ab85939ccfd7629ae0fefe89115acf8290956248dfe342f5c620650",
       "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold2.png",
-      "sha256": "c190f777d3c34264e0673a3aede7a53206c34149af58198f8f3c56470791d9f6",
-      "bytes": 20928,
+      "sha256": "5f0c843c4ab85939ccfd7629ae0fefe89115acf8290956248dfe342f5c620650",
+      "bytes": 49165,
       "sourceBorder": [
         0.0,
         0.0,
         0.0,
         0.0
       ],
-      "importedGuid": "67eb71e833793234996d2490d38801f3"
+      "importedGuid": "67eb71e833793234996d2490d38801f3",
+      "previousSource": {
+        "assetId": "asset-52560ae6f8258643a64a",
+        "source": "exports/Sprite/sharedassets1.assets/Golds_2_1x__1000.png",
+        "sha256": "c190f777d3c34264e0673a3aede7a53206c34149af58198f8f3c56470791d9f6"
+      }
     },
     {
       "role": "Gold3",
-      "assetId": "asset-5b39198da6ce71cce7a4",
-      "source": "exports/Sprite/sharedassets1.assets/Golds_3_1x__1413.png",
-      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_3_1x__1413.png",
-      "sourceSha256": "26572280f0aa82e4b492cb5a3bf5e32029171fd2d358fc476f2058a73b2bfdad",
+      "assetId": "asset-6b2067190b946d2fa3cf",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_3_2x__704.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_3_2x__704.png",
+      "sourceSha256": "c846e09b944a3e42b5e5d96b7f7206ed57fc594cdd44c318a14f98155a2fca63",
       "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold3.png",
-      "sha256": "26572280f0aa82e4b492cb5a3bf5e32029171fd2d358fc476f2058a73b2bfdad",
-      "bytes": 27629,
+      "sha256": "c846e09b944a3e42b5e5d96b7f7206ed57fc594cdd44c318a14f98155a2fca63",
+      "bytes": 66381,
       "sourceBorder": [
         0.0,
         0.0,
         0.0,
         0.0
       ],
-      "importedGuid": "fcf30577e309b8047a474ac87d06b180"
+      "importedGuid": "fcf30577e309b8047a474ac87d06b180",
+      "previousSource": {
+        "assetId": "asset-5b39198da6ce71cce7a4",
+        "source": "exports/Sprite/sharedassets1.assets/Golds_3_1x__1413.png",
+        "sha256": "26572280f0aa82e4b492cb5a3bf5e32029171fd2d358fc476f2058a73b2bfdad"
+      }
     },
     {
       "role": "Gold4",
-      "assetId": "asset-bf1b34c03b2a3e4adfd3",
-      "source": "exports/Sprite/sharedassets1.assets/Golds_4_1x__1202.png",
-      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_4_1x__1202.png",
-      "sourceSha256": "367d015d3986b68103c5ee6761c02fb0e874d018940408ce66fbb09446cc5a84",
+      "assetId": "asset-011119d6490303237c31",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_4_2x__940.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_4_2x__940.png",
+      "sourceSha256": "12659f18973a387f245ce96e9ea12769063fdf2e9ac5f1f453853c9411689d37",
       "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold4.png",
-      "sha256": "367d015d3986b68103c5ee6761c02fb0e874d018940408ce66fbb09446cc5a84",
-      "bytes": 29374,
+      "sha256": "12659f18973a387f245ce96e9ea12769063fdf2e9ac5f1f453853c9411689d37",
+      "bytes": 67428,
       "sourceBorder": [
         0.0,
         0.0,
         0.0,
         0.0
       ],
-      "importedGuid": "704bfac6692d0974eb5c159cf44eaa59"
+      "importedGuid": "704bfac6692d0974eb5c159cf44eaa59",
+      "previousSource": {
+        "assetId": "asset-bf1b34c03b2a3e4adfd3",
+        "source": "exports/Sprite/sharedassets1.assets/Golds_4_1x__1202.png",
+        "sha256": "367d015d3986b68103c5ee6761c02fb0e874d018940408ce66fbb09446cc5a84"
+      }
     },
     {
       "role": "Gold5",
-      "assetId": "asset-895af2b9273be452bfda",
-      "source": "exports/Sprite/sharedassets1.assets/Golds_5_1x__708.png",
-      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_5_1x__708.png",
-      "sourceSha256": "0ae1b7c6c97d2b13a5fd27b0c2faa9428ae34b37bc9a990020d89c28f9be0d57",
+      "assetId": "asset-31adf21999a9819aa73b",
+      "source": "exports/Sprite/sharedassets1.assets/Golds_5_2x__1026.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Golds_5_2x__1026.png",
+      "sourceSha256": "ad7e33a1c8451bb7d7808c5d43c41a7696f47f582c7e5d9523d961507492cd55",
       "output": "Assets/_Project/PixelFlow/Resources/PixelFlow/UI/Shop/Gold5.png",
-      "sha256": "0ae1b7c6c97d2b13a5fd27b0c2faa9428ae34b37bc9a990020d89c28f9be0d57",
-      "bytes": 29987,
+      "sha256": "ad7e33a1c8451bb7d7808c5d43c41a7696f47f582c7e5d9523d961507492cd55",
+      "bytes": 77383,
       "sourceBorder": [
         0.0,
         0.0,
         0.0,
         0.0
       ],
-      "importedGuid": "6f7114cad3a85f24c87cce68162e14bc"
+      "importedGuid": "6f7114cad3a85f24c87cce68162e14bc",
+      "previousSource": {
+        "assetId": "asset-895af2b9273be452bfda",
+        "source": "exports/Sprite/sharedassets1.assets/Golds_5_1x__708.png",
+        "sha256": "0ae1b7c6c97d2b13a5fd27b0c2faa9428ae34b37bc9a990020d89c28f9be0d57"
+      }
     }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "scope": "Observed saved-prefab audit through Unity Editor; component counts do not establish native parity",
+  "prefabs": [
+    {
+      "path": "Assets/_Project/Prefabs/Panel/HomePanel.prefab",
+      "guid": "230dc47490268320aacc3d2d6ee018e9",
+      "safeAreaComponents": 1,
+      "missingScripts": 0,
+      "enabledSlicedWithoutBorder": [],
+      "sha256": "cedddb4397c68a65b537008584043d043ac39c65624f070026e34bf160438647"
+    },
+    {
+      "path": "Assets/_Project/_Feature/Dreamy Shop/0.1.2/Shop Feature/Prefabs/ShopPanel.prefab",
+      "guid": "d6e00e3d3e7b2714581cc90c53ce61c2",
+      "safeAreaComponents": 1,
+      "missingScripts": 0,
+      "enabledSlicedWithoutBorder": [],
+      "sha256": "c92d2f72dc7c808ff25da7dfb7e557d6246fcf490fd6f8be1bb314587cb2eb44"
+    },
+    {
+      "path": "Assets/_Project/_Feature/Dreamy Shop/0.1.2/Shop Feature/Prefabs/ShopOfferItem.prefab",
+      "guid": "b18a699ac0ef35d43a639269ca3e6245",
+      "safeAreaComponents": 0,
+      "missingScripts": 0,
+      "enabledSlicedWithoutBorder": [],
+      "sha256": "b542cb0ddcc68ab17fe91132c507251946ed634fef815d995f5800b13909fd41"
+    }
+  ],
+  "itemSafeAreaPolicy": "ShopOfferItem inherits the panel SafeArea; no nested inset controller.",
+  "fontIntegrity": [
+    {
+      "assetId": "asset-81ec587bbd3657032062",
+      "sourceMatchesReceipt": true,
+      "outputMatchesReceipt": true
+    },
+    {
+      "assetId": "asset-d0ce3f4929729f0f0679",
+      "sourceMatchesReceipt": true,
+      "outputMatchesReceipt": true
+    }
+  ]
+}

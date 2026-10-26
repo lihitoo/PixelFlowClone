@@ -1,0 +1,13 @@
+{
+  "prefab": "Assets/_Project/PixelFlow/Prefabs/Foundation/LivesPanel.prefab",
+  "prefabGuid": "81b0b6834f8d8c34eb512d03f518064d",
+  "basePrefab": "Packages/com.dreamy.feature/Runtime/Prefabs/BaseFeaturePanel.prefab",
+  "method": "Authored variant of installed BaseFeaturePanel, inherited SafeArea/tween/CanvasGroup; original source art references reused. No runtime UI construction.",
+  "sourceIntakes": [
+    "../Home/home-asset-intake.json",
+    "../Settings/asset-intake.json"
+  ],
+  "sourceNativeRefillView": "not exported in catalog; Heart Refill Info and heart_refill_settings_json fields are stripped",
+  "tuning": "existing max5/1800s/900coins remains estimated; no new source-native claim",
+  "nativeScreenshot": "unavailable; visual parity gap retained"
+}

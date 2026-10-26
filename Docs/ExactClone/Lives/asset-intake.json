@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "sourceVersion": "0.36.3",
+  "receipts": [
+    {
+      "role": "Popup",
+      "assetId": "asset-2c41b0831872c9360ad2",
+      "source": "exports/Sprite/sharedassets1.assets/Popup_Plain_Purple__815.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Popup_Plain_Purple__815.png",
+      "sha256": "2bb35403d81dda3cad369f9f7b4dc69932d25537973606b79dd9771a2605f7ba",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Lives/Popup.png",
+      "bytes": 59312,
+      "sourceBorder": [
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "importedGuid": "dcb78b466958c1e498a799d4186218a2",
+      "roleEvidence": "Selected extracted original matched to observed runtime layout; exact0.36.3 stripped binding unverified."
+    },
+    {
+      "role": "Inset",
+      "assetId": "asset-4f4a1b0f3ecaf9138098",
+      "source": "exports/Sprite/sharedassets1.assets/Popup_Plain_Purple_Dark__1328.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Popup_Plain_Purple_Dark__1328.png",
+      "sha256": "7d6fe06c4be845a2890daf84d3291c05a0cc7d16987939ccc6430b22910c12d7",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Lives/Inset.png",
+      "bytes": 62056,
+      "sourceBorder": [
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "importedGuid": "0a41e2b73863de545ad1462f0bc5d989",
+      "roleEvidence": "Selected extracted original matched to observed runtime layout; exact0.36.3 stripped binding unverified."
+    },
+    {
+      "role": "Title",
+      "assetId": "asset-43002d091d60cb37e142",
+      "source": "exports/Sprite/sharedassets1.assets/Title_Orange_2x__909.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Title_Orange_2x__909.png",
+      "sha256": "574e78bce730e60acffff1db3d8577f2705b96af898baf07e1fc41f3ba135d63",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Lives/Title.png",
+      "bytes": 67150,
+      "sourceBorder": [
+        186.92387,
+        0.0,
+        184.97325,
+        0.0
+      ],
+      "importedGuid": "af4adfff69e3f364c878e9239bbff64a",
+      "roleEvidence": "Selected extracted original matched to observed runtime layout; exact0.36.3 stripped binding unverified."
+    },
+    {
+      "role": "Close",
+      "assetId": "asset-0a997b42761cbd58225d",
+      "source": "exports/Sprite/sharedassets1.assets/Button_Close_Floating__956.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Close_Floating__956.png",
+      "sha256": "6fdbc8cb2d55b48b4036e6a269df220842ad66a3532b163bfce904edd70c633f",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Lives/Close.png",
+      "bytes": 23909,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "15f1fe2b57d11064ca69559f086cccdc",
+      "roleEvidence": "Selected extracted original matched to observed runtime layout; exact0.36.3 stripped binding unverified."
+    }
+  ]
+}

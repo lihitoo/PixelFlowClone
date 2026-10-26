@@ -32,8 +32,8 @@ for receipt in intake['receipts']:
     if not path.is_file() or sha(path) != receipt['sha256']: failures.append('Changed imported source: ' + receipt['output'])
     else: verified += 1
 campaign = owned / 'Resources/PixelFlow/pixelFlowCampaign.json'
-for ui_area in ('Home', 'Shop'):
-    ui_receipt = root / f'Docs/ExactClone/{ui_area}/{ui_area.lower()}-asset-intake.json'
+for ui_area, receipt_name in (('Home', 'home-asset-intake.json'), ('Shop', 'shop-asset-intake.json'), ('Settings', 'asset-intake.json'), ('Gameplay', 'asset-intake.json'), ('Lives', 'asset-intake.json'), ('Results', 'asset-intake.json')):
+    ui_receipt = root / f'Docs/ExactClone/{ui_area}/{receipt_name}'
     if not ui_receipt.exists(): continue
     for receipt in json.loads(ui_receipt.read_text(encoding='utf-8'))['receipts']:
         path = root / receipt['output']
@@ -60,7 +60,7 @@ if expanded.exists():
         path = root / chunk['path']
         if not path.is_file() or sha(path) != chunk['sha256']: failures.append('Changed campaign chunk: ' + chunk['path'])
 elif sha(campaign) != intake['campaignSha256']: failures.append('Campaign differs from intake receipt')
-sources = [{'path': p.relative_to(root).as_posix(), 'sha256': sha(p)} for p in sorted(owned.rglob('*')) if p.is_file() and p.suffix in {'.cs', '.asmdef', '.json', '.bytes', '.unity', '.mat', '.asset'}]
+sources = [{'path': p.relative_to(root).as_posix(), 'sha256': sha(p)} for p in sorted(owned.rglob('*')) if p.is_file() and p.suffix in {'.cs', '.asmdef', '.json', '.bytes', '.unity', '.prefab', '.mat', '.asset'}]
 report = {'status': 'pass' if not failures else 'fail', 'importedFilesVerified': verified, 'failures': failures,
           'sourceFingerprint': hashlib.sha256(json.dumps(sources, sort_keys=True).encode()).hexdigest(), 'sources': sources,
           'scope': 'Owned runtime/editor boundaries and selected source/output identity; Unity tests, rendering and player interaction are separate reports.'}

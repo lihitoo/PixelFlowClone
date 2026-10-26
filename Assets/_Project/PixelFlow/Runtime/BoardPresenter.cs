@@ -21,6 +21,9 @@ namespace PixelFlow
         private readonly Dictionary<int, PigView> pigs = new();
         private readonly Dictionary<int, int> queueRows = new();
         private readonly GameObject[] pixels;
+        private readonly List<Collider> colorTargets = new();
+        private readonly Action<int, int> colorSelected;
+        private bool handTargeting, colorTargeting;
         private readonly float[] hitTimes;
         private readonly List<Transform> treads = new();
         private readonly Projectile[] projectiles = new Projectile[64];
@@ -39,9 +42,10 @@ namespace PixelFlow
         }
 
         public BoardPresenter(Transform owner, Camera camera, PixelFlowPresentation art, PixelFlowCampaignConfig campaign,
-            PuzzleSession session, Action<int> selected, Action hitSound)
+            PuzzleSession session, Action<int> selected, Action hitSound, Action<int, int> colorSelected)
         {
             this.session = session; this.art = art; this.camera = camera; this.hitSound = hitSound;
+            this.colorSelected = colorSelected;
             root = new GameObject("Puzzle Presentation"); root.transform.SetParent(owner, false);
             cube = SoftCube.Create();
             foreach (var entry in campaign.Colors)
@@ -83,6 +87,10 @@ namespace PixelFlow
                 var scale = new Vector3(pixelScale.x * pixel.SpanX, pixelScale.y, pixelScale.z * pixel.SpanY);
                 var position = PixelPosition(pixel.X, pixel.Y) + new Vector3((pixel.SpanX - 1) * session.Track.CellSize / 2, 0, (pixel.SpanY - 1) * session.Track.CellSize / 2);
                 pixels[pixel.Y * session.Level.Width + pixel.X] = Block("Pixel " + pixel.X + "," + pixel.Y, position, scale, pixelMaterials[pixel.Color]);
+                var cell = pixels[pixel.Y * session.Level.Width + pixel.X];
+                var target = cell.AddComponent<BoxCollider>(); target.enabled = false;
+                colorTargets.Add(target);
+                cell.AddComponent<BoardCellView>().Initialize(pixel.X, pixel.Y, colorSelected);
             }
 
             var markerMaterial = Material(new Color(.92f, 1f, .88f));
@@ -126,6 +134,13 @@ namespace PixelFlow
         public Vector3 PixelPosition(int x, int y) => new((x + .5f) * session.Track.CellSize - session.Track.BoardWidth / 2, .07f, TrackGeometry.CenterZ + (y + .5f) * session.Track.CellSize - session.Track.BoardHeight / 2);
         public Vector3 PigPosition(int id) => pigs[id].transform.position;
         public PigView Pig(int id) => pigs[id];
+        public void SetTargeting(bool hand, bool color)
+        {
+            handTargeting = hand;
+            if (colorTargeting == color) return;
+            colorTargeting = color;
+            foreach (var target in colorTargets) if (target != null) target.enabled = color;
+        }
 
         private Vector3 QueuePosition(int column, int row) => new((column - (session.ColumnCount - 1) / 2f) * 1.95f, .02f, session.Track.Bottom - 3.40f - row * 1.15f);
 
@@ -168,11 +183,20 @@ namespace PixelFlow
             for (int column = 0; column < session.ColumnCount; column++)
                 for (int row = 0; row < session.QueueCount(column); row++) queueRows[session.QueueAt(column, row).Id] = row;
             float blend = delta > 0 ? 1 - Mathf.Exp(-delta * 18) : 1;
+            int rows = 1;
+            if (handTargeting) for (int column = 0; column < session.ColumnCount; column++) rows = Mathf.Max(rows, session.QueueCount(column));
+            float queueGap = 1.15f;
+            if (handTargeting && rows > 1)
+            {
+                var plane = new Plane(Vector3.up, new Vector3(0, .02f, 0));
+                var ray = camera.ViewportPointToRay(new Vector3(.5f, .08f)); float distance;
+                if (plane.Raycast(ray, out distance)) queueGap = Mathf.Clamp((session.Track.Bottom - 4.10f - ray.GetPoint(distance).z) / rows, .12f, 1.15f);
+            }
             foreach (var state in session.Shooters.Values)
             {
                 var pig = pigs[state.Id];
                 bool visible = state.Location is not (ShooterLocation.Finished or ShooterLocation.Stored);
-                if (state.Location == ShooterLocation.Queue && queueRows[state.Id] >= 3) visible = false;
+                if (!handTargeting && state.Location == ShooterLocation.Queue && queueRows[state.Id] >= 3) visible = false;
                 pig.gameObject.SetActive(visible);
                 if (!visible) continue;
                 Vector3 target; float scale = PigScale;
@@ -190,11 +214,12 @@ namespace PixelFlow
                 else
                 {
                     int row = queueRows[state.Id]; target = QueuePosition(state.Column, row);
-                    scale *= Mathf.Pow(.84f, row);
+                    if (handTargeting) { target.z = session.Track.Bottom - 4.10f - row * queueGap; scale *= Mathf.Min(1, queueGap / 1.15f); }
+                    else scale *= Mathf.Pow(.84f, row);
                 }
                 pig.transform.position = Vector3.Lerp(pig.transform.position, target, blend);
                 pig.transform.localScale = Vector3.Lerp(pig.transform.localScale, Vector3.one * scale, blend);
-                pig.SetState(state.Ammo, session.Status == SessionStatus.Playing && session.CanSelect(state.Id));
+                pig.SetState(state.Ammo, session.Status == SessionStatus.Playing && session.CanSelect(state.Id, handTargeting));
                 RenderPigFeature(pig, state);
             }
             for (int i = 0; i < pixels.Length; i++)

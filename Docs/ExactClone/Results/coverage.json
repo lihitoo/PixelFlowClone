@@ -1,0 +1,594 @@
+{
+  "distinctCases": 144,
+  "latestPassed": 144,
+  "latestFailed": [],
+  "fullRun": {
+    "xml": "editor-verified.xml",
+    "passed": 141,
+    "total": 144
+  },
+  "rerun": {
+    "xml": "editor-regression-retry.xml",
+    "passed": 3,
+    "total": 3
+  },
+  "claim": "Aggregate latest results, not a single144/144 run; runtime unchanged after full run, fixture transition wait/target input corrected",
+  "cases": {
+    "PixelFlow.EditorReview.PresentationReviewTests.AuthoredBoosterPurchaseFailureRetryCompletesEffectOnce": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.AuthoredGameplayHudGearWalletAndFourBoosters": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.AuthoredLivesFullEmptyUnlimitedAndResponsive": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.AuthoredResultContinueRetryAndWinCommitOnce": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.AuthoredResultMiniShopReturnsToFailedAttemptAndPeekRestores": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.AuthoredSettingsPreferencesContextAndAttemptConfirmation": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.AuthoredSettingsSaveFailureRetryAndAttemptRecovery": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.CaptureRepresentativeStates": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.FinalCampaignWinReturnsHomeAndRewardsOnce": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.FullOfflineMenusBoostersResumeAndContinueRoute": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.MiniShopFromLivesAndEmptyBoosterReturnsToOrigin": {
+      "result": "Passed",
+      "xml": "editor-regression-retry.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.PointerInputResetAndProgressionRoute": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.RepresentativeAdvancedLevelPresentationRoute": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.SaveFailureRollsBackBoosterAndRetryRecoversThroughUi": {
+      "result": "Passed",
+      "xml": "editor-regression-retry.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.ShopAuthoredProductsPurchaseCorrectRewards": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.SourceHomeHeaderTabsLivesAndLockedRank": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.SourceShopBundlesScrollOwnedNoAdsAndRestore": {
+      "result": "Passed",
+      "xml": "editor-regression-retry.xml"
+    },
+    "PixelFlow.EditorReview.PresentationReviewTests.SourceShopPurchasesCancelFailurePendingAndRepeat": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.CampaignTests.CampaignPreservesOriginalEarlyLevelCountsAndPalette": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.CampaignTests.CompletingAndReloadingPreservesUnlockWithoutDuplicateCompletion": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(0)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(1)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(2)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(3)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(4)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(5)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.CampaignTests.OriginalLevelCanBeClearedThroughThePublicRules(6)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.BoardColorPickUsesBlockingLayerAndRejectsOutsideBoard(False,-1)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.BoardColorPickUsesBlockingLayerAndRejectsOutsideBoard(True,2)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(Gate)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(PixelPipe)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(Snake)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(EggBox)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(Pumpkin)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(MultiSnake)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(BeanBox)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(Crossbow)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(ColoredCage)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ColoredObjectLayersContributeGoalsAndClearInOrder(Matryoshka)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.CorruptSnapshotIsRejectedBeforeMutatingTheSession": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.DoorReturnsWrongColorEarlyAndMatchingPassageDamagesIt": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.EntirelyObjectBasedSourceLevelHasGoalsAndRestores": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.EveryMainCampaignEntryLoadsWithTypedValidatedFeatures": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ExposedKeyUnlocksQueueAndCageReleasesDistinctShooter": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.HammerRemovesWoodWithoutInventingExtraAmmunition": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.HiddenShooterRevealsAtFrontAndFrozenShooterNeedsHits": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.LinkedLaunchIsAtomicAndRespectsTotalCapacity": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.MalletsUfoTotemAndAstronautRespondToTheirOwnEvents": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.PixelHitsOpenIceAndMatchingSlotCage": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Ice)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Biscuit)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Split)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(ColorDoor)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Curtain)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Accordion)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.ProtectiveOverlaysOpenThroughTheirHitConditionWithoutExtraGoalAmmo(Mixer)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RearSelectionAndColorBoosterHaveRealStateEffects": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(8)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(14)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(30)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(40)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(55)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(70)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(100)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(120)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(140)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(171)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(200)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(230)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(290)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(350)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(400)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(500)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(600)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(700)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(801)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(901)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1001)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1101)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1201)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1301)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1401)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1501)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1601)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1701)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1801)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(1901)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(2001)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(2201)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.RepresentativeSourceFeatureStateRoundTrips(2401)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.SnapshotCannotClaimAWinWithGoalsStillOnBoard": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.SurpriseAndConnectedSourceLevelsCanBeSolvedThroughNormalLaunchRules(8)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.SurpriseAndConnectedSourceLevelsCanBeSolvedThroughNormalLaunchRules(14)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.TimerLossReviveAndSnapshotRestorePreserveRunIdentity": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.FullGameplayTests.UnicornUsesWaitingAmmoAndCannotRepeatWithoutCharging": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.HomeFlowTests.AbandonAttemptIsAtomicAndCannotChargeTwice": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.HomeFlowTests.AbandonPreservesUnlimitedLivesAndAlreadyFailedAttempt": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.HomeFlowTests.LegacyLivesMigrationPreservesWalletAndSettings": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.HomeFlowTests.RefillCommitsWalletAndLivesTogetherAndRejectsDoubleSpend": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.HomeFlowTests.RegenerationCapsAndDoesNotMutateInput": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.HomeFlowTests.SeparateAudioLevelsPersistAndRejectInvalidInput": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.HomeFlowTests.UnlimitedLifeDoesNotSpendAndEmptyCannotPlay": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ProgressFlowTests.FutureSchemaFailsWithoutOverwritingTheSave": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ProgressFlowTests.MigrationPreservesOldUnlockCompletionAndSound": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ProgressFlowTests.PurchaseConsumptionCheckpointAndReloadAreOnePersistentState": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ProgressFlowTests.RewardsAndDailyClaimsAreIdempotentAndRejectClockRollback": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ProgressFlowTests.SaveFailureCannotConsumeCoinsInventoryOrGrantCompletion": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.PuzzleSessionTests.FullBeltRejectsWithoutConsumingQueue": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.PuzzleSessionTests.InvalidCoordinatesDuplicateIdsAndMissingAmmoAreRejected": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.PuzzleSessionTests.InvalidTimeIsRejected": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.PuzzleSessionTests.MatchingShotsConsumeOneAmmoAndEmitOneResult": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.PuzzleSessionTests.NearerDifferentColorBlocksShotsFromThatSide": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.PuzzleSessionTests.OnlyFrontAndWaitingShootersCanBeLaunched": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.PuzzleSessionTests.QueuedEntranceDoesNotAccumulateAShotBurst": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.PuzzleSessionTests.ReturningShooterLosesOnlyWhenNoWaitingSlotRemains": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.PuzzleSessionTests.SessionsNeverMutateSourceDefinitionOrAnotherSession": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.PuzzleSessionTests.SmallAndLargeFrameStepsGiveTheSameRuleResult": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.PuzzleSessionTests.UnmatchedShooterReturnsWithAmmoAndCanBeRelaunched": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ResourceWalletTests.DisposeUnsubscribesAndRejectsFurtherWrites": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ResourceWalletTests.ExchangePersistsOnceAndSurvivesReloadWithoutSecondWallet": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ResourceWalletTests.FailedPersistenceDoesNotPublishOrDeduplicateAnUndeliveredGrant": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ResourceWalletTests.InsufficientAndOverflowLeaveAllResourcesUnchanged": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.AcknowledgementFailureCannotReplayPaidRewards": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.BundleSaveFailureLeavesAllRewardsUntouchedAndRecoversOnce": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.CancelOrFailureDoesNotGrant(Cancelled,Cancelled)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.CancelOrFailureDoesNotGrant(Failed,Failed)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.CatalogMatchesObservedElevenOffersAndEarlyUnlocks": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.DeferredOrderSurvivesCancelledClientAndRestart": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.DeferredPurchaseBlocksAnotherAndOnlyGrantsAfterApproval": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EmptyRestoreAndRestoreFailureCannotInventEntitlement": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(\"gold-1000\",1000,0,0,False)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(\"gold-5000\",5000,0,0,False)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(\"gold-10000\",10000,0,0,False)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(\"gold-25000\",25000,0,0,False)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(\"gold-50000\",50000,0,0,False)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(\"gold-100000\",100000,0,0,False)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(\"no-ads\",0,0,0,True)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(\"no-ads-bundle\",1000,1,3600,True)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(\"small-bundle\",5000,1,7200,False)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(\"medium-bundle\",10000,2,7200,False)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.EveryProductCommitsItsObservedRewards(\"ultra-bundle\",25000,5,21600,False)": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.InventoryOverflowCannotPartiallyGrantBundle": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.NoAdsBundleCannotBeBoughtTwiceAndRestoreDoesNotRepeatConsumables": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    },
+    "PixelFlow.Tests.ShopFlowTests.RepeatedConsumablePurchasesHaveDistinctReceiptsAndPersist": {
+      "result": "Passed",
+      "xml": "editor-verified.xml"
+    }
+  }
+}

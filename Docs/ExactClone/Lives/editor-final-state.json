@@ -1,0 +1,24 @@
+{
+  "playing": false,
+  "compiling": false,
+  "scene": "Assets/_Project/Scenes/BootstrapScene.unity",
+  "dirty": false,
+  "reviewOwned": false,
+  "saveScope": null,
+  "prefabs": [
+    {
+      "path": "Assets/_Project/_Feature/Dreamy Settings/0.2.2/Settings Feature/Prefabs/SettingsPanel.prefab",
+      "guid": "aaf44ae2917c45749a7bdf79e64c2cc7",
+      "safeAreas": 1,
+      "missingScripts": 0,
+      "unjustifiedSlices": []
+    },
+    {
+      "path": "Assets/_Project/PixelFlow/Prefabs/Foundation/LivesPanel.prefab",
+      "guid": "81b0b6834f8d8c34eb512d03f518064d",
+      "safeAreas": 1,
+      "missingScripts": 0,
+      "unjustifiedSlices": []
+    }
+  ]
+}

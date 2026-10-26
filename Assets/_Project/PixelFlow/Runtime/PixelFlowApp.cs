@@ -32,12 +32,11 @@ namespace PixelFlow
         private MusicAudioFile currentMusic;
         private float lastPop = -100, resultAt = -1, nextCheckpoint;
         private string initializationError;
-        private int requestedExitCode;
+        private int requestedExitCode, terminalReward;
         private bool initializing, busy, terminalCommitted;
         private AppScreen returnScreen;
         private BoosterKind targetBooster;
         private FlowPage homePopup;
-        private bool sourceSettings;
         private AppScreen settingsReturn;
         private long lastHomeSecond = -1;
         public PixelFlowCampaignConfig Campaign { get; private set; }
@@ -101,7 +100,9 @@ namespace PixelFlow
                 var homePanel = await Dreamy.UI.PanelManager.Instance.Create<Dreamy.Template.Home.HomePanel>(PixelFlowPanelAddress.Home);
                 token.ThrowIfCancellationRequested();
                 await homePanel.Show();
-                view?.Dispose(); view = new PixelFlowView(transform, presentation, 2600, uiCanvas, homePanel); BindView();
+                var gameplayPanel = await Dreamy.UI.PanelManager.Instance.Create<GameplayPanel>(PixelFlowPanelAddress.Gameplay);
+                token.ThrowIfCancellationRequested();
+                view?.Dispose(); view = new PixelFlowView(presentation, 2600, uiCanvas, homePanel, gameplayPanel); BindView();
                 if (GameInstaller.State == BootstrapState.Failed)
                     await FindFirstObjectByType<GameInstaller>().RetryAsync();
                 await UniTask.WaitUntil(() => GameInstaller.State is BootstrapState.Ready or BootstrapState.Failed, cancellationToken: token);
@@ -129,15 +130,13 @@ namespace PixelFlow
         }
         private void BindView()
         {
-            view.PlayRequested += PlaySelected; view.PauseRequested += Pause; view.ResumeRequested += Resume;
-            view.RestartRequested += Restart; view.MenuRequested += Home; view.NextRequested += Next;
-            view.SoundRequested += ToggleSound; view.LevelSelected += SelectLevel;
-            view.PageRequested += OpenPage; view.SettingRequested += ChangeSetting;
+            view.PlayRequested += PlaySelected; view.PauseRequested += Pause;
+            view.MenuRequested += CloseResult; view.NextRequested += Next;
+            view.LevelSelected += SelectLevel;
+            view.PageRequested += OpenPage;
             view.PurchaseRequested += Buy; view.DailyRequested += ClaimDaily;
-            view.BoosterRequested += UseBooster; view.TargetRequested += ApplyTarget; view.ContinueRequested += ContinueRun;
+            view.BoosterRequested += UseBooster; view.ContinueRequested += ContinueRun;
             view.HomeRequested += Home; view.RefillRequested += RefillLives;
-            view.AudioLevelsRequested += SetHomeAudio; view.HomePreferenceRequested += SetHomePreference;
-            view.RestorePurchasesRequested += () => RestoreShopAsync().Forget();
             view.MiniShopRequested += OpenBoosterMiniShop;
             view.ShopGoldRequested += () => { if (!storeUiBusy) { returnScreen = AppScreen.Home; PresentShop(Home, false, "Gold"); } };
         }
@@ -192,7 +191,7 @@ namespace PixelFlow
         private void AttachSession(PuzzleSession model, int index)
         {
             ClearSession(); SelectedLevel = index; Session = model; Session.Finished += OnFinished; Session.FeatureChanged += FeatureFeedback;
-            board = new BoardPresenter(transform, worldCamera, presentation, Campaign, Session, Launch, PlayPop);
+            board = new BoardPresenter(transform, worldCamera, presentation, Campaign, Session, Launch, PlayPop, SelectBoardColor);
             terminalCommitted = false; resultAt = model.Status == SessionStatus.Playing ? -1 : Time.unscaledTime + .1f;
             nextCheckpoint = Time.unscaledTime + 5; ScreenState = AppScreen.Playing; view.ShowGame(index); UpdateHud(); UpdateMusic(); Play(presentation.Tap);
         }
@@ -215,6 +214,11 @@ namespace PixelFlow
         }
         private void Launch(int id)
         {
+            if (ScreenState == AppScreen.Targeting)
+            {
+                if (targetBooster == BoosterKind.Hand && Session.Shooters.TryGetValue(id, out var pig) && pig.Location == ShooterLocation.Queue) ApplyTarget(id);
+                return;
+            }
             if (ScreenState != AppScreen.Playing || Session?.Status != SessionStatus.Playing) return;
             var result = Session.Launch(id);
             if (result == LaunchResult.Accepted) { Play(presentation.Launch, .5f); Haptic(); }
@@ -222,8 +226,10 @@ namespace PixelFlow
         }
         private void Pause()
         {
+            if (ScreenState == AppScreen.Targeting) view.Back();
             if (ScreenState != AppScreen.Playing || Session?.Status != SessionStatus.Playing) return;
-            ScreenState = AppScreen.Paused; view.ShowPause(progress.Data.SoundEnabled); Guard(Checkpoint);
+            Guard(Checkpoint);
+            if (ScreenState == AppScreen.Playing) PresentSettings();
         }
         private void Resume()
         {
@@ -243,6 +249,16 @@ namespace PixelFlow
             if (ScreenState != AppScreen.Won) return;
             if (SelectedLevel + 1 >= Campaign.LevelCount) Home(); else StartLevel(SelectedLevel + 1);
         }
+        private void CloseResult()
+        {
+            if (ScreenState == AppScreen.Won) { Home(); return; }
+            if (ScreenState != AppScreen.Lost) return;
+            Guard(() =>
+            {
+                progress.AbandonRun(ProgressStore.UtcSeconds); ClearSession();
+                ScreenState = AppScreen.Home; view.ShowHome(progress.Data, SelectedLevel); UpdateMusic();
+            });
+        }
         private void OnFinished(SessionStatus status) => resultAt = Time.unscaledTime + .55f;
         private void CommitTerminal()
         {
@@ -250,10 +266,10 @@ namespace PixelFlow
             int reward = 0;
             if (Session.Status == SessionStatus.Won) reward = progress.RecordWin(SelectedLevel, Session.RunId);
             else progress.RecordLoss(SelectedLevel, Session.CaptureState());
-            terminalCommitted = true; ScreenState = Session.Status == SessionStatus.Won ? AppScreen.Won : AppScreen.Lost;
-            view.ShowResult(ScreenState == AppScreen.Won, SelectedLevel == Campaign.LevelCount - 1, Session.Launches, Session.LossReason, progress.Data.SoundEnabled);
-            view.ShowContinue(Session.CanRevive, Campaign.Economy.ContinueCost);
-            if (ScreenState == AppScreen.Won) { Play(presentation.Win, .65f); view.Toast("LEVEL CLEAR  +" + reward + " COINS"); }
+            terminalReward = reward; terminalCommitted = true; ScreenState = Session.Status == SessionStatus.Won ? AppScreen.Won : AppScreen.Lost;
+            view.ShowResult(ScreenState == AppScreen.Won, SelectedLevel + 1, terminalReward, Session.CanRevive, Campaign.Economy.ContinueCost, Session.LossReason);
+
+            if (ScreenState == AppScreen.Won) Play(presentation.Win, .65f);
         }
         private void Checkpoint()
         {
@@ -264,19 +280,25 @@ namespace PixelFlow
         private void ContinueRun()
         {
             if (ScreenState != AppScreen.Lost || !Session.CanRevive) return;
-            if (progress.Data.Coins < Campaign.Economy.ContinueCost) { view.Toast("Not enough coins. Retry is free."); return; }
+            if (progress.Data.Coins < Campaign.Economy.ContinueCost) { PresentShop(() => { ScreenState = AppScreen.Lost; RestoreScreen(); }, true, "Gold"); return; }
             MutateRun(() => Session.Revive(), snapshot => progress.SpendContinue(SelectedLevel, snapshot));
         }
         private void UseBooster(BoosterKind kind)
         {
             if (ScreenState != AppScreen.Playing || Session?.Status != SessionStatus.Playing || busy) return;
-            if ((int)kind < 4 && progress.Amount(kind) == 0) { Pause(); boosterBuyKind = kind; ScreenState = AppScreen.BoosterPurchase; ShowBoosterPurchase(); return; }
+            if ((int)kind < 4 && progress.Amount(kind) == 0) { Guard(Checkpoint); if (ScreenState != AppScreen.Playing) return; boosterBuyKind = kind; ScreenState = AppScreen.BoosterPurchase; ShowBoosterPurchase(); return; }
             if (kind is BoosterKind.Hand or BoosterKind.Color)
             {
                 targetBooster = kind; ScreenState = AppScreen.Targeting; view.ShowTargets(Session, kind == BoosterKind.Hand, Campaign, () => { ScreenState = AppScreen.Playing; view.ShowGame(SelectedLevel); }); return;
             }
             if (kind == BoosterKind.Unicorn && !progress.UnicornActive) { view.Toast("Win 10 levels in a row to activate Unicorn."); return; }
             MutateRun(() => kind switch { BoosterKind.Tray => Session.AddTray(), BoosterKind.Shuffle => Session.Shuffle(unchecked(Session.HitCount * 397 ^ Session.Launches ^ Environment.TickCount)), BoosterKind.Unicorn => Session.UseUnicorn(), _ => false }, snapshot => progress.SpendBooster(kind, SelectedLevel, snapshot));
+        }
+        private void SelectBoardColor(int x, int y)
+        {
+            if (ScreenState != AppScreen.Targeting || targetBooster != BoosterKind.Color) return;
+            int color = Session.TargetColorAt(x, y);
+            if (color >= 0) ApplyTarget(color);
         }
         private void ApplyTarget(int target)
         {
@@ -301,6 +323,7 @@ namespace PixelFlow
             if (storeUiBusy) return;
             if (page == FlowPage.Shop && ScreenState == AppScreen.HomePopup)
             {
+                if (livesPanel != null) { LivesShop(); return; }
                 var destination = homePopup;
                 PresentShop(() => { homePopup = destination; ScreenState = AppScreen.HomePopup; ShowHomePopup(); }, true, "Gold"); return;
             }
@@ -311,25 +334,19 @@ namespace PixelFlow
                 homePopupReturn = ScreenState == AppScreen.Shop ? AppScreen.Shop : AppScreen.Home;
                 returnScreen = AppScreen.Home; homePopup = page; ScreenState = AppScreen.HomePopup; ShowHomePopup(); return;
             }
-            if (fromHome && page == FlowPage.Settings)
-            {
-                settingsReturn = ScreenState == AppScreen.Shop ? AppScreen.Shop : AppScreen.Home;
-                sourceSettings = true; returnScreen = AppScreen.Home; ScreenState = AppScreen.Settings;
-                view.ShowSourceSettings(progress, CloseSourceSettings); return;
-            }
+            if (page == FlowPage.Settings && ScreenState is AppScreen.Home or AppScreen.Shop or AppScreen.Playing or AppScreen.Paused or AppScreen.Won or AppScreen.Lost)
+            { PresentSettings(); return; }
             if (fromHome && page == FlowPage.Shop)
             {
                 returnScreen = AppScreen.Home; PresentShop(Home, false, "Top"); return;
             }
-            if (ScreenState is not (AppScreen.Home or AppScreen.Paused or AppScreen.Won or AppScreen.Lost)) return;
-            sourceSettings = false;
+            if (ScreenState is not (AppScreen.Home or AppScreen.Playing or AppScreen.Paused or AppScreen.Won or AppScreen.Lost)) return;
             returnScreen = ScreenState; Action close = () => { ScreenState = returnScreen; RestoreScreen(); };
             switch (page)
             {
                 case FlowPage.Levels: ScreenState = AppScreen.LevelSelect; view.ShowLevels(progress, Campaign, SelectedLevel, close); break;
                 case FlowPage.Shop: PresentShop(close, true, "Gold"); break;
                 case FlowPage.Daily: ScreenState = AppScreen.Daily; view.ShowDaily(progress, ProgressStore.UtcDay(DateTime.UtcNow), close); break;
-                case FlowPage.Settings: ScreenState = AppScreen.Settings; view.ShowSettings(progress, close); break;
                 case FlowPage.Help: ScreenState = AppScreen.Tutorial; view.ShowHelp(close); break;
             }
         }
@@ -339,13 +356,13 @@ namespace PixelFlow
             {
                 case AppScreen.Home: view.ShowHome(progress.Data, SelectedLevel); break;
                 case AppScreen.Playing: view.ShowGame(SelectedLevel); break;
-                case AppScreen.Paused: view.ShowPause(progress.Data.SoundEnabled); break;
+                case AppScreen.Paused: ScreenState = AppScreen.Playing; view.ShowGame(SelectedLevel); break;
                 case AppScreen.Won: case AppScreen.Lost:
-                    view.ShowResult(ScreenState == AppScreen.Won, SelectedLevel == Campaign.LevelCount - 1, Session.Launches, Session.LossReason, progress.Data.SoundEnabled); view.ShowContinue(Session.CanRevive, Campaign.Economy.ContinueCost); break;
+                    view.ShowResult(ScreenState == AppScreen.Won, SelectedLevel + 1, terminalReward, Session.CanRevive, Campaign.Economy.ContinueCost, Session.LossReason); break;
                 case AppScreen.Shop: RestoreFoundationShop(); break;
                 case AppScreen.BoosterPurchase: ShowBoosterPurchase(); break;
                 case AppScreen.Daily: view.ShowDaily(progress, ProgressStore.UtcDay(DateTime.UtcNow), () => { ScreenState = returnScreen; RestoreScreen(); }); break;
-                case AppScreen.Settings: if (sourceSettings) view.ShowSourceSettings(progress, CloseSourceSettings); else view.ShowSettings(progress, () => { ScreenState = returnScreen; RestoreScreen(); }); break;
+                case AppScreen.Settings: view.HideFoundationModal(); OpenSettingsAsync().Forget(); break;
                 case AppScreen.HomePopup: ShowHomePopup(); break;
                 case AppScreen.Targeting: view.ShowTargets(Session, targetBooster == BoosterKind.Hand, Campaign, () => { ScreenState = AppScreen.Playing; view.ShowGame(SelectedLevel); }); break;
                 case AppScreen.Tutorial: OfferTutorial(); break;
@@ -356,29 +373,12 @@ namespace PixelFlow
         {
             if (homePopupReturn == AppScreen.Home) view.ShowHome(progress.Data, SelectedLevel);
             Action close = () => { ScreenState = homePopupReturn; RestoreScreen(); };
-            if (homePopup == FlowPage.Lives) view.ShowLives(progress, close);
+            if (homePopup == FlowPage.Lives) { if (livesPanel == null) OpenLivesAsync().Forget(); }
             else view.ShowHomeDestination(homePopup, progress, close);
         }
-        private void CloseSourceSettings() { ScreenState = settingsReturn; returnScreen = AppScreen.Home; RestoreScreen(); }
-        private void SetHomeAudio(float musicLevel, float soundLevel)
+        public void RefillLives()
         {
-            if (ScreenState != AppScreen.Settings || !sourceSettings) return;
-            Guard(() => { progress.SetAudioLevels(musicLevel, soundLevel); ApplyAudioSettings(); });
-        }
-        private void SetHomePreference(int index)
-        {
-            if (ScreenState != AppScreen.Settings || !sourceSettings) return;
-            Guard(() =>
-            {
-                var p = progress.Data;
-                progress.SetHomePreferences(index == 0 ? !p.HapticsEnabled : p.HapticsEnabled, index == 1 ? !p.NotificationsEnabled : p.NotificationsEnabled,
-                    index == 2 ? !p.SmoothMotion : p.SmoothMotion);
-                view.ShowSourceSettings(progress, CloseSourceSettings);
-            });
-        }
-        private void RefillLives()
-        {
-            if (ScreenState != AppScreen.HomePopup || homePopup != FlowPage.Lives) return;
+            if (ScreenState != AppScreen.HomePopup || homePopup != FlowPage.Lives || openingLives || closingLives) return;
             Guard(() => { bool refill = progress.RefillLives(ProgressStore.UtcSeconds); view.UpdateHomeProfile(progress.Data); ShowHomePopup(); if (!refill) view.Toast("Lives are full or more coins are needed."); });
         }
         private void Buy(BoosterKind kind)
@@ -392,18 +392,6 @@ namespace PixelFlow
             if (ScreenState != AppScreen.Daily) return;
             Guard(() => { bool claimed = progress.ClaimDaily(ProgressStore.UtcDay(DateTime.UtcNow)); RestoreScreen(); view.Toast(claimed ? "Daily coins received!" : "Already claimed today."); });
         }
-        private void ChangeSetting(SettingAction action)
-        {
-            if (ScreenState != AppScreen.Settings) return;
-            Guard(() =>
-            {
-                var p = progress.Data;
-                progress.SetSettings(action == SettingAction.Sound ? !p.SoundEnabled : p.SoundEnabled, action == SettingAction.Music ? !p.MusicEnabled : p.MusicEnabled,
-                    action == SettingAction.Haptics ? !p.HapticsEnabled : p.HapticsEnabled, p.MasterVolume + (action == SettingAction.Quieter ? -.1f : action == SettingAction.Louder ? .1f : 0));
-                ApplyAudioSettings(); RestoreScreen();
-            });
-        }
-        private void ToggleSound() { Guard(() => { progress.ToggleSound(); view.UpdateSound(progress.Data.SoundEnabled); ApplyAudioSettings(); }); }
         private void Guard(Action action)
         {
             if (busy) return; busy = true;
@@ -415,7 +403,7 @@ namespace PixelFlow
         {
             Debug.LogWarning("Pixel Flow operation failed: " + error.Message);
             var previous = ScreenState; ScreenState = AppScreen.Error;
-            view.ShowConfirm("COULD NOT SAVE", "The action was not committed. Previous saved progress is kept. Check storage and try again.", "RETRY", () => { ScreenState = previous; retry(); if (ScreenState == previous) RestoreScreen(); }, () =>
+            view.ShowConfirm("COULD NOT SAVE", "The action was not committed. Previous saved progress is kept. Check storage and try again.", "RETRY", () => { ScreenState = previous; retry(); if (ScreenState == previous && !closingSettings) RestoreScreen(); }, () =>
             {
                 if (Session != null && Session.Status != SessionStatus.Playing && !terminalCommitted) { view.Toast("Retry saving to record this result."); return; }
                 ScreenState = previous; RestoreScreen();
@@ -442,11 +430,14 @@ namespace PixelFlow
             {
                 if (ScreenState == AppScreen.Shop && nativeShopView != null && !view.IsHomeModalVisible)
                     Dreamy.UI.PanelManager.Instance.Close<Dreamy.Feature.Shop.Integration.ShopPanel>().Forget();
+                else if (ScreenState == AppScreen.HomePopup && livesPanel != null && !view.IsHomeModalVisible) CloseLives();
+                else if (ScreenState == AppScreen.Settings && settingsPanel != null && !view.IsHomeModalVisible) settingsPanel.Back();
                 else if (ScreenState == AppScreen.Playing) Pause(); else if (ScreenState == AppScreen.Paused) Resume();
-                else if (ScreenState is AppScreen.Won or AppScreen.Lost) Home(); else if (ScreenState != AppScreen.Home) view?.Back();
+                else if (ScreenState is AppScreen.Won or AppScreen.Lost) CloseResult(); else if (ScreenState != AppScreen.Home) view?.Back();
             }
             if (Session == null || view == null) return;
             if (ScreenState == AppScreen.Playing) Session.Tick(Time.deltaTime);
+            board?.SetTargeting(ScreenState == AppScreen.Targeting && targetBooster == BoosterKind.Hand, ScreenState == AppScreen.Targeting && targetBooster == BoosterKind.Color);
             board?.Render(ScreenState == AppScreen.Playing ? Time.deltaTime : 0); UpdateHud();
             if (ScreenState == AppScreen.Playing && Session.Status != SessionStatus.Playing && resultAt >= 0 && Time.unscaledTime >= resultAt) Guard(CommitTerminal);
             else if (ScreenState == AppScreen.Playing && Time.unscaledTime >= nextCheckpoint)

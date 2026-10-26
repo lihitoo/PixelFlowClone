@@ -20,6 +20,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81b0b6834f8d8c34eb512d03f518064d
+    m_Address: PixelFlow/Panel/Lives.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaf44ae2917c45749a7bdf79e64c2cc7
+    m_Address: Panel/SettingsPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bebd73e69861b0846a66b4b3a27a0f04
+    m_Address: PixelFlow/Panel/Gameplay.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d6e00e3d3e7b2714581cc90c53ce61c2
     m_Address: PixelFlow/Panel/Shop.prefab
     m_ReadOnly: 0

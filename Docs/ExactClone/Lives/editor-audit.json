@@ -1,0 +1,35 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "referenceWidth": 1080.0,
+  "referenceHeight": 1920.0,
+  "scaleMode": "ScaleWithScreenSize",
+  "match": 0.5,
+  "buttons": [
+    {
+      "name": "Close Button",
+      "minX": 885.0,
+      "minY": 1385.0,
+      "maxX": 979.0,
+      "maxY": 1479.0,
+      "safeOwners": 1
+    },
+    {
+      "name": "Refill Lives",
+      "minX": 210.0,
+      "minY": 645.0,
+      "maxX": 870.0,
+      "maxY": 755.0,
+      "safeOwners": 1
+    },
+    {
+      "name": "Get Coins",
+      "minX": 210.0,
+      "minY": 515.0,
+      "maxX": 870.0,
+      "maxY": 625.0,
+      "safeOwners": 1
+    }
+  ],
+  "fixture": "PixelFlowCloneSmoke_HomeReview_91743f4ab84549889505b9e2a1283dd3"
+}

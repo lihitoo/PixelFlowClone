@@ -1,0 +1,10 @@
+{
+  "referenceGallery": "../Research/Expansion20261025/review.html",
+  "runtimeReferenceFrames": [
+    "../Research/Expansion20261025/frames/add-tray-capacity6.png",
+    "../Research/Expansion20261025/frames/refill-hearts.png",
+    "../Research/Expansion20261025/frames/ftue-settings.png"
+  ],
+  "clonePreviewFolder": "../../Evidence/editor-review/gameplay-final-20261026",
+  "limits": "Different levels and source builds: composition/state comparison only. Actual Game View readbacks will be separate from URP preview fixtures."
+}

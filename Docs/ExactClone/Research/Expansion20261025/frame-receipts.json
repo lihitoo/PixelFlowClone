@@ -1,0 +1,218 @@
+[
+  {
+    "id": "ftue-settings",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/ftue-settings.png",
+    "clip": "ftue-account-0200-0255.mp4",
+    "decodedClipTimeSeconds": 16.5,
+    "sourceNominalTimeSeconds": 136.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "ftue-home",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/ftue-home.png",
+    "clip": "ftue-account-0200-0255.mp4",
+    "decodedClipTimeSeconds": 23.5,
+    "sourceNominalTimeSeconds": 143.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "ftue-username",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/ftue-username.png",
+    "clip": "ftue-account-0200-0255.mp4",
+    "decodedClipTimeSeconds": 29.5,
+    "sourceNominalTimeSeconds": 149.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "ftue-name-confirm",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/ftue-name-confirm.png",
+    "clip": "ftue-account-0200-0255.mp4",
+    "decodedClipTimeSeconds": 40.5,
+    "sourceNominalTimeSeconds": 160.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "ftue-profile",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/ftue-profile.png",
+    "clip": "ftue-account-0200-0255.mp4",
+    "decodedClipTimeSeconds": 43.5,
+    "sourceNominalTimeSeconds": 163.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "ftue-coins-shop",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/ftue-coins-shop.png",
+    "clip": "ftue-account-0200-0255.mp4",
+    "decodedClipTimeSeconds": 51.5,
+    "sourceNominalTimeSeconds": 171.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "purchase-cancel",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/purchase-cancel.png",
+    "clip": "09review-55-90.mp4",
+    "decodedClipTimeSeconds": 13.5,
+    "sourceNominalTimeSeconds": 68.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "out-of-space",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/out-of-space.png",
+    "clip": "09review-55-90.mp4",
+    "decodedClipTimeSeconds": 15.5,
+    "sourceNominalTimeSeconds": 70.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "failed-heart",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/failed-heart.png",
+    "clip": "09review-55-90.mp4",
+    "decodedClipTimeSeconds": 18.5,
+    "sourceNominalTimeSeconds": 73.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "refill-hearts",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/refill-hearts.png",
+    "clip": "09review-310-350.mp4",
+    "decodedClipTimeSeconds": 30.5,
+    "sourceNominalTimeSeconds": 340.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "shop-bundles",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/shop-bundles.png",
+    "clip": "09review-310-350.mp4",
+    "decodedClipTimeSeconds": 36.5,
+    "sourceNominalTimeSeconds": 346.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "level-complete",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/level-complete.png",
+    "clip": "09review-310-350.mp4",
+    "decodedClipTimeSeconds": 8.5,
+    "sourceNominalTimeSeconds": 318.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "add-tray-claim",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/add-tray-claim.png",
+    "clip": "ftue-booster-355-385.mp4",
+    "decodedClipTimeSeconds": 12.5,
+    "sourceNominalTimeSeconds": 367.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "add-tray-spotlight",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/add-tray-spotlight.png",
+    "clip": "ftue-booster-355-385.mp4",
+    "decodedClipTimeSeconds": 15.5,
+    "sourceNominalTimeSeconds": 370.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "add-tray-capacity6",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/add-tray-capacity6.png",
+    "clip": "ftue-booster-355-385.mp4",
+    "decodedClipTimeSeconds": 16.5,
+    "sourceNominalTimeSeconds": 371.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "hand-claim",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/hand-claim.png",
+    "clip": "ftue-booster-585-615.mp4",
+    "decodedClipTimeSeconds": 29.5,
+    "sourceNominalTimeSeconds": 614.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "super-pig-claim",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/super-pig-claim.png",
+    "clip": "ftue-booster-1290-1330.mp4",
+    "decodedClipTimeSeconds": 21.5,
+    "sourceNominalTimeSeconds": 1311.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "super-pig-target-mode",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/super-pig-target-mode.png",
+    "clip": "ftue-booster-1290-1330.mp4",
+    "decodedClipTimeSeconds": 25.5,
+    "sourceNominalTimeSeconds": 1315.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "super-pig-color-effect",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/super-pig-color-effect.png",
+    "clip": "ftue-booster-1290-1330.mp4",
+    "decodedClipTimeSeconds": 32.5,
+    "sourceNominalTimeSeconds": 1322.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "hand-target-mode",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/hand-target-mode.png",
+    "clip": "ftue-booster-615-635.mp4",
+    "decodedClipTimeSeconds": 5.5,
+    "sourceNominalTimeSeconds": 620.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "hand-queue-selection",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/hand-queue-selection.png",
+    "clip": "ftue-booster-615-635.mp4",
+    "decodedClipTimeSeconds": 9.5,
+    "sourceNominalTimeSeconds": 624.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "shuffle-claim",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/shuffle-claim.png",
+    "clip": "ftue-booster-720-760.mp4",
+    "decodedClipTimeSeconds": 33.5,
+    "sourceNominalTimeSeconds": 753.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "shuffle-spotlight",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/shuffle-spotlight.png",
+    "clip": "ftue-booster-720-760.mp4",
+    "decodedClipTimeSeconds": 34.5,
+    "sourceNominalTimeSeconds": 754.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  },
+  {
+    "id": "connected-pig-intro",
+    "path": "Docs/ExactClone/Research/Expansion20261025/frames/connected-pig-intro.png",
+    "clip": "ftue-booster-720-760.mp4",
+    "decodedClipTimeSeconds": 1.5,
+    "sourceNominalTimeSeconds": 721.5,
+    "extraction": "ffmpeg output seeking after input; selected frame visually inspected",
+    "status": "extracted"
+  }
+]

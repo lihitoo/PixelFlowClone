@@ -1,4 +1,5 @@
 using System;
+using Cysharp.Threading.Tasks;
 using PixelFlow.Rules;
 using TMPro;
 using UnityEngine;
@@ -12,149 +13,87 @@ namespace PixelFlow
         private static readonly Color Ink = new(.95f, .97f, 1f);
         private readonly PixelFlowPresentation art;
         private readonly Canvas canvas;
-        private readonly bool ownsCanvas;
         private readonly RectTransform safe;
-        private readonly GameObject home, hud, overlay;
-        private readonly TMP_Text levelTitle, counter, beltCount, waitingCount, tip, overlayTitle, overlayDetail, toast, soundLabel;
-        private readonly RectTransform fill;
-        private readonly Button[] levelButtons;
-        private readonly Button resume, next, restart, menu, overlaySound;
-        private readonly TMP_Text nextLabel;
+        private readonly GameObject home, hud;
+        private readonly TMP_Text toast;
         private readonly Dreamy.UI.SafeArea safeArea;
         private float toastUntil;
         private readonly Sprite buttonSprite;
         private readonly Texture2D panelTexture;
         private readonly Sprite panelSprite;
         public Button PlayButton { get; private set; }
-        public Button PauseButton { get; }
-        public Button BackButton { get; }
-        public Button NextButton => next;
-        public Button ResumeButton => resume;
-        public Button RestartButton => restart;
-        public Button MenuButton => menu;
-        public Button SoundButton => overlaySound;
-        public event Action PlayRequested, PauseRequested, ResumeRequested, RestartRequested, MenuRequested, NextRequested, SoundRequested;
+        private readonly GameplayPanel gameplay;
+        private int gameplayLevel;
+        public GameplayPanel Gameplay => gameplay;
+        public Button PauseButton => gameplay.SettingsButton;
+        public Button BackButton => gameplay.SettingsButton;
+        public Button NextButton => gameplay.NextButton;
+        public Button RestartButton => settingsView != null ? settingsView.ButtonFor(Dreamy.Feature.Settings.Integration.SettingsCommand.Restart) : gameplay.ResultCloseButton;
+        public Button MenuButton => settingsView != null ? settingsView.ButtonFor(Dreamy.Feature.Settings.Integration.SettingsCommand.GiveUp) : gameplay.ResultCloseButton;
+        public event Action PlayRequested, PauseRequested, MenuRequested, NextRequested;
         public event Action<int> LevelSelected;
 
-        public PixelFlowView(Transform owner, PixelFlowPresentation art, int levelCount, Canvas authoredCanvas, Dreamy.Template.Home.HomePanel authoredHome)
+        public PixelFlowView(PixelFlowPresentation art, int levelCount, Canvas authoredCanvas, Dreamy.Template.Home.HomePanel authoredHome, GameplayPanel authoredGameplay)
         {
             this.art = art; buttonSprite = art.BlueButton;
             panelSprite = CreatePanelSprite(out panelTexture);
-            ownsCanvas = authoredCanvas == null;
-            var go = ownsCanvas ? new GameObject("Pixel Flow UI", typeof(RectTransform), typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster)) : authoredCanvas.gameObject;
-            if (ownsCanvas)
-            {
-                go.transform.SetParent(owner, false);
-                canvas = go.GetComponent<Canvas>(); canvas.renderMode = RenderMode.ScreenSpaceOverlay; canvas.sortingOrder = 100;
-                var scaler = go.GetComponent<CanvasScaler>(); scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-                scaler.referenceResolution = new Vector2(1080, 1920); scaler.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight; scaler.matchWidthOrHeight = .5f;
-            }
-            else canvas = authoredCanvas;
+            canvas = authoredCanvas != null ? authoredCanvas : throw new ArgumentNullException(nameof(authoredCanvas));
+            var go = canvas.gameObject;
             safe = Rect(go.transform, "Safe Area", 0, 0, 0, 0); Stretch(safe);
             safeArea = safe.gameObject.AddComponent<Dreamy.UI.SafeArea>();
 
             home = authoredHome.Content;
             BindSourceHome(authoredHome);
-            levelButtons = Array.Empty<Button>();
-            for (int i = 0; i < levelButtons.Length; i++)
-            {
-                int index = i;
-                levelButtons[i] = Button(home.transform, "Level " + (i + 1), (i + 1).ToString(), 76, 74, (i - (levelCount - 1) / 2f) * 88, -355,
-                    buttonSprite, () => LevelSelected?.Invoke(index), 28);
-            }
 
-            hud = Rect(safe, "Game HUD", 0, 0, 0, 0).gameObject; Stretch((RectTransform)hud.transform);
-            levelTitle = Text(hud.transform, "Level Title", "LEVEL 1", 38, Ink, 400, 65, 0, -50, new Vector2(.5f, 1));
-            BackButton = Button(hud.transform, "Back", "<", 82, 78, -286, -65, buttonSprite, () => PauseRequested?.Invoke(), 36, new Vector2(.5f, 1));
-            PauseButton = Button(hud.transform, "Pause", "II", 82, 78, 286, -65, buttonSprite, () => PauseRequested?.Invoke(), 32, new Vector2(.5f, 1));
-            counter = Text(hud.transform, "Blocks Left", "180 BLOCKS", 22, Ink, 400, 44, 0, -104, new Vector2(.5f, 1));
-            var bar = Image(hud.transform, "Progress Track", panelSprite, new Color(.12f, .18f, .32f), 382, 22, 0, -142, anchor: new Vector2(.5f, 1));
-            var inset = Rect(bar.transform, "Progress Inset", 0, 0, 0, 0); Stretch(inset);
-            inset.offsetMin = new Vector2(3, 3); inset.offsetMax = new Vector2(-3, -3);
-            var progress = Image(inset, "Progress", panelSprite, new Color(.99f, .83f, .24f), 0, 0, 0, 0, stretch: true);
-            fill = progress.rectTransform; fill.anchorMax = new Vector2(0, 1); fill.offsetMin = fill.offsetMax = Vector2.zero;
-            beltCount = Text(hud.transform, "Belt Capacity", "CONVEYOR 0 / 5", 21, Ink, 600, 40, 0, -187, new Vector2(.5f, 1));
-            waitingCount = Text(hud.transform, "Waiting Capacity", "WAITING 0 / 5", 21, Ink, 600, 40, 0, -150);
-            tip = Text(hud.transform, "Queue Hint", "TAP A FRONT PIG", 18, Ink, 660, 36, 0, -225, new Vector2(.5f, 1));
-
-            overlay = Rect(safe, "Pause and Result", 0, 0, 0, 0).gameObject; Stretch((RectTransform)overlay.transform);
-            Image(overlay.transform, "Modal Dim", null, new Color(.04f, .12f, .14f, .78f), 0, 0, 0, 0, stretch: true, blocks: true);
-            Image(overlay.transform, "Modal Rim", panelSprite, new Color(.48f, .60f, .88f), 620, 745, 0, 0);
-            Image(overlay.transform, "Modal Card", panelSprite, new Color(.19f, .27f, .47f), 610, 735, 0, 0);
-            overlayTitle = Text(overlay.transform, "Result Title", "PAUSED", 53, Color.white, 550, 100, 0, 250);
-            overlayDetail = Text(overlay.transform, "Result Detail", "Find your next color.", 25, Color.white, 530, 125, 0, 145);
-            resume = Button(overlay.transform, "Resume", "KEEP PLAYING", 390, 88, 0, 20, art.PlayButton, () => ResumeRequested?.Invoke());
-            next = Button(overlay.transform, "Next", "NEXT LEVEL", 390, 88, 0, 20, art.PlayButton, () => NextRequested?.Invoke());
-            nextLabel = next.GetComponentInChildren<TMP_Text>();
-            restart = Button(overlay.transform, "Restart", "RETRY", 390, 80, 0, -82, buttonSprite, () => RestartRequested?.Invoke());
-            menu = Button(overlay.transform, "Menu", "HOME", 390, 80, 0, -180, buttonSprite, () => MenuRequested?.Invoke());
-            overlaySound = Button(overlay.transform, "Sound", "SOUND ON", 260, 54, 0, -278, buttonSprite, () => SoundRequested?.Invoke(), 21);
-            soundLabel = overlaySound.GetComponentInChildren<TMP_Text>();
+            gameplay = authoredGameplay != null ? authoredGameplay : throw new ArgumentNullException(nameof(authoredGameplay));
+            hud = gameplay.gameObject;
+            gameplay.SettingsRequested += RequestGameplaySettings;
+            gameplay.CoinsRequested += RequestGameplayShop;
+            gameplay.BoosterRequested += RequestGameplayBooster;
             toast = Text(safe, "Feedback Toast", "", 25, Color.white, 650, 70, 0, 160, new Vector2(.5f, 0));
             toast.outlineWidth = .25f; toast.outlineColor = new Color(.10f, .15f, .25f); toast.gameObject.SetActive(false);
             BuildFullFlow(levelCount);
-            home.SetActive(true); hud.SetActive(false); overlay.SetActive(false);
+            home.SetActive(true); hud.SetActive(false); gameplay.HideResult();
             RefreshSafeArea();
         }
 
         public void ShowHome(PixelFlowProgress progress, int selected)
         {
             toast.gameObject.SetActive(false);
-            home.SetActive(true); hud.SetActive(false); overlay.SetActive(false);
+            home.SetActive(true); hud.SetActive(false); gameplay.HideResult();
             HidePages();
             RenderSourceHome(progress, selected, true);
-            for (int i = 0; i < levelButtons.Length; i++)
-            {
-                levelButtons[i].interactable = i <= progress.UnlockedLevel;
-                levelButtons[i].transform.localScale = Vector3.one * (i == selected ? 1.12f : 1);
-                levelButtons[i].GetComponent<Image>().color = progress.CompletedLevels.Contains(i) ? new Color(.64f, 1f, .72f) : Color.white;
-            }
         }
 
         public void ShowGame(int level)
         {
             ShowHomeChrome(false);
-            home.SetActive(false); hud.SetActive(true); overlay.SetActive(false);
+            home.SetActive(false); hud.SetActive(true); gameplay.HideResult();
             HidePages();
-            levelTitle.text = "LEVEL " + (level + 1);
-            tip.text = level == 0 ? "TAP A FRONT PIG TO START" : "MATCH COLORS. KEEP SPACE.";
+            gameplay.HideOffer(); gameplay.HideTarget(); gameplayLevel = level; gameplay.Show().Forget();
         }
 
         public void UpdateGame(PuzzleSession session, Camera worldCamera)
         {
-            counter.SetText("{0} PIXELS  /  {1} HITS LEFT", session.RemainingPixels, session.RemainingHealth);
-            beltCount.SetText("CONVEYOR  {0} / {1}", session.Active.Count, session.ConveyorCapacity);
-            int waiting = 0; foreach (var pig in session.Waiting) if (pig != null) waiting++;
-            waitingCount.SetText("WAITING  {0} / {1}", waiting, session.Waiting.Count);
-            fill.anchorMax = new Vector2(session.Progress01, 1);
-            Vector3 world = new(0, 0, session.Track.Bottom - .82f);
+            gameplay.RenderBelt(session.ConveyorCapacity - session.Active.Count, session.ConveyorCapacity);
+            gameplay.RenderTimer(session.Level.TimeLimit > 0 ? session.TimeRemaining : 0);
+            Vector3 world = new(-session.Track.HalfWidth + .35f, 0, session.Track.Bottom - .62f);
             var uiCamera = canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera;
             RectTransformUtility.ScreenPointToLocalPointInRectangle((RectTransform)canvas.transform, worldCamera.WorldToScreenPoint(world), uiCamera, out var point);
-            waitingCount.rectTransform.position = canvas.transform.TransformPoint(point);
-            if (session.Launches > 0) tip.text = waiting > 0 ? "TAP A WAITING PIG TO SEND IT AGAIN" : "ONLY THE FRONT PIGS CAN LAUNCH";
-            timerText.text = session.Level.TimeLimit > 0 ? "TIME " + Mathf.CeilToInt(session.TimeRemaining) : "";
+            gameplay.BeltLabel.rectTransform.position = canvas.transform.TransformPoint(point);
         }
+        private void RequestGameplaySettings() => PauseRequested?.Invoke();
+        private void RequestGameplayShop() => PageRequested?.Invoke(FlowPage.Shop);
+        private void RequestGameplayBooster(int index) => BoosterRequested?.Invoke((BoosterKind)index);
 
-        public void ShowPause(bool sound)
+        public void ShowResult(bool won, int level, int reward, bool canContinue, int cost, string reason)
         {
-            toast.gameObject.SetActive(false);
-            HidePages(); overlay.SetActive(true); overlayTitle.text = "PAUSED"; overlayDetail.text = "Take a breath. Find your next color.";
-            resume.gameObject.SetActive(true); next.gameObject.SetActive(false); restart.gameObject.SetActive(true); UpdateSound(sound);
-            continueButton.gameObject.SetActive(false);
+            toast.gameObject.SetActive(false); HidePages();
+            home.SetActive(false); hud.SetActive(true);
+            gameplay.ShowResult(won, level, reward, canContinue, cost, reason,
+                () => NextRequested?.Invoke(), () => ContinueRequested?.Invoke(), () => MenuRequested?.Invoke());
         }
 
-        public void ShowResult(bool won, bool lastLevel, int launches, string reason, bool sound)
-        {
-            toast.gameObject.SetActive(false);
-            HidePages(); overlay.SetActive(true); resume.gameObject.SetActive(false); next.gameObject.SetActive(won); restart.gameObject.SetActive(true);
-            continueButton.gameObject.SetActive(false);
-            overlayTitle.text = won ? "LEVEL CLEAR!" : "TRY AGAIN";
-            overlayDetail.text = won ? "Perfect flow!\n" + launches + " launches to clear the board." : reason + "\nContinue this run or retry for free.";
-            nextLabel.text = lastLevel ? "BACK TO HOME" : "NEXT LEVEL";
-            UpdateSound(sound);
-        }
-
-        public void UpdateSound(bool enabled) => soundLabel.text = enabled ? "SOUND ON" : "SOUND OFF";
         public void Toast(string message)
         {
             toast.text = message; toast.gameObject.SetActive(true); toast.transform.SetAsLastSibling(); toastUntil = Time.unscaledTime + 2.5f;
@@ -232,24 +171,16 @@ namespace PixelFlow
         }
         public void Dispose()
         {
-            PlayRequested = PauseRequested = ResumeRequested = RestartRequested = MenuRequested = NextRequested = SoundRequested = null;
+            PlayRequested = PauseRequested = MenuRequested = NextRequested = null;
             LevelSelected = null;
-            if (ownsCanvas && canvas != null) { canvas.gameObject.SetActive(false); Object.Destroy(canvas.gameObject); }
-            else
-            {
-                if (safe != null) { safe.gameObject.SetActive(false); Object.Destroy(safe.gameObject); }
-                if (homeBackground != null) { homeBackground.SetActive(false); Object.Destroy(homeBackground); }
-            }
+            if (safe != null) { safe.gameObject.SetActive(false); Object.Destroy(safe.gameObject); }
+            gameplay.SettingsRequested -= RequestGameplaySettings;
+            gameplay.CoinsRequested -= RequestGameplayShop;
+            gameplay.BoosterRequested -= RequestGameplayBooster;
+            if (hud != null) hud.SetActive(false);
             ClearFullFlow();
             ClearSourceHome();
             Object.Destroy(panelSprite); Object.Destroy(panelTexture);
         }
-#if UNITY_EDITOR
-        public void DisposeAuthoringPreview()
-        {
-            ClearFullFlow(); ClearSourceHome();
-            Object.DestroyImmediate(canvas.gameObject); Object.DestroyImmediate(panelSprite); Object.DestroyImmediate(panelTexture);
-        }
-#endif
     }
 }

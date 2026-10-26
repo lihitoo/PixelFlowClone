@@ -56,6 +56,7 @@ namespace PixelFlow.Editor
                 EditorSceneManager.CloseScene(source, true);
             }
             SceneManager.SetActiveScene(main);
+            foreach (var demo in main.GetRootGameObjects().Where(x => x.name == "FoundationDemo")) demo.SetActive(false);
             foreach (var bootstrap in main.GetRootGameObjects().SelectMany(x => x.GetComponentsInChildren<HomeBootstrap>(true)))
                 bootstrap.enabled = false; // Native Pixel Flow Home replaces the sample Home.
             foreach (var events in main.GetRootGameObjects().SelectMany(x => x.GetComponentsInChildren<EventSystem>(true)))

@@ -1,5 +1,5 @@
 {
   "name": "PixelFlow.Runtime",
   "rootNamespace": "PixelFlow",
-  "references": ["PixelFlow.Rules", "Dreamy.Template.Runtime", "Dreamy.Core.Runtime", "Dreamy.Assets.Runtime", "Dreamy.DataConfig.Runtime", "Dreamy.Datasave.Runtime", "Dreamy.UI.Runtime", "Dreamy.UI.Presentation", "Dreamy.Shop.Runtime", "Dreamy.Feature.Shop.Integration.Runtime", "Dreamy.Economy.Runtime", "Dreamy.Economy.UI.Runtime", "Dreamy.Audio.Runtime", "Dreamy.Feedback.Runtime", "Dreamy.Feedback.Contracts", "UniTask", "Unity.Newtonsoft.Json", "Unity.TextMeshPro", "UnityEngine.UI", "Unity.InputSystem"]
+  "references": ["PixelFlow.Rules", "Dreamy.Template.Runtime", "Dreamy.Core.Runtime", "Dreamy.Assets.Runtime", "Dreamy.DataConfig.Runtime", "Dreamy.Datasave.Runtime", "Dreamy.UI.Runtime", "Dreamy.UI.Presentation", "Dreamy.Shop.Runtime", "Dreamy.Feature.Shop.Integration.Runtime", "Dreamy.Feature.Settings.Integration.Runtime", "Dreamy.Settings.Runtime", "Dreamy.Economy.Runtime", "Dreamy.Economy.UI.Runtime", "Dreamy.Audio.Runtime", "Dreamy.Feedback.Runtime", "Dreamy.Feedback.Contracts", "UniTask", "Unity.Newtonsoft.Json", "Unity.TextMeshPro", "UnityEngine.UI", "Unity.InputSystem"]
 }

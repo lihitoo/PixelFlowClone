@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "sourceVersion": "0.36.3",
+  "receipts": [
+    {
+      "role": "Music",
+      "assetId": "asset-a7d5c1f3de05e0addcc1",
+      "source": "exports/Sprite/sharedassets1.assets/PictoIcon_Music__1116.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/PictoIcon_Music__1116.png",
+      "sha256": "ca452e5657b56f8788acc733b862f9ce197e100e5ebd24e8cb84833de4061083",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/Music.png",
+      "bytes": 1850,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "b5efc878d8734654eb024920d58805bf",
+      "roleEvidence": "Original selected art; source Settings hierarchy confirms the control, custom sprite bindings are stripped."
+    },
+    {
+      "role": "Sound",
+      "assetId": "asset-5b6ea25d32a86623651e",
+      "source": "exports/Sprite/sharedassets1.assets/PictoIcon_Sound__1321.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/PictoIcon_Sound__1321.png",
+      "sha256": "e80f99f907755d8f3db0c3521c9f8829013c6f8ee64cbfebc4144493b5003cf8",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/Sound.png",
+      "bytes": 1364,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "f942b0f53650bed479b11de5cd4fc367",
+      "roleEvidence": "Original selected art; source Settings hierarchy confirms the control, custom sprite bindings are stripped."
+    },
+    {
+      "role": "Haptic",
+      "assetId": "asset-07d5f35db3afecb698d0",
+      "source": "exports/Sprite/sharedassets1.assets/PictoIcon_Haptics__723.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/PictoIcon_Haptics__723.png",
+      "sha256": "edc6e3b828e3651274ecc71ddc6d6d49a48272dbf95342b832774d45b48bde6a",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/Haptic.png",
+      "bytes": 961,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "576a826708c00254b9b796a0f32b40f6",
+      "roleEvidence": "Original selected art; source Settings hierarchy confirms the control, custom sprite bindings are stripped."
+    },
+    {
+      "role": "Notification",
+      "assetId": "asset-8ccc3e035d5cd4ba685e",
+      "source": "exports/Sprite/sharedassets1.assets/PictoIcon_Bell_On__749.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/PictoIcon_Bell_On__749.png",
+      "sha256": "7ba980d66880d5e4c518e5f8314cd223e5f6b20e3e523e895cf47b2a5cb4a361",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/Notification.png",
+      "bytes": 1916,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "aa06b229eab067e44a0caee2d43da6a4",
+      "roleEvidence": "Original selected art; source Settings hierarchy confirms the control, custom sprite bindings are stripped."
+    },
+    {
+      "role": "Smooth",
+      "assetId": "asset-a8fe51345dea106dc24c",
+      "source": "exports/Sprite/sharedassets1.assets/PictoIcon_Wing__772.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/PictoIcon_Wing__772.png",
+      "sha256": "38a48a20d616015e37c5fce3b9f03c6bc97e7ae4ce7a816ef78ffff89208a692",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/Smooth.png",
+      "bytes": 2518,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "f588267f37abfc5409d79455f4692647",
+      "roleEvidence": "Wing pictogram selected for source-confirmed Smooth Motion row; exact native sprite binding remains inferred."
+    },
+    {
+      "role": "Instagram",
+      "assetId": "asset-badddefda62ef40f78fb",
+      "source": "exports/Sprite/sharedassets1.assets/PictoIcon_Instagram_Circle__799.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/PictoIcon_Instagram_Circle__799.png",
+      "sha256": "ec6e7e43a4eb3dbb2325719d73484f1d4b2a5d32f4ccec6b50a21ff205a1ecef",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/Instagram.png",
+      "bytes": 30783,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "c00a543213c450b42806a0118e6e7ff2",
+      "roleEvidence": "Original selected art; source Settings hierarchy confirms the control, custom sprite bindings are stripped."
+    },
+    {
+      "role": "Restart",
+      "assetId": "asset-de1300a437111bd54445",
+      "source": "exports/Sprite/sharedassets1.assets/Icon_Restart_3x__1301.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Restart_3x__1301.png",
+      "sha256": "ffcf324b78044e9ad98b36717822a2e0d517583c775808d25f96f93d8c4736d5",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/Restart.png",
+      "bytes": 10177,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "fe1fc5e217afd4443b1e03f6a1486a6f",
+      "roleEvidence": "Original selected art; source Settings hierarchy confirms the control, custom sprite bindings are stripped."
+    },
+    {
+      "role": "Save",
+      "assetId": "asset-aa461775bdc7b3cb91f8",
+      "source": "exports/Sprite/sharedassets1.assets/Icon_Save__1264.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Icon_Save__1264.png",
+      "sha256": "e18deeaa0185cdb0acc606159e692d25a4248d7fb37d4f8e58e5c55cf7ec4354",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/Save.png",
+      "bytes": 5708,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "04fd035a6eda6d54a876133d207fb865",
+      "roleEvidence": "Original selected art; source Settings hierarchy confirms the control, custom sprite bindings are stripped."
+    },
+    {
+      "role": "ButtonBlue",
+      "assetId": "asset-b109a51dd4a9ce615fed",
+      "source": "exports/Sprite/sharedassets1.assets/Button_Blue__843.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Blue__843.png",
+      "sha256": "9cc02f2cbd998f5d1032513ab1a870fd155bede6f0c8c540d7c6bc90eecf25f8",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/ButtonBlue.png",
+      "bytes": 8434,
+      "sourceBorder": [
+        50.0,
+        60.0,
+        50.0,
+        50.0
+      ],
+      "importedGuid": "e9bfce2a5a360ad4aa1df5f6505a86ae",
+      "roleEvidence": "Original selected art; source Settings hierarchy confirms the control, custom sprite bindings are stripped."
+    },
+    {
+      "role": "ButtonGreen",
+      "assetId": "asset-ac3709ca9d4ceba4fa4a",
+      "source": "exports/Sprite/sharedassets1.assets/Button_Green__1205.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Green__1205.png",
+      "sha256": "ef490afa45ee79bba74601431d3f04a10438cd94454e50666ab592b36aa294a9",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/ButtonGreen.png",
+      "bytes": 8909,
+      "sourceBorder": [
+        50.0,
+        60.0,
+        50.0,
+        50.0
+      ],
+      "importedGuid": "d38018ab8fdaea747ba0319aba64511e",
+      "roleEvidence": "Original selected art; source Settings hierarchy confirms the control, custom sprite bindings are stripped."
+    },
+    {
+      "role": "ButtonRed",
+      "assetId": "asset-591e7a9893416398574a",
+      "source": "exports/Sprite/sharedassets1.assets/Button_Red__1360.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Red__1360.png",
+      "sha256": "547c26a0dceab06c348f14b0eebda759d1a9e4e6b75b0bf6b7206b1453051b68",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/ButtonRed.png",
+      "bytes": 8906,
+      "sourceBorder": [
+        50.0,
+        60.0,
+        50.0,
+        50.0
+      ],
+      "importedGuid": "d175aadef4c3f254ea9eb98904810c83",
+      "roleEvidence": "Original selected art; source Settings hierarchy confirms the control, custom sprite bindings are stripped."
+    },
+    {
+      "role": "Popup",
+      "assetId": "asset-7199c9df08226193017d",
+      "source": "exports/Sprite/sharedassets1.assets/Popup_With_Header_Blue__795.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Popup_With_Header_Blue__795.png",
+      "sha256": "6509e6db86eff32448e052dae1f3aa044597613fb51de1694aaecff22ab517b4",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Settings/Popup.png",
+      "bytes": 34194,
+      "sourceBorder": [
+        100.0,
+        112.0,
+        100.0,
+        225.0
+      ],
+      "importedGuid": "8696c40ef559662429ec3ddd65549517",
+      "roleEvidence": "Original selected art; source Settings hierarchy confirms the control, custom sprite bindings are stripped."
+    }
+  ]
+}

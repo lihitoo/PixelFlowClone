@@ -1,0 +1,8553 @@
+{
+  "parentEvidenceId": "ev_d1addc6334f548a1098d2806018452676df99066b2fac3f19053e6caf165aaeb",
+  "artifact": {
+    "bytes": 47292648,
+    "path": "D:\\Downloads\\PixelFlow_0.36.3_extracted\\raw\\base\\assets\\bin\\Data\\Managed\\Metadata\\global-metadata.dat",
+    "sha256": "6141d724c7c6c6ffc1a58bff4b49246380d1c26cdc388570ba1fc80f4fa59609"
+  },
+  "metadataVersion": 31,
+  "selection": "Case-insensitive name prefix; static candidate inventory only",
+  "types": [
+    {
+      "index": 215,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 2227,
+      "name": "LevelFailView",
+      "namespace": "Crescive.Game.UI.Level",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 267,
+      "declaring_type": -1,
+      "method_count": 3,
+      "method_start": 2654,
+      "name": "PowerupSettingsDataService",
+      "namespace": "Crescive.Data.Services",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 268,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 2657,
+      "name": "PowerupSettingsServiceDataSo",
+      "namespace": "Crescive.Data.Services",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 269,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 2658,
+      "name": "PowerupSystemSettingsDataService",
+      "namespace": "Crescive.Data.Services",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 270,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 2663,
+      "name": "PowerupSystemSettingsServiceDataSo",
+      "namespace": "Crescive.Data.Services",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 321,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 2800,
+      "name": "PowerupsUsageDataVarSync",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 322,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 2801,
+      "name": "PowerupsUsageDataVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 323,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 2802,
+      "name": "PowerupsUsageDataPlainVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 324,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 2803,
+      "name": "PowerupsUsageDataVarReference",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 325,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 2804,
+      "name": "PowerupsUsageDataVarMono",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 326,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 2805,
+      "name": "PowerupsUsageDataVarSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1059,
+      "declaring_type": -1,
+      "method_count": 20,
+      "method_start": 10540,
+      "name": "PowerupsTracker",
+      "namespace": "Loom.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1061,
+      "declaring_type": -1,
+      "method_count": 6,
+      "method_start": 10560,
+      "name": "PowerupsUsageData",
+      "namespace": "Loom.Powerups",
+      "nested_type_count": 1,
+      "nested_type_start": 272
+    },
+    {
+      "index": 1062,
+      "declaring_type": -1,
+      "method_count": 6,
+      "method_start": 10572,
+      "name": "PowerupUsageData",
+      "namespace": "Loom.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1132,
+      "declaring_type": -1,
+      "method_count": 12,
+      "method_start": 11167,
+      "name": "PowerupMoveExtraData",
+      "namespace": "gq",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1232,
+      "declaring_type": -1,
+      "method_count": 15,
+      "method_start": 13363,
+      "name": "ShufflePowerupController",
+      "namespace": "Loom.Game.Powerups.Shuffle",
+      "nested_type_count": 1,
+      "nested_type_start": 347
+    },
+    {
+      "index": 1233,
+      "declaring_type": -1,
+      "method_count": 18,
+      "method_start": 13384,
+      "name": "HandPowerupController",
+      "namespace": "Loom.Game.Powerups.Hand",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1258,
+      "declaring_type": -1,
+      "method_count": 36,
+      "method_start": 13552,
+      "name": "LevelFailFreeContinueDebugPage",
+      "namespace": "Loom.Game.LevelFailOffer",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1259,
+      "declaring_type": -1,
+      "method_count": 58,
+      "method_start": 13588,
+      "name": "LevelFailRvContinueDebugPage",
+      "namespace": "Loom.Game.LevelFailOffer",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1271,
+      "declaring_type": -1,
+      "method_count": 2,
+      "method_start": 13719,
+      "name": "LevelFailFreeContinueAvailableCondition",
+      "namespace": "Loom.Game.LevelFailOffer",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1272,
+      "declaring_type": -1,
+      "method_count": 9,
+      "method_start": 13721,
+      "name": "LevelFailFreeContinueSystemController",
+      "namespace": "Loom.Game.LevelFailOffer",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1273,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 13730,
+      "name": "LevelFailOfferEgoCountMethod",
+      "namespace": "Loom.Game.LevelFailOffer",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1274,
+      "declaring_type": -1,
+      "method_count": 7,
+      "method_start": 13735,
+      "name": "LevelFailOfferEgoCountTracker",
+      "namespace": "Loom.Game.LevelFailOffer",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1275,
+      "declaring_type": -1,
+      "method_count": 9,
+      "method_start": 13742,
+      "name": "LevelFailOfferFailCooldownTracker",
+      "namespace": "Loom.Game.LevelFailOffer",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1276,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 13751,
+      "name": "LevelFailRvContinueAvailableCondition",
+      "namespace": "Loom.Game.LevelFailOffer",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1277,
+      "declaring_type": -1,
+      "method_count": 8,
+      "method_start": 13755,
+      "name": "LevelFailRvContinueSystemController",
+      "namespace": "Loom.Game.LevelFailOffer",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1279,
+      "declaring_type": -1,
+      "method_count": 8,
+      "method_start": 13763,
+      "name": "LevelFailRvContinueGranter",
+      "namespace": "Loom.Game.LevelFailOffer",
+      "nested_type_count": 1,
+      "nested_type_start": 354
+    },
+    {
+      "index": 1280,
+      "declaring_type": -1,
+      "method_count": 12,
+      "method_start": 13776,
+      "name": "LevelFailFreeContinueCostView",
+      "namespace": "Loom.Game.LevelFailOffer.UI",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1283,
+      "declaring_type": -1,
+      "method_count": 24,
+      "method_start": 13788,
+      "name": "LevelFailOfferMiniShopPurchaseCoordinator",
+      "namespace": "Loom.Game.LevelFailOffer.UI",
+      "nested_type_count": 2,
+      "nested_type_start": 355
+    },
+    {
+      "index": 1284,
+      "declaring_type": -1,
+      "method_count": 31,
+      "method_start": 13825,
+      "name": "LevelFailOfferUIData",
+      "namespace": "Loom.Game.LevelFailOffer.UI",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1285,
+      "declaring_type": -1,
+      "method_count": 2,
+      "method_start": 13856,
+      "name": "LevelFailOfferUIDataList",
+      "namespace": "Loom.Game.LevelFailOffer.UI",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1287,
+      "declaring_type": -1,
+      "method_count": 9,
+      "method_start": 13866,
+      "name": "LevelFailOfferPopoverView",
+      "namespace": "Loom.Game.LevelFailOffer.UI",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 1288,
+      "declaring_type": -1,
+      "method_count": 8,
+      "method_start": 13875,
+      "name": "LevelFailOfferPopupView",
+      "namespace": "Loom.Game.LevelFailOffer.UI",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 2500,
+      "declaring_type": -1,
+      "method_count": 3,
+      "method_start": 36985,
+      "name": "PowerupPriorityCanTapShooterCondition",
+      "namespace": "Loom.Game.Map",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 2674,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 39782,
+      "name": "PowerupUsageEventParam",
+      "namespace": "Loom.Analytics",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 2711,
+      "declaring_type": -1,
+      "method_count": 21,
+      "method_start": 40291,
+      "name": "PowerupsEventsSender",
+      "namespace": "Loom.Analytics",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 3652,
+      "declaring_type": -1,
+      "method_count": 10,
+      "method_start": 59017,
+      "name": "LifetimeServices",
+      "namespace": "System.Runtime.Remoting.Lifetime",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 5698,
+      "declaring_type": 5699,
+      "method_count": 0,
+      "method_start": -1,
+      "name": "LifeCycleStatus",
+      "namespace": "",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 11080,
+      "declaring_type": 11082,
+      "method_count": 0,
+      "method_start": -1,
+      "name": "ShuffleComponent",
+      "namespace": "",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 18420,
+      "declaring_type": -1,
+      "method_count": 2,
+      "method_start": 201377,
+      "name": "LifecycleNotifier",
+      "namespace": "UnityEngine.Purchasing",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27710,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278577,
+      "name": "PowerupDataPersistentList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27711,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278578,
+      "name": "PowerupDataPersistentVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27712,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278579,
+      "name": "PowerupDataPlainDataList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27713,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278580,
+      "name": "PowerupDataPlainEvent",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27714,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278581,
+      "name": "PowerupDataPlainVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27715,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278582,
+      "name": "PowerupSettingsPersistentList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27716,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278583,
+      "name": "PowerupSettingsPersistentVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27717,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278584,
+      "name": "PowerupSettingsGetter",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27718,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278585,
+      "name": "PowerupSettingsSetter",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27719,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278586,
+      "name": "PowerupSettingsDirectGetReference",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27720,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278587,
+      "name": "PowerupSettingsGetReference",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27721,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278588,
+      "name": "PowerupSettingsGetDelegateSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27722,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278589,
+      "name": "PowerupSettingsDataListItemSync",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27723,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278590,
+      "name": "PowerupSettingsDataList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27724,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278591,
+      "name": "PowerupSettingsReadOnlyDataList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27725,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278592,
+      "name": "PowerupSettingsDataListMono",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27726,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278593,
+      "name": "PowerupSettingsPlainDataList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27727,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278594,
+      "name": "PowerupSettingsDataListSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27728,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278595,
+      "name": "PowerupSettingsReadOnlyGetterDataListSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27729,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278596,
+      "name": "PowerupSettingsEventMono",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27730,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278597,
+      "name": "PowerupSettingsEventSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27731,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278598,
+      "name": "PowerupSettingsEvent",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27732,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278599,
+      "name": "PowerupSettingsPlainEvent",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27733,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278600,
+      "name": "PowerupSettingsEventReference",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27734,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278601,
+      "name": "PowerupSettingsRaiseEventReference",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27735,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278602,
+      "name": "PowerupSettingsRegisterEventReference",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27736,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278603,
+      "name": "PowerupSettingsPairFunc",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27737,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278604,
+      "name": "PowerupSettingsEventListener",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27738,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278605,
+      "name": "PowerupSettingsRegisterEventListener",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27739,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278606,
+      "name": "PowerupSettingsMethod",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27740,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278607,
+      "name": "PowerupSettingsVarSync",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27741,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278608,
+      "name": "PowerupSettingsVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27742,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278609,
+      "name": "PowerupSettingsPlainVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27743,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278610,
+      "name": "PowerupSettingsVarReference",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27744,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278611,
+      "name": "PowerupSettingsVarMono",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27745,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278612,
+      "name": "PowerupSettingsConstantVarSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27746,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278613,
+      "name": "PowerupSettingsDelegateVarSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27747,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278614,
+      "name": "PowerupSettingsVarSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27748,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278615,
+      "name": "PowerupSystemDataPersistentList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27749,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278616,
+      "name": "PowerupSystemDataPersistentVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27750,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278617,
+      "name": "PowerupSystemDataPlainDataList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27751,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278618,
+      "name": "PowerupSystemDataPlainEvent",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27752,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278619,
+      "name": "PowerupSystemDataPlainVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27753,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278620,
+      "name": "PowerupSystemSettingsGetDelegateSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27754,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278621,
+      "name": "PowerupSystemSettingsPlainVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27755,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278622,
+      "name": "PowerupSystemSettingsConstantVarSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27756,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278623,
+      "name": "PowerupSystemSettingsDelegateVarSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27757,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 278624,
+      "name": "PowerupClaimStepFinisher",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27761,
+      "declaring_type": -1,
+      "method_count": 2,
+      "method_start": 278634,
+      "name": "PowerupsStateCompareCondition",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27762,
+      "declaring_type": -1,
+      "method_count": 0,
+      "method_start": -1,
+      "name": "PowerupCompareStrategy",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27764,
+      "declaring_type": -1,
+      "method_count": 2,
+      "method_start": 278636,
+      "name": "PowerupStateCompareData",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27765,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 278638,
+      "name": "PowerupData",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27766,
+      "declaring_type": -1,
+      "method_count": 2,
+      "method_start": 278642,
+      "name": "PowerupGroup",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27767,
+      "declaring_type": -1,
+      "method_count": 12,
+      "method_start": 278644,
+      "name": "PowerupSettings",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27768,
+      "declaring_type": -1,
+      "method_count": 0,
+      "method_start": -1,
+      "name": "PowerupState",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27769,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 278656,
+      "name": "PowerupSystemData",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27770,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 278660,
+      "name": "PowerupSystemSettings",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27771,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 278664,
+      "name": "PowerupCanceledEventProxy",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27772,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 278669,
+      "name": "PowerupCanceledOrFinishedEventProxy",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27773,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 278674,
+      "name": "PowerupFinishedEventProxy",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27774,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 278679,
+      "name": "PowerupPerformedEventProxy",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27775,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 278684,
+      "name": "PowerupRequestedEventProxy",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27776,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 278689,
+      "name": "PowerupStartedEventProxy",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27777,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 278694,
+      "name": "PowerupClaimedFirstTimeEventArgs",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27778,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 278698,
+      "name": "PowerupEventArgs",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27779,
+      "declaring_type": -1,
+      "method_count": 48,
+      "method_start": 278702,
+      "name": "PowerupEventsData",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27780,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 278750,
+      "name": "PowerupPurchasedEventArgs",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27781,
+      "declaring_type": -1,
+      "method_count": 2,
+      "method_start": 278754,
+      "name": "PowerupDataMigration",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27782,
+      "declaring_type": -1,
+      "method_count": 2,
+      "method_start": 278756,
+      "name": "PowerupRequestArgs",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27783,
+      "declaring_type": -1,
+      "method_count": 2,
+      "method_start": 278758,
+      "name": "PowerupStartArgs",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27785,
+      "declaring_type": -1,
+      "method_count": 78,
+      "method_start": 278760,
+      "name": "PowerupChannel",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 1,
+      "nested_type_start": 9680
+    },
+    {
+      "index": 27786,
+      "declaring_type": -1,
+      "method_count": 3,
+      "method_start": 278842,
+      "name": "PowerupChannelListener",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27794,
+      "declaring_type": -1,
+      "method_count": 65,
+      "method_start": 278845,
+      "name": "PowerupSystem",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 7,
+      "nested_type_start": 9681
+    },
+    {
+      "index": 27795,
+      "declaring_type": -1,
+      "method_count": 17,
+      "method_start": 278933,
+      "name": "PowerupSystemController",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27796,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 278950,
+      "name": "PowerupSystemListener",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 27800,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 278975,
+      "name": "PowerupUnityEventsData",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30284,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 293608,
+      "name": "PowerupButtonsControllerVarSync",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30285,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 293609,
+      "name": "PowerupButtonsControllerVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30286,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 293610,
+      "name": "PowerupButtonsControllerPlainVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30287,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 293611,
+      "name": "PowerupButtonsControllerVarReference",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30288,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 293612,
+      "name": "PowerupButtonsControllerVarMono",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30289,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 293613,
+      "name": "PowerupButtonsControllerVarSo",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30290,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 293614,
+      "name": "PowerupSystemEnabledTrigger",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30291,
+      "declaring_type": -1,
+      "method_count": 20,
+      "method_start": 293619,
+      "name": "PowerupButton",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30292,
+      "declaring_type": -1,
+      "method_count": 11,
+      "method_start": 293639,
+      "name": "PowerupButtonsController",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30293,
+      "declaring_type": -1,
+      "method_count": 10,
+      "method_start": 293650,
+      "name": "PowerupView",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30294,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 293660,
+      "name": "PowerupChannelUIDataPair",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30295,
+      "declaring_type": -1,
+      "method_count": 8,
+      "method_start": 293665,
+      "name": "PowerupUIData",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30296,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 293673,
+      "name": "PowerupButtonsLevelCreatedSetup",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30297,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 293677,
+      "name": "PowerupClaimPopupPusher",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30298,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 293682,
+      "name": "PowerupPurchasePopupPusher",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30299,
+      "declaring_type": -1,
+      "method_count": 10,
+      "method_start": 293686,
+      "name": "PowerupClaimPopupController",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30300,
+      "declaring_type": -1,
+      "method_count": 13,
+      "method_start": 293696,
+      "name": "PowerupPurchasePopupController",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30301,
+      "declaring_type": -1,
+      "method_count": 15,
+      "method_start": 293709,
+      "name": "PowerupRequestPopupController",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30302,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 293724,
+      "name": "PowerupUseTutorialPopupController",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30303,
+      "declaring_type": -1,
+      "method_count": 3,
+      "method_start": 293729,
+      "name": "PowerupResourceViewsController",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 30305,
+      "declaring_type": -1,
+      "method_count": 3,
+      "method_start": 293732,
+      "name": "PowerupUISystem",
+      "namespace": "Crescive.Powerups",
+      "nested_type_count": 1,
+      "nested_type_start": 10378
+    },
+    {
+      "index": 31087,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 297183,
+      "name": "LevelFailRvContinueConfig",
+      "namespace": "Loom.LevelFailRvContinue",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31088,
+      "declaring_type": -1,
+      "method_count": 6,
+      "method_start": 297187,
+      "name": "LevelFailRvContinueData",
+      "namespace": "Loom.LevelFailRvContinue",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31089,
+      "declaring_type": -1,
+      "method_count": 28,
+      "method_start": 297193,
+      "name": "LevelFailRvContinueLogic",
+      "namespace": "bbl",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31090,
+      "declaring_type": -1,
+      "method_count": 5,
+      "method_start": 297221,
+      "name": "LevelFailRvContinueConfigService",
+      "namespace": "Loom.LevelFailRvContinue",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31092,
+      "declaring_type": -1,
+      "method_count": 72,
+      "method_start": 297226,
+      "name": "LevelFailRvContinueSystem",
+      "namespace": "Loom.LevelFailRvContinue",
+      "nested_type_count": 1,
+      "nested_type_start": 10632
+    },
+    {
+      "index": 31093,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 297304,
+      "name": "LevelFailRvContinueConfigPlainVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31094,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 297305,
+      "name": "LevelFailRvContinueDataPersistentList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31095,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 297306,
+      "name": "LevelFailRvContinueDataPersistentVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31096,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 297307,
+      "name": "LevelFailRvContinueDataPlainDataList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31097,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 297308,
+      "name": "LevelFailRvContinueDataPlainEvent",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31098,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 297309,
+      "name": "LevelFailRvContinueDataPlainVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31625,
+      "declaring_type": -1,
+      "method_count": 4,
+      "method_start": 299235,
+      "name": "LevelFailFreeContinueConfig",
+      "namespace": "Loom.LevelFailFreeContinue",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31626,
+      "declaring_type": -1,
+      "method_count": 3,
+      "method_start": 299239,
+      "name": "LevelFailFreeContinueData",
+      "namespace": "Loom.LevelFailFreeContinue",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31627,
+      "declaring_type": -1,
+      "method_count": 23,
+      "method_start": 299242,
+      "name": "LevelFailFreeContinueLogic",
+      "namespace": "yy",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31628,
+      "declaring_type": -1,
+      "method_count": 3,
+      "method_start": 299265,
+      "name": "LevelFailFreeContinueConfigService",
+      "namespace": "Loom.LevelFailFreeContinue",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31629,
+      "declaring_type": -1,
+      "method_count": 48,
+      "method_start": 299268,
+      "name": "LevelFailFreeContinueSystem",
+      "namespace": "Loom.LevelFailFreeContinue",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31630,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 299316,
+      "name": "LevelFailFreeContinueConfigPlainVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31631,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 299317,
+      "name": "LevelFailFreeContinueDataPersistentList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31632,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 299318,
+      "name": "LevelFailFreeContinueDataPersistentVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31633,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 299319,
+      "name": "LevelFailFreeContinueDataPlainDataList",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31634,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 299320,
+      "name": "LevelFailFreeContinueDataPlainEvent",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31635,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 299321,
+      "name": "LevelFailFreeContinueDataPlainVar",
+      "namespace": "Crescive.Unyverse",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    },
+    {
+      "index": 31661,
+      "declaring_type": -1,
+      "method_count": 1,
+      "method_start": 299383,
+      "name": "LevelFailEventArgs",
+      "namespace": "Crescive.Analytics.Trackers",
+      "nested_type_count": 0,
+      "nested_type_start": -1
+    }
+  ],
+  "methods": [
+    {
+      "index": 2227,
+      "declaring_type": 215,
+      "name": ".ctor"
+    },
+    {
+      "index": 2654,
+      "declaring_type": 267,
+      "name": ".ctor"
+    },
+    {
+      "index": 2655,
+      "declaring_type": 267,
+      "name": "kas"
+    },
+    {
+      "index": 2656,
+      "declaring_type": 267,
+      "name": "IsDataValid"
+    },
+    {
+      "index": 2657,
+      "declaring_type": 268,
+      "name": ".ctor"
+    },
+    {
+      "index": 2658,
+      "declaring_type": 269,
+      "name": "IsDataValid"
+    },
+    {
+      "index": 2659,
+      "declaring_type": 269,
+      "name": ".ctor"
+    },
+    {
+      "index": 2660,
+      "declaring_type": 269,
+      "name": "lyz"
+    },
+    {
+      "index": 2661,
+      "declaring_type": 269,
+      "name": "lfq"
+    },
+    {
+      "index": 2662,
+      "declaring_type": 269,
+      "name": "vy"
+    },
+    {
+      "index": 2663,
+      "declaring_type": 270,
+      "name": ".ctor"
+    },
+    {
+      "index": 2800,
+      "declaring_type": 321,
+      "name": ".ctor"
+    },
+    {
+      "index": 2801,
+      "declaring_type": 322,
+      "name": ".ctor"
+    },
+    {
+      "index": 2802,
+      "declaring_type": 323,
+      "name": ".ctor"
+    },
+    {
+      "index": 2803,
+      "declaring_type": 324,
+      "name": ".ctor"
+    },
+    {
+      "index": 2804,
+      "declaring_type": 325,
+      "name": ".ctor"
+    },
+    {
+      "index": 2805,
+      "declaring_type": 326,
+      "name": ".ctor"
+    },
+    {
+      "index": 10540,
+      "declaring_type": 1059,
+      "name": "OnDisable"
+    },
+    {
+      "index": 10541,
+      "declaring_type": 1059,
+      "name": "csl"
+    },
+    {
+      "index": 10542,
+      "declaring_type": 1059,
+      "name": "ResetPowerupsUsageData"
+    },
+    {
+      "index": 10543,
+      "declaring_type": 1059,
+      "name": "OnLevelLoaded"
+    },
+    {
+      "index": 10544,
+      "declaring_type": 1059,
+      "name": "OnLevelRestarted"
+    },
+    {
+      "index": 10545,
+      "declaring_type": 1059,
+      "name": "dhd"
+    },
+    {
+      "index": 10546,
+      "declaring_type": 1059,
+      "name": "OnEnable"
+    },
+    {
+      "index": 10547,
+      "declaring_type": 1059,
+      "name": ".ctor"
+    },
+    {
+      "index": 10548,
+      "declaring_type": 1059,
+      "name": "cym"
+    },
+    {
+      "index": 10549,
+      "declaring_type": 1059,
+      "name": "dup"
+    },
+    {
+      "index": 10550,
+      "declaring_type": 1059,
+      "name": "ejw"
+    },
+    {
+      "index": 10551,
+      "declaring_type": 1059,
+      "name": "dyw"
+    },
+    {
+      "index": 10552,
+      "declaring_type": 1059,
+      "name": "Start"
+    },
+    {
+      "index": 10553,
+      "declaring_type": 1059,
+      "name": "iva"
+    },
+    {
+      "index": 10554,
+      "declaring_type": 1059,
+      "name": "eza"
+    },
+    {
+      "index": 10555,
+      "declaring_type": 1059,
+      "name": "mkg"
+    },
+    {
+      "index": 10556,
+      "declaring_type": 1059,
+      "name": "mcl"
+    },
+    {
+      "index": 10557,
+      "declaring_type": 1059,
+      "name": "lwn"
+    },
+    {
+      "index": 10558,
+      "declaring_type": 1059,
+      "name": "OnPowerUpPerformed"
+    },
+    {
+      "index": 10559,
+      "declaring_type": 1059,
+      "name": "jby"
+    },
+    {
+      "index": 10560,
+      "declaring_type": 1061,
+      "name": "foz"
+    },
+    {
+      "index": 10561,
+      "declaring_type": 1061,
+      "name": ".ctor"
+    },
+    {
+      "index": 10562,
+      "declaring_type": 1061,
+      "name": ".ctor"
+    },
+    {
+      "index": 10563,
+      "declaring_type": 1061,
+      "name": "Clone"
+    },
+    {
+      "index": 10564,
+      "declaring_type": 1061,
+      "name": ".ctor"
+    },
+    {
+      "index": 10565,
+      "declaring_type": 1061,
+      "name": "GetOrAdd"
+    },
+    {
+      "index": 10572,
+      "declaring_type": 1062,
+      "name": "lao"
+    },
+    {
+      "index": 10573,
+      "declaring_type": 1062,
+      "name": ".ctor"
+    },
+    {
+      "index": 10574,
+      "declaring_type": 1062,
+      "name": "onu"
+    },
+    {
+      "index": 10575,
+      "declaring_type": 1062,
+      "name": "Clone"
+    },
+    {
+      "index": 10576,
+      "declaring_type": 1062,
+      "name": ".ctor"
+    },
+    {
+      "index": 10577,
+      "declaring_type": 1062,
+      "name": ".ctor"
+    },
+    {
+      "index": 11167,
+      "declaring_type": 1132,
+      "name": "TryUnpack"
+    },
+    {
+      "index": 11168,
+      "declaring_type": 1132,
+      "name": "duy"
+    },
+    {
+      "index": 11169,
+      "declaring_type": 1132,
+      "name": "nnd"
+    },
+    {
+      "index": 11170,
+      "declaring_type": 1132,
+      "name": "jzz"
+    },
+    {
+      "index": 11171,
+      "declaring_type": 1132,
+      "name": "eqp"
+    },
+    {
+      "index": 11172,
+      "declaring_type": 1132,
+      "name": "csq"
+    },
+    {
+      "index": 11173,
+      "declaring_type": 1132,
+      "name": "ggk"
+    },
+    {
+      "index": 11174,
+      "declaring_type": 1132,
+      "name": "Pack"
+    },
+    {
+      "index": 11175,
+      "declaring_type": 1132,
+      "name": "cgc"
+    },
+    {
+      "index": 11176,
+      "declaring_type": 1132,
+      "name": "mbg"
+    },
+    {
+      "index": 11177,
+      "declaring_type": 1132,
+      "name": "bjy"
+    },
+    {
+      "index": 11178,
+      "declaring_type": 1132,
+      "name": "HasCoordinates"
+    },
+    {
+      "index": 13363,
+      "declaring_type": 1232,
+      "name": "cdy"
+    },
+    {
+      "index": 13364,
+      "declaring_type": 1232,
+      "name": "iot"
+    },
+    {
+      "index": 13365,
+      "declaring_type": 1232,
+      "name": "OnDisable"
+    },
+    {
+      "index": 13366,
+      "declaring_type": 1232,
+      "name": "dwd"
+    },
+    {
+      "index": 13367,
+      "declaring_type": 1232,
+      "name": ".ctor"
+    },
+    {
+      "index": 13368,
+      "declaring_type": 1232,
+      "name": "brd"
+    },
+    {
+      "index": 13369,
+      "declaring_type": 1232,
+      "name": "ExecutePowerup"
+    },
+    {
+      "index": 13370,
+      "declaring_type": 1232,
+      "name": "bcu"
+    },
+    {
+      "index": 13371,
+      "declaring_type": 1232,
+      "name": "dsj"
+    },
+    {
+      "index": 13372,
+      "declaring_type": 1232,
+      "name": "cnn"
+    },
+    {
+      "index": 13373,
+      "declaring_type": 1232,
+      "name": "hpc"
+    },
+    {
+      "index": 13374,
+      "declaring_type": 1232,
+      "name": "dni"
+    },
+    {
+      "index": 13375,
+      "declaring_type": 1232,
+      "name": "OnPowerupRequested"
+    },
+    {
+      "index": 13376,
+      "declaring_type": 1232,
+      "name": "OnEnable"
+    },
+    {
+      "index": 13377,
+      "declaring_type": 1232,
+      "name": "geb"
+    },
+    {
+      "index": 13384,
+      "declaring_type": 1233,
+      "name": "ixq"
+    },
+    {
+      "index": 13385,
+      "declaring_type": 1233,
+      "name": "OnEnable"
+    },
+    {
+      "index": 13386,
+      "declaring_type": 1233,
+      "name": "get_Channel"
+    },
+    {
+      "index": 13387,
+      "declaring_type": 1233,
+      "name": "nhv"
+    },
+    {
+      "index": 13388,
+      "declaring_type": 1233,
+      "name": "net"
+    },
+    {
+      "index": 13389,
+      "declaring_type": 1233,
+      "name": "OnShooterTapped"
+    },
+    {
+      "index": 13390,
+      "declaring_type": 1233,
+      "name": "nnv"
+    },
+    {
+      "index": 13391,
+      "declaring_type": 1233,
+      "name": "OnPowerupRequested"
+    },
+    {
+      "index": 13392,
+      "declaring_type": 1233,
+      "name": ".ctor"
+    },
+    {
+      "index": 13393,
+      "declaring_type": 1233,
+      "name": "lmx"
+    },
+    {
+      "index": 13394,
+      "declaring_type": 1233,
+      "name": "bdz"
+    },
+    {
+      "index": 13395,
+      "declaring_type": 1233,
+      "name": "by"
+    },
+    {
+      "index": 13396,
+      "declaring_type": 1233,
+      "name": "noi"
+    },
+    {
+      "index": 13397,
+      "declaring_type": 1233,
+      "name": "OnDisable"
+    },
+    {
+      "index": 13398,
+      "declaring_type": 1233,
+      "name": "iv"
+    },
+    {
+      "index": 13399,
+      "declaring_type": 1233,
+      "name": "OnPowerupCanceledOrFinished"
+    },
+    {
+      "index": 13400,
+      "declaring_type": 1233,
+      "name": "ndw"
+    },
+    {
+      "index": 13401,
+      "declaring_type": 1233,
+      "name": "PerformPowerup"
+    },
+    {
+      "index": 13552,
+      "declaring_type": 1258,
+      "name": "get_Section"
+    },
+    {
+      "index": 13553,
+      "declaring_type": 1258,
+      "name": "gzj"
+    },
+    {
+      "index": 13554,
+      "declaring_type": 1258,
+      "name": "glh"
+    },
+    {
+      "index": 13555,
+      "declaring_type": 1258,
+      "name": "get_DisplayName"
+    },
+    {
+      "index": 13556,
+      "declaring_type": 1258,
+      "name": "ddk"
+    },
+    {
+      "index": 13557,
+      "declaring_type": 1258,
+      "name": "mgg"
+    },
+    {
+      "index": 13558,
+      "declaring_type": 1258,
+      "name": "Refresh"
+    },
+    {
+      "index": 13559,
+      "declaring_type": 1258,
+      "name": "fnt"
+    },
+    {
+      "index": 13560,
+      "declaring_type": 1258,
+      "name": "ibo"
+    },
+    {
+      "index": 13561,
+      "declaring_type": 1258,
+      "name": "<CreateButtons>b__11_1"
+    },
+    {
+      "index": 13562,
+      "declaring_type": 1258,
+      "name": "izf"
+    },
+    {
+      "index": 13563,
+      "declaring_type": 1258,
+      "name": "<CreateButtons>b__11_3"
+    },
+    {
+      "index": 13564,
+      "declaring_type": 1258,
+      "name": "iyb"
+    },
+    {
+      "index": 13565,
+      "declaring_type": 1258,
+      "name": "fau"
+    },
+    {
+      "index": 13566,
+      "declaring_type": 1258,
+      "name": "jsg"
+    },
+    {
+      "index": 13567,
+      "declaring_type": 1258,
+      "name": "dcy"
+    },
+    {
+      "index": 13568,
+      "declaring_type": 1258,
+      "name": "ua"
+    },
+    {
+      "index": 13569,
+      "declaring_type": 1258,
+      "name": "<CreateButtons>b__11_2"
+    },
+    {
+      "index": 13570,
+      "declaring_type": 1258,
+      "name": "Build"
+    },
+    {
+      "index": 13571,
+      "declaring_type": 1258,
+      "name": "CreateStateRows"
+    },
+    {
+      "index": 13572,
+      "declaring_type": 1258,
+      "name": "cuj"
+    },
+    {
+      "index": 13573,
+      "declaring_type": 1258,
+      "name": "gxr"
+    },
+    {
+      "index": 13574,
+      "declaring_type": 1258,
+      "name": "hon"
+    },
+    {
+      "index": 13575,
+      "declaring_type": 1258,
+      "name": "<CreateButtons>b__11_0"
+    },
+    {
+      "index": 13576,
+      "declaring_type": 1258,
+      "name": "foq"
+    },
+    {
+      "index": 13577,
+      "declaring_type": 1258,
+      "name": "giw"
+    },
+    {
+      "index": 13578,
+      "declaring_type": 1258,
+      "name": "get_AutoRefreshInterval"
+    },
+    {
+      "index": 13579,
+      "declaring_type": 1258,
+      "name": ".ctor"
+    },
+    {
+      "index": 13580,
+      "declaring_type": 1258,
+      "name": "luu"
+    },
+    {
+      "index": 13581,
+      "declaring_type": 1258,
+      "name": "klx"
+    },
+    {
+      "index": 13582,
+      "declaring_type": 1258,
+      "name": "ibm"
+    },
+    {
+      "index": 13583,
+      "declaring_type": 1258,
+      "name": "lqt"
+    },
+    {
+      "index": 13584,
+      "declaring_type": 1258,
+      "name": "lrj"
+    },
+    {
+      "index": 13585,
+      "declaring_type": 1258,
+      "name": "CreateButtons"
+    },
+    {
+      "index": 13586,
+      "declaring_type": 1258,
+      "name": "nuj"
+    },
+    {
+      "index": 13587,
+      "declaring_type": 1258,
+      "name": "nhy"
+    },
+    {
+      "index": 13588,
+      "declaring_type": 1259,
+      "name": "get_DisplayName"
+    },
+    {
+      "index": 13589,
+      "declaring_type": 1259,
+      "name": "cix"
+    },
+    {
+      "index": 13590,
+      "declaring_type": 1259,
+      "name": "get_AutoRefreshInterval"
+    },
+    {
+      "index": 13591,
+      "declaring_type": 1259,
+      "name": "CreateConfigRows"
+    },
+    {
+      "index": 13592,
+      "declaring_type": 1259,
+      "name": "cki"
+    },
+    {
+      "index": 13593,
+      "declaring_type": 1259,
+      "name": "fho"
+    },
+    {
+      "index": 13594,
+      "declaring_type": 1259,
+      "name": "lbb"
+    },
+    {
+      "index": 13595,
+      "declaring_type": 1259,
+      "name": "eae"
+    },
+    {
+      "index": 13596,
+      "declaring_type": 1259,
+      "name": "dhr"
+    },
+    {
+      "index": 13597,
+      "declaring_type": 1259,
+      "name": "ouh"
+    },
+    {
+      "index": 13598,
+      "declaring_type": 1259,
+      "name": "jah"
+    },
+    {
+      "index": 13599,
+      "declaring_type": 1259,
+      "name": "<CreateUseButtons>b__17_0"
+    },
+    {
+      "index": 13600,
+      "declaring_type": 1259,
+      "name": "<CreateFailButtons>b__18_1"
+    },
+    {
+      "index": 13601,
+      "declaring_type": 1259,
+      "name": "CreateFailButtons"
+    },
+    {
+      "index": 13602,
+      "declaring_type": 1259,
+      "name": ".ctor"
+    },
+    {
+      "index": 13603,
+      "declaring_type": 1259,
+      "name": "CreateUseButtons"
+    },
+    {
+      "index": 13604,
+      "declaring_type": 1259,
+      "name": "etn"
+    },
+    {
+      "index": 13605,
+      "declaring_type": 1259,
+      "name": "kqr"
+    },
+    {
+      "index": 13606,
+      "declaring_type": 1259,
+      "name": "<CreateUseButtons>b__17_1"
+    },
+    {
+      "index": 13607,
+      "declaring_type": 1259,
+      "name": "CreateDayButtons"
+    },
+    {
+      "index": 13608,
+      "declaring_type": 1259,
+      "name": "jgt"
+    },
+    {
+      "index": 13609,
+      "declaring_type": 1259,
+      "name": "fhb"
+    },
+    {
+      "index": 13610,
+      "declaring_type": 1259,
+      "name": "gam"
+    },
+    {
+      "index": 13611,
+      "declaring_type": 1259,
+      "name": "cvx"
+    },
+    {
+      "index": 13612,
+      "declaring_type": 1259,
+      "name": "lvf"
+    },
+    {
+      "index": 13613,
+      "declaring_type": 1259,
+      "name": "Build"
+    },
+    {
+      "index": 13614,
+      "declaring_type": 1259,
+      "name": "dau"
+    },
+    {
+      "index": 13615,
+      "declaring_type": 1259,
+      "name": "nra"
+    },
+    {
+      "index": 13616,
+      "declaring_type": 1259,
+      "name": "fbe"
+    },
+    {
+      "index": 13617,
+      "declaring_type": 1259,
+      "name": "<CreateFailButtons>b__18_0"
+    },
+    {
+      "index": 13618,
+      "declaring_type": 1259,
+      "name": "gcs"
+    },
+    {
+      "index": 13619,
+      "declaring_type": 1259,
+      "name": "Refresh"
+    },
+    {
+      "index": 13620,
+      "declaring_type": 1259,
+      "name": "dqi"
+    },
+    {
+      "index": 13621,
+      "declaring_type": 1259,
+      "name": "gga"
+    },
+    {
+      "index": 13622,
+      "declaring_type": 1259,
+      "name": "lst"
+    },
+    {
+      "index": 13623,
+      "declaring_type": 1259,
+      "name": "cyp"
+    },
+    {
+      "index": 13624,
+      "declaring_type": 1259,
+      "name": "kdz"
+    },
+    {
+      "index": 13625,
+      "declaring_type": 1259,
+      "name": "hnx"
+    },
+    {
+      "index": 13626,
+      "declaring_type": 1259,
+      "name": "nof"
+    },
+    {
+      "index": 13627,
+      "declaring_type": 1259,
+      "name": "gdm"
+    },
+    {
+      "index": 13628,
+      "declaring_type": 1259,
+      "name": "imy"
+    },
+    {
+      "index": 13629,
+      "declaring_type": 1259,
+      "name": "lle"
+    },
+    {
+      "index": 13630,
+      "declaring_type": 1259,
+      "name": "jjp"
+    },
+    {
+      "index": 13631,
+      "declaring_type": 1259,
+      "name": "lnt"
+    },
+    {
+      "index": 13632,
+      "declaring_type": 1259,
+      "name": "get_Section"
+    },
+    {
+      "index": 13633,
+      "declaring_type": 1259,
+      "name": "lrb"
+    },
+    {
+      "index": 13634,
+      "declaring_type": 1259,
+      "name": "kos"
+    },
+    {
+      "index": 13635,
+      "declaring_type": 1259,
+      "name": "fxx"
+    },
+    {
+      "index": 13636,
+      "declaring_type": 1259,
+      "name": "nid"
+    },
+    {
+      "index": 13637,
+      "declaring_type": 1259,
+      "name": "lev"
+    },
+    {
+      "index": 13638,
+      "declaring_type": 1259,
+      "name": "bgf"
+    },
+    {
+      "index": 13639,
+      "declaring_type": 1259,
+      "name": "<CreateDayButtons>b__19_0"
+    },
+    {
+      "index": 13640,
+      "declaring_type": 1259,
+      "name": "dxv"
+    },
+    {
+      "index": 13641,
+      "declaring_type": 1259,
+      "name": "CreateStateRows"
+    },
+    {
+      "index": 13642,
+      "declaring_type": 1259,
+      "name": "dec"
+    },
+    {
+      "index": 13643,
+      "declaring_type": 1259,
+      "name": "ijo"
+    },
+    {
+      "index": 13644,
+      "declaring_type": 1259,
+      "name": "lvo"
+    },
+    {
+      "index": 13645,
+      "declaring_type": 1259,
+      "name": "hrp"
+    },
+    {
+      "index": 13719,
+      "declaring_type": 1271,
+      "name": "Get"
+    },
+    {
+      "index": 13720,
+      "declaring_type": 1271,
+      "name": ".ctor"
+    },
+    {
+      "index": 13721,
+      "declaring_type": 1272,
+      "name": "cjw"
+    },
+    {
+      "index": 13722,
+      "declaring_type": 1272,
+      "name": "OnDestroy"
+    },
+    {
+      "index": 13723,
+      "declaring_type": 1272,
+      "name": "otf"
+    },
+    {
+      "index": 13724,
+      "declaring_type": 1272,
+      "name": "dwa"
+    },
+    {
+      "index": 13725,
+      "declaring_type": 1272,
+      "name": ".ctor"
+    },
+    {
+      "index": 13726,
+      "declaring_type": 1272,
+      "name": "nvn"
+    },
+    {
+      "index": 13727,
+      "declaring_type": 1272,
+      "name": "nvr"
+    },
+    {
+      "index": 13728,
+      "declaring_type": 1272,
+      "name": "Awake"
+    },
+    {
+      "index": 13729,
+      "declaring_type": 1272,
+      "name": "kxx"
+    },
+    {
+      "index": 13730,
+      "declaring_type": 1273,
+      "name": "fav"
+    },
+    {
+      "index": 13731,
+      "declaring_type": 1273,
+      "name": ".ctor"
+    },
+    {
+      "index": 13732,
+      "declaring_type": 1273,
+      "name": "hbx"
+    },
+    {
+      "index": 13733,
+      "declaring_type": 1273,
+      "name": "Call"
+    },
+    {
+      "index": 13734,
+      "declaring_type": 1273,
+      "name": "nh"
+    },
+    {
+      "index": 13735,
+      "declaring_type": 1274,
+      "name": "OnEnable"
+    },
+    {
+      "index": 13736,
+      "declaring_type": 1274,
+      "name": "caa"
+    },
+    {
+      "index": 13737,
+      "declaring_type": 1274,
+      "name": "OnLevelCreated"
+    },
+    {
+      "index": 13738,
+      "declaring_type": 1274,
+      "name": "iwp"
+    },
+    {
+      "index": 13739,
+      "declaring_type": 1274,
+      "name": "hsh"
+    },
+    {
+      "index": 13740,
+      "declaring_type": 1274,
+      "name": ".ctor"
+    },
+    {
+      "index": 13741,
+      "declaring_type": 1274,
+      "name": "OnDisable"
+    },
+    {
+      "index": 13742,
+      "declaring_type": 1275,
+      "name": "bwp"
+    },
+    {
+      "index": 13743,
+      "declaring_type": 1275,
+      "name": "OnResourceReleased"
+    },
+    {
+      "index": 13744,
+      "declaring_type": 1275,
+      "name": ".ctor"
+    },
+    {
+      "index": 13745,
+      "declaring_type": 1275,
+      "name": "OnEnable"
+    },
+    {
+      "index": 13746,
+      "declaring_type": 1275,
+      "name": "kin"
+    },
+    {
+      "index": 13747,
+      "declaring_type": 1275,
+      "name": "cfp"
+    },
+    {
+      "index": 13748,
+      "declaring_type": 1275,
+      "name": "OnDisable"
+    },
+    {
+      "index": 13749,
+      "declaring_type": 1275,
+      "name": "hri"
+    },
+    {
+      "index": 13750,
+      "declaring_type": 1275,
+      "name": "cmy"
+    },
+    {
+      "index": 13751,
+      "declaring_type": 1276,
+      "name": "lyp"
+    },
+    {
+      "index": 13752,
+      "declaring_type": 1276,
+      "name": ".ctor"
+    },
+    {
+      "index": 13753,
+      "declaring_type": 1276,
+      "name": "Get"
+    },
+    {
+      "index": 13754,
+      "declaring_type": 1276,
+      "name": "hxo"
+    },
+    {
+      "index": 13755,
+      "declaring_type": 1277,
+      "name": "Awake"
+    },
+    {
+      "index": 13756,
+      "declaring_type": 1277,
+      "name": "eda"
+    },
+    {
+      "index": 13757,
+      "declaring_type": 1277,
+      "name": "ffj"
+    },
+    {
+      "index": 13758,
+      "declaring_type": 1277,
+      "name": "crz"
+    },
+    {
+      "index": 13759,
+      "declaring_type": 1277,
+      "name": "nuh"
+    },
+    {
+      "index": 13760,
+      "declaring_type": 1277,
+      "name": ".ctor"
+    },
+    {
+      "index": 13761,
+      "declaring_type": 1277,
+      "name": "mbx"
+    },
+    {
+      "index": 13762,
+      "declaring_type": 1277,
+      "name": "OnDestroy"
+    },
+    {
+      "index": 13763,
+      "declaring_type": 1279,
+      "name": "jpq"
+    },
+    {
+      "index": 13764,
+      "declaring_type": 1279,
+      "name": "Grant"
+    },
+    {
+      "index": 13765,
+      "declaring_type": 1279,
+      "name": "hvz"
+    },
+    {
+      "index": 13766,
+      "declaring_type": 1279,
+      "name": ".ctor"
+    },
+    {
+      "index": 13767,
+      "declaring_type": 1279,
+      "name": "gzz"
+    },
+    {
+      "index": 13768,
+      "declaring_type": 1279,
+      "name": "GrantAsync"
+    },
+    {
+      "index": 13769,
+      "declaring_type": 1279,
+      "name": "cva"
+    },
+    {
+      "index": 13770,
+      "declaring_type": 1279,
+      "name": "kon"
+    },
+    {
+      "index": 13776,
+      "declaring_type": 1280,
+      "name": "OnPush"
+    },
+    {
+      "index": 13777,
+      "declaring_type": 1280,
+      "name": ".ctor"
+    },
+    {
+      "index": 13778,
+      "declaring_type": 1280,
+      "name": "OnEnable"
+    },
+    {
+      "index": 13779,
+      "declaring_type": 1280,
+      "name": "dlz"
+    },
+    {
+      "index": 13780,
+      "declaring_type": 1280,
+      "name": "ohl"
+    },
+    {
+      "index": 13781,
+      "declaring_type": 1280,
+      "name": "OnDisable"
+    },
+    {
+      "index": 13782,
+      "declaring_type": 1280,
+      "name": "lc"
+    },
+    {
+      "index": 13783,
+      "declaring_type": 1280,
+      "name": "ejs"
+    },
+    {
+      "index": 13784,
+      "declaring_type": 1280,
+      "name": "hoa"
+    },
+    {
+      "index": 13785,
+      "declaring_type": 1280,
+      "name": "kpy"
+    },
+    {
+      "index": 13786,
+      "declaring_type": 1280,
+      "name": "nav"
+    },
+    {
+      "index": 13787,
+      "declaring_type": 1280,
+      "name": "UpdateView"
+    },
+    {
+      "index": 13788,
+      "declaring_type": 1283,
+      "name": "xe"
+    },
+    {
+      "index": 13789,
+      "declaring_type": 1283,
+      "name": "fqr"
+    },
+    {
+      "index": 13790,
+      "declaring_type": 1283,
+      "name": "get_MiniShopId"
+    },
+    {
+      "index": 13791,
+      "declaring_type": 1283,
+      "name": "kxa"
+    },
+    {
+      "index": 13792,
+      "declaring_type": 1283,
+      "name": "dys"
+    },
+    {
+      "index": 13793,
+      "declaring_type": 1283,
+      "name": "get_LevelFailOfferId"
+    },
+    {
+      "index": 13794,
+      "declaring_type": 1283,
+      "name": "lxu"
+    },
+    {
+      "index": 13795,
+      "declaring_type": 1283,
+      "name": "SubscribeToIAPController"
+    },
+    {
+      "index": 13796,
+      "declaring_type": 1283,
+      "name": "kfn"
+    },
+    {
+      "index": 13797,
+      "declaring_type": 1283,
+      "name": "get_Controller"
+    },
+    {
+      "index": 13798,
+      "declaring_type": 1283,
+      "name": "clg"
+    },
+    {
+      "index": 13799,
+      "declaring_type": 1283,
+      "name": "kwb"
+    },
+    {
+      "index": 13800,
+      "declaring_type": 1283,
+      "name": "fxp"
+    },
+    {
+      "index": 13801,
+      "declaring_type": 1283,
+      "name": "nwt"
+    },
+    {
+      "index": 13802,
+      "declaring_type": 1283,
+      "name": "ilh"
+    },
+    {
+      "index": 13803,
+      "declaring_type": 1283,
+      "name": "fbg"
+    },
+    {
+      "index": 13804,
+      "declaring_type": 1283,
+      "name": "jvs"
+    },
+    {
+      "index": 13805,
+      "declaring_type": 1283,
+      "name": "bsa"
+    },
+    {
+      "index": 13806,
+      "declaring_type": 1283,
+      "name": "OnPurchaseCompleted"
+    },
+    {
+      "index": 13807,
+      "declaring_type": 1283,
+      "name": "lri"
+    },
+    {
+      "index": 13808,
+      "declaring_type": 1283,
+      "name": "OnDestroy"
+    },
+    {
+      "index": 13809,
+      "declaring_type": 1283,
+      "name": "ShowLevelFailOfferView"
+    },
+    {
+      "index": 13810,
+      "declaring_type": 1283,
+      "name": ".ctor"
+    },
+    {
+      "index": 13811,
+      "declaring_type": 1283,
+      "name": "Start"
+    },
+    {
+      "index": 13825,
+      "declaring_type": 1284,
+      "name": "get_Title"
+    },
+    {
+      "index": 13826,
+      "declaring_type": 1284,
+      "name": "lmg"
+    },
+    {
+      "index": 13827,
+      "declaring_type": 1284,
+      "name": "dbg"
+    },
+    {
+      "index": 13828,
+      "declaring_type": 1284,
+      "name": "get_VideoClip"
+    },
+    {
+      "index": 13829,
+      "declaring_type": 1284,
+      "name": "tw"
+    },
+    {
+      "index": 13830,
+      "declaring_type": 1284,
+      "name": "set_Description"
+    },
+    {
+      "index": 13831,
+      "declaring_type": 1284,
+      "name": "get_PopoverIcon"
+    },
+    {
+      "index": 13832,
+      "declaring_type": 1284,
+      "name": "eig"
+    },
+    {
+      "index": 13833,
+      "declaring_type": 1284,
+      "name": "mtc"
+    },
+    {
+      "index": 13834,
+      "declaring_type": 1284,
+      "name": "jsz"
+    },
+    {
+      "index": 13835,
+      "declaring_type": 1284,
+      "name": "set_PopoverIcon"
+    },
+    {
+      "index": 13836,
+      "declaring_type": 1284,
+      "name": "set_VideoClip"
+    },
+    {
+      "index": 13837,
+      "declaring_type": 1284,
+      "name": "jzn"
+    },
+    {
+      "index": 13838,
+      "declaring_type": 1284,
+      "name": "eon"
+    },
+    {
+      "index": 13839,
+      "declaring_type": 1284,
+      "name": "get_Description"
+    },
+    {
+      "index": 13840,
+      "declaring_type": 1284,
+      "name": "ffx"
+    },
+    {
+      "index": 13841,
+      "declaring_type": 1284,
+      "name": "erh"
+    },
+    {
+      "index": 13842,
+      "declaring_type": 1284,
+      "name": "eqb"
+    },
+    {
+      "index": 13843,
+      "declaring_type": 1284,
+      "name": ".ctor"
+    },
+    {
+      "index": 13844,
+      "declaring_type": 1284,
+      "name": "htb"
+    },
+    {
+      "index": 13845,
+      "declaring_type": 1284,
+      "name": "gvy"
+    },
+    {
+      "index": 13846,
+      "declaring_type": 1284,
+      "name": "hal"
+    },
+    {
+      "index": 13847,
+      "declaring_type": 1284,
+      "name": "cwh"
+    },
+    {
+      "index": 13848,
+      "declaring_type": 1284,
+      "name": "ihj"
+    },
+    {
+      "index": 13849,
+      "declaring_type": 1284,
+      "name": "hbk"
+    },
+    {
+      "index": 13850,
+      "declaring_type": 1284,
+      "name": "itf"
+    },
+    {
+      "index": 13851,
+      "declaring_type": 1284,
+      "name": "haj"
+    },
+    {
+      "index": 13852,
+      "declaring_type": 1284,
+      "name": "set_PopoverInfo"
+    },
+    {
+      "index": 13853,
+      "declaring_type": 1284,
+      "name": "IsMatch"
+    },
+    {
+      "index": 13854,
+      "declaring_type": 1284,
+      "name": "set_Title"
+    },
+    {
+      "index": 13855,
+      "declaring_type": 1284,
+      "name": "get_PopoverInfo"
+    },
+    {
+      "index": 13856,
+      "declaring_type": 1285,
+      "name": "Get"
+    },
+    {
+      "index": 13857,
+      "declaring_type": 1285,
+      "name": ".ctor"
+    },
+    {
+      "index": 13866,
+      "declaring_type": 1287,
+      "name": "ldm"
+    },
+    {
+      "index": 13867,
+      "declaring_type": 1287,
+      "name": "myh"
+    },
+    {
+      "index": 13868,
+      "declaring_type": 1287,
+      "name": "hzr"
+    },
+    {
+      "index": 13869,
+      "declaring_type": 1287,
+      "name": ".ctor"
+    },
+    {
+      "index": 13870,
+      "declaring_type": 1287,
+      "name": "UpdateViewInternal"
+    },
+    {
+      "index": 13871,
+      "declaring_type": 1287,
+      "name": "OnEnable"
+    },
+    {
+      "index": 13872,
+      "declaring_type": 1287,
+      "name": "fhr"
+    },
+    {
+      "index": 13873,
+      "declaring_type": 1287,
+      "name": "b"
+    },
+    {
+      "index": 13874,
+      "declaring_type": 1287,
+      "name": "jtn"
+    },
+    {
+      "index": 13875,
+      "declaring_type": 1288,
+      "name": "fgd"
+    },
+    {
+      "index": 13876,
+      "declaring_type": 1288,
+      "name": "OnDisable"
+    },
+    {
+      "index": 13877,
+      "declaring_type": 1288,
+      "name": "bs"
+    },
+    {
+      "index": 13878,
+      "declaring_type": 1288,
+      "name": "OnEnable"
+    },
+    {
+      "index": 13879,
+      "declaring_type": 1288,
+      "name": "icg"
+    },
+    {
+      "index": 13880,
+      "declaring_type": 1288,
+      "name": ".ctor"
+    },
+    {
+      "index": 13881,
+      "declaring_type": 1288,
+      "name": "UpdateViewInternal"
+    },
+    {
+      "index": 13882,
+      "declaring_type": 1288,
+      "name": "OnShow"
+    },
+    {
+      "index": 36985,
+      "declaring_type": 2500,
+      "name": "IsPriorityActive"
+    },
+    {
+      "index": 36986,
+      "declaring_type": 2500,
+      "name": ".ctor"
+    },
+    {
+      "index": 36987,
+      "declaring_type": 2500,
+      "name": "mhf"
+    },
+    {
+      "index": 39782,
+      "declaring_type": 2674,
+      "name": ".ctor"
+    },
+    {
+      "index": 39783,
+      "declaring_type": 2674,
+      "name": "GetValue"
+    },
+    {
+      "index": 39784,
+      "declaring_type": 2674,
+      "name": "fzy"
+    },
+    {
+      "index": 39785,
+      "declaring_type": 2674,
+      "name": "iga"
+    },
+    {
+      "index": 39786,
+      "declaring_type": 2674,
+      "name": "nec"
+    },
+    {
+      "index": 40291,
+      "declaring_type": 2711,
+      "name": "OnEnable"
+    },
+    {
+      "index": 40292,
+      "declaring_type": 2711,
+      "name": "OnPowerUpPurchased"
+    },
+    {
+      "index": 40293,
+      "declaring_type": 2711,
+      "name": "kkl"
+    },
+    {
+      "index": 40294,
+      "declaring_type": 2711,
+      "name": "OnPowerUpStarted"
+    },
+    {
+      "index": 40295,
+      "declaring_type": 2711,
+      "name": "osg"
+    },
+    {
+      "index": 40296,
+      "declaring_type": 2711,
+      "name": "ilw"
+    },
+    {
+      "index": 40297,
+      "declaring_type": 2711,
+      "name": "ger"
+    },
+    {
+      "index": 40298,
+      "declaring_type": 2711,
+      "name": "lcx"
+    },
+    {
+      "index": 40299,
+      "declaring_type": 2711,
+      "name": "jpx"
+    },
+    {
+      "index": 40300,
+      "declaring_type": 2711,
+      "name": "jyf"
+    },
+    {
+      "index": 40301,
+      "declaring_type": 2711,
+      "name": "ksk"
+    },
+    {
+      "index": 40302,
+      "declaring_type": 2711,
+      "name": "gsm"
+    },
+    {
+      "index": 40303,
+      "declaring_type": 2711,
+      "name": "nvl"
+    },
+    {
+      "index": 40304,
+      "declaring_type": 2711,
+      "name": "rb"
+    },
+    {
+      "index": 40305,
+      "declaring_type": 2711,
+      "name": "drk"
+    },
+    {
+      "index": 40306,
+      "declaring_type": 2711,
+      "name": ".ctor"
+    },
+    {
+      "index": 40307,
+      "declaring_type": 2711,
+      "name": "kib"
+    },
+    {
+      "index": 40308,
+      "declaring_type": 2711,
+      "name": "lom"
+    },
+    {
+      "index": 40309,
+      "declaring_type": 2711,
+      "name": "gfh"
+    },
+    {
+      "index": 40310,
+      "declaring_type": 2711,
+      "name": "GetResourceValue"
+    },
+    {
+      "index": 40311,
+      "declaring_type": 2711,
+      "name": "OnDisable"
+    },
+    {
+      "index": 59017,
+      "declaring_type": 3652,
+      "name": ".cctor"
+    },
+    {
+      "index": 59018,
+      "declaring_type": 3652,
+      "name": "get_LeaseManagerPollTime"
+    },
+    {
+      "index": 59019,
+      "declaring_type": 3652,
+      "name": "set_LeaseManagerPollTime"
+    },
+    {
+      "index": 59020,
+      "declaring_type": 3652,
+      "name": "get_LeaseTime"
+    },
+    {
+      "index": 59021,
+      "declaring_type": 3652,
+      "name": "set_LeaseTime"
+    },
+    {
+      "index": 59022,
+      "declaring_type": 3652,
+      "name": "get_RenewOnCallTime"
+    },
+    {
+      "index": 59023,
+      "declaring_type": 3652,
+      "name": "set_RenewOnCallTime"
+    },
+    {
+      "index": 59024,
+      "declaring_type": 3652,
+      "name": "get_SponsorshipTimeout"
+    },
+    {
+      "index": 59025,
+      "declaring_type": 3652,
+      "name": "set_SponsorshipTimeout"
+    },
+    {
+      "index": 59026,
+      "declaring_type": 3652,
+      "name": "TrackLifetime"
+    },
+    {
+      "index": 201377,
+      "declaring_type": 18420,
+      "name": "OnDestroy"
+    },
+    {
+      "index": 201378,
+      "declaring_type": 18420,
+      "name": ".ctor"
+    },
+    {
+      "index": 278577,
+      "declaring_type": 27710,
+      "name": ".ctor"
+    },
+    {
+      "index": 278578,
+      "declaring_type": 27711,
+      "name": ".ctor"
+    },
+    {
+      "index": 278579,
+      "declaring_type": 27712,
+      "name": ".ctor"
+    },
+    {
+      "index": 278580,
+      "declaring_type": 27713,
+      "name": ".ctor"
+    },
+    {
+      "index": 278581,
+      "declaring_type": 27714,
+      "name": ".ctor"
+    },
+    {
+      "index": 278582,
+      "declaring_type": 27715,
+      "name": ".ctor"
+    },
+    {
+      "index": 278583,
+      "declaring_type": 27716,
+      "name": ".ctor"
+    },
+    {
+      "index": 278584,
+      "declaring_type": 27717,
+      "name": ".ctor"
+    },
+    {
+      "index": 278585,
+      "declaring_type": 27718,
+      "name": ".ctor"
+    },
+    {
+      "index": 278586,
+      "declaring_type": 27719,
+      "name": ".ctor"
+    },
+    {
+      "index": 278587,
+      "declaring_type": 27720,
+      "name": ".ctor"
+    },
+    {
+      "index": 278588,
+      "declaring_type": 27721,
+      "name": ".ctor"
+    },
+    {
+      "index": 278589,
+      "declaring_type": 27722,
+      "name": ".ctor"
+    },
+    {
+      "index": 278590,
+      "declaring_type": 27723,
+      "name": ".ctor"
+    },
+    {
+      "index": 278591,
+      "declaring_type": 27724,
+      "name": ".ctor"
+    },
+    {
+      "index": 278592,
+      "declaring_type": 27725,
+      "name": ".ctor"
+    },
+    {
+      "index": 278593,
+      "declaring_type": 27726,
+      "name": ".ctor"
+    },
+    {
+      "index": 278594,
+      "declaring_type": 27727,
+      "name": ".ctor"
+    },
+    {
+      "index": 278595,
+      "declaring_type": 27728,
+      "name": ".ctor"
+    },
+    {
+      "index": 278596,
+      "declaring_type": 27729,
+      "name": ".ctor"
+    },
+    {
+      "index": 278597,
+      "declaring_type": 27730,
+      "name": ".ctor"
+    },
+    {
+      "index": 278598,
+      "declaring_type": 27731,
+      "name": ".ctor"
+    },
+    {
+      "index": 278599,
+      "declaring_type": 27732,
+      "name": ".ctor"
+    },
+    {
+      "index": 278600,
+      "declaring_type": 27733,
+      "name": ".ctor"
+    },
+    {
+      "index": 278601,
+      "declaring_type": 27734,
+      "name": ".ctor"
+    },
+    {
+      "index": 278602,
+      "declaring_type": 27735,
+      "name": ".ctor"
+    },
+    {
+      "index": 278603,
+      "declaring_type": 27736,
+      "name": ".ctor"
+    },
+    {
+      "index": 278604,
+      "declaring_type": 27737,
+      "name": ".ctor"
+    },
+    {
+      "index": 278605,
+      "declaring_type": 27738,
+      "name": ".ctor"
+    },
+    {
+      "index": 278606,
+      "declaring_type": 27739,
+      "name": ".ctor"
+    },
+    {
+      "index": 278607,
+      "declaring_type": 27740,
+      "name": ".ctor"
+    },
+    {
+      "index": 278608,
+      "declaring_type": 27741,
+      "name": ".ctor"
+    },
+    {
+      "index": 278609,
+      "declaring_type": 27742,
+      "name": ".ctor"
+    },
+    {
+      "index": 278610,
+      "declaring_type": 27743,
+      "name": ".ctor"
+    },
+    {
+      "index": 278611,
+      "declaring_type": 27744,
+      "name": ".ctor"
+    },
+    {
+      "index": 278612,
+      "declaring_type": 27745,
+      "name": ".ctor"
+    },
+    {
+      "index": 278613,
+      "declaring_type": 27746,
+      "name": ".ctor"
+    },
+    {
+      "index": 278614,
+      "declaring_type": 27747,
+      "name": ".ctor"
+    },
+    {
+      "index": 278615,
+      "declaring_type": 27748,
+      "name": ".ctor"
+    },
+    {
+      "index": 278616,
+      "declaring_type": 27749,
+      "name": ".ctor"
+    },
+    {
+      "index": 278617,
+      "declaring_type": 27750,
+      "name": ".ctor"
+    },
+    {
+      "index": 278618,
+      "declaring_type": 27751,
+      "name": ".ctor"
+    },
+    {
+      "index": 278619,
+      "declaring_type": 27752,
+      "name": ".ctor"
+    },
+    {
+      "index": 278620,
+      "declaring_type": 27753,
+      "name": ".ctor"
+    },
+    {
+      "index": 278621,
+      "declaring_type": 27754,
+      "name": ".ctor"
+    },
+    {
+      "index": 278622,
+      "declaring_type": 27755,
+      "name": ".ctor"
+    },
+    {
+      "index": 278623,
+      "declaring_type": 27756,
+      "name": ".ctor"
+    },
+    {
+      "index": 278624,
+      "declaring_type": 27757,
+      "name": "OnEnable"
+    },
+    {
+      "index": 278625,
+      "declaring_type": 27757,
+      "name": "OnDisable"
+    },
+    {
+      "index": 278626,
+      "declaring_type": 27757,
+      "name": "OnAnyPowerupCanceledOrFinished"
+    },
+    {
+      "index": 278627,
+      "declaring_type": 27757,
+      "name": ".ctor"
+    },
+    {
+      "index": 278634,
+      "declaring_type": 27761,
+      "name": "Get"
+    },
+    {
+      "index": 278635,
+      "declaring_type": 27761,
+      "name": ".ctor"
+    },
+    {
+      "index": 278636,
+      "declaring_type": 27764,
+      "name": "Compare"
+    },
+    {
+      "index": 278637,
+      "declaring_type": 27764,
+      "name": ".ctor"
+    },
+    {
+      "index": 278638,
+      "declaring_type": 27765,
+      "name": ".ctor"
+    },
+    {
+      "index": 278639,
+      "declaring_type": 27765,
+      "name": ".ctor"
+    },
+    {
+      "index": 278640,
+      "declaring_type": 27765,
+      "name": ".ctor"
+    },
+    {
+      "index": 278641,
+      "declaring_type": 27765,
+      "name": "Clone"
+    },
+    {
+      "index": 278642,
+      "declaring_type": 27766,
+      "name": "get_Powerups"
+    },
+    {
+      "index": 278643,
+      "declaring_type": 27766,
+      "name": ".ctor"
+    },
+    {
+      "index": 278644,
+      "declaring_type": 27767,
+      "name": ".ctor"
+    },
+    {
+      "index": 278645,
+      "declaring_type": 27767,
+      "name": ".ctor"
+    },
+    {
+      "index": 278646,
+      "declaring_type": 27767,
+      "name": ".ctor"
+    },
+    {
+      "index": 278647,
+      "declaring_type": 27767,
+      "name": "Clone"
+    },
+    {
+      "index": 278648,
+      "declaring_type": 27767,
+      "name": "GetFields"
+    },
+    {
+      "index": 278649,
+      "declaring_type": 27767,
+      "name": "GetKeys"
+    },
+    {
+      "index": 278650,
+      "declaring_type": 27767,
+      "name": "GetValues"
+    },
+    {
+      "index": 278651,
+      "declaring_type": 27767,
+      "name": "GetField"
+    },
+    {
+      "index": 278652,
+      "declaring_type": 27767,
+      "name": "GetInt"
+    },
+    {
+      "index": 278653,
+      "declaring_type": 27767,
+      "name": "GetFloat"
+    },
+    {
+      "index": 278654,
+      "declaring_type": 27767,
+      "name": "GetBool"
+    },
+    {
+      "index": 278655,
+      "declaring_type": 27767,
+      "name": "GetString"
+    },
+    {
+      "index": 278656,
+      "declaring_type": 27769,
+      "name": ".ctor"
+    },
+    {
+      "index": 278657,
+      "declaring_type": 27769,
+      "name": ".ctor"
+    },
+    {
+      "index": 278658,
+      "declaring_type": 27769,
+      "name": ".ctor"
+    },
+    {
+      "index": 278659,
+      "declaring_type": 27769,
+      "name": "Clone"
+    },
+    {
+      "index": 278660,
+      "declaring_type": 27770,
+      "name": ".ctor"
+    },
+    {
+      "index": 278661,
+      "declaring_type": 27770,
+      "name": ".ctor"
+    },
+    {
+      "index": 278662,
+      "declaring_type": 27770,
+      "name": ".ctor"
+    },
+    {
+      "index": 278663,
+      "declaring_type": 27770,
+      "name": "Clone"
+    },
+    {
+      "index": 278664,
+      "declaring_type": 27771,
+      "name": "RegisterInternal"
+    },
+    {
+      "index": 278665,
+      "declaring_type": 27771,
+      "name": "UnregisterInternal"
+    },
+    {
+      "index": 278666,
+      "declaring_type": 27771,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278667,
+      "declaring_type": 27771,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278668,
+      "declaring_type": 27771,
+      "name": ".ctor"
+    },
+    {
+      "index": 278669,
+      "declaring_type": 27772,
+      "name": "RegisterInternal"
+    },
+    {
+      "index": 278670,
+      "declaring_type": 27772,
+      "name": "UnregisterInternal"
+    },
+    {
+      "index": 278671,
+      "declaring_type": 27772,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278672,
+      "declaring_type": 27772,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278673,
+      "declaring_type": 27772,
+      "name": ".ctor"
+    },
+    {
+      "index": 278674,
+      "declaring_type": 27773,
+      "name": "RegisterInternal"
+    },
+    {
+      "index": 278675,
+      "declaring_type": 27773,
+      "name": "UnregisterInternal"
+    },
+    {
+      "index": 278676,
+      "declaring_type": 27773,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278677,
+      "declaring_type": 27773,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278678,
+      "declaring_type": 27773,
+      "name": ".ctor"
+    },
+    {
+      "index": 278679,
+      "declaring_type": 27774,
+      "name": "RegisterInternal"
+    },
+    {
+      "index": 278680,
+      "declaring_type": 27774,
+      "name": "UnregisterInternal"
+    },
+    {
+      "index": 278681,
+      "declaring_type": 27774,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278682,
+      "declaring_type": 27774,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278683,
+      "declaring_type": 27774,
+      "name": ".ctor"
+    },
+    {
+      "index": 278684,
+      "declaring_type": 27775,
+      "name": "RegisterInternal"
+    },
+    {
+      "index": 278685,
+      "declaring_type": 27775,
+      "name": "UnregisterInternal"
+    },
+    {
+      "index": 278686,
+      "declaring_type": 27775,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278687,
+      "declaring_type": 27775,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278688,
+      "declaring_type": 27775,
+      "name": ".ctor"
+    },
+    {
+      "index": 278689,
+      "declaring_type": 27776,
+      "name": "RegisterInternal"
+    },
+    {
+      "index": 278690,
+      "declaring_type": 27776,
+      "name": "UnregisterInternal"
+    },
+    {
+      "index": 278691,
+      "declaring_type": 27776,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278692,
+      "declaring_type": 27776,
+      "name": "RaiseInternal"
+    },
+    {
+      "index": 278693,
+      "declaring_type": 27776,
+      "name": ".ctor"
+    },
+    {
+      "index": 278694,
+      "declaring_type": 27777,
+      "name": "get_Amount"
+    },
+    {
+      "index": 278695,
+      "declaring_type": 27777,
+      "name": "set_Amount"
+    },
+    {
+      "index": 278696,
+      "declaring_type": 27777,
+      "name": ".ctor"
+    },
+    {
+      "index": 278697,
+      "declaring_type": 27777,
+      "name": ".ctor"
+    },
+    {
+      "index": 278698,
+      "declaring_type": 27778,
+      "name": "get_Powerup"
+    },
+    {
+      "index": 278699,
+      "declaring_type": 27778,
+      "name": "set_Powerup"
+    },
+    {
+      "index": 278700,
+      "declaring_type": 27778,
+      "name": ".ctor"
+    },
+    {
+      "index": 278701,
+      "declaring_type": 27778,
+      "name": ".ctor"
+    },
+    {
+      "index": 278702,
+      "declaring_type": 27779,
+      "name": "add_OnRequested"
+    },
+    {
+      "index": 278703,
+      "declaring_type": 27779,
+      "name": "remove_OnRequested"
+    },
+    {
+      "index": 278704,
+      "declaring_type": 27779,
+      "name": "add_OnStarted"
+    },
+    {
+      "index": 278705,
+      "declaring_type": 27779,
+      "name": "remove_OnStarted"
+    },
+    {
+      "index": 278706,
+      "declaring_type": 27779,
+      "name": "add_OnCanceled"
+    },
+    {
+      "index": 278707,
+      "declaring_type": 27779,
+      "name": "remove_OnCanceled"
+    },
+    {
+      "index": 278708,
+      "declaring_type": 27779,
+      "name": "add_OnPerformed"
+    },
+    {
+      "index": 278709,
+      "declaring_type": 27779,
+      "name": "remove_OnPerformed"
+    },
+    {
+      "index": 278710,
+      "declaring_type": 27779,
+      "name": "add_OnFinished"
+    },
+    {
+      "index": 278711,
+      "declaring_type": 27779,
+      "name": "remove_OnFinished"
+    },
+    {
+      "index": 278712,
+      "declaring_type": 27779,
+      "name": "add_OnCanceledOrFinished"
+    },
+    {
+      "index": 278713,
+      "declaring_type": 27779,
+      "name": "remove_OnCanceledOrFinished"
+    },
+    {
+      "index": 278714,
+      "declaring_type": 27779,
+      "name": "add_OnResourceNotEnough"
+    },
+    {
+      "index": 278715,
+      "declaring_type": 27779,
+      "name": "remove_OnResourceNotEnough"
+    },
+    {
+      "index": 278716,
+      "declaring_type": 27779,
+      "name": "add_OnPurchased"
+    },
+    {
+      "index": 278717,
+      "declaring_type": 27779,
+      "name": "remove_OnPurchased"
+    },
+    {
+      "index": 278718,
+      "declaring_type": 27779,
+      "name": "add_OnClaimedFirstTime"
+    },
+    {
+      "index": 278719,
+      "declaring_type": 27779,
+      "name": "remove_OnClaimedFirstTime"
+    },
+    {
+      "index": 278720,
+      "declaring_type": 27779,
+      "name": "TriggerRequested"
+    },
+    {
+      "index": 278721,
+      "declaring_type": 27779,
+      "name": "SubscribeToRequested"
+    },
+    {
+      "index": 278722,
+      "declaring_type": 27779,
+      "name": "UnsubscribeFromRequested"
+    },
+    {
+      "index": 278723,
+      "declaring_type": 27779,
+      "name": "TriggerStarted"
+    },
+    {
+      "index": 278724,
+      "declaring_type": 27779,
+      "name": "SubscribeToStarted"
+    },
+    {
+      "index": 278725,
+      "declaring_type": 27779,
+      "name": "UnsubscribeFromStarted"
+    },
+    {
+      "index": 278726,
+      "declaring_type": 27779,
+      "name": "TriggerCanceled"
+    },
+    {
+      "index": 278727,
+      "declaring_type": 27779,
+      "name": "SubscribeToCanceled"
+    },
+    {
+      "index": 278728,
+      "declaring_type": 27779,
+      "name": "UnsubscribeFromCanceled"
+    },
+    {
+      "index": 278729,
+      "declaring_type": 27779,
+      "name": "TriggerPerformed"
+    },
+    {
+      "index": 278730,
+      "declaring_type": 27779,
+      "name": "SubscribeToPerformed"
+    },
+    {
+      "index": 278731,
+      "declaring_type": 27779,
+      "name": "UnsubscribeFromPerformed"
+    },
+    {
+      "index": 278732,
+      "declaring_type": 27779,
+      "name": "TriggerFinished"
+    },
+    {
+      "index": 278733,
+      "declaring_type": 27779,
+      "name": "SubscribeToFinished"
+    },
+    {
+      "index": 278734,
+      "declaring_type": 27779,
+      "name": "UnsubscribeFromFinished"
+    },
+    {
+      "index": 278735,
+      "declaring_type": 27779,
+      "name": "TriggerCanceledOrFinished"
+    },
+    {
+      "index": 278736,
+      "declaring_type": 27779,
+      "name": "SubscribeToCanceledOrFinished"
+    },
+    {
+      "index": 278737,
+      "declaring_type": 27779,
+      "name": "UnsubscribeFromCanceledOrFinished"
+    },
+    {
+      "index": 278738,
+      "declaring_type": 27779,
+      "name": "TriggerResourceNotEnough"
+    },
+    {
+      "index": 278739,
+      "declaring_type": 27779,
+      "name": "SubscribeToResourceNotEnough"
+    },
+    {
+      "index": 278740,
+      "declaring_type": 27779,
+      "name": "UnsubscribeFromResourceNotEnough"
+    },
+    {
+      "index": 278741,
+      "declaring_type": 27779,
+      "name": "TriggerPurchased"
+    },
+    {
+      "index": 278742,
+      "declaring_type": 27779,
+      "name": "SubscribeToPurchased"
+    },
+    {
+      "index": 278743,
+      "declaring_type": 27779,
+      "name": "UnsubscribeFromPurchased"
+    },
+    {
+      "index": 278744,
+      "declaring_type": 27779,
+      "name": "TriggerClaimedFirstTime"
+    },
+    {
+      "index": 278745,
+      "declaring_type": 27779,
+      "name": "SubscribeToClaimedFirstTime"
+    },
+    {
+      "index": 278746,
+      "declaring_type": 27779,
+      "name": "UnsubscribeFromClaimedFirstTime"
+    },
+    {
+      "index": 278747,
+      "declaring_type": 27779,
+      "name": "Subscribe"
+    },
+    {
+      "index": 278748,
+      "declaring_type": 27779,
+      "name": "Unsubscribe"
+    },
+    {
+      "index": 278749,
+      "declaring_type": 27779,
+      "name": ".ctor"
+    },
+    {
+      "index": 278750,
+      "declaring_type": 27780,
+      "name": "get_Amount"
+    },
+    {
+      "index": 278751,
+      "declaring_type": 27780,
+      "name": "set_Amount"
+    },
+    {
+      "index": 278752,
+      "declaring_type": 27780,
+      "name": ".ctor"
+    },
+    {
+      "index": 278753,
+      "declaring_type": 27780,
+      "name": ".ctor"
+    },
+    {
+      "index": 278754,
+      "declaring_type": 27781,
+      "name": "Awake"
+    },
+    {
+      "index": 278755,
+      "declaring_type": 27781,
+      "name": ".ctor"
+    },
+    {
+      "index": 278756,
+      "declaring_type": 27782,
+      "name": "get_IsResumed"
+    },
+    {
+      "index": 278757,
+      "declaring_type": 27782,
+      "name": ".ctor"
+    },
+    {
+      "index": 278758,
+      "declaring_type": 27783,
+      "name": "get_SpendResource"
+    },
+    {
+      "index": 278759,
+      "declaring_type": 27783,
+      "name": ".ctor"
+    },
+    {
+      "index": 278760,
+      "declaring_type": 27785,
+      "name": "get_CurrentLevelNumber"
+    },
+    {
+      "index": 278761,
+      "declaring_type": 27785,
+      "name": "get_Id"
+    },
+    {
+      "index": 278762,
+      "declaring_type": 27785,
+      "name": "get_PreviousState"
+    },
+    {
+      "index": 278763,
+      "declaring_type": 27785,
+      "name": "get_CurrentState"
+    },
+    {
+      "index": 278764,
+      "declaring_type": 27785,
+      "name": "get_IsResumed"
+    },
+    {
+      "index": 278765,
+      "declaring_type": 27785,
+      "name": "get_IsStateRequested"
+    },
+    {
+      "index": 278766,
+      "declaring_type": 27785,
+      "name": "get_IsStateStarted"
+    },
+    {
+      "index": 278767,
+      "declaring_type": 27785,
+      "name": "get_IsStatePerformed"
+    },
+    {
+      "index": 278768,
+      "declaring_type": 27785,
+      "name": "get_IsStateIdle"
+    },
+    {
+      "index": 278769,
+      "declaring_type": 27785,
+      "name": "get_IsInUse"
+    },
+    {
+      "index": 278770,
+      "declaring_type": 27785,
+      "name": "get_IsRunning"
+    },
+    {
+      "index": 278771,
+      "declaring_type": 27785,
+      "name": "get_Resource"
+    },
+    {
+      "index": 278772,
+      "declaring_type": 27785,
+      "name": "get_Settings"
+    },
+    {
+      "index": 278773,
+      "declaring_type": 27785,
+      "name": "get_Data"
+    },
+    {
+      "index": 278774,
+      "declaring_type": 27785,
+      "name": "get_DidClaimFirstTime"
+    },
+    {
+      "index": 278775,
+      "declaring_type": 27785,
+      "name": "get_DidUseOnce"
+    },
+    {
+      "index": 278776,
+      "declaring_type": 27785,
+      "name": "get_DidUseOnceOrFirstTimeUseNotFree"
+    },
+    {
+      "index": 278777,
+      "declaring_type": 27785,
+      "name": "get_DidReachMinLevel"
+    },
+    {
+      "index": 278778,
+      "declaring_type": 27785,
+      "name": "get_IsUnlocked"
+    },
+    {
+      "index": 278779,
+      "declaring_type": 27785,
+      "name": "get_HasResource"
+    },
+    {
+      "index": 278780,
+      "declaring_type": 27785,
+      "name": "get_IsPowerupAvailable"
+    },
+    {
+      "index": 278781,
+      "declaring_type": 27785,
+      "name": "get_IsButtonVisible"
+    },
+    {
+      "index": 278782,
+      "declaring_type": 27785,
+      "name": "get_IsButtonActive"
+    },
+    {
+      "index": 278783,
+      "declaring_type": 27785,
+      "name": "get_IsButtonClickable"
+    },
+    {
+      "index": 278784,
+      "declaring_type": 27785,
+      "name": "SubscribeToButtonActiveConditions"
+    },
+    {
+      "index": 278785,
+      "declaring_type": 27785,
+      "name": "UnsubscribeFromButtonActiveConditions"
+    },
+    {
+      "index": 278786,
+      "declaring_type": 27785,
+      "name": "SetState"
+    },
+    {
+      "index": 278787,
+      "declaring_type": 27785,
+      "name": "TryRequestPowerup"
+    },
+    {
+      "index": 278788,
+      "declaring_type": 27785,
+      "name": "RequestPowerup"
+    },
+    {
+      "index": 278789,
+      "declaring_type": 27785,
+      "name": "StartPowerup"
+    },
+    {
+      "index": 278790,
+      "declaring_type": 27785,
+      "name": "CancelPowerup"
+    },
+    {
+      "index": 278791,
+      "declaring_type": 27785,
+      "name": "PerformPowerup"
+    },
+    {
+      "index": 278792,
+      "declaring_type": 27785,
+      "name": "FinishPowerup"
+    },
+    {
+      "index": 278793,
+      "declaring_type": 27785,
+      "name": "ResourceNotEnough"
+    },
+    {
+      "index": 278794,
+      "declaring_type": 27785,
+      "name": "TryToPurchasePowerup"
+    },
+    {
+      "index": 278795,
+      "declaring_type": 27785,
+      "name": "ClaimFirstTime"
+    },
+    {
+      "index": 278796,
+      "declaring_type": 27785,
+      "name": "SetDidClaimFirstTimeTrue"
+    },
+    {
+      "index": 278797,
+      "declaring_type": 27785,
+      "name": "TryToSetDidUseOnceTrue"
+    },
+    {
+      "index": 278798,
+      "declaring_type": 27785,
+      "name": "GetFields"
+    },
+    {
+      "index": 278799,
+      "declaring_type": 27785,
+      "name": "GetKeys"
+    },
+    {
+      "index": 278800,
+      "declaring_type": 27785,
+      "name": "GetValues"
+    },
+    {
+      "index": 278801,
+      "declaring_type": 27785,
+      "name": "GetField"
+    },
+    {
+      "index": 278802,
+      "declaring_type": 27785,
+      "name": "GetInt"
+    },
+    {
+      "index": 278803,
+      "declaring_type": 27785,
+      "name": "GetFloat"
+    },
+    {
+      "index": 278804,
+      "declaring_type": 27785,
+      "name": "GetBool"
+    },
+    {
+      "index": 278805,
+      "declaring_type": 27785,
+      "name": "GetString"
+    },
+    {
+      "index": 278806,
+      "declaring_type": 27785,
+      "name": "get_Events"
+    },
+    {
+      "index": 278807,
+      "declaring_type": 27785,
+      "name": "Get"
+    },
+    {
+      "index": 278808,
+      "declaring_type": 27785,
+      "name": "TriggerRequested"
+    },
+    {
+      "index": 278809,
+      "declaring_type": 27785,
+      "name": "SubscribeToRequested"
+    },
+    {
+      "index": 278810,
+      "declaring_type": 27785,
+      "name": "UnsubscribeFromRequested"
+    },
+    {
+      "index": 278811,
+      "declaring_type": 27785,
+      "name": "TriggerStarted"
+    },
+    {
+      "index": 278812,
+      "declaring_type": 27785,
+      "name": "SubscribeToStarted"
+    },
+    {
+      "index": 278813,
+      "declaring_type": 27785,
+      "name": "UnsubscribeFromStarted"
+    },
+    {
+      "index": 278814,
+      "declaring_type": 27785,
+      "name": "TriggerCanceled"
+    },
+    {
+      "index": 278815,
+      "declaring_type": 27785,
+      "name": "SubscribeToCanceled"
+    },
+    {
+      "index": 278816,
+      "declaring_type": 27785,
+      "name": "UnsubscribeFromCanceled"
+    },
+    {
+      "index": 278817,
+      "declaring_type": 27785,
+      "name": "TriggerPerformed"
+    },
+    {
+      "index": 278818,
+      "declaring_type": 27785,
+      "name": "SubscribeToPerformed"
+    },
+    {
+      "index": 278819,
+      "declaring_type": 27785,
+      "name": "UnsubscribeFromPerformed"
+    },
+    {
+      "index": 278820,
+      "declaring_type": 27785,
+      "name": "TriggerFinished"
+    },
+    {
+      "index": 278821,
+      "declaring_type": 27785,
+      "name": "SubscribeToFinished"
+    },
+    {
+      "index": 278822,
+      "declaring_type": 27785,
+      "name": "UnsubscribeFromFinished"
+    },
+    {
+      "index": 278823,
+      "declaring_type": 27785,
+      "name": "TriggerCanceledOrFinished"
+    },
+    {
+      "index": 278824,
+      "declaring_type": 27785,
+      "name": "SubscribeToCanceledOrFinished"
+    },
+    {
+      "index": 278825,
+      "declaring_type": 27785,
+      "name": "UnsubscribeFromCanceledOrFinished"
+    },
+    {
+      "index": 278826,
+      "declaring_type": 27785,
+      "name": "TriggerResourceNotEnough"
+    },
+    {
+      "index": 278827,
+      "declaring_type": 27785,
+      "name": "SubscribeToResourceNotEnough"
+    },
+    {
+      "index": 278828,
+      "declaring_type": 27785,
+      "name": "UnsubscribeFromResourceNotEnough"
+    },
+    {
+      "index": 278829,
+      "declaring_type": 27785,
+      "name": "TriggerPurchased"
+    },
+    {
+      "index": 278830,
+      "declaring_type": 27785,
+      "name": "SubscribeToPurchased"
+    },
+    {
+      "index": 278831,
+      "declaring_type": 27785,
+      "name": "UnsubscribeFromPurchased"
+    },
+    {
+      "index": 278832,
+      "declaring_type": 27785,
+      "name": "TriggerClaimedFirstTime"
+    },
+    {
+      "index": 278833,
+      "declaring_type": 27785,
+      "name": "SubscribeToClaimedFirstTime"
+    },
+    {
+      "index": 278834,
+      "declaring_type": 27785,
+      "name": "UnsubscribeFromClaimedFirstTime"
+    },
+    {
+      "index": 278835,
+      "declaring_type": 27785,
+      "name": "Subscribe"
+    },
+    {
+      "index": 278836,
+      "declaring_type": 27785,
+      "name": "Unsubscribe"
+    },
+    {
+      "index": 278837,
+      "declaring_type": 27785,
+      "name": ".ctor"
+    },
+    {
+      "index": 278842,
+      "declaring_type": 27786,
+      "name": "OnEnable"
+    },
+    {
+      "index": 278843,
+      "declaring_type": 27786,
+      "name": "OnDisable"
+    },
+    {
+      "index": 278844,
+      "declaring_type": 27786,
+      "name": ".ctor"
+    },
+    {
+      "index": 278845,
+      "declaring_type": 27794,
+      "name": "get_CurrentLevelNumber"
+    },
+    {
+      "index": 278846,
+      "declaring_type": 27794,
+      "name": "get_Settings"
+    },
+    {
+      "index": 278847,
+      "declaring_type": 27794,
+      "name": "get_Data"
+    },
+    {
+      "index": 278848,
+      "declaring_type": 27794,
+      "name": "get_Enabled"
+    },
+    {
+      "index": 278849,
+      "declaring_type": 27794,
+      "name": "get_FirstTimeUseFree"
+    },
+    {
+      "index": 278850,
+      "declaring_type": 27794,
+      "name": "get_DidClaimFirstTimeThisLevel"
+    },
+    {
+      "index": 278851,
+      "declaring_type": 27794,
+      "name": "get_Powerups"
+    },
+    {
+      "index": 278852,
+      "declaring_type": 27794,
+      "name": "get_AvailablePowerups"
+    },
+    {
+      "index": 278853,
+      "declaring_type": 27794,
+      "name": "get_AvailablePowerupIds"
+    },
+    {
+      "index": 278854,
+      "declaring_type": 27794,
+      "name": "get_CurrentPowerups"
+    },
+    {
+      "index": 278855,
+      "declaring_type": 27794,
+      "name": "get_UsePurchaseCountAtFirstTimeClaim"
+    },
+    {
+      "index": 278856,
+      "declaring_type": 27794,
+      "name": "get_ResourceInfoType"
+    },
+    {
+      "index": 278857,
+      "declaring_type": 27794,
+      "name": "ClearPowerups"
+    },
+    {
+      "index": 278858,
+      "declaring_type": 27794,
+      "name": "SetDidClaimFirstTimeThisLevel"
+    },
+    {
+      "index": 278859,
+      "declaring_type": 27794,
+      "name": "GetCurrentClaimablePowerup"
+    },
+    {
+      "index": 278860,
+      "declaring_type": 27794,
+      "name": "AddCurrentPowerup"
+    },
+    {
+      "index": 278861,
+      "declaring_type": 27794,
+      "name": "RemoveCurrentPowerup"
+    },
+    {
+      "index": 278862,
+      "declaring_type": 27794,
+      "name": "IsPowerupInUseExcept"
+    },
+    {
+      "index": 278863,
+      "declaring_type": 27794,
+      "name": "GetVisibleAvailablePowerups"
+    },
+    {
+      "index": 278864,
+      "declaring_type": 27794,
+      "name": "GetPowerupWithId"
+    },
+    {
+      "index": 278865,
+      "declaring_type": 27794,
+      "name": "CanShowClaimPopupForAnyPowerup"
+    },
+    {
+      "index": 278866,
+      "declaring_type": 27794,
+      "name": "CanClaimAnyPowerupNow"
+    },
+    {
+      "index": 278867,
+      "declaring_type": 27794,
+      "name": "CanClaimPowerupNow"
+    },
+    {
+      "index": 278868,
+      "declaring_type": 27794,
+      "name": "CanClaimPowerupFirstTimeFinalCheck"
+    },
+    {
+      "index": 278869,
+      "declaring_type": 27794,
+      "name": "AllPowerupsHaveState"
+    },
+    {
+      "index": 278870,
+      "declaring_type": 27794,
+      "name": "AnyPowerupHaveState"
+    },
+    {
+      "index": 278871,
+      "declaring_type": 27794,
+      "name": "AllPowerupsNotHaveState"
+    },
+    {
+      "index": 278872,
+      "declaring_type": 27794,
+      "name": "AreAllPowerupsBeforeThisUnlocked"
+    },
+    {
+      "index": 278873,
+      "declaring_type": 27794,
+      "name": "AreAllPowerupsUnlocked"
+    },
+    {
+      "index": 278874,
+      "declaring_type": 27794,
+      "name": "IsAnyPowerupButtonClickable"
+    },
+    {
+      "index": 278875,
+      "declaring_type": 27794,
+      "name": "IsPowerupButtonClickable"
+    },
+    {
+      "index": 278876,
+      "declaring_type": 27794,
+      "name": "GetMinLevelForPowerup"
+    },
+    {
+      "index": 278877,
+      "declaring_type": 27794,
+      "name": "IsFirstPowerupLevelReached"
+    },
+    {
+      "index": 278878,
+      "declaring_type": 27794,
+      "name": "get_Events"
+    },
+    {
+      "index": 278879,
+      "declaring_type": 27794,
+      "name": "Get"
+    },
+    {
+      "index": 278880,
+      "declaring_type": 27794,
+      "name": "TriggerRequested"
+    },
+    {
+      "index": 278881,
+      "declaring_type": 27794,
+      "name": "SubscribeToRequested"
+    },
+    {
+      "index": 278882,
+      "declaring_type": 27794,
+      "name": "UnsubscribeFromRequested"
+    },
+    {
+      "index": 278883,
+      "declaring_type": 27794,
+      "name": "TriggerStarted"
+    },
+    {
+      "index": 278884,
+      "declaring_type": 27794,
+      "name": "SubscribeToStarted"
+    },
+    {
+      "index": 278885,
+      "declaring_type": 27794,
+      "name": "UnsubscribeFromStarted"
+    },
+    {
+      "index": 278886,
+      "declaring_type": 27794,
+      "name": "TriggerCanceled"
+    },
+    {
+      "index": 278887,
+      "declaring_type": 27794,
+      "name": "SubscribeToCanceled"
+    },
+    {
+      "index": 278888,
+      "declaring_type": 27794,
+      "name": "UnsubscribeFromCanceled"
+    },
+    {
+      "index": 278889,
+      "declaring_type": 27794,
+      "name": "TriggerPerformed"
+    },
+    {
+      "index": 278890,
+      "declaring_type": 27794,
+      "name": "SubscribeToPerformed"
+    },
+    {
+      "index": 278891,
+      "declaring_type": 27794,
+      "name": "UnsubscribeFromPerformed"
+    },
+    {
+      "index": 278892,
+      "declaring_type": 27794,
+      "name": "TriggerFinished"
+    },
+    {
+      "index": 278893,
+      "declaring_type": 27794,
+      "name": "SubscribeToFinished"
+    },
+    {
+      "index": 278894,
+      "declaring_type": 27794,
+      "name": "UnsubscribeFromFinished"
+    },
+    {
+      "index": 278895,
+      "declaring_type": 27794,
+      "name": "TriggerCanceledOrFinished"
+    },
+    {
+      "index": 278896,
+      "declaring_type": 27794,
+      "name": "SubscribeToCanceledOrFinished"
+    },
+    {
+      "index": 278897,
+      "declaring_type": 27794,
+      "name": "UnsubscribeFromCanceledOrFinished"
+    },
+    {
+      "index": 278898,
+      "declaring_type": 27794,
+      "name": "TriggerResourceNotEnough"
+    },
+    {
+      "index": 278899,
+      "declaring_type": 27794,
+      "name": "SubscribeToResourceNotEnough"
+    },
+    {
+      "index": 278900,
+      "declaring_type": 27794,
+      "name": "UnsubscribeFromResourceNotEnough"
+    },
+    {
+      "index": 278901,
+      "declaring_type": 27794,
+      "name": "TriggerPurchased"
+    },
+    {
+      "index": 278902,
+      "declaring_type": 27794,
+      "name": "SubscribeToPurchased"
+    },
+    {
+      "index": 278903,
+      "declaring_type": 27794,
+      "name": "UnsubscribeFromPurchased"
+    },
+    {
+      "index": 278904,
+      "declaring_type": 27794,
+      "name": "TriggerClaimedFirstTime"
+    },
+    {
+      "index": 278905,
+      "declaring_type": 27794,
+      "name": "SubscribeToClaimedFirstTime"
+    },
+    {
+      "index": 278906,
+      "declaring_type": 27794,
+      "name": "UnsubscribeFromClaimedFirstTime"
+    },
+    {
+      "index": 278907,
+      "declaring_type": 27794,
+      "name": "Subscribe"
+    },
+    {
+      "index": 278908,
+      "declaring_type": 27794,
+      "name": "Unsubscribe"
+    },
+    {
+      "index": 278909,
+      "declaring_type": 27794,
+      "name": ".ctor"
+    },
+    {
+      "index": 278933,
+      "declaring_type": 27795,
+      "name": "OnEnable"
+    },
+    {
+      "index": 278934,
+      "declaring_type": 27795,
+      "name": "OnDisable"
+    },
+    {
+      "index": 278935,
+      "declaring_type": 27795,
+      "name": "SubscribeToPowerups"
+    },
+    {
+      "index": 278936,
+      "declaring_type": 27795,
+      "name": "UnsubscribeFromPowerups"
+    },
+    {
+      "index": 278937,
+      "declaring_type": 27795,
+      "name": "OnPowerupRequestedCallback"
+    },
+    {
+      "index": 278938,
+      "declaring_type": 27795,
+      "name": "OnPowerupStartedCallback"
+    },
+    {
+      "index": 278939,
+      "declaring_type": 27795,
+      "name": "OnPowerupCanceledCallback"
+    },
+    {
+      "index": 278940,
+      "declaring_type": 27795,
+      "name": "OnPowerupPerformedCallback"
+    },
+    {
+      "index": 278941,
+      "declaring_type": 27795,
+      "name": "OnPowerupFinishedCallback"
+    },
+    {
+      "index": 278942,
+      "declaring_type": 27795,
+      "name": "OnPowerupCanceledOrFinishedCallback"
+    },
+    {
+      "index": 278943,
+      "declaring_type": 27795,
+      "name": "OnResourceNotEnoughCallback"
+    },
+    {
+      "index": 278944,
+      "declaring_type": 27795,
+      "name": "OnPowerupPurchasedCallback"
+    },
+    {
+      "index": 278945,
+      "declaring_type": 27795,
+      "name": "OnPowerupClaimedFirstTimeCallback"
+    },
+    {
+      "index": 278946,
+      "declaring_type": 27795,
+      "name": "OnWin"
+    },
+    {
+      "index": 278947,
+      "declaring_type": 27795,
+      "name": "OnFinish"
+    },
+    {
+      "index": 278948,
+      "declaring_type": 27795,
+      "name": "OnLoadRequested"
+    },
+    {
+      "index": 278949,
+      "declaring_type": 27795,
+      "name": ".ctor"
+    },
+    {
+      "index": 278950,
+      "declaring_type": 27796,
+      "name": "OnEnable"
+    },
+    {
+      "index": 278951,
+      "declaring_type": 27796,
+      "name": "OnDisable"
+    },
+    {
+      "index": 278952,
+      "declaring_type": 27796,
+      "name": "IsPowerupChannelValid"
+    },
+    {
+      "index": 278953,
+      "declaring_type": 27796,
+      "name": ".ctor"
+    },
+    {
+      "index": 278975,
+      "declaring_type": 27800,
+      "name": ".ctor"
+    },
+    {
+      "index": 293608,
+      "declaring_type": 30284,
+      "name": ".ctor"
+    },
+    {
+      "index": 293609,
+      "declaring_type": 30285,
+      "name": ".ctor"
+    },
+    {
+      "index": 293610,
+      "declaring_type": 30286,
+      "name": ".ctor"
+    },
+    {
+      "index": 293611,
+      "declaring_type": 30287,
+      "name": ".ctor"
+    },
+    {
+      "index": 293612,
+      "declaring_type": 30288,
+      "name": ".ctor"
+    },
+    {
+      "index": 293613,
+      "declaring_type": 30289,
+      "name": ".ctor"
+    },
+    {
+      "index": 293614,
+      "declaring_type": 30290,
+      "name": "Awake"
+    },
+    {
+      "index": 293615,
+      "declaring_type": 30290,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293616,
+      "declaring_type": 30290,
+      "name": "Start"
+    },
+    {
+      "index": 293617,
+      "declaring_type": 30290,
+      "name": "Trigger"
+    },
+    {
+      "index": 293618,
+      "declaring_type": 30290,
+      "name": ".ctor"
+    },
+    {
+      "index": 293619,
+      "declaring_type": 30291,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293620,
+      "declaring_type": 30291,
+      "name": "OnDisable"
+    },
+    {
+      "index": 293621,
+      "declaring_type": 30291,
+      "name": "SetupView"
+    },
+    {
+      "index": 293622,
+      "declaring_type": 30291,
+      "name": "SetupViewWithData"
+    },
+    {
+      "index": 293623,
+      "declaring_type": 30291,
+      "name": "ResetView"
+    },
+    {
+      "index": 293624,
+      "declaring_type": 30291,
+      "name": "OnAnyPowerupRequestedCallback"
+    },
+    {
+      "index": 293625,
+      "declaring_type": 30291,
+      "name": "OnAnyPowerupCanceledOrFinishedCallback"
+    },
+    {
+      "index": 293626,
+      "declaring_type": 30291,
+      "name": "SyncBindings"
+    },
+    {
+      "index": 293627,
+      "declaring_type": 30291,
+      "name": "OnPowerupAmountChangedCallback"
+    },
+    {
+      "index": 293628,
+      "declaring_type": 30291,
+      "name": "OnPowerupStartedCallback"
+    },
+    {
+      "index": 293629,
+      "declaring_type": 30291,
+      "name": "OnPowerupCanceledOrFinishedCallback"
+    },
+    {
+      "index": 293630,
+      "declaring_type": 30291,
+      "name": "OnButtonActiveConditionChangedCallback"
+    },
+    {
+      "index": 293631,
+      "declaring_type": 30291,
+      "name": "SubscribeToPowerupChannel"
+    },
+    {
+      "index": 293632,
+      "declaring_type": 30291,
+      "name": "UnsubscribeFromPowerupChannel"
+    },
+    {
+      "index": 293633,
+      "declaring_type": 30291,
+      "name": "TryRequestPowerup"
+    },
+    {
+      "index": 293634,
+      "declaring_type": 30291,
+      "name": "SetForceSortOverrideCanvas"
+    },
+    {
+      "index": 293635,
+      "declaring_type": 30291,
+      "name": "SetForceUnlocked"
+    },
+    {
+      "index": 293636,
+      "declaring_type": 30291,
+      "name": "SetForceUnclickable"
+    },
+    {
+      "index": 293637,
+      "declaring_type": 30291,
+      "name": "ResetTemporaryButtonStates"
+    },
+    {
+      "index": 293638,
+      "declaring_type": 30291,
+      "name": ".ctor"
+    },
+    {
+      "index": 293639,
+      "declaring_type": 30292,
+      "name": "add_OnSetupDone"
+    },
+    {
+      "index": 293640,
+      "declaring_type": 30292,
+      "name": "remove_OnSetupDone"
+    },
+    {
+      "index": 293641,
+      "declaring_type": 30292,
+      "name": "Awake"
+    },
+    {
+      "index": 293642,
+      "declaring_type": 30292,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293643,
+      "declaring_type": 30292,
+      "name": "Setup"
+    },
+    {
+      "index": 293644,
+      "declaring_type": 30292,
+      "name": "GetPowerupButton"
+    },
+    {
+      "index": 293645,
+      "declaring_type": 30292,
+      "name": "ResetTemporaryButtonStates"
+    },
+    {
+      "index": 293646,
+      "declaring_type": 30292,
+      "name": "ApplyHeight"
+    },
+    {
+      "index": 293647,
+      "declaring_type": 30292,
+      "name": "SetHeightOverride"
+    },
+    {
+      "index": 293648,
+      "declaring_type": 30292,
+      "name": "ClearHeightOverride"
+    },
+    {
+      "index": 293649,
+      "declaring_type": 30292,
+      "name": ".ctor"
+    },
+    {
+      "index": 293650,
+      "declaring_type": 30293,
+      "name": "get_PowerupChannel"
+    },
+    {
+      "index": 293651,
+      "declaring_type": 30293,
+      "name": "set_PowerupChannel"
+    },
+    {
+      "index": 293652,
+      "declaring_type": 30293,
+      "name": "get_UIData"
+    },
+    {
+      "index": 293653,
+      "declaring_type": 30293,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293654,
+      "declaring_type": 30293,
+      "name": "OnDisable"
+    },
+    {
+      "index": 293655,
+      "declaring_type": 30293,
+      "name": "OnDestroy"
+    },
+    {
+      "index": 293656,
+      "declaring_type": 30293,
+      "name": "SetPowerup"
+    },
+    {
+      "index": 293657,
+      "declaring_type": 30293,
+      "name": "SetupView"
+    },
+    {
+      "index": 293658,
+      "declaring_type": 30293,
+      "name": "ResetView"
+    },
+    {
+      "index": 293659,
+      "declaring_type": 30293,
+      "name": ".ctor"
+    },
+    {
+      "index": 293660,
+      "declaring_type": 30294,
+      "name": "get_PowerupChannel"
+    },
+    {
+      "index": 293661,
+      "declaring_type": 30294,
+      "name": "set_PowerupChannel"
+    },
+    {
+      "index": 293662,
+      "declaring_type": 30294,
+      "name": "get_UIData"
+    },
+    {
+      "index": 293663,
+      "declaring_type": 30294,
+      "name": "set_UIData"
+    },
+    {
+      "index": 293664,
+      "declaring_type": 30294,
+      "name": ".ctor"
+    },
+    {
+      "index": 293665,
+      "declaring_type": 30295,
+      "name": "get_PowerupName"
+    },
+    {
+      "index": 293666,
+      "declaring_type": 30295,
+      "name": "get_PowerupDescription"
+    },
+    {
+      "index": 293667,
+      "declaring_type": 30295,
+      "name": "get_UsePhrase"
+    },
+    {
+      "index": 293668,
+      "declaring_type": 30295,
+      "name": "get_ButtonIcon"
+    },
+    {
+      "index": 293669,
+      "declaring_type": 30295,
+      "name": "get_PopupIcon"
+    },
+    {
+      "index": 293670,
+      "declaring_type": 30295,
+      "name": "get_RewardIcon"
+    },
+    {
+      "index": 293671,
+      "declaring_type": 30295,
+      "name": "get_ButtonResourceAnimation"
+    },
+    {
+      "index": 293672,
+      "declaring_type": 30295,
+      "name": ".ctor"
+    },
+    {
+      "index": 293673,
+      "declaring_type": 30296,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293674,
+      "declaring_type": 30296,
+      "name": "OnDisable"
+    },
+    {
+      "index": 293675,
+      "declaring_type": 30296,
+      "name": "OnLevelCreated"
+    },
+    {
+      "index": 293676,
+      "declaring_type": 30296,
+      "name": ".ctor"
+    },
+    {
+      "index": 293677,
+      "declaring_type": 30297,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293678,
+      "declaring_type": 30297,
+      "name": "OnDisable"
+    },
+    {
+      "index": 293679,
+      "declaring_type": 30297,
+      "name": "CheckForPush"
+    },
+    {
+      "index": 293680,
+      "declaring_type": 30297,
+      "name": "PushClaimPopup"
+    },
+    {
+      "index": 293681,
+      "declaring_type": 30297,
+      "name": ".ctor"
+    },
+    {
+      "index": 293682,
+      "declaring_type": 30298,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293683,
+      "declaring_type": 30298,
+      "name": "OnDisable"
+    },
+    {
+      "index": 293684,
+      "declaring_type": 30298,
+      "name": "PushResourceNotEnoughPopup"
+    },
+    {
+      "index": 293685,
+      "declaring_type": 30298,
+      "name": ".ctor"
+    },
+    {
+      "index": 293686,
+      "declaring_type": 30299,
+      "name": "get_ButtonsController"
+    },
+    {
+      "index": 293687,
+      "declaring_type": 30299,
+      "name": "get_PowerupButton"
+    },
+    {
+      "index": 293688,
+      "declaring_type": 30299,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293689,
+      "declaring_type": 30299,
+      "name": "OnDisable"
+    },
+    {
+      "index": 293690,
+      "declaring_type": 30299,
+      "name": "OnShowArgs"
+    },
+    {
+      "index": 293691,
+      "declaring_type": 30299,
+      "name": "OnClaimButtonClicked"
+    },
+    {
+      "index": 293692,
+      "declaring_type": 30299,
+      "name": "SetupView"
+    },
+    {
+      "index": 293693,
+      "declaring_type": 30299,
+      "name": "ResetView"
+    },
+    {
+      "index": 293694,
+      "declaring_type": 30299,
+      "name": "SyncDataToComponents"
+    },
+    {
+      "index": 293695,
+      "declaring_type": 30299,
+      "name": ".ctor"
+    },
+    {
+      "index": 293696,
+      "declaring_type": 30300,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293697,
+      "declaring_type": 30300,
+      "name": "OnDisable"
+    },
+    {
+      "index": 293698,
+      "declaring_type": 30300,
+      "name": "OnShowArgs"
+    },
+    {
+      "index": 293699,
+      "declaring_type": 30300,
+      "name": "OnPurchaseButtonClicked"
+    },
+    {
+      "index": 293700,
+      "declaring_type": 30300,
+      "name": "SetupView"
+    },
+    {
+      "index": 293701,
+      "declaring_type": 30300,
+      "name": "ResetView"
+    },
+    {
+      "index": 293702,
+      "declaring_type": 30300,
+      "name": "SyncDataToComponents"
+    },
+    {
+      "index": 293703,
+      "declaring_type": 30300,
+      "name": "OnResourceNotEnoughCallback"
+    },
+    {
+      "index": 293704,
+      "declaring_type": 30300,
+      "name": "OnResourceIncreasedCallback"
+    },
+    {
+      "index": 293705,
+      "declaring_type": 30300,
+      "name": "SubscribeToPowerupChannel"
+    },
+    {
+      "index": 293706,
+      "declaring_type": 30300,
+      "name": "UnsubscribeFromPowerupChannel"
+    },
+    {
+      "index": 293707,
+      "declaring_type": 30300,
+      "name": "PlayPurchaseFx"
+    },
+    {
+      "index": 293708,
+      "declaring_type": 30300,
+      "name": ".ctor"
+    },
+    {
+      "index": 293709,
+      "declaring_type": 30301,
+      "name": "get_Navigatable"
+    },
+    {
+      "index": 293710,
+      "declaring_type": 30301,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293711,
+      "declaring_type": 30301,
+      "name": "OnDisable"
+    },
+    {
+      "index": 293712,
+      "declaring_type": 30301,
+      "name": "OnShow"
+    },
+    {
+      "index": 293713,
+      "declaring_type": 30301,
+      "name": "OnStartPowerupButtonClicked"
+    },
+    {
+      "index": 293714,
+      "declaring_type": 30301,
+      "name": "OnCancelPowerupButtonClicked"
+    },
+    {
+      "index": 293715,
+      "declaring_type": 30301,
+      "name": "SetupView"
+    },
+    {
+      "index": 293716,
+      "declaring_type": 30301,
+      "name": "ResetView"
+    },
+    {
+      "index": 293717,
+      "declaring_type": 30301,
+      "name": "SyncDataToComponents"
+    },
+    {
+      "index": 293718,
+      "declaring_type": 30301,
+      "name": "OnRequestedCallback"
+    },
+    {
+      "index": 293719,
+      "declaring_type": 30301,
+      "name": "OnStartedCallback"
+    },
+    {
+      "index": 293720,
+      "declaring_type": 30301,
+      "name": "OnCanceledCallback"
+    },
+    {
+      "index": 293721,
+      "declaring_type": 30301,
+      "name": "SubscribeToPowerupChannel"
+    },
+    {
+      "index": 293722,
+      "declaring_type": 30301,
+      "name": "UnsubscribeFromPowerupChannel"
+    },
+    {
+      "index": 293723,
+      "declaring_type": 30301,
+      "name": ".ctor"
+    },
+    {
+      "index": 293724,
+      "declaring_type": 30302,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293725,
+      "declaring_type": 30302,
+      "name": "OnDisable"
+    },
+    {
+      "index": 293726,
+      "declaring_type": 30302,
+      "name": "OnShowArgs"
+    },
+    {
+      "index": 293727,
+      "declaring_type": 30302,
+      "name": "OnAnyPowerupRequested"
+    },
+    {
+      "index": 293728,
+      "declaring_type": 30302,
+      "name": ".ctor"
+    },
+    {
+      "index": 293729,
+      "declaring_type": 30303,
+      "name": "OnEnable"
+    },
+    {
+      "index": 293730,
+      "declaring_type": 30303,
+      "name": "Setup"
+    },
+    {
+      "index": 293731,
+      "declaring_type": 30303,
+      "name": ".ctor"
+    },
+    {
+      "index": 293732,
+      "declaring_type": 30305,
+      "name": "GetPowerupUIData"
+    },
+    {
+      "index": 293733,
+      "declaring_type": 30305,
+      "name": "ActivateTutorialForPowerup"
+    },
+    {
+      "index": 293734,
+      "declaring_type": 30305,
+      "name": ".ctor"
+    },
+    {
+      "index": 297183,
+      "declaring_type": 31087,
+      "name": ".ctor"
+    },
+    {
+      "index": 297184,
+      "declaring_type": 31087,
+      "name": "mhy"
+    },
+    {
+      "index": 297185,
+      "declaring_type": 31087,
+      "name": ".ctor"
+    },
+    {
+      "index": 297186,
+      "declaring_type": 31087,
+      "name": "Clone"
+    },
+    {
+      "index": 297187,
+      "declaring_type": 31088,
+      "name": ".ctor"
+    },
+    {
+      "index": 297188,
+      "declaring_type": 31088,
+      "name": "Clone"
+    },
+    {
+      "index": 297189,
+      "declaring_type": 31088,
+      "name": ".ctor"
+    },
+    {
+      "index": 297190,
+      "declaring_type": 31088,
+      "name": "zz"
+    },
+    {
+      "index": 297191,
+      "declaring_type": 31088,
+      "name": "ggx"
+    },
+    {
+      "index": 297192,
+      "declaring_type": 31088,
+      "name": "euf"
+    },
+    {
+      "index": 297193,
+      "declaring_type": 31089,
+      "name": "nzo"
+    },
+    {
+      "index": 297194,
+      "declaring_type": 31089,
+      "name": "dbz"
+    },
+    {
+      "index": 297195,
+      "declaring_type": 31089,
+      "name": "cyf"
+    },
+    {
+      "index": 297196,
+      "declaring_type": 31089,
+      "name": "ine"
+    },
+    {
+      "index": 297197,
+      "declaring_type": 31089,
+      "name": "GetUsesToday"
+    },
+    {
+      "index": 297198,
+      "declaring_type": 31089,
+      "name": "kwl"
+    },
+    {
+      "index": 297199,
+      "declaring_type": 31089,
+      "name": "IsEligible"
+    },
+    {
+      "index": 297200,
+      "declaring_type": 31089,
+      "name": "IncrementFailCount"
+    },
+    {
+      "index": 297201,
+      "declaring_type": 31089,
+      "name": "mws"
+    },
+    {
+      "index": 297202,
+      "declaring_type": 31089,
+      "name": "IsCoinAmountInRange"
+    },
+    {
+      "index": 297203,
+      "declaring_type": 31089,
+      "name": "ToDayKey"
+    },
+    {
+      "index": 297204,
+      "declaring_type": 31089,
+      "name": "eoj"
+    },
+    {
+      "index": 297205,
+      "declaring_type": 31089,
+      "name": "lng"
+    },
+    {
+      "index": 297206,
+      "declaring_type": 31089,
+      "name": "ResetDailyFails"
+    },
+    {
+      "index": 297207,
+      "declaring_type": 31089,
+      "name": "ilb"
+    },
+    {
+      "index": 297208,
+      "declaring_type": 31089,
+      "name": "fhh"
+    },
+    {
+      "index": 297209,
+      "declaring_type": 31089,
+      "name": "cgf"
+    },
+    {
+      "index": 297210,
+      "declaring_type": 31089,
+      "name": "ResetDailyUses"
+    },
+    {
+      "index": 297211,
+      "declaring_type": 31089,
+      "name": "ffd"
+    },
+    {
+      "index": 297212,
+      "declaring_type": 31089,
+      "name": "Consume"
+    },
+    {
+      "index": 297213,
+      "declaring_type": 31089,
+      "name": "GetDayKey"
+    },
+    {
+      "index": 297214,
+      "declaring_type": 31089,
+      "name": "GetFailsToday"
+    },
+    {
+      "index": 297215,
+      "declaring_type": 31089,
+      "name": ".ctor"
+    },
+    {
+      "index": 297216,
+      "declaring_type": 31089,
+      "name": "igj"
+    },
+    {
+      "index": 297217,
+      "declaring_type": 31089,
+      "name": "ForceStaleDayKey"
+    },
+    {
+      "index": 297218,
+      "declaring_type": 31089,
+      "name": "hop"
+    },
+    {
+      "index": 297219,
+      "declaring_type": 31089,
+      "name": "kmb"
+    },
+    {
+      "index": 297220,
+      "declaring_type": 31089,
+      "name": "czb"
+    },
+    {
+      "index": 297221,
+      "declaring_type": 31090,
+      "name": "ihl"
+    },
+    {
+      "index": 297222,
+      "declaring_type": 31090,
+      "name": ".ctor"
+    },
+    {
+      "index": 297223,
+      "declaring_type": 31090,
+      "name": "edf"
+    },
+    {
+      "index": 297224,
+      "declaring_type": 31090,
+      "name": "lem"
+    },
+    {
+      "index": 297225,
+      "declaring_type": 31090,
+      "name": "IsDataValid"
+    },
+    {
+      "index": 297226,
+      "declaring_type": 31092,
+      "name": "hop"
+    },
+    {
+      "index": 297227,
+      "declaring_type": 31092,
+      "name": "get_Config"
+    },
+    {
+      "index": 297228,
+      "declaring_type": 31092,
+      "name": "AddUse"
+    },
+    {
+      "index": 297229,
+      "declaring_type": 31092,
+      "name": ".ctor"
+    },
+    {
+      "index": 297230,
+      "declaring_type": 31092,
+      "name": "<CreateLogic>b__12_1"
+    },
+    {
+      "index": 297231,
+      "declaring_type": 31092,
+      "name": "Setup"
+    },
+    {
+      "index": 297232,
+      "declaring_type": 31092,
+      "name": "bfx"
+    },
+    {
+      "index": 297233,
+      "declaring_type": 31092,
+      "name": "lgs"
+    },
+    {
+      "index": 297234,
+      "declaring_type": 31092,
+      "name": "dxn"
+    },
+    {
+      "index": 297235,
+      "declaring_type": 31092,
+      "name": "GetFailsToday"
+    },
+    {
+      "index": 297236,
+      "declaring_type": 31092,
+      "name": "ResetDailyFails"
+    },
+    {
+      "index": 297237,
+      "declaring_type": 31092,
+      "name": "ForceStaleDayKey"
+    },
+    {
+      "index": 297238,
+      "declaring_type": 31092,
+      "name": "fdw"
+    },
+    {
+      "index": 297239,
+      "declaring_type": 31092,
+      "name": "lyi"
+    },
+    {
+      "index": 297240,
+      "declaring_type": 31092,
+      "name": "dgn"
+    },
+    {
+      "index": 297241,
+      "declaring_type": 31092,
+      "name": "noi"
+    },
+    {
+      "index": 297242,
+      "declaring_type": 31092,
+      "name": "jqp"
+    },
+    {
+      "index": 297243,
+      "declaring_type": 31092,
+      "name": "bdb"
+    },
+    {
+      "index": 297244,
+      "declaring_type": 31092,
+      "name": "get_AdvancePriceLadder"
+    },
+    {
+      "index": 297245,
+      "declaring_type": 31092,
+      "name": "IsEligible"
+    },
+    {
+      "index": 297246,
+      "declaring_type": 31092,
+      "name": "dqw"
+    },
+    {
+      "index": 297247,
+      "declaring_type": 31092,
+      "name": "mft"
+    },
+    {
+      "index": 297248,
+      "declaring_type": 31092,
+      "name": "mgr"
+    },
+    {
+      "index": 297249,
+      "declaring_type": 31092,
+      "name": "eto"
+    },
+    {
+      "index": 297250,
+      "declaring_type": 31092,
+      "name": "ceo"
+    },
+    {
+      "index": 297251,
+      "declaring_type": 31092,
+      "name": "jpk"
+    },
+    {
+      "index": 297252,
+      "declaring_type": 31092,
+      "name": "eyn"
+    },
+    {
+      "index": 297253,
+      "declaring_type": 31092,
+      "name": "bdd"
+    },
+    {
+      "index": 297254,
+      "declaring_type": 31092,
+      "name": "kjn"
+    },
+    {
+      "index": 297255,
+      "declaring_type": 31092,
+      "name": "get_FailCooldown"
+    },
+    {
+      "index": 297256,
+      "declaring_type": 31092,
+      "name": "hfz"
+    },
+    {
+      "index": 297257,
+      "declaring_type": 31092,
+      "name": "lj"
+    },
+    {
+      "index": 297258,
+      "declaring_type": 31092,
+      "name": "mtl"
+    },
+    {
+      "index": 297259,
+      "declaring_type": 31092,
+      "name": "giv"
+    },
+    {
+      "index": 297260,
+      "declaring_type": 31092,
+      "name": "Consume"
+    },
+    {
+      "index": 297261,
+      "declaring_type": 31092,
+      "name": "doz"
+    },
+    {
+      "index": 297262,
+      "declaring_type": 31092,
+      "name": "hns"
+    },
+    {
+      "index": 297263,
+      "declaring_type": 31092,
+      "name": "lmi"
+    },
+    {
+      "index": 297264,
+      "declaring_type": 31092,
+      "name": "hgs"
+    },
+    {
+      "index": 297265,
+      "declaring_type": 31092,
+      "name": "get_Logic"
+    },
+    {
+      "index": 297266,
+      "declaring_type": 31092,
+      "name": "jyx"
+    },
+    {
+      "index": 297267,
+      "declaring_type": 31092,
+      "name": "bnw"
+    },
+    {
+      "index": 297268,
+      "declaring_type": 31092,
+      "name": "cem"
+    },
+    {
+      "index": 297269,
+      "declaring_type": 31092,
+      "name": "cla"
+    },
+    {
+      "index": 297270,
+      "declaring_type": 31092,
+      "name": "<CreateLogic>b__12_2"
+    },
+    {
+      "index": 297271,
+      "declaring_type": 31092,
+      "name": "IncrementFailCount"
+    },
+    {
+      "index": 297272,
+      "declaring_type": 31092,
+      "name": "Clear"
+    },
+    {
+      "index": 297273,
+      "declaring_type": 31092,
+      "name": "nov"
+    },
+    {
+      "index": 297274,
+      "declaring_type": 31092,
+      "name": "mux"
+    },
+    {
+      "index": 297275,
+      "declaring_type": 31092,
+      "name": "hha"
+    },
+    {
+      "index": 297276,
+      "declaring_type": 31092,
+      "name": "grd"
+    },
+    {
+      "index": 297277,
+      "declaring_type": 31092,
+      "name": "<CreateLogic>b__12_3"
+    },
+    {
+      "index": 297278,
+      "declaring_type": 31092,
+      "name": "mtx"
+    },
+    {
+      "index": 297279,
+      "declaring_type": 31092,
+      "name": "ewq"
+    },
+    {
+      "index": 297280,
+      "declaring_type": 31092,
+      "name": "kry"
+    },
+    {
+      "index": 297281,
+      "declaring_type": 31092,
+      "name": "gse"
+    },
+    {
+      "index": 297282,
+      "declaring_type": 31092,
+      "name": "ksc"
+    },
+    {
+      "index": 297283,
+      "declaring_type": 31092,
+      "name": "uk"
+    },
+    {
+      "index": 297284,
+      "declaring_type": 31092,
+      "name": "bhz"
+    },
+    {
+      "index": 297285,
+      "declaring_type": 31092,
+      "name": "GetDayKey"
+    },
+    {
+      "index": 297286,
+      "declaring_type": 31092,
+      "name": "jzp"
+    },
+    {
+      "index": 297287,
+      "declaring_type": 31092,
+      "name": "GetUsesToday"
+    },
+    {
+      "index": 297288,
+      "declaring_type": 31092,
+      "name": "mup"
+    },
+    {
+      "index": 297289,
+      "declaring_type": 31092,
+      "name": "hbt"
+    },
+    {
+      "index": 297290,
+      "declaring_type": 31092,
+      "name": "<CreateLogic>b__12_4"
+    },
+    {
+      "index": 297291,
+      "declaring_type": 31092,
+      "name": "CreateLogic"
+    },
+    {
+      "index": 297292,
+      "declaring_type": 31092,
+      "name": "ResetDailyUses"
+    },
+    {
+      "index": 297293,
+      "declaring_type": 31092,
+      "name": "ctb"
+    },
+    {
+      "index": 297294,
+      "declaring_type": 31092,
+      "name": "drv"
+    },
+    {
+      "index": 297295,
+      "declaring_type": 31092,
+      "name": "jgf"
+    },
+    {
+      "index": 297296,
+      "declaring_type": 31092,
+      "name": "jvt"
+    },
+    {
+      "index": 297297,
+      "declaring_type": 31092,
+      "name": "oud"
+    },
+    {
+      "index": 297304,
+      "declaring_type": 31093,
+      "name": ".ctor"
+    },
+    {
+      "index": 297305,
+      "declaring_type": 31094,
+      "name": ".ctor"
+    },
+    {
+      "index": 297306,
+      "declaring_type": 31095,
+      "name": ".ctor"
+    },
+    {
+      "index": 297307,
+      "declaring_type": 31096,
+      "name": ".ctor"
+    },
+    {
+      "index": 297308,
+      "declaring_type": 31097,
+      "name": ".ctor"
+    },
+    {
+      "index": 297309,
+      "declaring_type": 31098,
+      "name": ".ctor"
+    },
+    {
+      "index": 299235,
+      "declaring_type": 31625,
+      "name": ".ctor"
+    },
+    {
+      "index": 299236,
+      "declaring_type": 31625,
+      "name": ".ctor"
+    },
+    {
+      "index": 299237,
+      "declaring_type": 31625,
+      "name": "Clone"
+    },
+    {
+      "index": 299238,
+      "declaring_type": 31625,
+      "name": "gxi"
+    },
+    {
+      "index": 299239,
+      "declaring_type": 31626,
+      "name": "Clone"
+    },
+    {
+      "index": 299240,
+      "declaring_type": 31626,
+      "name": ".ctor"
+    },
+    {
+      "index": 299241,
+      "declaring_type": 31626,
+      "name": ".ctor"
+    },
+    {
+      "index": 299242,
+      "declaring_type": 31627,
+      "name": "car"
+    },
+    {
+      "index": 299243,
+      "declaring_type": 31627,
+      "name": "bvr"
+    },
+    {
+      "index": 299244,
+      "declaring_type": 31627,
+      "name": "ResetLifetime"
+    },
+    {
+      "index": 299245,
+      "declaring_type": 31627,
+      "name": "bpm"
+    },
+    {
+      "index": 299246,
+      "declaring_type": 31627,
+      "name": "hzg"
+    },
+    {
+      "index": 299247,
+      "declaring_type": 31627,
+      "name": "jxz"
+    },
+    {
+      "index": 299248,
+      "declaring_type": 31627,
+      "name": "GetRemainingCount"
+    },
+    {
+      "index": 299249,
+      "declaring_type": 31627,
+      "name": "ldf"
+    },
+    {
+      "index": 299250,
+      "declaring_type": 31627,
+      "name": "hfx"
+    },
+    {
+      "index": 299251,
+      "declaring_type": 31627,
+      "name": "ResetUsage"
+    },
+    {
+      "index": 299252,
+      "declaring_type": 31627,
+      "name": "msk"
+    },
+    {
+      "index": 299253,
+      "declaring_type": 31627,
+      "name": "huk"
+    },
+    {
+      "index": 299254,
+      "declaring_type": 31627,
+      "name": "kuv"
+    },
+    {
+      "index": 299255,
+      "declaring_type": 31627,
+      "name": "dca"
+    },
+    {
+      "index": 299256,
+      "declaring_type": 31627,
+      "name": "nds"
+    },
+    {
+      "index": 299257,
+      "declaring_type": 31627,
+      "name": "IsConfigConflicting"
+    },
+    {
+      "index": 299258,
+      "declaring_type": 31627,
+      "name": ".ctor"
+    },
+    {
+      "index": 299259,
+      "declaring_type": 31627,
+      "name": "mzi"
+    },
+    {
+      "index": 299260,
+      "declaring_type": 31627,
+      "name": "hzt"
+    },
+    {
+      "index": 299261,
+      "declaring_type": 31627,
+      "name": "ResetIfRequested"
+    },
+    {
+      "index": 299262,
+      "declaring_type": 31627,
+      "name": "IsFree"
+    },
+    {
+      "index": 299263,
+      "declaring_type": 31627,
+      "name": "oqd"
+    },
+    {
+      "index": 299264,
+      "declaring_type": 31627,
+      "name": "Consume"
+    },
+    {
+      "index": 299265,
+      "declaring_type": 31628,
+      "name": "IsDataValid"
+    },
+    {
+      "index": 299266,
+      "declaring_type": 31628,
+      "name": ".ctor"
+    },
+    {
+      "index": 299267,
+      "declaring_type": 31628,
+      "name": "zb"
+    },
+    {
+      "index": 299268,
+      "declaring_type": 31629,
+      "name": "CreateLogic"
+    },
+    {
+      "index": 299269,
+      "declaring_type": 31629,
+      "name": "get_Config"
+    },
+    {
+      "index": 299270,
+      "declaring_type": 31629,
+      "name": "get_Data"
+    },
+    {
+      "index": 299271,
+      "declaring_type": 31629,
+      "name": "dmu"
+    },
+    {
+      "index": 299272,
+      "declaring_type": 31629,
+      "name": "xu"
+    },
+    {
+      "index": 299273,
+      "declaring_type": 31629,
+      "name": "mri"
+    },
+    {
+      "index": 299274,
+      "declaring_type": 31629,
+      "name": "kzf"
+    },
+    {
+      "index": 299275,
+      "declaring_type": 31629,
+      "name": "gnr"
+    },
+    {
+      "index": 299276,
+      "declaring_type": 31629,
+      "name": "lzx"
+    },
+    {
+      "index": 299277,
+      "declaring_type": 31629,
+      "name": "hmi"
+    },
+    {
+      "index": 299278,
+      "declaring_type": 31629,
+      "name": "Consume"
+    },
+    {
+      "index": 299279,
+      "declaring_type": 31629,
+      "name": "GetRemainingCount"
+    },
+    {
+      "index": 299280,
+      "declaring_type": 31629,
+      "name": "grh"
+    },
+    {
+      "index": 299281,
+      "declaring_type": 31629,
+      "name": "dpk"
+    },
+    {
+      "index": 299282,
+      "declaring_type": 31629,
+      "name": "gsk"
+    },
+    {
+      "index": 299283,
+      "declaring_type": 31629,
+      "name": "jcv"
+    },
+    {
+      "index": 299284,
+      "declaring_type": 31629,
+      "name": "<CreateLogic>b__9_0"
+    },
+    {
+      "index": 299285,
+      "declaring_type": 31629,
+      "name": "<CreateLogic>b__9_2"
+    },
+    {
+      "index": 299286,
+      "declaring_type": 31629,
+      "name": "cwf"
+    },
+    {
+      "index": 299287,
+      "declaring_type": 31629,
+      "name": "kzx"
+    },
+    {
+      "index": 299288,
+      "declaring_type": 31629,
+      "name": "csi"
+    },
+    {
+      "index": 299289,
+      "declaring_type": 31629,
+      "name": "gsx"
+    },
+    {
+      "index": 299290,
+      "declaring_type": 31629,
+      "name": "efg"
+    },
+    {
+      "index": 299291,
+      "declaring_type": 31629,
+      "name": "get_Logic"
+    },
+    {
+      "index": 299292,
+      "declaring_type": 31629,
+      "name": "ww"
+    },
+    {
+      "index": 299293,
+      "declaring_type": 31629,
+      "name": "ngj"
+    },
+    {
+      "index": 299294,
+      "declaring_type": 31629,
+      "name": "lin"
+    },
+    {
+      "index": 299295,
+      "declaring_type": 31629,
+      "name": "bwz"
+    },
+    {
+      "index": 299296,
+      "declaring_type": 31629,
+      "name": "jxz"
+    },
+    {
+      "index": 299297,
+      "declaring_type": 31629,
+      "name": "dkn"
+    },
+    {
+      "index": 299298,
+      "declaring_type": 31629,
+      "name": "jrr"
+    },
+    {
+      "index": 299299,
+      "declaring_type": 31629,
+      "name": "elx"
+    },
+    {
+      "index": 299300,
+      "declaring_type": 31629,
+      "name": "IsConfigConflicting"
+    },
+    {
+      "index": 299301,
+      "declaring_type": 31629,
+      "name": "ResetUsage"
+    },
+    {
+      "index": 299302,
+      "declaring_type": 31629,
+      "name": "pj"
+    },
+    {
+      "index": 299303,
+      "declaring_type": 31629,
+      "name": "ex"
+    },
+    {
+      "index": 299304,
+      "declaring_type": 31629,
+      "name": "Clear"
+    },
+    {
+      "index": 299305,
+      "declaring_type": 31629,
+      "name": "Setup"
+    },
+    {
+      "index": 299306,
+      "declaring_type": 31629,
+      "name": "lxt"
+    },
+    {
+      "index": 299307,
+      "declaring_type": 31629,
+      "name": "irh"
+    },
+    {
+      "index": 299308,
+      "declaring_type": 31629,
+      "name": "<CreateLogic>b__9_1"
+    },
+    {
+      "index": 299309,
+      "declaring_type": 31629,
+      "name": "ResetLifetime"
+    },
+    {
+      "index": 299310,
+      "declaring_type": 31629,
+      "name": "ResetIfRequested"
+    },
+    {
+      "index": 299311,
+      "declaring_type": 31629,
+      "name": "hzw"
+    },
+    {
+      "index": 299312,
+      "declaring_type": 31629,
+      "name": "fgk"
+    },
+    {
+      "index": 299313,
+      "declaring_type": 31629,
+      "name": ".ctor"
+    },
+    {
+      "index": 299314,
+      "declaring_type": 31629,
+      "name": "IsFree"
+    },
+    {
+      "index": 299315,
+      "declaring_type": 31629,
+      "name": "eqf"
+    },
+    {
+      "index": 299316,
+      "declaring_type": 31630,
+      "name": ".ctor"
+    },
+    {
+      "index": 299317,
+      "declaring_type": 31631,
+      "name": ".ctor"
+    },
+    {
+      "index": 299318,
+      "declaring_type": 31632,
+      "name": ".ctor"
+    },
+    {
+      "index": 299319,
+      "declaring_type": 31633,
+      "name": ".ctor"
+    },
+    {
+      "index": 299320,
+      "declaring_type": 31634,
+      "name": ".ctor"
+    },
+    {
+      "index": 299321,
+      "declaring_type": 31635,
+      "name": ".ctor"
+    },
+    {
+      "index": 299383,
+      "declaring_type": 31661,
+      "name": ".ctor"
+    }
+  ],
+  "fields": [
+    {
+      "index": 3201,
+      "declaring_type": 1059,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 3202,
+      "declaring_type": 1059,
+      "name": "levelEvents"
+    },
+    {
+      "index": 3203,
+      "declaring_type": 1059,
+      "name": "powerupsUsageData"
+    },
+    {
+      "index": 3204,
+      "declaring_type": 1061,
+      "name": "PowerupsUsage"
+    },
+    {
+      "index": 3206,
+      "declaring_type": 1062,
+      "name": "PowerupId"
+    },
+    {
+      "index": 3207,
+      "declaring_type": 1062,
+      "name": "UsageCount"
+    },
+    {
+      "index": 3445,
+      "declaring_type": 1132,
+      "name": "cai"
+    },
+    {
+      "index": 3446,
+      "declaring_type": 1132,
+      "name": "caj"
+    },
+    {
+      "index": 3447,
+      "declaring_type": 1132,
+      "name": "cak"
+    },
+    {
+      "index": 3448,
+      "declaring_type": 1132,
+      "name": "cal"
+    },
+    {
+      "index": 3449,
+      "declaring_type": 1132,
+      "name": "can"
+    },
+    {
+      "index": 3450,
+      "declaring_type": 1132,
+      "name": "cao"
+    },
+    {
+      "index": 3451,
+      "declaring_type": 1132,
+      "name": "MaxMaterialId"
+    },
+    {
+      "index": 3452,
+      "declaring_type": 1132,
+      "name": "MaxCoord"
+    },
+    {
+      "index": 3983,
+      "declaring_type": 1232,
+      "name": "powerup"
+    },
+    {
+      "index": 3984,
+      "declaring_type": 1232,
+      "name": "mapInputEvents"
+    },
+    {
+      "index": 3985,
+      "declaring_type": 1232,
+      "name": "performDuration"
+    },
+    {
+      "index": 3990,
+      "declaring_type": 1233,
+      "name": "powerup"
+    },
+    {
+      "index": 3991,
+      "declaring_type": 1233,
+      "name": "mapEvents"
+    },
+    {
+      "index": 3992,
+      "declaring_type": 1233,
+      "name": "allQueueShootersTappable"
+    },
+    {
+      "index": 3993,
+      "declaring_type": 1233,
+      "name": "powerupButtonsLevelPlayingView"
+    },
+    {
+      "index": 3994,
+      "declaring_type": 1233,
+      "name": "shooterQueueGroupCamera"
+    },
+    {
+      "index": 3995,
+      "declaring_type": 1233,
+      "name": "outlineAnimation"
+    },
+    {
+      "index": 4077,
+      "declaring_type": 1258,
+      "name": "system"
+    },
+    {
+      "index": 4078,
+      "declaring_type": 1258,
+      "name": "freeLabel"
+    },
+    {
+      "index": 4079,
+      "declaring_type": 1258,
+      "name": "usageLabel"
+    },
+    {
+      "index": 4080,
+      "declaring_type": 1258,
+      "name": "configLabel"
+    },
+    {
+      "index": 4081,
+      "declaring_type": 1259,
+      "name": "system"
+    },
+    {
+      "index": 4082,
+      "declaring_type": 1259,
+      "name": "buttonCondition"
+    },
+    {
+      "index": 4083,
+      "declaring_type": 1259,
+      "name": "buttonVisibleLabel"
+    },
+    {
+      "index": 4084,
+      "declaring_type": 1259,
+      "name": "eligibleLabel"
+    },
+    {
+      "index": 4085,
+      "declaring_type": 1259,
+      "name": "usesLabel"
+    },
+    {
+      "index": 4086,
+      "declaring_type": 1259,
+      "name": "failsLabel"
+    },
+    {
+      "index": 4087,
+      "declaring_type": 1259,
+      "name": "dayKeyLabel"
+    },
+    {
+      "index": 4088,
+      "declaring_type": 1259,
+      "name": "configLabel"
+    },
+    {
+      "index": 4089,
+      "declaring_type": 1259,
+      "name": "limitsLabel"
+    },
+    {
+      "index": 4107,
+      "declaring_type": 1271,
+      "name": "system"
+    },
+    {
+      "index": 4108,
+      "declaring_type": 1272,
+      "name": "system"
+    },
+    {
+      "index": 4109,
+      "declaring_type": 1273,
+      "name": "egoPurchasedCount"
+    },
+    {
+      "index": 4110,
+      "declaring_type": 1273,
+      "name": "egoRvCount"
+    },
+    {
+      "index": 4111,
+      "declaring_type": 1273,
+      "name": "egoTotalCount"
+    },
+    {
+      "index": 4112,
+      "declaring_type": 1273,
+      "name": "egoFreeCount"
+    },
+    {
+      "index": 4113,
+      "declaring_type": 1273,
+      "name": "freeSystem"
+    },
+    {
+      "index": 4114,
+      "declaring_type": 1274,
+      "name": "creatorEvents"
+    },
+    {
+      "index": 4115,
+      "declaring_type": 1274,
+      "name": "egoPurchasedCount"
+    },
+    {
+      "index": 4116,
+      "declaring_type": 1274,
+      "name": "egoRvCount"
+    },
+    {
+      "index": 4117,
+      "declaring_type": 1274,
+      "name": "egoTotalCount"
+    },
+    {
+      "index": 4118,
+      "declaring_type": 1274,
+      "name": "egoFreeCount"
+    },
+    {
+      "index": 4119,
+      "declaring_type": 1275,
+      "name": "system"
+    },
+    {
+      "index": 4120,
+      "declaring_type": 1275,
+      "name": "resourceCaptureSystemEvents"
+    },
+    {
+      "index": 4121,
+      "declaring_type": 1276,
+      "name": "system"
+    },
+    {
+      "index": 4122,
+      "declaring_type": 1276,
+      "name": "freeSystem"
+    },
+    {
+      "index": 4123,
+      "declaring_type": 1277,
+      "name": "system"
+    },
+    {
+      "index": 4124,
+      "declaring_type": 1279,
+      "name": "system"
+    },
+    {
+      "index": 4125,
+      "declaring_type": 1279,
+      "name": "offerView"
+    },
+    {
+      "index": 4130,
+      "declaring_type": 1280,
+      "name": "navigatable"
+    },
+    {
+      "index": 4131,
+      "declaring_type": 1280,
+      "name": "system"
+    },
+    {
+      "index": 4132,
+      "declaring_type": 1280,
+      "name": "paidContents"
+    },
+    {
+      "index": 4133,
+      "declaring_type": 1280,
+      "name": "freeContent"
+    },
+    {
+      "index": 4134,
+      "declaring_type": 1283,
+      "name": "navigationChannel"
+    },
+    {
+      "index": 4135,
+      "declaring_type": 1283,
+      "name": "levelFailOfferNavigatableId"
+    },
+    {
+      "index": 4136,
+      "declaring_type": 1283,
+      "name": "miniShopNavigatableId"
+    },
+    {
+      "index": 4137,
+      "declaring_type": 1283,
+      "name": "cdi"
+    },
+    {
+      "index": 4144,
+      "declaring_type": 1284,
+      "name": "failReason"
+    },
+    {
+      "index": 4145,
+      "declaring_type": 1284,
+      "name": "<Title>k__BackingField"
+    },
+    {
+      "index": 4146,
+      "declaring_type": 1284,
+      "name": "<Description>k__BackingField"
+    },
+    {
+      "index": 4147,
+      "declaring_type": 1284,
+      "name": "<VideoClip>k__BackingField"
+    },
+    {
+      "index": 4148,
+      "declaring_type": 1284,
+      "name": "<PopoverIcon>k__BackingField"
+    },
+    {
+      "index": 4149,
+      "declaring_type": 1284,
+      "name": "<PopoverInfo>k__BackingField"
+    },
+    {
+      "index": 4150,
+      "declaring_type": 1285,
+      "name": "list"
+    },
+    {
+      "index": 4154,
+      "declaring_type": 1287,
+      "name": "iconVar"
+    },
+    {
+      "index": 4155,
+      "declaring_type": 1287,
+      "name": "infoVar"
+    },
+    {
+      "index": 4156,
+      "declaring_type": 1288,
+      "name": "navigatable"
+    },
+    {
+      "index": 4157,
+      "declaring_type": 1288,
+      "name": "titleVar"
+    },
+    {
+      "index": 4158,
+      "declaring_type": 1288,
+      "name": "descriptionVar"
+    },
+    {
+      "index": 4159,
+      "declaring_type": 1288,
+      "name": "videoPlayer"
+    },
+    {
+      "index": 10877,
+      "declaring_type": 2500,
+      "name": "powerupChannel"
+    },
+    {
+      "index": 11441,
+      "declaring_type": 2674,
+      "name": "powerupsData"
+    },
+    {
+      "index": 11442,
+      "declaring_type": 2674,
+      "name": "powerupIndex"
+    },
+    {
+      "index": 11642,
+      "declaring_type": 2711,
+      "name": "powerUpSystem"
+    },
+    {
+      "index": 11643,
+      "declaring_type": 2711,
+      "name": "customEventSender"
+    },
+    {
+      "index": 11644,
+      "declaring_type": 2711,
+      "name": "purchasedEventData"
+    },
+    {
+      "index": 11645,
+      "declaring_type": 2711,
+      "name": "startedEventData"
+    },
+    {
+      "index": 11646,
+      "declaring_type": 2711,
+      "name": "ecc"
+    },
+    {
+      "index": 11647,
+      "declaring_type": 2711,
+      "name": "ecd"
+    },
+    {
+      "index": 11648,
+      "declaring_type": 2711,
+      "name": "ece"
+    },
+    {
+      "index": 11649,
+      "declaring_type": 2711,
+      "name": "ecf"
+    },
+    {
+      "index": 15530,
+      "declaring_type": 3652,
+      "name": "_leaseManagerPollTime"
+    },
+    {
+      "index": 15531,
+      "declaring_type": 3652,
+      "name": "_leaseTime"
+    },
+    {
+      "index": 15532,
+      "declaring_type": 3652,
+      "name": "_renewOnCallTime"
+    },
+    {
+      "index": 15533,
+      "declaring_type": 3652,
+      "name": "_sponsorshipTimeout"
+    },
+    {
+      "index": 15534,
+      "declaring_type": 3652,
+      "name": "_leaseManager"
+    },
+    {
+      "index": 24770,
+      "declaring_type": 5698,
+      "name": "value__"
+    },
+    {
+      "index": 24771,
+      "declaring_type": 5698,
+      "name": "None"
+    },
+    {
+      "index": 24772,
+      "declaring_type": 5698,
+      "name": "PropagationStopped"
+    },
+    {
+      "index": 24773,
+      "declaring_type": 5698,
+      "name": "ImmediatePropagationStopped"
+    },
+    {
+      "index": 24774,
+      "declaring_type": 5698,
+      "name": "Dispatching"
+    },
+    {
+      "index": 24775,
+      "declaring_type": 5698,
+      "name": "Pooled"
+    },
+    {
+      "index": 24776,
+      "declaring_type": 5698,
+      "name": "IMGUIEventIsValid"
+    },
+    {
+      "index": 24777,
+      "declaring_type": 5698,
+      "name": "PropagateToIMGUI"
+    },
+    {
+      "index": 24778,
+      "declaring_type": 5698,
+      "name": "Dispatched"
+    },
+    {
+      "index": 24779,
+      "declaring_type": 5698,
+      "name": "Processed"
+    },
+    {
+      "index": 24780,
+      "declaring_type": 5698,
+      "name": "ProcessedByFocusController"
+    },
+    {
+      "index": 49482,
+      "declaring_type": 11080,
+      "name": "value__"
+    },
+    {
+      "index": 49483,
+      "declaring_type": 11080,
+      "name": "LeftX"
+    },
+    {
+      "index": 49484,
+      "declaring_type": 11080,
+      "name": "LeftY"
+    },
+    {
+      "index": 49485,
+      "declaring_type": 11080,
+      "name": "LeftZ"
+    },
+    {
+      "index": 49486,
+      "declaring_type": 11080,
+      "name": "LeftW"
+    },
+    {
+      "index": 49487,
+      "declaring_type": 11080,
+      "name": "RightX"
+    },
+    {
+      "index": 49488,
+      "declaring_type": 11080,
+      "name": "RightY"
+    },
+    {
+      "index": 49489,
+      "declaring_type": 11080,
+      "name": "RightZ"
+    },
+    {
+      "index": 49490,
+      "declaring_type": 11080,
+      "name": "RightW"
+    },
+    {
+      "index": 78178,
+      "declaring_type": 18420,
+      "name": "OnDestroyCallback"
+    },
+    {
+      "index": 111873,
+      "declaring_type": 27757,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 111874,
+      "declaring_type": 27757,
+      "name": "sequenceStep"
+    },
+    {
+      "index": 111878,
+      "declaring_type": 27761,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 111879,
+      "declaring_type": 27761,
+      "name": "comparisons"
+    },
+    {
+      "index": 111880,
+      "declaring_type": 27762,
+      "name": "value__"
+    },
+    {
+      "index": 111881,
+      "declaring_type": 27762,
+      "name": "Any"
+    },
+    {
+      "index": 111882,
+      "declaring_type": 27762,
+      "name": "All"
+    },
+    {
+      "index": 111883,
+      "declaring_type": 27762,
+      "name": "Specific"
+    },
+    {
+      "index": 111887,
+      "declaring_type": 27764,
+      "name": "state"
+    },
+    {
+      "index": 111888,
+      "declaring_type": 27764,
+      "name": "isNot"
+    },
+    {
+      "index": 111889,
+      "declaring_type": 27764,
+      "name": "compareStrategy"
+    },
+    {
+      "index": 111890,
+      "declaring_type": 27764,
+      "name": "compareOperator"
+    },
+    {
+      "index": 111891,
+      "declaring_type": 27764,
+      "name": "powerup"
+    },
+    {
+      "index": 111892,
+      "declaring_type": 27764,
+      "name": "excludedPowerups"
+    },
+    {
+      "index": 111893,
+      "declaring_type": 27765,
+      "name": "DidClaimFirstTime"
+    },
+    {
+      "index": 111894,
+      "declaring_type": 27765,
+      "name": "DidUseOnce"
+    },
+    {
+      "index": 111895,
+      "declaring_type": 27766,
+      "name": "powerups"
+    },
+    {
+      "index": 111896,
+      "declaring_type": 27767,
+      "name": "Price"
+    },
+    {
+      "index": 111897,
+      "declaring_type": 27767,
+      "name": "PurchaseCount"
+    },
+    {
+      "index": 111898,
+      "declaring_type": 27767,
+      "name": "ClaimFirstTimeCount"
+    },
+    {
+      "index": 111899,
+      "declaring_type": 27767,
+      "name": "MinLevel"
+    },
+    {
+      "index": 111900,
+      "declaring_type": 27767,
+      "name": "PowerupData"
+    },
+    {
+      "index": 111901,
+      "declaring_type": 27768,
+      "name": "value__"
+    },
+    {
+      "index": 111902,
+      "declaring_type": 27768,
+      "name": "Idle"
+    },
+    {
+      "index": 111903,
+      "declaring_type": 27768,
+      "name": "Requested"
+    },
+    {
+      "index": 111904,
+      "declaring_type": 27768,
+      "name": "Started"
+    },
+    {
+      "index": 111905,
+      "declaring_type": 27768,
+      "name": "Performed"
+    },
+    {
+      "index": 111906,
+      "declaring_type": 27769,
+      "name": "DidClaimFirstTimeThisLevel"
+    },
+    {
+      "index": 111907,
+      "declaring_type": 27770,
+      "name": "Enabled"
+    },
+    {
+      "index": 111908,
+      "declaring_type": 27770,
+      "name": "FirstTimeUseFree"
+    },
+    {
+      "index": 111909,
+      "declaring_type": 27777,
+      "name": "<Amount>k__BackingField"
+    },
+    {
+      "index": 111910,
+      "declaring_type": 27778,
+      "name": "<Powerup>k__BackingField"
+    },
+    {
+      "index": 111911,
+      "declaring_type": 27779,
+      "name": "OnRequested"
+    },
+    {
+      "index": 111912,
+      "declaring_type": 27779,
+      "name": "OnStarted"
+    },
+    {
+      "index": 111913,
+      "declaring_type": 27779,
+      "name": "OnCanceled"
+    },
+    {
+      "index": 111914,
+      "declaring_type": 27779,
+      "name": "OnPerformed"
+    },
+    {
+      "index": 111915,
+      "declaring_type": 27779,
+      "name": "OnFinished"
+    },
+    {
+      "index": 111916,
+      "declaring_type": 27779,
+      "name": "OnCanceledOrFinished"
+    },
+    {
+      "index": 111917,
+      "declaring_type": 27779,
+      "name": "OnResourceNotEnough"
+    },
+    {
+      "index": 111918,
+      "declaring_type": 27779,
+      "name": "OnPurchased"
+    },
+    {
+      "index": 111919,
+      "declaring_type": 27779,
+      "name": "OnClaimedFirstTime"
+    },
+    {
+      "index": 111920,
+      "declaring_type": 27780,
+      "name": "<Amount>k__BackingField"
+    },
+    {
+      "index": 111921,
+      "declaring_type": 27781,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 111922,
+      "declaring_type": 27782,
+      "name": "<IsResumed>k__BackingField"
+    },
+    {
+      "index": 111923,
+      "declaring_type": 27783,
+      "name": "<SpendResource>k__BackingField"
+    },
+    {
+      "index": 111924,
+      "declaring_type": 27785,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 111925,
+      "declaring_type": 27785,
+      "name": "_previousState"
+    },
+    {
+      "index": 111926,
+      "declaring_type": 27785,
+      "name": "_currentState"
+    },
+    {
+      "index": 111927,
+      "declaring_type": 27785,
+      "name": "_isResumed"
+    },
+    {
+      "index": 111928,
+      "declaring_type": 27785,
+      "name": "currentLevelNumber"
+    },
+    {
+      "index": 111929,
+      "declaring_type": 27785,
+      "name": "goldResource"
+    },
+    {
+      "index": 111930,
+      "declaring_type": 27785,
+      "name": "resource"
+    },
+    {
+      "index": 111931,
+      "declaring_type": 27785,
+      "name": "useInfo"
+    },
+    {
+      "index": 111932,
+      "declaring_type": 27785,
+      "name": "claimInfo"
+    },
+    {
+      "index": 111933,
+      "declaring_type": 27785,
+      "name": "purchaseCoinSpendInfo"
+    },
+    {
+      "index": 111934,
+      "declaring_type": 27785,
+      "name": "purchasePowerupIncreaseInfo"
+    },
+    {
+      "index": 111935,
+      "declaring_type": 27785,
+      "name": "settings"
+    },
+    {
+      "index": 111936,
+      "declaring_type": 27785,
+      "name": "data"
+    },
+    {
+      "index": 111937,
+      "declaring_type": 27785,
+      "name": "powerupAvailableConditions"
+    },
+    {
+      "index": 111938,
+      "declaring_type": 27785,
+      "name": "buttonVisibleConditions"
+    },
+    {
+      "index": 111939,
+      "declaring_type": 27785,
+      "name": "buttonActiveConditions"
+    },
+    {
+      "index": 111940,
+      "declaring_type": 27785,
+      "name": "buttonClickableConditions"
+    },
+    {
+      "index": 111941,
+      "declaring_type": 27785,
+      "name": "didClaimFirstTime"
+    },
+    {
+      "index": 111942,
+      "declaring_type": 27785,
+      "name": "eventsData"
+    },
+    {
+      "index": 111946,
+      "declaring_type": 27786,
+      "name": "powerupChannel"
+    },
+    {
+      "index": 111947,
+      "declaring_type": 27786,
+      "name": "unityEvents"
+    },
+    {
+      "index": 111948,
+      "declaring_type": 27794,
+      "name": "currentLevelNumber"
+    },
+    {
+      "index": 111949,
+      "declaring_type": 27794,
+      "name": "powerupGroups"
+    },
+    {
+      "index": 111950,
+      "declaring_type": 27794,
+      "name": "settings"
+    },
+    {
+      "index": 111951,
+      "declaring_type": 27794,
+      "name": "data"
+    },
+    {
+      "index": 111952,
+      "declaring_type": 27794,
+      "name": "anyPowerupClaimPopupConditions"
+    },
+    {
+      "index": 111953,
+      "declaring_type": 27794,
+      "name": "anyPowerupButtonClickableConditions"
+    },
+    {
+      "index": 111954,
+      "declaring_type": 27794,
+      "name": "usePurchaseCountAtFirstTimeClaim"
+    },
+    {
+      "index": 111955,
+      "declaring_type": 27794,
+      "name": "resourceInfoType"
+    },
+    {
+      "index": 111956,
+      "declaring_type": 27794,
+      "name": "_currentPowerups"
+    },
+    {
+      "index": 111957,
+      "declaring_type": 27794,
+      "name": "eventsData"
+    },
+    {
+      "index": 111974,
+      "declaring_type": 27795,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 111975,
+      "declaring_type": 27795,
+      "name": "gameStateEvents"
+    },
+    {
+      "index": 111976,
+      "declaring_type": 27795,
+      "name": "loadEvents"
+    },
+    {
+      "index": 111977,
+      "declaring_type": 27796,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 111978,
+      "declaring_type": 27796,
+      "name": "exceptedPowerups"
+    },
+    {
+      "index": 111979,
+      "declaring_type": 27796,
+      "name": "includedPowerups"
+    },
+    {
+      "index": 111980,
+      "declaring_type": 27796,
+      "name": "unityEvents"
+    },
+    {
+      "index": 111992,
+      "declaring_type": 27800,
+      "name": "OnRequested"
+    },
+    {
+      "index": 111993,
+      "declaring_type": 27800,
+      "name": "OnStarted"
+    },
+    {
+      "index": 111994,
+      "declaring_type": 27800,
+      "name": "OnCanceled"
+    },
+    {
+      "index": 111995,
+      "declaring_type": 27800,
+      "name": "OnPerformed"
+    },
+    {
+      "index": 111996,
+      "declaring_type": 27800,
+      "name": "OnFinished"
+    },
+    {
+      "index": 111997,
+      "declaring_type": 27800,
+      "name": "OnCanceledOrFinished"
+    },
+    {
+      "index": 111998,
+      "declaring_type": 27800,
+      "name": "OnResourceNotEnough"
+    },
+    {
+      "index": 111999,
+      "declaring_type": 27800,
+      "name": "OnPurchased"
+    },
+    {
+      "index": 112000,
+      "declaring_type": 27800,
+      "name": "OnClaimedFirstTime"
+    },
+    {
+      "index": 118201,
+      "declaring_type": 30290,
+      "name": "system"
+    },
+    {
+      "index": 118202,
+      "declaring_type": 30290,
+      "name": "autoTriggerMethod"
+    },
+    {
+      "index": 118203,
+      "declaring_type": 30290,
+      "name": "OnEnabledValue"
+    },
+    {
+      "index": 118204,
+      "declaring_type": 30290,
+      "name": "OnDisabledValue"
+    },
+    {
+      "index": 118205,
+      "declaring_type": 30290,
+      "name": "OnEnabled"
+    },
+    {
+      "index": 118206,
+      "declaring_type": 30290,
+      "name": "OnDisabled"
+    },
+    {
+      "index": 118207,
+      "declaring_type": 30291,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 118208,
+      "declaring_type": 30291,
+      "name": "hasResource"
+    },
+    {
+      "index": 118209,
+      "declaring_type": 30291,
+      "name": "isUnlocked"
+    },
+    {
+      "index": 118210,
+      "declaring_type": 30291,
+      "name": "isInUse"
+    },
+    {
+      "index": 118211,
+      "declaring_type": 30291,
+      "name": "isActive"
+    },
+    {
+      "index": 118212,
+      "declaring_type": 30291,
+      "name": "isClickable"
+    },
+    {
+      "index": 118213,
+      "declaring_type": 30291,
+      "name": "minLevel"
+    },
+    {
+      "index": 118214,
+      "declaring_type": 30291,
+      "name": "iconSprite"
+    },
+    {
+      "index": 118215,
+      "declaring_type": 30291,
+      "name": "button"
+    },
+    {
+      "index": 118216,
+      "declaring_type": 30291,
+      "name": "resourceView"
+    },
+    {
+      "index": 118217,
+      "declaring_type": 30291,
+      "name": "sortOverrideCanvas"
+    },
+    {
+      "index": 118218,
+      "declaring_type": 30291,
+      "name": "_forceSortOverrideCanvas"
+    },
+    {
+      "index": 118219,
+      "declaring_type": 30291,
+      "name": "_forceUnlocked"
+    },
+    {
+      "index": 118220,
+      "declaring_type": 30291,
+      "name": "_forceUnclickable"
+    },
+    {
+      "index": 118221,
+      "declaring_type": 30292,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 118222,
+      "declaring_type": 30292,
+      "name": "powerupButtons"
+    },
+    {
+      "index": 118223,
+      "declaring_type": 30292,
+      "name": "body"
+    },
+    {
+      "index": 118224,
+      "declaring_type": 30292,
+      "name": "onlyShowAfterFirstPowerupLevel"
+    },
+    {
+      "index": 118225,
+      "declaring_type": 30292,
+      "name": "defaultButtonsHeight"
+    },
+    {
+      "index": 118226,
+      "declaring_type": 30292,
+      "name": "overrideButtonsHeight"
+    },
+    {
+      "index": 118227,
+      "declaring_type": 30292,
+      "name": "OnSetupDone"
+    },
+    {
+      "index": 118228,
+      "declaring_type": 30293,
+      "name": "<PowerupChannel>k__BackingField"
+    },
+    {
+      "index": 118229,
+      "declaring_type": 30293,
+      "name": "uiSystem"
+    },
+    {
+      "index": 118230,
+      "declaring_type": 30294,
+      "name": "<PowerupChannel>k__BackingField"
+    },
+    {
+      "index": 118231,
+      "declaring_type": 30294,
+      "name": "<UIData>k__BackingField"
+    },
+    {
+      "index": 118232,
+      "declaring_type": 30295,
+      "name": "powerupName"
+    },
+    {
+      "index": 118233,
+      "declaring_type": 30295,
+      "name": "powerupDescription"
+    },
+    {
+      "index": 118234,
+      "declaring_type": 30295,
+      "name": "usePhrase"
+    },
+    {
+      "index": 118235,
+      "declaring_type": 30295,
+      "name": "useSpriteRefs"
+    },
+    {
+      "index": 118236,
+      "declaring_type": 30295,
+      "name": "buttonIcon"
+    },
+    {
+      "index": 118237,
+      "declaring_type": 30295,
+      "name": "popupIcon"
+    },
+    {
+      "index": 118238,
+      "declaring_type": 30295,
+      "name": "rewardIcon"
+    },
+    {
+      "index": 118239,
+      "declaring_type": 30295,
+      "name": "buttonIconRef"
+    },
+    {
+      "index": 118240,
+      "declaring_type": 30295,
+      "name": "popupIconRef"
+    },
+    {
+      "index": 118241,
+      "declaring_type": 30295,
+      "name": "rewardIconRef"
+    },
+    {
+      "index": 118242,
+      "declaring_type": 30295,
+      "name": "buttonResourceAnimation"
+    },
+    {
+      "index": 118243,
+      "declaring_type": 30296,
+      "name": "powerupButtonsController"
+    },
+    {
+      "index": 118244,
+      "declaring_type": 30296,
+      "name": "levelCreatorEvents"
+    },
+    {
+      "index": 118245,
+      "declaring_type": 30297,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 118246,
+      "declaring_type": 30297,
+      "name": "sequenceStep"
+    },
+    {
+      "index": 118247,
+      "declaring_type": 30297,
+      "name": "navigationChannel"
+    },
+    {
+      "index": 118248,
+      "declaring_type": 30297,
+      "name": "popupId"
+    },
+    {
+      "index": 118249,
+      "declaring_type": 30298,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 118250,
+      "declaring_type": 30298,
+      "name": "navigationChannel"
+    },
+    {
+      "index": 118251,
+      "declaring_type": 30298,
+      "name": "popupId"
+    },
+    {
+      "index": 118252,
+      "declaring_type": 30299,
+      "name": "hasTutorial"
+    },
+    {
+      "index": 118253,
+      "declaring_type": 30299,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 118254,
+      "declaring_type": 30299,
+      "name": "buttonsController"
+    },
+    {
+      "index": 118255,
+      "declaring_type": 30299,
+      "name": "navigatable"
+    },
+    {
+      "index": 118256,
+      "declaring_type": 30299,
+      "name": "purchasePosition"
+    },
+    {
+      "index": 118257,
+      "declaring_type": 30299,
+      "name": "claimButton"
+    },
+    {
+      "index": 118258,
+      "declaring_type": 30299,
+      "name": "itemIconImage"
+    },
+    {
+      "index": 118259,
+      "declaring_type": 30299,
+      "name": "itemName"
+    },
+    {
+      "index": 118260,
+      "declaring_type": 30299,
+      "name": "itemDescription"
+    },
+    {
+      "index": 118261,
+      "declaring_type": 30299,
+      "name": "itemPurchaseAmount"
+    },
+    {
+      "index": 118262,
+      "declaring_type": 30300,
+      "name": "navigatable"
+    },
+    {
+      "index": 118263,
+      "declaring_type": 30300,
+      "name": "purchasePosition"
+    },
+    {
+      "index": 118264,
+      "declaring_type": 30300,
+      "name": "purchaseButton"
+    },
+    {
+      "index": 118265,
+      "declaring_type": 30300,
+      "name": "itemName"
+    },
+    {
+      "index": 118266,
+      "declaring_type": 30300,
+      "name": "itemDescription"
+    },
+    {
+      "index": 118267,
+      "declaring_type": 30300,
+      "name": "itemPurchaseAmount"
+    },
+    {
+      "index": 118268,
+      "declaring_type": 30300,
+      "name": "itemPrice"
+    },
+    {
+      "index": 118269,
+      "declaring_type": 30300,
+      "name": "itemIconImage"
+    },
+    {
+      "index": 118270,
+      "declaring_type": 30300,
+      "name": "purchaseHaptic"
+    },
+    {
+      "index": 118271,
+      "declaring_type": 30300,
+      "name": "purchaseAudio"
+    },
+    {
+      "index": 118272,
+      "declaring_type": 30301,
+      "name": "navigatable"
+    },
+    {
+      "index": 118273,
+      "declaring_type": 30301,
+      "name": "startButton"
+    },
+    {
+      "index": 118274,
+      "declaring_type": 30301,
+      "name": "cancelButton"
+    },
+    {
+      "index": 118275,
+      "declaring_type": 30301,
+      "name": "cancelButtonParent"
+    },
+    {
+      "index": 118276,
+      "declaring_type": 30301,
+      "name": "hideCancelButtonIfNotUsedOnce"
+    },
+    {
+      "index": 118277,
+      "declaring_type": 30301,
+      "name": "hasFocus"
+    },
+    {
+      "index": 118278,
+      "declaring_type": 30301,
+      "name": "focusPivot"
+    },
+    {
+      "index": 118279,
+      "declaring_type": 30301,
+      "name": "focusTarget"
+    },
+    {
+      "index": 118280,
+      "declaring_type": 30301,
+      "name": "itemName"
+    },
+    {
+      "index": 118281,
+      "declaring_type": 30301,
+      "name": "itemDescription"
+    },
+    {
+      "index": 118282,
+      "declaring_type": 30301,
+      "name": "usePhrase"
+    },
+    {
+      "index": 118283,
+      "declaring_type": 30301,
+      "name": "itemIconImage"
+    },
+    {
+      "index": 118284,
+      "declaring_type": 30302,
+      "name": "navigatable"
+    },
+    {
+      "index": 118285,
+      "declaring_type": 30302,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 118286,
+      "declaring_type": 30302,
+      "name": "buttonsController"
+    },
+    {
+      "index": 118287,
+      "declaring_type": 30302,
+      "name": "tutorialFocus"
+    },
+    {
+      "index": 118288,
+      "declaring_type": 30302,
+      "name": "eventTriggerDelegate"
+    },
+    {
+      "index": 118289,
+      "declaring_type": 30303,
+      "name": "powerupSystem"
+    },
+    {
+      "index": 118290,
+      "declaring_type": 30303,
+      "name": "canvasSortOverride"
+    },
+    {
+      "index": 118291,
+      "declaring_type": 30303,
+      "name": "resourceModelParent"
+    },
+    {
+      "index": 118292,
+      "declaring_type": 30303,
+      "name": "resourceAnimationTargets"
+    },
+    {
+      "index": 118293,
+      "declaring_type": 30303,
+      "name": "autoSetupOnEnable"
+    },
+    {
+      "index": 118294,
+      "declaring_type": 30305,
+      "name": "navigationChannel"
+    },
+    {
+      "index": 118295,
+      "declaring_type": 30305,
+      "name": "tutorialPopupId"
+    },
+    {
+      "index": 118296,
+      "declaring_type": 30305,
+      "name": "uiDataList"
+    },
+    {
+      "index": 120195,
+      "declaring_type": 31087,
+      "name": "Enabled"
+    },
+    {
+      "index": 120196,
+      "declaring_type": 31087,
+      "name": "MinCoinAmount"
+    },
+    {
+      "index": 120197,
+      "declaring_type": 31087,
+      "name": "MaxCoinAmount"
+    },
+    {
+      "index": 120198,
+      "declaring_type": 31087,
+      "name": "DailyUseLimit"
+    },
+    {
+      "index": 120199,
+      "declaring_type": 31087,
+      "name": "FailCooldown"
+    },
+    {
+      "index": 120200,
+      "declaring_type": 31087,
+      "name": "AdvancePriceLadder"
+    },
+    {
+      "index": 120201,
+      "declaring_type": 31088,
+      "name": "UseDayKey"
+    },
+    {
+      "index": 120202,
+      "declaring_type": 31088,
+      "name": "UseCount"
+    },
+    {
+      "index": 120203,
+      "declaring_type": 31088,
+      "name": "FailDayKey"
+    },
+    {
+      "index": 120204,
+      "declaring_type": 31088,
+      "name": "FailCount"
+    },
+    {
+      "index": 120205,
+      "declaring_type": 31089,
+      "name": "fje"
+    },
+    {
+      "index": 120206,
+      "declaring_type": 31089,
+      "name": "fjf"
+    },
+    {
+      "index": 120207,
+      "declaring_type": 31089,
+      "name": "fjg"
+    },
+    {
+      "index": 120208,
+      "declaring_type": 31089,
+      "name": "fjh"
+    },
+    {
+      "index": 120209,
+      "declaring_type": 31089,
+      "name": "fji"
+    },
+    {
+      "index": 120210,
+      "declaring_type": 31089,
+      "name": "fjj"
+    },
+    {
+      "index": 120211,
+      "declaring_type": 31089,
+      "name": "fjk"
+    },
+    {
+      "index": 120212,
+      "declaring_type": 31092,
+      "name": "config"
+    },
+    {
+      "index": 120213,
+      "declaring_type": 31092,
+      "name": "saveData"
+    },
+    {
+      "index": 120214,
+      "declaring_type": 31092,
+      "name": "coinAmount"
+    },
+    {
+      "index": 120215,
+      "declaring_type": 31092,
+      "name": "logic"
+    },
+    {
+      "index": 121278,
+      "declaring_type": 31625,
+      "name": "Enabled"
+    },
+    {
+      "index": 121279,
+      "declaring_type": 31625,
+      "name": "FreeCount"
+    },
+    {
+      "index": 121280,
+      "declaring_type": 31625,
+      "name": "ResetUsage"
+    },
+    {
+      "index": 121281,
+      "declaring_type": 31625,
+      "name": "MaxCount"
+    },
+    {
+      "index": 121282,
+      "declaring_type": 31626,
+      "name": "UsedCount"
+    },
+    {
+      "index": 121283,
+      "declaring_type": 31626,
+      "name": "TotalUsedCount"
+    },
+    {
+      "index": 121284,
+      "declaring_type": 31627,
+      "name": "fdw"
+    },
+    {
+      "index": 121285,
+      "declaring_type": 31627,
+      "name": "fdx"
+    },
+    {
+      "index": 121286,
+      "declaring_type": 31627,
+      "name": "fdy"
+    },
+    {
+      "index": 121287,
+      "declaring_type": 31629,
+      "name": "config"
+    },
+    {
+      "index": 121288,
+      "declaring_type": 31629,
+      "name": "saveData"
+    },
+    {
+      "index": 121289,
+      "declaring_type": 31629,
+      "name": "logic"
+    },
+    {
+      "index": 121346,
+      "declaring_type": 31661,
+      "name": "LevelNumber"
+    },
+    {
+      "index": 121347,
+      "declaring_type": 31661,
+      "name": "LevelId"
+    },
+    {
+      "index": 121348,
+      "declaring_type": 31661,
+      "name": "LevelType"
+    },
+    {
+      "index": 121349,
+      "declaring_type": 31661,
+      "name": "IsCoreLevel"
+    }
+  ],
+  "limits": [
+    "Only unencrypted global-metadata.dat versions 24, 27, 29, 31 and 39 are decoded; names, counts and string literals are observed file content, not runtime behavior.",
+    "Native code addresses and IL2CPP binary registration are not recovered without binary_path.",
+    "Field, parameter and return types are not recovered without binary_path; type indices refer to the native binary.",
+    "declaring_type for types is derived from the nestedTypes section, and member and parameter owners from the owners' index ranges; row positions are the metadata indices."
+  ],
+  "recoveredLogic": false
+}

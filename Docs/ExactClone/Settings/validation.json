@@ -1,0 +1,54 @@
+{
+  "status": "settings-client-checkpoint",
+  "tests": {
+    "result": "Passed",
+    "total": "12",
+    "passed": "12",
+    "failed": "0"
+  },
+  "captures": [
+    {
+      "path": "game-view-settings-home.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "d5b76f7596e7b6f0e4cc0598b975cbcfd008f2fd417d2d6c20f5676b4712a11b",
+      "method": "Actual Game View RenderTexture readback, GPU row order corrected; production canvas/camera unchanged",
+      "saveScope": "HomeReview_991e40c081e240c3a3287b891a246e51"
+    },
+    {
+      "path": "game-view-settings-long.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "f2b28841a2db25a14ab3955bd29846c7b42733f2b54e7db3590ad0cff5bc237a",
+      "method": "Actual Game View RenderTexture readback, GPU row order corrected; production canvas/camera unchanged",
+      "saveScope": "HomeReview_991e40c081e240c3a3287b891a246e51"
+    },
+    {
+      "path": "game-view-settings-privacy.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "9035c3c673e6c08ba34ef48b310f46579cfd0d0aa35dfcd5787dbfd8db1403fe",
+      "method": "Actual Game View RenderTexture readback, GPU row order corrected; production canvas/camera unchanged",
+      "saveScope": "HomeReview_991e40c081e240c3a3287b891a246e51"
+    },
+    {
+      "path": "game-view-settings-small.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "1296f931385bd0116b9b9a1d1b07fa7498c5043ff9d34bbcc39b5671b0557e9e",
+      "method": "Actual Game View RenderTexture readback, GPU row order corrected; production canvas/camera unchanged",
+      "saveScope": "HomeReview_991e40c081e240c3a3287b891a246e51"
+    }
+  ],
+  "offscreenPreviews": "Docs/Evidence/editor-review/settings-final-20261025",
+  "prefabGuid": "aaf44ae2917c45749a7bdf79e64c2cc7",
+  "scriptGuid": "3a10b35bd2c7daf49b0024068d988aa6",
+  "nativeScreenshot": "unavailable; source hierarchy/art comparison only",
+  "playerBuild": "not run; prohibited",
+  "productionServices": "unavailable/unverified",
+  "combinedRegression": "../Lives/editor-verified.xml",
+  "combinedTests": {
+    "passed": 138,
+    "total": 138
+  }
+}

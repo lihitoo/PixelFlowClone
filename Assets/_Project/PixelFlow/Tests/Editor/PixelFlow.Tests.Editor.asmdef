@@ -8,6 +8,8 @@
     "Dreamy.DataConfig.Runtime",
     "Dreamy.Shop.Runtime",
     "Dreamy.Feature.Shop.Integration.Runtime",
+    "Dreamy.Feature.Settings.Integration.Runtime",
+    "Dreamy.Settings.Runtime",
     "Dreamy.UI.Runtime",
     "UniTask",
     "UnityEngine.TestRunner",

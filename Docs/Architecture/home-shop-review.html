@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><title>Home / Shop prefab review</title>
+<style>body{margin:24px;background:#152137;color:#eff6ff;font:16px system-ui}section{display:flex;align-items:flex-start;gap:20px;flex-wrap:wrap;margin-bottom:40px}figure{margin:0;max-width:48%}img{display:block;max-width:100%;max-height:850px;object-fit:contain;object-position:top left}a{color:#92daff}figcaption{margin:10px 0}p{max-width:1000px}</style>
+<h1>Home / Shop — prefab review</h1>
+<p>Canvas 1080×1920, Match 0.5; font/atlas Lilita One gốc. Nguồn web không có version stamp 0.36.3. Các preview URP tạm đổi Canvas sang ScreenSpaceCamera được ghi riêng với ảnh Game View. Không phải device test hoặc chấp nhận pixel-perfect.</p>
+<h2>Home</h2><section>
+<figure><img src="../ExactClone/Research/images/ui-triptych.jpg"><figcaption>Nguồn: Home level 36 nằm ở cột trái; các cột khác là gameplay/fail.</figcaption></figure>
+<figure><img src="PrefabReview/home-36-final.png"><figcaption>Game View render-texture readback level 36, save review cô lập: unlock và 2.000 coin được seed; không phải progression đã chơi.</figcaption></figure>
+</section>
+<h2>Shop — đầu feed</h2><section>
+<figure><img src="../ExactClone/Research/images/shop-analysis-01.png"><figcaption>Reference: bốn trạng thái scroll/progression khác nhau.</figcaption></figure>
+<figure><img src="../Evidence/editor-review/prefab-responsive-final/shop-full-top-1080x1920.png"><figcaption>Preview 1080×1920, fixture level 36. Offer visibility và giá fake store theo config đã ghi rõ.</figcaption></figure>
+</section>
+<h2>Aspect khác</h2>
+<p><a href="PrefabReview/home-36-1080x2340.png">Game View Home36 1080×2340</a> · <a href="PrefabReview/home-36-720x1280.png">Game View Home36 720×1280</a> · <a href="PrefabReview/shop-36-1080x2340.png">Game View Shop36 1080×2340</a> · <a href="home-label-verified.xml">Home label 1/1</a></p>
+<p><a href="../Evidence/editor-review/prefab-responsive-final/home-720x1280.png">Home 720×1280</a> · <a href="../Evidence/editor-review/prefab-responsive-final/home-1080x2340.png">Home 1080×2340</a> · <a href="../Evidence/editor-review/prefab-responsive-final/shop-full-top-1080x2340.png">Shop 1080×2340</a> · <a href="home-shop-verified.xml">Unity regression121/121</a> &middot; <a href="home-shop-responsive.xml">Final UI5/5</a></p>
+<p>Đã sửa: static hierarchy nằm trong prefab gốc; node/Play/header giảm theo ảnh đối chiếu; đường vàng hiện đúng; pattern lớn hơn; outline/shadow font gốc; item Gold dùng chung prefab sample. Chưa xác nhận native 0.36.3 về toàn bộ spacing, unlock tuning, icon variants, animation timing hay dịch vụ production. Header/dock neo theo m?p, tab theo ba c?t; difficulty pill t? fit text tr?n prefab. Modal chung/HUD vẫn là renderer cũ và chưa được công bố là prefab hóa toàn bộ game.</p>
+</html>

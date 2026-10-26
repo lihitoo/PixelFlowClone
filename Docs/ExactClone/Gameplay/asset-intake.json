@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "sourceVersion": "0.36.3",
+  "receipts": [
+    {
+      "role": "Tray",
+      "assetId": "asset-8c6343265539d3d3aaa8",
+      "source": "exports/Sprite/resources.assets/IconPowerup_ExtraSlot_Blue_2x__2001.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/IconPowerup_ExtraSlot_Blue_2x__2001.png",
+      "sha256": "64d730643febd3f3b3fdfe7f1814d6a87a2f46e60a857cf1ee6d88b63b2f8db7",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Gameplay/Tray.png",
+      "bytes": 98718,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "c63a4ecca9159d04f89e59d2836c0b4d",
+      "roleEvidence": "Source hierarchy and observed runtime composition; exact stripped sprite binding remains inferred."
+    },
+    {
+      "role": "Hand",
+      "assetId": "asset-3dd5828eb39880625d10",
+      "source": "exports/Sprite/resources.assets/IconPowerup_Hand_Blue_2x__2090.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/IconPowerup_Hand_Blue_2x__2090.png",
+      "sha256": "421027c22ee1fab01d03376d4e6652382156ced9881d519f329be7d378623da0",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Gameplay/Hand.png",
+      "bytes": 100259,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "d4ef96f2e50109147a865aab6db6b3dd",
+      "roleEvidence": "Source hierarchy and observed runtime composition; exact stripped sprite binding remains inferred."
+    },
+    {
+      "role": "Shuffle",
+      "assetId": "asset-930631b7a5c624976eaf",
+      "source": "exports/Sprite/resources.assets/IconPowerup_Shuffle_Blue_2x__1946.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/IconPowerup_Shuffle_Blue_2x__1946.png",
+      "sha256": "59eda750f6d0165c1761d0fc34e2c9a59c07e807d05d06b2324cfe6eb819c4a4",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Gameplay/Shuffle.png",
+      "bytes": 91843,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "210ec67108093cc4fa82dbf2565a0e76",
+      "roleEvidence": "Source hierarchy and observed runtime composition; exact stripped sprite binding remains inferred."
+    },
+    {
+      "role": "Super",
+      "assetId": "asset-bbacc9d6de264db7d2bc",
+      "source": "exports/Sprite/resources.assets/IconPowerup_SuperShooter_Blue_2x__2053.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/resources.assets/IconPowerup_SuperShooter_Blue_2x__2053.png",
+      "sha256": "a0cc4d13037ab24079471fd4d873ab1bf83bc99cac0693cafa2bd7addd690934",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Gameplay/Super.png",
+      "bytes": 121965,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "3aab6f541d131614d9dc80b770ca0017",
+      "roleEvidence": "Source hierarchy and observed runtime composition; exact stripped sprite binding remains inferred."
+    },
+    {
+      "role": "ButtonBlue",
+      "assetId": "asset-e4de603510ad409e9c2b",
+      "source": "exports/Sprite/sharedassets1.assets/PowerupButton_Blue__1184.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/PowerupButton_Blue__1184.png",
+      "sha256": "f52f42afec20e5df98c3182ca1512b450f39f0beac9ca096a047c7115152e45e",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Gameplay/ButtonBlue.png",
+      "bytes": 64837,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "5e7bd6f650fd86d448004888f72e71e3",
+      "roleEvidence": "Source hierarchy and observed runtime composition; exact stripped sprite binding remains inferred."
+    },
+    {
+      "role": "ButtonHard",
+      "assetId": "asset-c62829c528a2323bf865",
+      "source": "exports/Sprite/sharedassets1.assets/PowerupButton_Hard__1140.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/PowerupButton_Hard__1140.png",
+      "sha256": "ffc0b47e0d37a4aba00a83df376f8b8744e59c10e0d49523551f8024192a2e32",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Gameplay/ButtonHard.png",
+      "bytes": 103939,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "5828d51fb8df97b41909b7b2e2beaca3",
+      "roleEvidence": "Source hierarchy and observed runtime composition; exact stripped sprite binding remains inferred."
+    },
+    {
+      "role": "ButtonRed",
+      "assetId": "asset-e3daf15f17c23fd121b8",
+      "source": "exports/Sprite/sharedassets1.assets/PowerupButton_Red__1148.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/PowerupButton_Red__1148.png",
+      "sha256": "4af4c28bf829f8dd84abc9b5db8530e17e2a6b04d4412c4dd0015e02c102b1dc",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Gameplay/ButtonRed.png",
+      "bytes": 64788,
+      "sourceBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "importedGuid": "57f4b015bd002374da49dc54b39aa499",
+      "roleEvidence": "Source hierarchy and observed runtime composition; exact stripped sprite binding remains inferred."
+    },
+    {
+      "role": "HeaderBlue",
+      "assetId": "asset-79ed8acae8110eda751a",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Label_Rounded_Blue__808.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Label_Rounded_Blue__808.png",
+      "sha256": "926c2bf12c6e32a844107f9ef49ad505f8952fc309ae11e50e3ba30a7f6069c1",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Gameplay/HeaderBlue.png",
+      "bytes": 11315,
+      "sourceBorder": [
+        15.0,
+        0.0,
+        55.0,
+        0.0
+      ],
+      "importedGuid": "078e8c35cff203742a4edb0567a73ff6",
+      "roleEvidence": "Source hierarchy and observed runtime composition; exact stripped sprite binding remains inferred."
+    },
+    {
+      "role": "HeaderRed",
+      "assetId": "asset-05012a3a077961776022",
+      "source": "exports/Sprite/sharedassets1.assets/Frame_Label_Rounded_Red__964.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Frame_Label_Rounded_Red__964.png",
+      "sha256": "34c492ff2bd3b35029377ac52a6c8ec5ef5ec252d34b089c5e0f42bf2a4e43ef",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Gameplay/HeaderRed.png",
+      "bytes": 13233,
+      "sourceBorder": [
+        15.0,
+        0.0,
+        55.0,
+        0.0
+      ],
+      "importedGuid": "d0b3d678e04ca4b4ebac593fb0a8e5ed",
+      "roleEvidence": "Source hierarchy and observed runtime composition; exact stripped sprite binding remains inferred."
+    },
+    {
+      "role": "HeaderRounded",
+      "assetId": "asset-245e21025429d42eb5c9",
+      "source": "exports/Sprite/sharedassets1.assets/Button_Blue_Rounder_S__1023.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Blue_Rounder_S__1023.png",
+      "sha256": "548a45f7697f80b4211aa76911541d8f7535639076b7f9c026512251186c0db6",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Gameplay/HeaderRounded.png",
+      "bytes": 9070,
+      "sourceBorder": [
+        59.923878,
+        64.92388,
+        59.9239,
+        59.999996
+      ],
+      "importedGuid": "26fc64600621ac640bc4aa140bbd6ae1",
+      "roleEvidence": "Selected extracted original matched to observed runtime layout; exact0.36.3 stripped binding unverified."
+    },
+    {
+      "role": "HeaderVeryHard",
+      "assetId": "asset-8ead35b579c59e5cbac0",
+      "source": "exports/Sprite/sharedassets1.assets/Button_Red_Rounder_S__1376.png",
+      "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/exports/Sprite/sharedassets1.assets/Button_Red_Rounder_S__1376.png",
+      "sha256": "c4d77de8bf9530bab746729139d56caa4622d7fdf3c0f3e1ca1612ac361155f4",
+      "output": "Assets/_Project/PixelFlow/Art/UI/Gameplay/HeaderVeryHard.png",
+      "bytes": 8918,
+      "sourceBorder": [
+        60.0,
+        64.92388,
+        60.0,
+        59.999996
+      ],
+      "importedGuid": "b84b132e4d5bc254b9ab8e7510500d89",
+      "roleEvidence": "Original continuous rounded frame selected against observed red VeryHard capsule; stripped exact sprite binding remains inferred."
+    }
+  ]
+}

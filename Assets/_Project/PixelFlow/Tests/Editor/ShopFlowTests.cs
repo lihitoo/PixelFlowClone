@@ -53,6 +53,32 @@ namespace PixelFlow.Tests
             Assert.That(new ProgressStore(storage, 2600).Data.Coins, Is.EqualTo(2300));
             Assert.That(progress.Data.ShopTransactions.Count, Is.EqualTo(2)); Assert.That(gateway.Unfulfilled, Is.Empty);
         }
+        [TestCase("gold-1000", 1000, 0, 0, false)]
+        [TestCase("gold-5000", 5000, 0, 0, false)]
+        [TestCase("gold-10000", 10000, 0, 0, false)]
+        [TestCase("gold-25000", 25000, 0, 0, false)]
+        [TestCase("gold-50000", 50000, 0, 0, false)]
+        [TestCase("gold-100000", 100000, 0, 0, false)]
+        [TestCase("no-ads", 0, 0, 0, true)]
+        [TestCase("no-ads-bundle", 1000, 1, 3600, true)]
+        [TestCase("small-bundle", 5000, 1, 7200, false)]
+        [TestCase("medium-bundle", 10000, 2, 7200, false)]
+        [TestCase("ultra-bundle", 25000, 5, 21600, false)]
+        public async Task EveryProductCommitsItsObservedRewards(string id, int coins, int boosters, int unlimitedSeconds, bool noAds)
+        {
+            int initialCoins = progress.Data.Coins;
+            int[] initialInventory = (int[])progress.Data.Boosters.Clone();
+            long started = ProgressStore.UtcSeconds;
+            Assert.That(await shop.PurchaseAsync(id, default), Is.EqualTo(ShopGatewayPurchaseStatus.Purchased));
+            var persisted = new ProgressStore(storage, 2600).Data;
+            Assert.That(persisted.Coins, Is.EqualTo(initialCoins + coins));
+            for (int i = 0; i < 4; i++) Assert.That(persisted.Boosters[i], Is.EqualTo(initialInventory[i] + boosters));
+            Assert.That(persisted.NoAds, Is.EqualTo(noAds));
+            if (unlimitedSeconds == 0) Assert.That(persisted.Lives.UnlimitedUntilUtc, Is.Zero);
+            else Assert.That(persisted.Lives.UnlimitedUntilUtc, Is.InRange(started + unlimitedSeconds, ProgressStore.UtcSeconds + unlimitedSeconds));
+            Assert.That(persisted.ShopTransactions.Count, Is.EqualTo(1));
+            Assert.That(gateway.Unfulfilled, Is.Empty);
+        }
         [Test] public async Task BundleSaveFailureLeavesAllRewardsUntouchedAndRecoversOnce()
         {
             storage.FailKey = PixelFlowProgress.Key;

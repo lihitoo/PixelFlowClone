@@ -1,42 +1,27 @@
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 using PixelFlow.Rules;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using Object = UnityEngine.Object;
 
 namespace PixelFlow
 {
     public sealed partial class PixelFlowView
     {
-        private readonly Dictionary<string, Sprite> shopSprites = new();
         private TMP_Text shopBusyText;
         private Dreamy.Feature.Shop.Integration.ShopPanel foundationShop;
-        private PixelFlowShopCatalog shopCatalog;
+        private static readonly IReadOnlyDictionary<string, Button> EmptyShopButtons = new Dictionary<string, Button>();
         public ScrollRect ShopScroll => foundationShop != null ? foundationShop.Scroll : null;
         public Button ShopCloseButton => foundationShop != null ? foundationShop.CloseButton : null;
-        public Button ShopRestoreButton => foundationShop != null ? foundationShop.RestoreButton : null;
-        public IReadOnlyDictionary<string, Button> ShopOfferButtons => foundationShop != null ? foundationShop.OfferButtons : new Dictionary<string, Button>();
-        public event Action RestorePurchasesRequested, MiniShopRequested, ShopGoldRequested;
-        public void ConfigureShop(PixelFlowShopCatalog catalog) => shopCatalog = catalog;
+        public IReadOnlyDictionary<string, Button> ShopOfferButtons => foundationShop != null ? foundationShop.OfferButtons : EmptyShopButtons;
+        public event Action MiniShopRequested, ShopGoldRequested;
         public void BindFoundationShop(Dreamy.Feature.Shop.Integration.ShopPanel panel) => foundationShop = panel;
         public void HideFoundationModal() { if (homeModal != null) homeModal.SetActive(false); }
         public void HideForFoundationPanel()
         {
-            HidePages(); home.SetActive(false); hud.SetActive(false); overlay.SetActive(false);
+            HidePages(); home.SetActive(false); hud.SetActive(false); gameplay.HideResult();
             ShowHomeChrome(false); homeBackground.SetActive(false);
-        }
-        private Sprite ShopSprite(string key)
-        {
-            if (!shopSprites.TryGetValue(key, out var value))
-            {
-                value = Resources.Load<Sprite>("PixelFlow/UI/Shop/" + key);
-                if (value == null) throw new InvalidOperationException("Missing source Shop sprite: " + key);
-                shopSprites.Add(key, value);
-            }
-            return value;
         }
         public void ScrollShopTo(string section) => foundationShop?.ScrollTo(section);
         public void ShowShopBusy(string message)
@@ -53,12 +38,11 @@ namespace PixelFlow
         }
         public void ShowBoosterPurchase(ProgressStore store, BoosterKind kind, Action close)
         {
-            BeginHomeModal("Get " + BoosterNames[(int)kind], 730, close);
-            Image(homeModalContent, "Booster Icon", ShopSprite(new[] { "Tray", "Hand", "Shuffle", "Super" }[(int)kind]), Color.white, 160, 160, 0, 100, preserve: true);
-            HomeText(homeModalContent, "Booster Purchase Detail", BoosterDescriptions[(int)kind] + "\n\n" + store.Data.Coins + " coins", 27, 520, 150, 0, -35);
+            HidePages(); backAction = close;
             bool enough = store.Data.Coins >= store.Price(kind);
-            HomeModalPrimary = ModalButton("Buy Booster", enough ? store.Price(kind) + " coins" : "Get coins", -180,
-                () => { if (enough) PurchaseRequested?.Invoke(kind); else MiniShopRequested?.Invoke(); });
+            gameplay.ShowOffer(new[] { "Add Tray", "Hand", "Shuffle", "Super Pig" }[(int)kind], BoosterDescriptions[(int)kind],
+                gameplay.Boosters[(int)kind].Icon.sprite, enough ? store.Price(kind) + " coins" : "Get coins",
+                () => { if (enough) PurchaseRequested?.Invoke(kind); else MiniShopRequested?.Invoke(); }, close);
         }
     }
 }

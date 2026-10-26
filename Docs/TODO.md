@@ -6,7 +6,9 @@
 - [x] Replace custom audio pool with Dreamy profile/library/service; remove competing AudioBootstrap sample component and apply supported volume semantics.
 - [x] Document local sample patches, upgrade/merge policy and toolkit skill reuse rules.
 - [ ] Finish final consumer regression evidence, normal Game View comparison and remaining parity gaps.
-- [ ] Migrate Home/HUD/common popup/settings presentation to appropriate existing prefab/panel/feature capabilities.
+- [x] Migrate Home, Shop, Settings and Lives/refill to authored template/sample/BaseFeaturePanel prefabs with one SafeArea and root DI.
+- [x] Author gameplay HUD/four booster buttons and stock purchase popup; gear opens existing Settings directly, wallet Mini Shop preserves the current run.
+- [ ] Migrate remaining normal win/fail/continue/target/error popups and source rank/pass/event/account surfaces; preserve provider gaps, special Unicorn UI investigation and exact0.36.3 evidence gaps.
 - [ ] Real IAP/SDK, player/device/store gates remain deferred by owner; no player builds.
 
 Historical task list follows; current architecture takes precedence. See Architecture/DREAMY_INTEGRATION.vi.md and CURRENT_STATE.md.
@@ -37,3 +39,22 @@ Trạng thái chạy và next action duy nhất nằm ở [CURRENT_STATE.md](CUR
 - D05: native Windows quit workaround là technical debt version-specific, không đưa thành quy trình mặc định; xem CURRENT_STATE và native-exit-diagnosis. Không mở lại nhánh debug này khi chỉ đang review spec/hình ảnh.
 - D06: nếu một tool blocker lặp lại, đổi giả thuyết và giới hạn khoảng 30 phút / 2 lần thử cho batch; ghi gap và tiếp tục việc độc lập. Đây là giới hạn làm việc đề xuất mới, không phải lịch đã từng được tuân thủ.
 - D07: yêu cầu full gameplay/UI đã mở rộng scope offline;7 level là lịch sử. Giá/reward, booster charge và các semantics chưa có native code là tuning/contract của clone, không phải số đo game gốc.
+# Continuation checkpoint — 2026-10-26
+
+- [x] HUD/popup mua booster/Lives bằng prefab; gear mở Settings trực tiếp, Mini Shop trả về cùng lượt; hồi quy140/140.
+- [x] Bổ sung gallery10 nguồn/10 clip/24 frame runtime, giữ version/timecode và giới hạn đối chiếu.
+- [x] REA6.8.0 metadata-only trên0.36.3 có Evidence; cập nhật game-vibe/extract toolkit,80/80 checks.
+- [ ] Win/fail/continue/target/error: dùng prefab/art nguồn, kiểm tra vòng đời và giao dịch; bắt đầu từ LevelFailOffer/MiniShop coordinator đã tìm thấy trong metadata, không suy semantics từ tên.
+- [ ] Xác minh native tutorial/unlock/timing; rank/pass/events/account và provider production vẫn trong scope.
+- [ ] Khôi phục dung lượng ổC trước khi chụp thêm Game View/re-audit prefab: review save và CodeDom temp hiện gặp Win32 IO112. Không build player.
+
+# Results checkpoint — 2026-10-26
+
+- [x] Author win/fail/continue/target overlays in existing GameplayPanel; remove procedural result and target-ID page.
+- [x] Original continue video, Hold to See Game, atomic Retry/Mini Shop return and committed-loss close; unavailable rewarded state.
+- [x] Direct pig/pixel/object-cell selection through model eligibility/blocking layer; preserve inventory on no effect/cancel/failure.
+- [x] Fix duplicate-named inset art and visible FoundationDemo instance;12 Game View captures across3 aspects.
+- [x]144 cases latest-pass aggregate:141 full-run passes +3 targeted rerun passes;126 import/static checks; source/clone gallery and toolkit lessons updated.
+- [ ] Verify target-version unlock/cost/reward/revive/animation, advanced/deep queue layout and fail-offer variants.
+- [ ] Continue tutorial, rank/pass/events/account flows from verified art/reference contracts; retain explicit provider gaps.
+

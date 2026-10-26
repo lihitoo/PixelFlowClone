@@ -1,3 +1,5 @@
+> Current Home/Shop revision, 2026-10-24: see [HOME_SHOP_PREFABS.vi.md](HOME_SHOP_PREFABS.vi.md). Direct sample prefabs replace the root variant/view-adapter path described in the earlier checkpoint below.
+
 # T?ch h?p v? c?p nh?t Dreamy trong Pixel Flow
 
 ## Kh?i ??ng

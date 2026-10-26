@@ -1,0 +1,39 @@
+{
+  "runs": [
+    {
+      "xml": "editor-first.xml",
+      "passed": 2,
+      "total": 4,
+      "issue": "Scene teardown referenced the destroyed HUD; fixed null guard"
+    },
+    {
+      "xml": "editor-booster.xml",
+      "passed": 6,
+      "total": 6
+    },
+    {
+      "xml": "editor-regression.xml",
+      "passed": 138,
+      "total": 139,
+      "issue": "World-screen tap can open a Settings notice; close secondary notice before slider assertion"
+    },
+    {
+      "xml": "editor-recovery.xml",
+      "passed": 1,
+      "total": 2,
+      "issue": "Booster purchase Retry passed; input fixture notice issue"
+    },
+    {
+      "xml": "editor-pointer-verified.xml",
+      "passed": 1,
+      "total": 2,
+      "issue": "Notice/slider fixed, but capacity fixture kept Time.timeScale0 through UI tween; restore after acceptance assertions"
+    },
+    {
+      "xml": "editor-final.xml",
+      "passed": 140,
+      "total": 140,
+      "failed": 0
+    }
+  ]
+}

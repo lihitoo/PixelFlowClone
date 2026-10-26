@@ -1,0 +1,63 @@
+{
+  "status": "lives-settings-client-checkpoint",
+  "tests": {
+    "result": "Passed",
+    "total": "138",
+    "passed": "138",
+    "failed": "0"
+  },
+  "supplemental": "abandon-loss-verified.xml:1/1",
+  "captures": [
+    {
+      "path": "game-view-lives-empty.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "599be662230538b436bb77e774afc1a5c509151108b74e78f0f31fefb4e2ecb6",
+      "method": "Actual Game View RenderTexture readback; GPU row order corrected; production canvas/camera unchanged",
+      "saveScope": "HomeReview_91743f4ab84549889505b9e2a1283dd3",
+      "fixture": "Full:fresh isolated save; empty:zero hearts/coins; unlimited:explicit7200second grant. Not earned progression."
+    },
+    {
+      "path": "game-view-lives-full.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "9d24ca0a4e9de81c9c10c5800aa14a3c5b931f34ce3e691b1d5308e9392a6f07",
+      "method": "Actual Game View RenderTexture readback; GPU row order corrected; production canvas/camera unchanged",
+      "saveScope": "HomeReview_91743f4ab84549889505b9e2a1283dd3",
+      "fixture": "Full:fresh isolated save; empty:zero hearts/coins; unlimited:explicit7200second grant. Not earned progression."
+    },
+    {
+      "path": "game-view-lives-long.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "b6e7c04c01773a181b7ce7c5463f0ddd4d5598e616fbe940191339c33547e7e9",
+      "method": "Actual Game View RenderTexture readback; GPU row order corrected; production canvas/camera unchanged",
+      "saveScope": "HomeReview_91743f4ab84549889505b9e2a1283dd3",
+      "fixture": "Full:fresh isolated save; empty:zero hearts/coins; unlimited:explicit7200second grant. Not earned progression."
+    },
+    {
+      "path": "game-view-lives-small.png",
+      "width": 720,
+      "height": 1280,
+      "sha256": "3e03c7ca4781b53bee8dcc1a446709b546b4bc5377891168b28bf3a519ddfbfb",
+      "method": "Actual Game View RenderTexture readback; GPU row order corrected; production canvas/camera unchanged",
+      "saveScope": "HomeReview_91743f4ab84549889505b9e2a1283dd3",
+      "fixture": "Full:fresh isolated save; empty:zero hearts/coins; unlimited:explicit7200second grant. Not earned progression."
+    },
+    {
+      "path": "game-view-lives-unlimited.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "9e50653bfc3c15ab4657fb8c668aa7faa0c4bb27d36a5f8ded6c9686a4d33d55",
+      "method": "Actual Game View RenderTexture readback; GPU row order corrected; production canvas/camera unchanged",
+      "saveScope": "HomeReview_91743f4ab84549889505b9e2a1283dd3",
+      "fixture": "Full:fresh isolated save; empty:zero hearts/coins; unlimited:explicit7200second grant. Not earned progression."
+    }
+  ],
+  "offscreenPreviews": "../../Evidence/editor-review/settings-lives-verified-20261025",
+  "prefab": "prefab-receipt.json",
+  "uiAudit": "editor-audit.json",
+  "nativeScreenshot": "missing; native tuning remains estimated",
+  "playerBuild": "not run; owner prohibits builds",
+  "productionProviders": "billing/ads/account/rank/pass/events unavailable or unverified"
+}

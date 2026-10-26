@@ -1,0 +1,128 @@
+{
+  "method": "Existing Unity Game View RenderTexture readback; GPU row order corrected; no camera or canvas render-mode change",
+  "unity": "6000.4.12f1",
+  "stateSetup": "Isolated HomeReview saves. Hand/Super use their real entry intent; win/fail views are presentation fixtures on level1, without granting rewards or claiming earned results.",
+  "deviceLimit": "Editor full-rect SafeArea; physical cutouts/touch/audio/performance unverified",
+  "records": [
+    {
+      "path": "Docs/ExactClone/Results/gameview-hand-1080x1920.png",
+      "state": "hand",
+      "width": 1080,
+      "height": 1920,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "6e4e5bb159d66c349bff5012dce6bc5656c31e81fbabc18a58bcbae95f06c6ba",
+      "bytes": 482609
+    },
+    {
+      "path": "Docs/ExactClone/Results/gameview-super-1080x1920.png",
+      "state": "super",
+      "width": 1080,
+      "height": 1920,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "244dfc70844ccd448ad3fc6440adaae3d05dfcc872cdcab91357ba1847755730",
+      "bytes": 506149
+    },
+    {
+      "path": "Docs/ExactClone/Results/gameview-fail-1080x1920.png",
+      "state": "fail",
+      "width": 1080,
+      "height": 1920,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "bc7642b6815d84da5812edc2f72ec61bbbf8d8d39005b7d9284413dbf75a74bb",
+      "bytes": 725531
+    },
+    {
+      "path": "Docs/ExactClone/Results/gameview-win-1080x1920.png",
+      "state": "win",
+      "width": 1080,
+      "height": 1920,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "5bc5c37ceedc6b7619857088a6c7cf1bdfc85d63bda92168d3b0c6022da7f881",
+      "bytes": 531613
+    },
+    {
+      "path": "Docs/ExactClone/Results/gameview-hand-1080x2340.png",
+      "state": "hand",
+      "width": 1080,
+      "height": 2340,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "b0494600a582d886ace8df2918a523cb2f8326870aed282d5303fb2f8623feac",
+      "bytes": 568570
+    },
+    {
+      "path": "Docs/ExactClone/Results/gameview-super-1080x2340.png",
+      "state": "super",
+      "width": 1080,
+      "height": 2340,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "38f65c46713499b38bfef96d644494ce454be4089d64a69368d1006e0bf9247f",
+      "bytes": 541988
+    },
+    {
+      "path": "Docs/ExactClone/Results/gameview-fail-1080x2340.png",
+      "state": "fail",
+      "width": 1080,
+      "height": 2340,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "870cc41e04eb7d9698b75b987ec84e3a230fae99ffb1113f87d8b25098e71b61",
+      "bytes": 803238
+    },
+    {
+      "path": "Docs/ExactClone/Results/gameview-win-1080x2340.png",
+      "state": "win",
+      "width": 1080,
+      "height": 2340,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "af2f58e7ad280b32061f852bfea3b83894ac797bf59ce1ad71f09b2bfeabafe5",
+      "bytes": 576291
+    },
+    {
+      "path": "Docs/ExactClone/Results/gameview-hand-720x1280.png",
+      "state": "hand",
+      "width": 720,
+      "height": 1280,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "52f756217a0440e5c6db51346f00cd63a750bf2b06213c6604196abcf83e9efd",
+      "bytes": 277165
+    },
+    {
+      "path": "Docs/ExactClone/Results/gameview-super-720x1280.png",
+      "state": "super",
+      "width": 720,
+      "height": 1280,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "857f4b94f2dabf2372facef964e96f860a95b68cf282fa81bc9a641e53d0a4f8",
+      "bytes": 291399
+    },
+    {
+      "path": "Docs/ExactClone/Results/gameview-fail-720x1280.png",
+      "state": "fail",
+      "width": 720,
+      "height": 1280,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "e8683fa7254b3f59da851fd35ab8a23c84659dff95ed64d957d9896fe9ad926d",
+      "bytes": 397251
+    },
+    {
+      "path": "Docs/ExactClone/Results/gameview-win-720x1280.png",
+      "state": "win",
+      "width": 720,
+      "height": 1280,
+      "method": "Existing Game View RenderTexture readback, GPU row order corrected",
+      "setup": "Isolated review; result views are presentation fixtures, not earned win/loss/reward",
+      "sha256": "81a36f24074dba315a6b283da01ae8e44ee88fcd3d6dd5d51bc2208b954df25d",
+      "bytes": 307652
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "fullRegression": {
+    "path": "Docs/Architecture/home-shop-verified.xml",
+    "result": "Passed",
+    "passed": 121,
+    "failed": 0,
+    "total": 121
+  },
+  "responsiveUi": {
+    "path": "Docs/Architecture/home-shop-responsive.xml",
+    "result": "Passed",
+    "passed": 5,
+    "failed": 0,
+    "total": 5
+  },
+  "finalHomeLabel": {
+    "path": "Docs/Architecture/home-label-verified.xml",
+    "result": "Passed",
+    "passed": 1,
+    "failed": 0,
+    "total": 1
+  },
+  "toolkit": {
+    "command": "npm test --prefix D:/Game/dreamy-codex-toolkit",
+    "passed": 80,
+    "failed": 0,
+    "skillValidation": "85 skills passed repository validator",
+    "genericQuickValidator": "Unavailable: PyYAML not installed; repository validator was run successfully."
+  },
+  "static": {
+    "path": "Docs/Architecture/home-shop-static-validation.json",
+    "result": "pass",
+    "importedFilesVerified": 91
+  },
+  "editor": {
+    "compilationFailed": false,
+    "consoleErrors": 0,
+    "scene": "Assets/_Project/Scenes/BootstrapScene.unity",
+    "sceneDirty": false,
+    "playing": false,
+    "templateShopAddressMatchesGameAndAsset": true
+  },
+  "gameView": {
+    "receipts": "Docs/Architecture/PrefabReview/captures.json",
+    "resolutions": [
+      [
+        1080,
+        1920
+      ],
+      [
+        1080,
+        2340
+      ],
+      [
+        720,
+        1280
+      ]
+    ],
+    "sourceVersionMatch": "unverified",
+    "captureKind": "Readback of actual existing Game View RenderTexture, GPU row order corrected; not physical device or desktop screen capture."
+  },
+  "boundaries": {
+    "playerBuildsRun": false,
+    "realBillingVerified": false,
+    "modalHudFullyPrefabAuthored": false,
+    "sourceExtractionModified": false
+  }
+}

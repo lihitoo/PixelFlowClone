@@ -23,7 +23,7 @@ namespace PixelFlow
         private readonly Dictionary<FlowPage, Button> homeDock = new();
         private TMP_Text heartCount, heartTimer, rankTabLabel;
         private Image heartIcon, rankIcon;
-        private int sourceSelected, mapStart, sourceHomeTab;
+        private int sourceSelected, mapStart;
         private long homeClock = -1;
         public ScrollRect HomeMap { get; private set; }
         public IReadOnlyList<Button> HomeNodes => mapNodes;
@@ -32,8 +32,6 @@ namespace PixelFlow
         public Button HomeHeartsButton { get; private set; }
         public Button HomeCoinsButton { get; private set; }
         public event Action HomeRequested, RefillRequested;
-        public event Action<float, float> AudioLevelsRequested;
-        public event Action<int> HomePreferenceRequested;
         public bool IsHomeModalVisible => homeModal != null && homeModal.activeSelf;
 
         private Sprite HomeSprite(string name)
@@ -158,7 +156,6 @@ namespace PixelFlow
         }
         private void SelectHomeTab(int tab)
         {
-            sourceHomeTab = tab;
             for (int i = 0; i < tabSelections.Length; i++) tabSelections[i].gameObject.SetActive(i == tab);
         }
         private void TickSourceHome()
@@ -179,8 +176,8 @@ namespace PixelFlow
                 homePanel.CoinsRequested -= OnHomeCoins; homePanel.LevelRequested -= OnHomeLevel;
                 homePanel.DockRequested -= OnHomeDock; homePanel.DestinationRequested -= OnHomeDestination;
             }
-            HomeRequested = RefillRequested = null; AudioLevelsRequested = null; HomePreferenceRequested = null;
-            RestorePurchasesRequested = MiniShopRequested = ShopGoldRequested = null;
+            HomeRequested = RefillRequested = null;
+            MiniShopRequested = ShopGoldRequested = null;
         }
     }
 }

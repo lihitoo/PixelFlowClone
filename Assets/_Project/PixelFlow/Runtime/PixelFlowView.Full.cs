@@ -8,45 +8,37 @@ using UnityEngine.UI;
 namespace PixelFlow
 {
     public enum FlowPage { Levels, Shop, Daily, Settings, Help, Targets, Confirm, Error, Lives, Rank, NoAds, Pass, FireQuest, Arena }
-    public enum SettingAction { Sound, Music, Haptics, Quieter, Louder }
 
     public sealed partial class PixelFlowView
     {
-        private int totalLevels, levelPage, targetPage, helpStep;
-        private TMP_Text homeWallet, timerText, pageTitle, pageDetail, pageWallet;
+        private int totalLevels, levelPage, helpStep;
+        private TMP_Text homeWallet, pageTitle, pageDetail, pageWallet;
         private GameObject page;
-        private Button continueButton, pageBack, pageNext, pagePrevious, confirmYes, confirmNo;
+        private Button pageBack, pageNext, pagePrevious, confirmYes, confirmNo;
         private Button[] pageItems;
-        private readonly Button[] boosterButtons = new Button[5];
-        private readonly TMP_Text[] boosterLabels = new TMP_Text[5];
         private Action backAction, confirmAction;
         private FlowPage currentPage;
         private ProgressStore pageProgress;
         private PixelFlowCampaignConfig pageCampaign;
-        private PuzzleSession targetSession;
-        private bool handTarget;
         public Button LevelsButton { get; private set; }
         public Button ShopButton { get; private set; }
         public Button DailyButton { get; private set; }
         private Button homeSettingsButton;
         public Button SettingsButton { get => foundationShop != null ? foundationShop.SettingsButton : homeSettingsButton; private set => homeSettingsButton = value; }
         public Button HelpButton { get; private set; }
-        public Button ContinueButton => continueButton;
+        public Button ContinueButton => gameplay.ContinueButton;
         public Button CloseFlowButton => pageBack;
         public Button PageNextButton => pageNext;
         public Button ConfirmButton => confirmYes;
         public IReadOnlyList<Button> PageItems => pageItems;
-        public Button BoosterButton(BoosterKind kind) => boosterButtons[(int)kind];
+        public Button BoosterButton(BoosterKind kind) => (int)kind < gameplay.Boosters.Count ? gameplay.Boosters[(int)kind].Button : null;
         public void SetCampaignCount(int count)
         {
             if (count < 1) throw new ArgumentOutOfRangeException(nameof(count)); totalLevels = count;
         }
         public event Action<FlowPage> PageRequested;
-        public event Action<SettingAction> SettingRequested;
         public event Action<BoosterKind> BoosterRequested, PurchaseRequested;
-        public event Action<int> TargetRequested;
         public event Action DailyRequested, ContinueRequested;
-        private static readonly string[] BoosterNames = { "TRAY", "HAND", "SHUFFLE", "SUPER", "UNICORN" };
         private static readonly string[] BoosterDescriptions = {
             "Add one conveyor space (maximum 8).", "Launch an available pig from any queue row.",
             "Reorder eligible pigs still in the queues.", "Clear the exposed layer of one visible color." };
@@ -60,23 +52,6 @@ namespace PixelFlow
         private void BuildFullFlow(int count)
         {
             totalLevels = count;
-            timerText = Text(hud.transform, "Time Left", "", 20, Ink, 200, 35, 240, -125, new Vector2(.5f, 1));
-            for (int i = 0; i < boosterButtons.Length; i++)
-            {
-                int index = i;
-                boosterButtons[i] = Button(hud.transform, BoosterNames[i], BoosterNames[i], 115, 86, (i - 2) * 124, 75,
-                    buttonSprite, () => BoosterRequested?.Invoke((BoosterKind)index), 19, new Vector2(.5f, 0));
-                boosterLabels[i] = boosterButtons[i].GetComponentInChildren<TMP_Text>();
-                var icon = Resources.Load<Sprite>("PixelFlow/UI/" + (i == 3 ? "Super" : BoosterNames[i].Substring(0, 1) + BoosterNames[i].Substring(1).ToLowerInvariant()));
-                if (icon != null)
-                {
-                    Image(boosterButtons[i].transform, "Booster Icon", icon, Color.white, 44, 44, 0, 20, preserve: true);
-                    boosterLabels[i].rectTransform.anchoredPosition = new Vector2(0, -21); boosterLabels[i].fontSizeMax = 16;
-                }
-            }
-            continueButton = Button(overlay.transform, "Continue", "CONTINUE", 390, 88, 0, 20, art.PlayButton, () => ContinueRequested?.Invoke());
-            Button(overlay.transform, "Pause Settings", "SETTINGS", 240, 50, -130, -335, buttonSprite, () => PageRequested?.Invoke(FlowPage.Settings), 19);
-            Button(overlay.transform, "Pause Help", "HELP", 240, 50, 130, -335, buttonSprite, () => PageRequested?.Invoke(FlowPage.Help), 19);
             page = Rect(safe, "Flow Page", 0, 0, 0, 0).gameObject; Stretch((RectTransform)page.transform);
             Image(page.transform, "Page Background", null, new Color(.12f, .17f, .30f, 1), 0, 0, 0, 0, stretch: true, blocks: true);
             pageBack = Button(page.transform, "Close Flow", "< BACK", 145, 66, -255, -55, buttonSprite, () => backAction?.Invoke(), 22, new Vector2(.5f, 1));
@@ -98,13 +73,11 @@ namespace PixelFlow
             page.SetActive(false);
             BuildHomeModal();
         }
-        private Button HomeEntry(string name, string title, float x, float y, FlowPage flow) =>
-            Button(home.transform, name, title, 280, 72, x, y, buttonSprite, () => PageRequested?.Invoke(flow), 25);
         private void HidePages(bool keepShop = false) { if (page != null) page.SetActive(false); if (homeModal != null) homeModal.SetActive(false); }
         private void BeginPage(FlowPage flow, string title, string detail, Action close)
         {
             ShowHomeChrome(false); if (homeModal != null) homeModal.SetActive(false);
-            currentPage = flow; backAction = close; page.SetActive(true); page.transform.SetAsLastSibling();
+            gameplay.HideResult(); gameplay.HideTarget(); currentPage = flow; backAction = close; page.SetActive(true); page.transform.SetAsLastSibling();
             pageTitle.text = title; pageDetail.text = detail; pageWallet.text = "";
             pageDetail.gameObject.SetActive(!string.IsNullOrEmpty(detail));
             foreach (var item in pageItems) item.gameObject.SetActive(false);
@@ -146,14 +119,6 @@ namespace PixelFlow
             pageProgress = progress; BeginPage(FlowPage.Daily, "DAILY GIFT", "A new gift each UTC day.\nConsecutive days increase the reward.\n\nCurrent streak: " + progress.Data.DailyStreak + "\nCOINS " + progress.Data.Coins, close);
             Item(0, progress.CanClaim(day) ? "CLAIM " + progress.DailyReward(day) + " COINS" : "CLAIMED - COME BACK TOMORROW", 550, 100, 0, -110, progress.CanClaim(day));
         }
-        public void ShowSettings(ProgressStore progress, Action close)
-        {
-            pageProgress = progress; var p = progress.Data; BeginPage(FlowPage.Settings, "SETTINGS", null, close);
-            string[] labels = { "SOUND  " + (p.SoundEnabled ? "ON" : "OFF"), "MUSIC  " + (p.MusicEnabled ? "ON" : "OFF"), "HAPTICS  " + (p.HapticsEnabled ? "ON" : "OFF"), "VOLUME -", "VOLUME +" };
-            for (int i = 0; i < 3; i++) Item(i, labels[i], 510, 90, 0, 270 - i * 115);
-            Item(3, labels[3], 245, 85, -135, -150); Item(4, labels[4], 245, 85, 135, -150);
-            pageWallet.text = "MASTER VOLUME " + Mathf.RoundToInt(p.MasterVolume * 100) + "%";
-        }
         public void ShowHelp(Action close)
         {
             helpStep = 0; BeginPage(FlowPage.Help, HelpTitles[0], HelpDetails[0], close); DrawHelp();
@@ -164,29 +129,10 @@ namespace PixelFlow
             pagePrevious.gameObject.SetActive(helpStep > 0); pageNext.gameObject.SetActive(true); pageNext.interactable = true;
             pageNext.GetComponentInChildren<TMP_Text>().text = helpStep + 1 == HelpTitles.Length ? "LET'S PLAY" : "NEXT >";
         }
-        private List<int> targets = new();
         public void ShowTargets(PuzzleSession session, bool hand, PixelFlowCampaignConfig campaign, Action close)
         {
-            targetSession = session; handTarget = hand; pageCampaign = campaign; targetPage = 0; targets.Clear();
-            if (hand) foreach (var pig in session.Shooters.Values) { if (pig.Location == ShooterLocation.Queue && session.CanSelect(pig.Id, true)) targets.Add(pig.Id); }
-            else targets.AddRange(session.VisibleColors());
-            BeginPage(FlowPage.Targets, hand ? "HAND: CHOOSE A PIG" : "SUPER: CHOOSE COLOR", null, close); DrawTargets();
-        }
-        private void DrawTargets()
-        {
-            pageWallet.text = "Nothing is spent until an effect succeeds.";
-            for (int i = 0; i < pageItems.Length; i++)
-            {
-                int index = targetPage * 20 + i;
-                if (index >= targets.Count) { pageItems[i].gameObject.SetActive(false); continue; }
-                int id = targets[index];
-                string label = handTarget ? (targetSession.Shooters[id].Revealed ? "PIG " + id + "\n" + targetSession.Shooters[id].Ammo : "?") : "COLOR " + id;
-                Item(i, label, 138, 100, (i % 4 - 1.5f) * 154, 270 - i / 4 * 118);
-                int color = handTarget ? targetSession.Shooters[id].Color : id;
-                pageItems[i].GetComponent<Image>().color = handTarget && !targetSession.Shooters[id].Revealed ? Color.gray : pageCampaign.ColorFor(color);
-            }
-            pagePrevious.gameObject.SetActive(targetPage > 0); pageNext.gameObject.SetActive((targetPage + 1) * 20 < targets.Count);
-            pageNext.GetComponentInChildren<TMP_Text>().text = "NEXT >";
+            HidePages(); backAction = close; home.SetActive(false); hud.SetActive(true);
+            gameplay.ShowTarget(hand);
         }
         public void ShowConfirm(string title, string detail, string yes, Action accept, Action cancel, bool error = false)
         {
@@ -196,7 +142,6 @@ namespace PixelFlow
         private void ChangePage(int direction)
         {
             if (currentPage == FlowPage.Levels) { levelPage += direction; DrawLevels(); }
-            else if (currentPage == FlowPage.Targets) { targetPage += direction; DrawTargets(); }
             else if (currentPage == FlowPage.Help)
             {
                 if (helpStep + direction == HelpTitles.Length) backAction?.Invoke();
@@ -210,27 +155,20 @@ namespace PixelFlow
                 case FlowPage.Levels: LevelSelected?.Invoke(levelPage * 20 + index); break;
                 case FlowPage.Shop: PurchaseRequested?.Invoke((BoosterKind)index); break;
                 case FlowPage.Daily: DailyRequested?.Invoke(); break;
-                case FlowPage.Settings: SettingRequested?.Invoke((SettingAction)index); break;
-                case FlowPage.Targets: if (targetPage * 20 + index < targets.Count) TargetRequested?.Invoke(targets[targetPage * 20 + index]); break;
             }
         }
         public void UpdateBoosters(ProgressStore progress, PuzzleSession session)
         {
-            for (int i = 0; i < 5; i++)
-            {
-                boosterLabels[i].text = BoosterNames[i] + "\n" + (i < 4 ? "x" + progress.Amount((BoosterKind)i) : progress.UnicornActive ? session.UnicornCharge + "%" : progress.Data.WinsSinceFailure + "/10 WINS");
-                boosterButtons[i].interactable = session.Status == SessionStatus.Playing && (i < 4 || progress.UnicornActive && session.UnicornCharge >= 100);
-            }
-        }
-        public void ShowContinue(bool available, int cost)
-        {
-            continueButton.gameObject.SetActive(available); continueButton.GetComponentInChildren<TMP_Text>().text = "CONTINUE  " + cost + " COINS";
+            var entry = homeCampaign.Entry(gameplayLevel);
+            gameplay.RenderHeader(gameplayLevel + 1, entry?.Difficulty, progress.Data.Coins);
+            for (int i = 0; i < gameplay.Boosters.Count; i++)
+                gameplay.RenderBooster(i, progress.Amount((BoosterKind)i), session.Status == SessionStatus.Playing);
         }
         public void Back() => backAction?.Invoke();
         private void ClearFullFlow()
         {
-            backAction = confirmAction = null; PageRequested = null; SettingRequested = null;
-            BoosterRequested = PurchaseRequested = null; TargetRequested = null; DailyRequested = ContinueRequested = null;
+            backAction = confirmAction = null; PageRequested = null;
+            BoosterRequested = PurchaseRequested = null; DailyRequested = ContinueRequested = null;
         }
     }
 }

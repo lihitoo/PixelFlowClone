@@ -24,8 +24,11 @@ namespace PixelFlow.Editor
         }
 
         [MenuItem("Pixel Flow/Home Review/Game View Portrait 1080x1920")]
-        public static void Portrait()
+        public static void Portrait() => SetResolution(1080, 1920);
+
+        public static void SetResolution(int width, int height)
         {
+            if (width <= 0 || height <= 0) throw new ArgumentOutOfRangeException(nameof(width));
             var assembly = typeof(UnityEditor.Editor).Assembly;
             var sizesType = assembly.GetType("UnityEditor.GameViewSizes", true);
             var singleton = typeof(ScriptableSingleton<>).MakeGenericType(sizesType);
@@ -35,7 +38,7 @@ namespace PixelFlow.Editor
             var group = sizesType.GetMethod("GetGroup", flags).Invoke(sizes, new[] { activeGroup });
             var sizeType = assembly.GetType("UnityEditor.GameViewSize", true);
             var kind = assembly.GetType("UnityEditor.GameViewSizeType", true);
-            var size = Activator.CreateInstance(sizeType, flags, null, new[] { Enum.Parse(kind, "FixedResolution"), (object)1080, 1920, "PixelFlow Home Review" }, null);
+            var size = Activator.CreateInstance(sizeType, flags, null, new[] { Enum.Parse(kind, "FixedResolution"), (object)width, height, "PixelFlow Home Review " + width + "x" + height }, null);
             group.GetType().GetMethod("AddCustomSize", flags).Invoke(group, new[] { size });
             int index = (int)group.GetType().GetMethod("GetTotalCount", flags).Invoke(group, null) - 1;
             var gameViewType = assembly.GetType("UnityEditor.GameView", true);

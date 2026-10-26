@@ -1,0 +1,16 @@
+{
+  "project": "D:/Game/PixelFlowClone/Assets",
+  "scene": "Assets/_Project/Scenes/BootstrapScene.unity",
+  "dirty": false,
+  "playing": false,
+  "compiling": false,
+  "reviewOwned": false,
+  "fixturePrepared": false,
+  "saveScope": null,
+  "buildScenes": [
+    "Assets/_Project/Scenes/BootstrapScene.unity",
+    "Assets/_Project/Scenes/MainScene.unity"
+  ],
+  "playEntry": "Assets/_Project/Scenes/BootstrapScene.unity",
+  "consoleErrors": 0
+}

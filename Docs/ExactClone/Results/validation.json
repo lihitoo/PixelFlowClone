@@ -1,0 +1,43 @@
+{
+  "status": "verified-client-checkpoint",
+  "tests": {
+    "distinctCases": 144,
+    "latestPassed": 144,
+    "fullRun": {
+      "xml": "editor-verified.xml",
+      "passed": 141,
+      "total": 144
+    },
+    "rerun": {
+      "xml": "editor-regression-retry.xml",
+      "passed": 3,
+      "total": 3
+    },
+    "singleFullRunAllPassed": false,
+    "caseLedger": "coverage.json"
+  },
+  "static": {
+    "status": "pass",
+    "importedFilesVerified": 126,
+    "sourceFingerprint": "cf99d8341ee6fb60ab2ac88930b686121e147df45863254eda60874cbbd0042f"
+  },
+  "gameViewCaptures": 12,
+  "captureReceipt": "capture-receipts.json",
+  "prefabAudit": "saved-prefab-audit.json",
+  "editorFinal": "editor-final-state.json",
+  "mainSceneSha256": "6b18adc9e9e4e3674be3e0cf9f04f3b872b291c6b5df1ffd50e9e0a401f1a77a",
+  "mainSceneGuid": "46423e86e3ad8c54894e2bc28ce116bd",
+  "gameplayPrefabSha256": "a3bc2a65060b5070ea4e22145433f36e5f97a45b17a9b98f340ea560631bd2dc",
+  "gameplayPrefabGuid": "bebd73e69861b0846a66b4b3a27a0f04",
+  "temporaryVideoTexturesAfterPresentationCycles": 0,
+  "temporaryVideoTextureProbeScope": "Three-aspect view-only cycle; not a memory profiler claim",
+  "toolkit": "80/80 unit checks; final reference edits pass validate85skills",
+  "playerBuild": "not-run, owner forbids",
+  "wholeGameParity": false,
+  "remaining": [
+    "native price/reward/revive/unlock and animation matching",
+    "fail offer and special loss media",
+    "advanced/deep queue presentation coverage",
+    "rewarded ads and rank/pass/events/account production providers"
+  ]
+}

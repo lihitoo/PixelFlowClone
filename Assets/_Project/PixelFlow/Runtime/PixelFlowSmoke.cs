@@ -69,14 +69,14 @@ namespace PixelFlow
             yield return new WaitForSecondsRealtime(.3f);
             yield return new WaitForEndOfFrame(); Capture("level-1.png");
             yield return Click(app.View.PauseButton);
-            if (!Check(app.ScreenState == AppScreen.Paused, "Pause pointer click opens modal")) yield break;
+            if (!Check(app.ScreenState == AppScreen.Settings, "Gear pointer click opens Settings")) yield break;
             int before = app.Session.RemainingPixels;
             yield return new WaitForSecondsRealtime(.3f);
             if (!Check(before == app.Session.RemainingPixels, "Paused puzzle stops simulation")) yield break;
-            bool previousSound = app.Progress.Data.SoundEnabled;
-            yield return Click(app.View.SoundButton);
-            if (!Check(app.Progress.Data.SoundEnabled != previousSound, "Sound toggle changes and persists preference")) yield break;
-            yield return Click(app.View.ResumeButton);
+            float previousSound = app.Progress.Data.SoundVolume;
+            yield return Click(RectTransformUtility.WorldToScreenPoint(null, app.View.Settings.SoundSlider.transform.position));
+            if (!Check(app.Progress.Data.SoundVolume < previousSound, "Sound slider changes and persists preference")) yield break;
+            yield return Click(app.View.Settings.CloseButton);
             if (!Check(app.ScreenState == AppScreen.Playing, "Resume pointer click closes modal")) yield break;
 
             float deadline = Time.unscaledTime + 150;

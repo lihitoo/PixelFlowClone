@@ -12,8 +12,9 @@ namespace PixelFlow
     {
         private Action activeShopClose;
         private bool activeShopMini, storeUiBusy;
-        private bool openingShop;
-        public bool IsShopReady => nativeShopView != null && !openingShop;
+        private bool openingShop, closingShop;
+        public bool IsShopReady => nativeShopView != null && !openingShop && !closingShop;
+        public bool IsShopTransitioning => openingShop || closingShop;
         private string shopFocus;
         private Dreamy.Feature.Shop.Integration.ShopPanel nativeShopView;
         private AppScreen homePopupReturn = AppScreen.Home;
@@ -21,7 +22,7 @@ namespace PixelFlow
         public PixelFlowShopService Shop { get; private set; }
         private void InitializeShop(PixelFlowInstallerProfile profile)
         {
-            Shop = profile.Shop; view.ConfigureShop(Shop.Catalog);
+            Shop = profile.Shop;
         }
         private void PresentShop(Action close, bool mini, string section = null)
         {
@@ -84,14 +85,22 @@ namespace PixelFlow
                     "Please try again to complete your purchase.", RestoreFoundationShop, () => nativeShopView?.RetryPurchase(id));
             }
         }
-        public void FoundationShopRestore() => RestoreShopAsync().Forget();
         public void FoundationShopSettings() => OpenPage(FlowPage.Settings);
         public void FoundationShopRank() => OpenPage(FlowPage.Rank);
         public void FoundationShopLives() => OpenPage(FlowPage.Lives);
-        public void FoundationShopClosing()
+        public void FoundationShopClosing() => ReturnAfterShopHide().Forget();
+        private async UniTask ReturnAfterShopHide()
         {
-            nativeShopView = null; view.BindFoundationShop(null); storeUiBusy = false;
-            activeShopClose?.Invoke();
+            var panel = nativeShopView; var close = activeShopClose;
+            storeUiBusy = true; closingShop = true;
+            try
+            {
+                await UniTask.WaitUntil(() => panel == null || !panel.gameObject.activeSelf, cancellationToken: lifetime.Token);
+                nativeShopView = null; view.BindFoundationShop(null); storeUiBusy = false;
+                close?.Invoke();
+            }
+            catch (OperationCanceledException) { }
+            finally { closingShop = false; }
         }
         private void RestoreFoundationShop()
         {
@@ -116,7 +125,7 @@ namespace PixelFlow
             finally { storeUiBusy = false; }
         }
         private void ShowBoosterPurchase()
-        { view.ShowGame(SelectedLevel); view.ShowBoosterPurchase(progress, boosterBuyKind, () => { ScreenState = AppScreen.Paused; RestoreScreen(); }); }
+        { view.ShowGame(SelectedLevel); view.ShowBoosterPurchase(progress, boosterBuyKind, () => { ScreenState = AppScreen.Playing; RestoreScreen(); }); }
         private void OpenBoosterMiniShop()
         {
             if (ScreenState != AppScreen.BoosterPurchase) return;
@@ -124,9 +133,13 @@ namespace PixelFlow
         }
         private void BuyBoosterFromPopup(BoosterKind kind)
         {
-            bool purchased = false;
-            Guard(() => { purchased = progress.Buy(kind); if (!purchased) ShowBoosterPurchase(); });
-            if (purchased) { ScreenState = AppScreen.Paused; Resume(); UseBooster(kind); }
+            if (busy) return;
+            bool purchased; busy = true;
+            try { purchased = progress.Buy(kind); }
+            catch (Exception error) { SaveError(error, () => BuyBoosterFromPopup(kind)); return; }
+            finally { busy = false; }
+            if (!purchased) { ShowBoosterPurchase(); return; }
+            ScreenState = AppScreen.Playing; view.ShowGame(SelectedLevel); UseBooster(kind);
         }
     }
 }

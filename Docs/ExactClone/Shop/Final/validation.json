@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "status": "shop-client-checkpoint",
+  "tests": {
+    "total": "27",
+    "passed": "27",
+    "failed": "0",
+    "result": "Passed"
+  },
+  "captures": [
+    {
+      "path": "Docs/ExactClone/Shop/Final/game-view-shop-top.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "1d30b267c46bd20914d64aa2d5c1541a43abad855620d60875f3ee628cdeaa5f",
+      "method": "Actual Unity Game View RenderTexture readback; GPU row order corrected; no production canvas/camera change",
+      "fixture": "isolated HomeReview_8593a401a0e446f192ef3d55da84dd2b, level36,2000coins,11offers"
+    },
+    {
+      "path": "Docs/ExactClone/Shop/Final/game-view-shop-noads.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "d83ded60e552d75fe53287a4cc14f6ecaa5334d309d1b6e557d6daa2c33d8c62",
+      "method": "Actual Unity Game View RenderTexture readback; GPU row order corrected; no production canvas/camera change",
+      "fixture": "isolated HomeReview_8593a401a0e446f192ef3d55da84dd2b, level36,2000coins,11offers"
+    },
+    {
+      "path": "Docs/ExactClone/Shop/Final/game-view-shop-bundles.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "d4838dc44eebe5acf93d05c5b43babbf4f3a127aaaedb563124947042571286c",
+      "method": "Actual Unity Game View RenderTexture readback; GPU row order corrected; no production canvas/camera change",
+      "fixture": "isolated HomeReview_8593a401a0e446f192ef3d55da84dd2b, level36,2000coins,11offers"
+    }
+  ],
+  "playerBuild": "not run; owner prohibits builds",
+  "payment": "owner-authorized fake gateway only",
+  "sourceVersionParity": "unverified web screenshot version/unlock thresholds",
+  "restore": "removed from Shop; existing Settings gateway route retained"
+}

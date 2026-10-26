@@ -49,5 +49,33 @@ namespace PixelFlow.Tests
             fixture.Fail = true; Assert.Throws<IOException>(() => store.SetAudioLevels(.5f, .5f));
             Assert.That(store.Data.MusicVolume, Is.EqualTo(.2f));
         }
+        [Test] public void AbandonAttemptIsAtomicAndCannotChargeTwice()
+        {
+            var fixture = new ProgressFlowTests.SaveFixture(); var store = new ProgressStore(fixture, 2600);
+            var snapshot = new PuzzleSession(FullGameplayTests.Small()).CaptureState();
+            store.Checkpoint(0, snapshot); int hearts = store.Data.Lives.Hearts;
+            fixture.Fail = true;
+            Assert.Throws<IOException>(() => store.AbandonRun(100));
+            Assert.That(store.Data.ActiveRun, Is.Not.Null); Assert.That(store.Data.Lives.Hearts, Is.EqualTo(hearts));
+            fixture.Fail = false; store.AbandonRun(100);
+            Assert.That(store.Data.ActiveRun, Is.Null); Assert.That(store.Data.Lives.Hearts, Is.EqualTo(hearts - 1));
+            store.AbandonRun(100);
+            var reload = new ProgressStore(fixture, 2600);
+            Assert.That(reload.Data.Lives.Hearts, Is.EqualTo(hearts - 1)); Assert.That(reload.Data.ActiveRun, Is.Null);
+        }
+        [Test] public void AbandonPreservesUnlimitedLivesAndAlreadyFailedAttempt()
+        {
+            var fixture = new ProgressFlowTests.SaveFixture(); var store = new ProgressStore(fixture, 2600);
+            store.Data.Lives.UnlimitedUntilUtc = 200;
+            var snapshot = new PuzzleSession(FullGameplayTests.Small()).CaptureState();
+            store.Checkpoint(0, snapshot); store.AbandonRun(100);
+            Assert.That(store.Data.Lives.Hearts, Is.EqualTo(5));
+            snapshot = new PuzzleSession(FullGameplayTests.Small()).CaptureState();
+            snapshot.Status = SessionStatus.Lost; store.Data.Lives.UnlimitedUntilUtc = 0;
+            store.RecordLoss(0, snapshot); int hearts = store.Data.Lives.Hearts;
+            Assert.That(hearts, Is.EqualTo(4));
+            store.AbandonRun(ProgressStore.UtcSeconds);
+            Assert.That(store.Data.Lives.Hearts, Is.EqualTo(hearts)); Assert.That(store.Data.ActiveRun, Is.Null);
+        }
     }
 }

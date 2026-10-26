@@ -1,0 +1,33 @@
+{
+  "url": "https://www.gamigion.com/pixel-flow-by-loom-games-is-making-over-500k-a-day/",
+  "status": 200,
+  "images": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MjAiIGhlaWdodD0iNDY1IiB2aWV3Qm94PSIwIDAgNjIwIDQ2NSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+      "data-src": "https://www.gamigion.com/wp-content/uploads/2026/10/Downloads1-620x465.png"
+    },
+    {
+      "src": "https://www.gamigion.com/wp-content/uploads/2026/10/Downloads1-620x465.png",
+      "srcset": "https://www.gamigion.com/wp-content/uploads/2026/10/Downloads1-620x465.png 620w, https://www.gamigion.com/wp-content/uploads/2026/10/Downloads1-769x577.png 769w, https://www.gamigion.com/wp-content/uploads/2026/10/Downloads1-1240x930.png 1240w, https://www.gamigion.com/wp-content/uploads/2026/10/Downloads1-1536x1152.png 1536w, https://www.gamigion.com/wp-content/uploads/2026/10/Downloads1.png 1600w"
+    }
+  ],
+  "videos": [],
+  "meta": [
+    {
+      "property": "og:image",
+      "content": "https://www.gamigion.com/wp-content/uploads/2024/03/gamigonfi.png"
+    },
+    {
+      "property": "article:published_time",
+      "content": "2026-02-24T10:19:49+00:00"
+    },
+    {
+      "property": "og:image",
+      "content": "https://www.gamigion.com/wp-content/uploads/2026/02/image-302-620x332.png"
+    },
+    {
+      "property": "og:image",
+      "content": "https://www.gamigion.com/wp-content/uploads/2026/02/image-302-620x332.png"
+    }
+  ]
+}

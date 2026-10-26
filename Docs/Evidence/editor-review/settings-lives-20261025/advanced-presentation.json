@@ -1,0 +1,19 @@
+{
+    "status": "pass",
+    "unity": "6000.4.12f1",
+    "scope": "Explicit fixture unlock/selection; pointer start/tutorial/pause/Home. Rendering is not a full solve or native behavior comparison.",
+    "saveDirectory": "PixelFlowCloneSmoke_Review_84b184572a9041cd81a99ca2ad66c531",
+    "captureMethod": "Offscreen URP camera request, temporarily converting the owned overlay canvas to ScreenSpaceCamera; full-rect preview, not simulated device safe area or Game View capture.",
+    "inputMethod": "Queued synthetic MouseState events with explicit InputSystem.Update and active EventSystem module Process, isolated devices/settings, and an offscreen UI warmup when graphics have no raycast depth in batchmode; UI/Physics processing, not physical-device input or normal frame scheduling proof.",
+    "checks": [
+        "Actual scene bootstrap reaches Home using an isolated fresh save",
+        "Selected and rendered source level 14 with typed feature state and tutorial",
+        "Selected and rendered source level 230 with typed feature state and tutorial",
+        "Selected and rendered source level 600 with typed feature state and tutorial",
+        "Selected and rendered source level 1001 with typed feature state and tutorial",
+        "Selected and rendered source level 1401 with typed feature state and tutorial",
+        "Selected and rendered source level 1701 with typed feature state and tutorial",
+        "Selected and rendered source level 2001 with typed feature state and tutorial",
+        "Selected and rendered source level 2401 with typed feature state and tutorial"
+    ]
+}

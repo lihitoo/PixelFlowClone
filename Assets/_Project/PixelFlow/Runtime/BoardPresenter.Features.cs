@@ -67,6 +67,8 @@ namespace PixelFlow
                     var position = PixelPosition(cell.X, cell.Y) + Vector3.up * .20f; center += position;
                     var tile = Block("Object Cell", position, new Vector3(session.Track.CellSize * .98f, .25f, session.Track.CellSize * .98f), obstacleMaterial);
                     tile.transform.SetParent(view.Root.transform, true); view.Cells.Add(tile);
+                    var target = tile.AddComponent<BoxCollider>(); target.enabled = false; colorTargets.Add(target);
+                    tile.AddComponent<BoardCellView>().Initialize(cell.X, cell.Y, colorSelected);
                 }
                 center /= state.Definition.Cells.Count;
                 view.Label = WorldLabel(view.Root.transform, "", center + Vector3.up * .50f, Mathf.Clamp(state.Definition.Cells.Count * .08f, 1.8f, 3.5f));

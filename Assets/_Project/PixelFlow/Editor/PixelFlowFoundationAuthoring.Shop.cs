@@ -9,7 +9,7 @@ namespace PixelFlow.Editor
     public static partial class PixelFlowFoundationAuthoring
     {
         [MenuItem("Pixel Flow/Foundation/Register Authored Shop")]
-        public static void AuthorNativeShop() => RegisterPanelAddress(HomeShopAuthoring.ShopPath, PixelFlowPanelAddress.Shop);
+        public static void AuthorNativeShop() => RegisterPanelAddress("Assets/_Project/_Feature/Dreamy Shop/0.1.2/Shop Feature/Prefabs/ShopPanel.prefab", PixelFlowPanelAddress.Shop);
 
         internal static void RegisterPanelAddress(string assetPath, string address)
         {

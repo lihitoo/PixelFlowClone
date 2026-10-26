@@ -1,17 +1,25 @@
-﻿[
-    {
-        "output":  "D:/Game/PixelFlowClone/Assets/_Project/PixelFlow/Art/Fonts/LilitaOne SDF.asset",
-        "source":  "D:/Downloads/PixelFlow_0.36.3_extracted/UnityProject/ExportedProject/Assets/Standard Assets/Art/Fonts/Lilita_One/LilitaOne SDF.asset",
-        "outputSha256":  "0DE964BAAB43911DA3033CB4E646A64ADD652B9A15276545AB30CA94DD63F69E",
-        "sourceSha256":  "9541B5EAA3E8610A124ED1F24F5F8D4D9168C7CF4D7226D93A5603114485A5CE",
-        "role":  "Home/Shop Latin font",
-        "transform":  "Map legitimate TMP_FontAsset script reference to installed TMP GUID; atlas/material rebound by Unity"
-    },
-    {
-        "output":  "D:/Game/PixelFlowClone/Assets/_Project/PixelFlow/Art/Fonts/Lilita Atlas.png",
-        "outputSha256":  "FBAE2D4698CE134AFC32405D5FEF8345EC970AFC0A409EDACD6FFC4FF2BC2157",
-        "source":  "D:/Downloads/PixelFlow_0.36.3_extracted/UnityProject/ExportedProject/Assets/Standard Assets/Art/Fonts/Lilita_One/LilitaOne-ExtendedTR SDF Atlas.png",
-        "sourceSha256":  "FBAE2D4698CE134AFC32405D5FEF8345EC970AFC0A409EDACD6FFC4FF2BC2157",
-        "role":  "Original font atlas"
-    }
+[
+  {
+    "output": "D:/Game/PixelFlowClone/Assets/_Project/PixelFlow/Art/Fonts/LilitaOne SDF.asset",
+    "source": "D:/Downloads/PixelFlow_0.36.3_extracted/UnityProject/ExportedProject/Assets/Standard Assets/Art/Fonts/Lilita_One/LilitaOne SDF.asset",
+    "outputSha256": "1B90EB54B234A530BB5D56FE341E5AD5BD268D4C60C29AD205E05174868090A9",
+    "sourceSha256": "9541B5EAA3E8610A124ED1F24F5F8D4D9168C7CF4D7226D93A5603114485A5CE",
+    "role": "Home/Shop Latin font",
+    "transform": "Map legitimate TMP_FontAsset script reference to installed TMP GUID; atlas/material rebound by Unity",
+    "initialImportedSha256": "0DE964BAAB43911DA3033CB4E646A64ADD652B9A15276545AB30CA94DD63F69E",
+    "importedGuid": "c50645c57ef707d46863424d1df682e4",
+    "assetId": "asset-81ec587bbd3657032062",
+    "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/UnityProject/ExportedProject/Assets/Standard%20Assets/Art/Fonts/Lilita_One/LilitaOne%20SDF.asset"
+  },
+  {
+    "output": "D:/Game/PixelFlowClone/Assets/_Project/PixelFlow/Art/Fonts/Lilita Atlas.png",
+    "outputSha256": "FBAE2D4698CE134AFC32405D5FEF8345EC970AFC0A409EDACD6FFC4FF2BC2157",
+    "source": "D:/Downloads/PixelFlow_0.36.3_extracted/UnityProject/ExportedProject/Assets/Standard Assets/Art/Fonts/Lilita_One/LilitaOne-ExtendedTR SDF Atlas.png",
+    "sourceSha256": "FBAE2D4698CE134AFC32405D5FEF8345EC970AFC0A409EDACD6FFC4FF2BC2157",
+    "role": "Original font atlas",
+    "initialImportedSha256": "FBAE2D4698CE134AFC32405D5FEF8345EC970AFC0A409EDACD6FFC4FF2BC2157",
+    "importedGuid": "79fd2f64b4b4ea04ba03d6dd575fb93c",
+    "assetId": "asset-d0ce3f4929729f0f0679",
+    "sourceUri": "file:///D:/Downloads/PixelFlow_0.36.3_extracted/UnityProject/ExportedProject/Assets/Standard%20Assets/Art/Fonts/Lilita_One/LilitaOne-ExtendedTR%20SDF%20Atlas.png"
+  }
 ]

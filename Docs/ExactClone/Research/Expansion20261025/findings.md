@@ -1,0 +1,51 @@
+# Pixel Flow reference expansion — 25–26 October 2026
+
+The strongest addition is actual Settings, profile editing, purchase cancellation, refill and booster tutorial footage. **The MGFTUE recording visibly identifies its build as 0.32.1 (263), not the extracted target 0.36.3.** Its composition and observed transitions are evidence for that older build only. 09GameReview and article montages do not establish a build number. No Unity state, project source, account, device or player build was changed for this research.
+
+## Highest-value original captures
+
+Open [selected-states-contact.jpg](selected-states-contact.jpg) for the first twelve menu/result/purchase captures. Individual PNGs retain their source capture resolution. Full source URLs, hashes, dimensions, decoded clip offsets and nominal source timecodes are in [ledger.json](ledger.json) and [frame-receipts.json](frame-receipts.json).
+
+| Original state | New artifact | Source / nominal time | Actionable observation |
+|---|---|---|---|
+| Gameplay Settings | [ftue-settings.png](frames/ftue-settings.png) | [MGFTUE](https://www.youtube.com/watch?v=1-rs__XVY1s&t=136s), 02:16.5 | Blue dialog, Sounds slider, Haptic toggle, Privacy Settings and Contact Us side-by-side, Restart Level, Return Home, red X. Footer visibly reads **0.32.1 (263)**. No separate Music control is present in this observed panel. |
+| Home before unlocks | [ftue-home.png](frames/ftue-home.png) | MGFTUE 02:23.5 | Three vertical campaign nodes, Play, Shop/Start/locked bottom navigation. Side entries visibly show level locks 31, 36, 23, 76 and an event label. These are observed old-build labels, not target unlock contracts. |
+| Rename entry | [ftue-username.png](frames/ftue-username.png) | MGFTUE 02:29.5 | Edit Profile underneath; separate Change Your Username dialog with field and Continue. |
+| Rename confirmation | [ftue-name-confirm.png](frames/ftue-name-confirm.png) | MGFTUE 02:40.5 | Are You Sure? repeats proposed name; red No and green Yes. No success can be inferred merely from entering text. |
+| Profile/avatar editing | [ftue-profile.png](frames/ftue-profile.png) | MGFTUE 02:43.5 | 3×3 scrollable avatar area, selected avatar preview, name with pencil, Save and red X. Name/avatar changes visibly return to Home. This is local presentation evidence, not cloud synchronization evidence. |
+| Early coin-only Shop | [ftue-coins-shop.png](frames/ftue-coins-shop.png) | MGFTUE 02:51.5 | Gold Packs heading, 3×2 cards, awning and top profile/lives/coins/settings. Prices belong to this region/session. |
+| Purchase canceled | [purchase-cancel.png](frames/purchase-cancel.png) | [09GameReview](https://www.youtube.com/watch?v=mtmyVrwqBQc&t=68s), 01:08.5 | Blue Canceled dialog with red cross, Purchase has been canceled, Okay. It overlays the fail offer and returns there after dismissal. Source payment sheet exists in the clip; it is not selected as a comparison screenshot. |
+| Out of Space / Fail Offer | [out-of-space.png](frames/out-of-space.png) | 09GameReview 01:10.5 | Hard-level purple dialog, embedded board/tray image, **900 coin** continue, separate orange Fail Offer containing **2,700 coins + four boosters ×1**, plus Open Up Slots and Hold to See the Game. Offer price is regional HKD. Buying/using slots was not exercised by this research. |
+| Final failure/life | [failed-heart.png](frames/failed-heart.png) | 09GameReview 01:13.5 | Skull, broken heart **−1**, You Failed and Try Again, with level header. |
+| Refill lives | [refill-hearts.png](frames/refill-hearts.png) | 09GameReview 05:40.5 | Refill Your Hearts, current **4** hearts, next-heart timer, ad Get +1 and Refill Now **900 coins**, with a round close below. This does not measure the full regeneration interval. |
+| Expanded Shop | [shop-bundles.png](frames/shop-bundles.png) | 09GameReview 05:46.5 | No Ads Bundles then Bundles in one scroll feed. Small/Medium show 2h unlimited lives. No Ads bundle shows 1h. Do not replace observed current values with a product analyst's suggested improvements. |
+| Win reward | [level-complete.png](frames/level-complete.png) | 09GameReview 05:18.5 | Gold trophy, level completed ribbon, 40 coins, green Continue and gold rewarded-ad **80 ×2**. No actual ad reward transaction was verified here. |
+
+## Booster interaction evidence (MGFTUE 0.32.1)
+
+The recording covers fresh play through level 22. Storyboards were used to locate candidates, then bounded video clips were decoded and inspected at one-second intervals. Nominal timestamps are navigation aids with roughly one-second tolerance; these surveys do not establish animation/audio timing parity.
+
+| Item | Useful clip / source time | Captured behavior |
+|---|---|---|
+| Add Tray, level 7 | [clip 05:55–06:25](ftue-booster-355-385.mp4), especially 06:07–06:12 | Claim dialog says **Add extra tray to conveyor!**, then tap-your-powerup spotlight. Counter changes from **5/5 to 6/6**; the separate waiting row still has **five slots**. See [claim](frames/add-tray-claim.png), [spotlight](frames/add-tray-spotlight.png), [capacity 6](frames/add-tray-capacity6.png). This is clear evidence against interpreting this old-build booster as another waiting slot. |
+| Hand, level 12 | [clip 10:15–10:35](ftue-booster-615-635.mp4) | Claim says **Pick any pig or item in the queue.** Target mode expands/foregrounds the queue and dims other content, then selected queued pig enters the conveyor. See [claim](frames/hand-claim.png), [target mode](frames/hand-target-mode.png), [selection](frames/hand-queue-selection.png). |
+| Shuffle, level 15 | [clip 12:00–12:40](ftue-booster-720-760.mp4), especially 12:33–12:36 | Claim says **Shuffle the pigs in queues.**, followed by tap-powerup spotlight and queue rearrangement. See [claim](frames/shuffle-claim.png), [spotlight](frames/shuffle-spotlight.png). Full exclusions, RNG and cancel/stock purchase are not established. |
+| Super Pig, level 18 | [clip 21:30–22:10](ftue-booster-1290-1330.mp4), especially 21:51–22:03 | Claim, forced spotlight, board-target mode with banner **Select a color to shoot with super powers!**, pig appears and color-shooting sequence plays. See [claim](frames/super-pig-claim.png), [target mode](frames/super-pig-target-mode.png), [effect](frames/super-pig-color-effect.png). This does not settle every special-object exclusion. |
+| Connected Pig, level 14 | Same 12:00–12:40 clip | New Feature screen says **They move together!**; following frames show linked pigs moving as a group. [Intro capture](frames/connected-pig-intro.png). |
+
+The hand/booster clips and contact sheets are more useful for matching original targeting UI than the generic mechanics-guide illustrations. Do not infer 0.36.3 unlock thresholds solely from this older recording.
+
+## New article/reference sources
+
+- [Julia Iljuk / Gamigion](https://www.gamigion.com/pixel-flow-by-loom-games-is-making-over-500k-a-day/), February 24, 2026: [five-screen runtime montage](images/julia-monetization.png) shows blue win/continue, blue Out of Space with Fail Offer, No Ads, Pixel Pass and Shop. Pixel Pass promo says maximum hearts increase to **8**, includes event countdown and EUR9.99. Build/version and premium activation are unverified. This screenshot covers promo art and copy, not the complete pass reward track.
+- [Michael Kopelovich](https://www.linkedin.com/posts/michael-kopelovich_wait-they-monetized-offline-mode-i-spotted-activity-7459875044253679617-K6rh): [annotated original-state composite](images/offline-noads-01.jpg) shows No Connection (Refresh) then No Ads popup; offline play appears in No Ads benefits. Green box and phone mockups are editorial additions. No network behavior or entitlement was tested.
+- [Balancy](https://balancy.co/blog/2026/03/20/pixel-flow-shop-liveops-monetization-patterns/): [shop progression montage](images/balancy-shop-01.png) corroborates progressively expanded vertical shop. Most remaining Balancy images are analytical pricing tables, not original UI. The montage largely repeats the previously cataloged Michael Khripin shop material.
+- [SungsuLabs](https://sungsulabs.substack.com/p/pixel-flow-loom-games): [overview](images/sungsulabs-session-02.png), [FTUE montage](images/sungsulabs-session-03.png), [No Ads / Hard-level montage](images/sungsulabs-session-04.png), [Pass intro](images/sungsulabs-session-05.png) and [Pass alternate](images/sungsulabs-session-16.png). This is related to the previously cataloged first-hour author/content; do not count it as independent confirmation. Embedded public-video IDs are retained in the fetched page, but those embedded streams were not downloaded.
+- [two & a half gamers review](https://www.youtube.com/watch?v=WsaiXbDuhEU), January 15, 2026: bounded 02:10–12:10 clip surveyed. The actual game occupies a small screen-share area; later footage compares a different game. It adds little usable high-resolution UI coverage. It is retained as commentary/picture-in-picture evidence and **not accepted as new full-screen original UI**.
+- [09GameReview video](https://www.youtube.com/watch?v=mtmyVrwqBQc), November 30, 2025: useful actual runtime captures above. Its associated written review contains mixed-up mechanics descriptions, so those captions were not used to establish rules.
+
+## Gaps kept explicit
+
+There is still no observed 0.36.3 full-session recording. This expansion does not verify real purchase success, receipt replay/recovery/restore, deferred purchases, paid Pass activation/track claims, rank entry/profile interactions, cloud account sign-in/recovery, support submission, privacy external pages or event lifecycle outcomes. Existing official help and source prefab/config evidence remain relevant to those surfaces. The task did not install or connect a billing SDK, use extracted credentials, invent opponents/rewards, open an emulator or run a player build.
+
+All selected captures have been opened directly or in inspection contact sheets. Non-runtime charts, covers, advertisements and comparison-game frames are labeled separately in the ledger. The retained clips contain occasional public ads between levels; those ad-game frames are excluded from Pixel Flow UI evidence. Source clip downloads have no audio, so no audio/feel claim is made.

@@ -1,0 +1,13 @@
+{
+  "prefab": "Assets/_Project/PixelFlow/Prefabs/Foundation/GameplayPanel.prefab",
+  "guid": "bebd73e69861b0846a66b4b3a27a0f04",
+  "base": "Packages/com.dreamy.feature/Runtime/Prefabs/BaseFeaturePanel.prefab",
+  "composition": "existing app/view facade receives authored panel explicitly; existing ProgressStore/PuzzleSession authority; no extra installer/presenter wrapper",
+  "sourceHierarchy": [
+    "asset-0730a5a996d399ffb59a",
+    "asset-3fbd35fcef0a7d736131"
+  ],
+  "sourceArt": "asset-intake.json",
+  "sourceRuntimeVersions": "0.32.1 and unknown; not verified0.36.3",
+  "playerBuild": "not run"
+}

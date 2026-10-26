@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-26",
+  "repository": "https://github.com/morluto/rea",
+  "commit": "1173c0a9dc1b352a60943a491462294db8f353ae",
+  "npmVersion": "6.8.0",
+  "nodeVersion": "24.22.1",
+  "operation": "inspect-il2cpp-metadata",
+  "evidenceId": "ev_d1addc6334f548a1098d2806018452676df99066b2fac3f19053e6caf165aaeb",
+  "metadataVersion": 31,
+  "artifactSha256": "6141d724c7c6c6ffc1a58bff4b49246380d1c26cdc388570ba1fc80f4fa59609",
+  "counts": {
+    "images": 388,
+    "types": 33230,
+    "methods": 303157,
+    "fields": 124096,
+    "string_literals": 25881
+  },
+  "evidenceBytes": 37784254,
+  "evidenceSha256": "5054a74a073004afe0f204e652e28884c3cf30224930952ccffba96d45075162",
+  "nativeBinaryAnalysis": false,
+  "runtimeObservation": false,
+  "recoveredLogic": false,
+  "mcpRegistered": false,
+  "limits": [
+    "Only unencrypted global-metadata.dat versions 24, 27, 29, 31 and 39 are decoded; names, counts and string literals are observed file content, not runtime behavior.",
+    "Native code addresses and IL2CPP binary registration are not recovered without binary_path.",
+    "Field, parameter and return types are not recovered without binary_path; type indices refer to the native binary.",
+    "declaring_type for types is derived from the nestedTypes section, and member and parameter owners from the owners' index ranges; row positions are the metadata indices."
+  ]
+}

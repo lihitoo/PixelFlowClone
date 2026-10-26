@@ -1,0 +1,15 @@
+# Kết quả / chọn mục tiêu — checkpoint client
+
+Đã sửa trực tiếp GameplayPanel.prefab (GUID bebd73e69861b0846a66b4b3a27a0f04), giữ BaseFeaturePanel/SafeArea/tween/Addressables hiện có. Win/fail, video continue, banner chọn mục tiêu và vùng giữ để nhìn bàn đều được author sẵn. Không thêm bộ installer/presenter/wallet khác. View chỉ phát intent; PixelFlowApp/PuzzleSession/ProgressStore vẫn quyết định luật và commit.
+
+Đã bỏ card kết quả dựng bằng code, sound/retry/back phụ trên card và danh sách target theo số ID. Hand dùng collider heo để chọn queue trực tiếp; có mở các hàng sâu trong mode chọn. Super dùng collider pixel/object cell và màu của lớp đang che theo model. Target cancel không tiêu inventory; effect/save thất bại dùng rollback hiện có. Bố cục queue sâu vẫn cần kiểm tra thêm ở campaign dài; không coi màn level1 là coverage mọi feature.
+
+Win hiển thị đúng reward trả về từ RecordWin sau commit. Mở lại màn không grant; Continue sang level mới. Rewarded ×2 có art nguồn nhưng disabled/unavailable vì chưa có provider. Fail dùng cúp/banner/card/icon/video đúng extraction khi phù hợp; out_of_space_offer là video3.433s,1284×898, loop không audio. RenderTexture do view sở hữu và giải phóng khi đổi màn/disable/reopen. Video là minh họa nguồn, không phải cảnh clone đang được chơi.
+
+Coin continue thiếu tiền mở Mini Shop rồi trở về đúng failed run, không tự tiếp tục. Kết quả mua vẫn dùng fake gateway được owner cho phép. Đóng Shop chỉ trả về sau Hide để tránh mở lại khi presenter cũ còn đang teardown. Đóng màn thua dùng AbandonRun: xóa snapshot đã thua, không trừ tim lần hai; lỗi lưu giữ trạng thái và Retry.
+
+Nguồn so hình: Research/Expansion20261025/frames/level-complete.png, out-of-space.png, hand-target-mode.png, super-pig-target-mode.png; phiên bản0.32.1(263) hoặc chưa rõ build, không xác nhận0.36.3. Metadata REA chỉ là đầu mối type/member; không khôi phục công thức. Art/font/video đều từ0.36.3, copy có hash/GUID trong asset-intake.json. Không import dummy C#.
+
+Tuning hiện tại reward50/5, continue100 và revive thêm một waiting slot vẫn estimated từ checkpoint trước. Video khác build thể hiện reward40/continue900 và clear/open-slots khác; chưa đổi luật/giá chỉ từ đó. Copy client không hứa clear conveyor khi model chưa có hành vi đó. Fail offer IAP/streak-loss summary, điều kiện/numeric target, media cho nguyên nhân thua đặc biệt và native animation/board/belt vẫn là gap. Không đánh dấu whole-game parity hoàn tất.
+
+editor-focused.xml:2/3 đạt; bài Mini Shop lặp lại mất click được giữ nguyên XML, sau đó đã sửa thời điểm return và fixture chờ show/hide thật. Recovery4/4 đạt. Lượt toàn bộ141/144 và3 bài chạy lại3/3 cho144 case có kết quả đạt gần nhất; coverage.json phân biệt rõ hai lượt. validation.json/review.html có12 ảnh Game View cuối ở ba tỷ lệ và các giới hạn. Win/fail dùng setup view-only, không grant reward; test terminal thực tế có fixture timer/clear và được ghi riêng. Instance FoundationDemo lộ nút ở mép màn hình đã được tắt trong MainScene; prefab/template và GUID được giữ. Không build player, không provider production.

@@ -39,6 +39,12 @@ namespace PixelFlow.Rules
         private List<BoardObjectState>[] objectsAt;
         private int[] slotHealth, doorHealth;
         public IReadOnlyList<BoardObjectState> BoardObjects => objects;
+        public int TargetColorAt(int x, int y)
+        {
+            if (x < 0 || y < 0 || x >= Level.Width || y >= Level.Height) return -1;
+            var blocker = BlockingObject(y * Level.Width + x);
+            return blocker != null ? blocker.Definition.Goal ? blocker.Color : -1 : PixelAt(x, y);
+        }
         public event Action<string> FeatureChanged;
 
         private void InitializeObjects()

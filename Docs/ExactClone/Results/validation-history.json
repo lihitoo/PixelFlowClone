@@ -1,0 +1,38 @@
+{
+  "runs": [
+    {
+      "xml": "editor-focused.xml",
+      "passed": 2,
+      "total": 3,
+      "issue": "Repeated Mini Shop pointer was not delivered; now wait for hide before returning, and fixture waits for actual show/hide transition. Earlier failure retained."
+    },
+    {
+      "requestedXml": "editor-final.xml",
+      "job": "fa0c4eba2d20434fa0a9e1c20b5a0efd",
+      "status": "interrupted",
+      "reason": "Editor process ended before final XML; restarted Editor observed in scene recovery. Partial fixture receipts are retained; no overall pass claimed."
+    },
+    {
+      "xml": "editor-recovery.xml",
+      "passed": 4,
+      "total": 4,
+      "issue": "Shop hide/return, committed-loss close and target-layer checks now pass"
+    },
+    {
+      "xml": "editor-verified.xml",
+      "passed": 141,
+      "total": 144,
+      "issues": [
+        "Old SaveFailure fixture still clicked removed target list; migrated to physical board color pick and back route",
+        "Shop-to-Lives handoff needed one combined transition wait before refill click",
+        "SourceShopBundlesScrollOwnedNoAdsAndRestore timed out; rerun focused without relaxing timeout"
+      ]
+    },
+    {
+      "xml": "editor-regression-retry.xml",
+      "passed": 3,
+      "total": 3,
+      "issue": "All three failed cases now pass; assertions/timeouts unchanged"
+    }
+  ]
+}

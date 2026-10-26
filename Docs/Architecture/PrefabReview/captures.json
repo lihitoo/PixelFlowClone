@@ -1,0 +1,58 @@
+{
+  "captureKind": "Existing Unity Game View render texture readback",
+  "captures": [
+    {
+      "path": "Docs/Architecture/PrefabReview/home-36-final.png",
+      "width": 1080,
+      "height": 1920,
+      "screen": "1080x1920",
+      "state": "Home",
+      "scope": "PixelFlowCloneSmoke_HomeReview_17f012f5491b4e2aa4e9be8fa4371e02",
+      "method": "Existing Unity Game View render texture readback; GPU row order flipped; no camera/canvas conversion"
+    },
+    {
+      "path": "Docs/Architecture/PrefabReview/home-36-1080x2340.png",
+      "width": 1080,
+      "height": 2340,
+      "screen": "1080x2340",
+      "state": "Home",
+      "scope": "PixelFlowCloneSmoke_HomeReview_17f012f5491b4e2aa4e9be8fa4371e02",
+      "method": "Existing Unity Game View render texture readback; GPU row order flipped; no camera/canvas conversion"
+    },
+    {
+      "path": "Docs/Architecture/PrefabReview/home-36-720x1280.png",
+      "width": 720,
+      "height": 1280,
+      "screen": "720x1280",
+      "state": "Home",
+      "scope": "PixelFlowCloneSmoke_HomeReview_17f012f5491b4e2aa4e9be8fa4371e02",
+      "method": "Existing Unity Game View render texture readback; GPU row order flipped; no camera/canvas conversion"
+    },
+    {
+      "path": "Docs/Architecture/PrefabReview/shop-36-1080x2340.png",
+      "width": 1080,
+      "height": 2340,
+      "screen": "1080x2340",
+      "state": "Shop",
+      "scope": "PixelFlowCloneSmoke_HomeReview_8d347352e55d4b8680a378c069b01040",
+      "method": "Existing Unity Game View render texture readback; GPU row order flipped; no camera/canvas conversion"
+    }
+  ],
+  "setup": "Isolated HomeReview fixture: level36 and2000coins seeded explicitly; no earned-progression claim.",
+  "orientation": "RenderTexture GPU row order reversed for upright PNG; no production transforms changed.",
+  "sourceCrop": {
+    "source": "Docs/ExactClone/Research/images/ui-triptych.jpg",
+    "output": "Docs/Architecture/PrefabReview/source-home-crop.png",
+    "crop": [
+      3,
+      27,
+      265,
+      499
+    ]
+  },
+  "limits": [
+    "Editor Game View readback, not physical-device evidence.",
+    "Web reference version is unverified for0.36.3.",
+    "SafeArea component and full-rect Editor geometry verified; device cutouts remain unverified."
+  ]
+}

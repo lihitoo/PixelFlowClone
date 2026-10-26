@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-26 10:14:29Z" end-time="2026-10-26 10:14:42Z" duration="12.3076276">
+  <test-suite type="TestSuite" id="1000" name="Pixel Flow Clone" fullname="Pixel Flow Clone" runstate="Runnable" testcasecount="178" result="Passed" start-time="2026-10-26 10:14:29Z" end-time="2026-10-26 10:14:42Z" duration="12.307628" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1212" name="PixelFlow.Tests.Editor.dll" fullname="D:/Game/PixelFlowClone/Library/ScriptAssemblies/PixelFlow.Tests.Editor.dll" runstate="Runnable" testcasecount="144" result="Passed" start-time="2026-10-26 10:14:32Z" end-time="2026-10-26 10:14:42Z" duration="9.991480" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="5904" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1213" name="PixelFlow" fullname="PixelFlow" runstate="Runnable" testcasecount="144" result="Passed" start-time="2026-10-26 10:14:32Z" end-time="2026-10-26 10:14:42Z" duration="9.659917" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1214" name="EditorReview" fullname="PixelFlow.EditorReview" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-10-26 10:14:32Z" end-time="2026-10-26 10:14:41Z" duration="9.197240" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1052" name="PresentationReviewTests" fullname="PixelFlow.EditorReview.PresentationReviewTests" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-10-26 10:14:32Z" end-time="2026-10-26 10:14:41Z" duration="9.139621" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1064" name="AuthoredResultContinueRetryAndWinCommitOnce" fullname="PixelFlow.EditorReview.PresentationReviewTests.AuthoredResultContinueRetryAndWinCommitOnce" methodname="AuthoredResultContinueRetryAndWinCommitOnce" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1039578976" result="Passed" start-time="2026-10-26 10:13:44Z" end-time="2026-10-26 10:14:15Z" duration="30.363329" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+              <output><![CDATA[Pixel Flow operation failed: Fixture disk failure
+]]></output>
+            </test-case>
+            <test-case id="1065" name="AuthoredResultMiniShopReturnsToFailedAttemptAndPeekRestores" fullname="PixelFlow.EditorReview.PresentationReviewTests.AuthoredResultMiniShopReturnsToFailedAttemptAndPeekRestores" methodname="AuthoredResultMiniShopReturnsToFailedAttemptAndPeekRestores" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1124446082" result="Passed" start-time="2026-10-26 10:14:15Z" end-time="2026-10-26 10:14:41Z" duration="26.537561" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1215" name="Tests" fullname="PixelFlow.Tests" runstate="Runnable" testcasecount="126" result="Passed" start-time="2026-10-26 10:14:41Z" end-time="2026-10-26 10:14:42Z" duration="0.282104" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1082" name="FullGameplayTests" fullname="PixelFlow.Tests.FullGameplayTests" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" testcasecount="68" result="Passed" start-time="2026-10-26 10:14:41Z" end-time="2026-10-26 10:14:42Z" duration="0.216383" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="ParameterizedMethod" id="1085" name="BoardColorPickUsesBlockingLayerAndRejectsOutsideBoard" fullname="PixelFlow.Tests.FullGameplayTests.BoardColorPickUsesBlockingLayerAndRejectsOutsideBoard" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-26 10:14:41Z" end-time="2026-10-26 10:14:42Z" duration="0.116315" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1083" name="BoardColorPickUsesBlockingLayerAndRejectsOutsideBoard(False,-1)" fullname="PixelFlow.Tests.FullGameplayTests.BoardColorPickUsesBlockingLayerAndRejectsOutsideBoard(False,-1)" methodname="BoardColorPickUsesBlockingLayerAndRejectsOutsideBoard" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1125973822" result="Passed" start-time="2026-10-26 10:14:42Z" end-time="2026-10-26 10:14:42Z" duration="0.008277" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1084" name="BoardColorPickUsesBlockingLayerAndRejectsOutsideBoard(True,2)" fullname="PixelFlow.Tests.FullGameplayTests.BoardColorPickUsesBlockingLayerAndRejectsOutsideBoard(True,2)" methodname="BoardColorPickUsesBlockingLayerAndRejectsOutsideBoard" classname="PixelFlow.Tests.FullGameplayTests" runstate="Runnable" seed="1327683890" result="Passed" start-time="2026-10-26 10:14:42Z" end-time="2026-10-26 10:14:42Z" duration="0.006595" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/trinh/AppData/LocalLow/Dreamy/Pixel Flow Clone\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Failed(Child)" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-26 05:44:51Z" end-time="2026-10-26 05:45:06Z" duration="15.7208109">
+  <test-suite type="TestSuite" id="1000" name="Pixel Flow Clone" fullname="Pixel Flow Clone" runstate="Runnable" testcasecount="176" result="Failed" site="Child" start-time="2026-10-26 05:44:51Z" end-time="2026-10-26 05:45:06Z" duration="15.720811" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1209" name="PixelFlow.Tests.Editor.dll" fullname="D:/Game/PixelFlowClone/Library/ScriptAssemblies/PixelFlow.Tests.Editor.dll" runstate="Runnable" testcasecount="142" result="Failed" site="Child" start-time="2026-10-26 05:44:56Z" end-time="2026-10-26 05:45:06Z" duration="10.202212" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="46452" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1210" name="PixelFlow" fullname="PixelFlow" runstate="Runnable" testcasecount="142" result="Failed" site="Child" start-time="2026-10-26 05:44:57Z" end-time="2026-10-26 05:45:06Z" duration="9.701631" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1211" name="EditorReview" fullname="PixelFlow.EditorReview" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2026-10-26 05:44:57Z" end-time="2026-10-26 05:45:06Z" duration="9.617400" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1052" name="PresentationReviewTests" fullname="PixelFlow.EditorReview.PresentationReviewTests" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2026-10-26 05:44:57Z" end-time="2026-10-26 05:45:06Z" duration="9.584248" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1064" name="AuthoredResultContinueRetryAndWinCommitOnce" fullname="PixelFlow.EditorReview.PresentationReviewTests.AuthoredResultContinueRetryAndWinCommitOnce" methodname="AuthoredResultContinueRetryAndWinCommitOnce" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="1242210738" result="Passed" start-time="2026-10-26 05:42:03Z" end-time="2026-10-26 05:43:04Z" duration="60.740427" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+              <output><![CDATA[Pixel Flow operation failed: Fixture disk failure
+]]></output>
+            </test-case>
+            <test-case id="1065" name="AuthoredResultMiniShopReturnsToFailedAttemptAndPeekRestores" fullname="PixelFlow.EditorReview.PresentationReviewTests.AuthoredResultMiniShopReturnsToFailedAttemptAndPeekRestores" methodname="AuthoredResultMiniShopReturnsToFailedAttemptAndPeekRestores" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="273571781" result="Failed" start-time="2026-10-26 05:43:04Z" end-time="2026-10-26 05:44:07Z" duration="63.434658" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at PixelFlow.EditorReview.PresentationReviewTests+<WaitShopResult>d__16.MoveNext () [0x000a4] in D:\Game\PixelFlowClone\Assets\_Project\PixelFlow\Tests\Editor\PresentationReviewTests.cs:219
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@996f223345ba\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[[PixelFlowReviewInput] button=Buy gold-1000 screen=1080x1920 frame=108 requested=(207.00, 1060.50) mouse=(0.00, 0.00) focused=True module=EventSystem (UnityEngine.InputSystem.UI.InputSystemUIInputModule) pointEnabled=True clickEnabled=True actionPoint=(0.00, 0.00) hits= app=Shop buttonActive=True pointerAdded=True pointerEnabled=True settings=(Clone) mode=ProcessEventsManually apps=1 depth=10 culled=False
+]]></output>
+            </test-case>
+            <test-case id="1067" name="FullOfflineMenusBoostersResumeAndContinueRoute" fullname="PixelFlow.EditorReview.PresentationReviewTests.FullOfflineMenusBoostersResumeAndContinueRoute" methodname="FullOfflineMenusBoostersResumeAndContinueRoute" classname="PixelFlow.EditorReview.PresentationReviewTests" runstate="Runnable" seed="143766520" result="Passed" start-time="2026-10-26 05:44:08Z" end-time="2026-10-26 05:45:06Z" duration="58.649650" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="240000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/trinh/AppData/LocalLow/Dreamy/Pixel Flow Clone\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
